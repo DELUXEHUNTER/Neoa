@@ -1,2 +1,2 @@
 # Neo
-My first game
+This is my first game that I'm going to make eventually.
