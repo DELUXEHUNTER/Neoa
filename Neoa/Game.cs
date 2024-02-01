@@ -14,7 +14,7 @@ namespace Neoa
         //Private functions
         private void InitVariables()
         {
-        this.end = false;
+            this.end = false;
         }
 
 
@@ -26,10 +26,15 @@ namespace Neoa
             Console.WriteLine("Hello! GC");
         }
 
-public void Run()
-{
-while()
- }
- 
+        public void Run()
+        {
+            while ()
+            {
+
+            }
+
+            Console.WriteLine("Ending game...");
+        }
+
     }
 }
