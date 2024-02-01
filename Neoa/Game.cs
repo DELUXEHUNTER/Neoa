@@ -7,11 +7,29 @@ namespace Neoa
 
     class Game
     {
-    //Constructors and Destructors
+        //Variable
+        bool end;
 
-    public Game()
-    {
-        Console.WriteLine("Hello! GC");
-    }
+
+        //Private functions
+        private void InitVariables()
+        {
+        this.end = false;
+        }
+
+
+        //Constructors and Destructors
+
+        public Game()
+        {
+            this.InitVariables();
+            Console.WriteLine("Hello! GC");
+        }
+
+public void Run()
+{
+while()
+ }
+ 
     }
 }
