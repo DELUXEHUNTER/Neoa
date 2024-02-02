@@ -1,2 +1,2 @@
 # Neo
-This is my first game that I'm going to make eventually.
+Neo is a text based game that will, 
