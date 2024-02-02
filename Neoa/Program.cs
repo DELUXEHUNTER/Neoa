@@ -20,7 +20,9 @@ namespace Neoa
             Console.WriteLine("      πππ    ππππππ    πππ           ππππ       ππππ  πππ      ππππ       ");
             Console.WriteLine("      πππ     πππππ    πππ            ππππ    πππππ   πππ       πππ       ");
             Console.WriteLine("      πππ       πππ    πππππππππππ      πππππππππ    πππ         πππ      ");
-
+            Console.WriteLine();
+            Console.ReadLine(Start);
+        
 
 
 
@@ -34,7 +36,7 @@ namespace Neoa
 
             string playername = Console.ReadLine();
 
-            Console.WriteLine("Hello " + playername);
+            Console.WriteLine("Hello " + playername );
             Console.ReadLine();
         }
     }
