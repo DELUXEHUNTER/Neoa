@@ -13,7 +13,7 @@ namespace Neoa
             Console.WriteLine("What is your name?");
             string playername = Console.ReadLine();
 
-            Console.WriteLine("Hello" + playername) 
+            Console.WriteLine("Hello " + playername);
         }
     }
 }
