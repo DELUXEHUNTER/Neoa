@@ -25,13 +25,12 @@ namespace Neoa
             Console.WriteLine("         πππ       πππ    πππππππππππ      πππππππππ            ");
             Console.WriteLine("Welcome to the planet of Neo");
             Console.WriteLine("    Are you ready for the adventure of your life?");
-            Console.WriteLine("                   To begin, start with your first name");
+            Console.WriteLine("                      To begin, start with your first name");
             
             //Naming.
             string firstname = Console.ReadLine();
             Console.WriteLine("Now, for your last name");
-            Console.WriteLine("Note: Add a space before typing the last name, or it could end up like this example. ConnorKeon Connor = First name Keon = Last");
-
+            Console.WriteLine("Note:Press spacebar once before typing the last name");
 
             string lastname = Console.ReadLine();
 
@@ -56,7 +55,7 @@ namespace Neoa
 
 
 
-            Console.WriteLine(firstname +  lastname );
+            Console.WriteLine("firstname + lastname );
             Console.WriteLine("");
             Console.ReadLine();
         }
