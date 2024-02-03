@@ -50,11 +50,11 @@ namespace Neoa
                 Gender = Console.ReadLine().ToUpper ();
                 if (Gender == "MALE")
                 {
-                    correct == 1;
+                    correct = 1;
                 }
                 if (Gender == "FEMALE")
                 {
-                    correct == 1;
+                    correct = 1;
                 }
                 else {Console.WriteLine("Operator input invalid... retry input"); Console.ReadLine();}
             } while(correct == 0);
