@@ -23,8 +23,8 @@ namespace Neoa
             Console.WriteLine("         πππ    ππππππ    πππ           ππππ       ππππ         ");
             Console.WriteLine("         πππ     πππππ    πππ            ππππ    πππππ          ");
             Console.WriteLine("         πππ       πππ    πππππππππππ      πππππππππ            ");
-            Console.WriteLine("  ..... System initializing");
-            Console.WriteLine("        ......... Initialization complete");
+            Console.WriteLine("   ..... System initializing");
+            Console.WriteLine("         ......... Initialization complete");
             Console.WriteLine("                      Enter operator first name.");
 
             //Naming.
@@ -45,7 +45,8 @@ namespace Neoa
             //strings
             string Gender; 
             string Species;
-            string Ethnicity;
+            //string Ethnicity
+            string Faction;
 
 
             //Gender selection
@@ -88,7 +89,9 @@ namespace Neoa
             //Ethnicity 
             do { 
                 Console.Clear();
-                Console.WriteLine()
+                Console.WriteLine("Alignment");
+                Console.WriteLine("Neoan, you are a native to the neoan landscape. ")
+                Console.WriteLine("")
             }
 
 
@@ -117,7 +120,6 @@ namespace Neoa
         }
     }
 }
-
 
 /* NEOA  TITLE SCREEN
 
