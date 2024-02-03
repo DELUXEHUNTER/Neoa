@@ -9,7 +9,8 @@ Welcome to Neo, a simple C# game that I am going to be making completely online,
 * Lore Writing to actually make most of the game
 * Health, combat, ect...
 * Save system.
-*
+* More character creation options
+
 
 ### Future Plans:
 

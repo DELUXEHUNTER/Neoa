@@ -89,9 +89,14 @@ namespace Neoa
             //Ethnicity 
             do { 
                 Console.Clear();
-                Console.WriteLine("Alignment");
-                Console.WriteLine("Neoan, you are a native to the neoan landscape. ")
-                Console.WriteLine("")
+                Console.WriteLine("Ethnicity");
+                Console.WriteLine("Neoan, you are a native to the neoan landscape.")
+                Console.WriteLine("[Neoan is the only Ethnicity available within this game.]")
+                Ethnicity = Console.ReadLine();
+                if (Ethnicity == "Neo");
+                {
+                correct = 1;
+                }
             }
 
 
