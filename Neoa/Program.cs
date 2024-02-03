@@ -70,9 +70,27 @@ namespace Neoa
         //Species selection
             do {
                 Console.Clear();
-                Console.WriteLine("Specify species")
-                Console.WriteLine("Human, Android")
+                Console.WriteLine("Specify species");
+                Console.WriteLine("Human, Robot.");
+                Species = Console.ReadLine();
+                if (Species == "Human")
+                {
+                    correct = 1;
+                }
+                if (Species == "Robot")
+                {
+                    correct = 1;
+                }
+                else {Console.WriteLine("Operator input species invalid... retry input"); Console.ReadLine();}
             }
+            correct = 0;
+            
+            //Ethnicity 
+            do { 
+                Console.Clear();
+                Console.WriteLine()
+            }
+
 
 
 
