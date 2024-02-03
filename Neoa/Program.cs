@@ -23,8 +23,8 @@ namespace Neoa
             Console.WriteLine("         πππ    ππππππ    πππ           ππππ       ππππ         ");
             Console.WriteLine("         πππ     πππππ    πππ            ππππ    πππππ          ");
             Console.WriteLine("         πππ       πππ    πππππππππππ      πππππππππ            ");
-            Console.WriteLine(".... System initializing");
-            Console.WriteLine("       ......... Initialization complete");
+            Console.WriteLine("  ..... System initializing");
+            Console.WriteLine("        ......... Initialization complete");
             Console.WriteLine("                      Enter operator first name.");
 
             //Naming.
@@ -37,11 +37,15 @@ namespace Neoa
             Console.ResetColor();
 
             Console.Clear();
+
+
             //Ints
             int correct = 0;
 
             //strings
             string Gender; 
+            string Species;
+            string Ethnicity;
             
             do {
                 Console.Clear();
@@ -59,6 +63,13 @@ namespace Neoa
                 else {Console.WriteLine("Operator input invalid... retry input"); Console.ReadLine();}
             } while(correct == 0);
             correct = 0;
+
+            do {
+                Console.Clear();
+                Console.WriteLine(Select species)
+            }
+
+
 
            
 
