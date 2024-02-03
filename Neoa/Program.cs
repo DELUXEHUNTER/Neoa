@@ -71,7 +71,7 @@ namespace Neoa
             do {
                 Console.Clear();
                 Console.WriteLine("Specify species")
-                Console.WriteLine("")
+                Console.WriteLine("Human, Android")
             }
 
 
