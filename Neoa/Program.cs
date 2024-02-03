@@ -46,7 +46,9 @@ namespace Neoa
             string Gender; 
             string Species;
             string Ethnicity;
-            
+
+
+            //Gender selection
             do {
                 Console.Clear();
                 Console.WriteLine("Operator.. Gender input");
@@ -64,9 +66,12 @@ namespace Neoa
             } while(correct == 0);
             correct = 0;
 
+
+        //Species selection
             do {
                 Console.Clear();
-                Console.WriteLine(Select species)
+                Console.WriteLine("Specify species")
+                Console.WriteLine("")
             }
 
 
