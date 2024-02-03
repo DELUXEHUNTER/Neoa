@@ -37,20 +37,20 @@ namespace Neoa
             Console.ResetColor();
 
             Console.Clear();
+            //Ints
+            int correct = 0;
 
             //strings
             string Gender; 
-            string Ethnicity;
-            string Occupation; 
-
+            
             do {
                 Console.Clear();
-                Console.WriteLine("Operator.. Gender input")
-                Console.WriteLine("Male, Female.")
-                Gender = Console.Readline().ToUpper ();
+                Console.WriteLine("Operator.. Gender input");
+                Console.WriteLine("Male, Female.");
+                Gender = Console.ReadLine().ToUpper ();
                 if (Gender == "MALE")
                 {
-                    correct = 1;
+                    correct == 1;
                 }
                 if (Gender == "FEMALE")
                 {
