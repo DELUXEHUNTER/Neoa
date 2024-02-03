@@ -47,17 +47,18 @@ namespace Neoa
                 Console.Clear();
                 Console.WriteLine("Operator.. Gender input");
                 Console.WriteLine("Male, Female.");
-                Gender = Console.ReadLine().ToUpper ();
-                if (Gender == "MALE")
+                Gender = Console.ReadLine();
+                if (Gender == "Male")
                 {
                     correct = 1;
                 }
-                if (Gender == "FEMALE")
+                if (Gender == "Male")
                 {
                     correct = 1;
                 }
                 else {Console.WriteLine("Operator input invalid... retry input"); Console.ReadLine();}
             } while(correct == 0);
+            correct = 0;
 
            
 
