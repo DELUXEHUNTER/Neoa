@@ -132,9 +132,6 @@ namespace Neoa
 
 
 
-            Console.WriteLine(firstname " " + lastname );
-            Console.WriteLine("");
-            Console.ReadLine();
         }
     }
 }

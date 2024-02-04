@@ -19,8 +19,8 @@ Everything in this game is made by me and nothing is made by anyone else. Until 
 * Seperate files
 
 ### Future Plans:
-A text based roleplay with battle mechanics ect.... 
+A text based roleplay with many mechanics, ect... actual effects from having your selected character
 
 
 ### Short Lore:
-Based in the planet neo a planet with freezing cold tempuratures and an inhospitable enviroment 
+Based in the planet neo a planet with freezing cold tempuratures and an inhospitable enviroment. Lores not really written or thought of but this is the basis.
