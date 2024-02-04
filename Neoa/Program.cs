@@ -23,13 +23,14 @@ namespace Neoa
             Console.WriteLine("         πππ    ππππππ    πππ           ππππ       ππππ         ");
             Console.WriteLine("         πππ     πππππ    πππ            ππππ    πππππ          ");
             Console.WriteLine("         πππ       πππ    πππππππππππ      πππππππππ            ");
+
             Console.WriteLine("   ..... System initializing");
             Console.WriteLine("         ......... Initialization complete");
             Console.WriteLine("                      Enter operator first name.");
             //Naming.
             string firstname = Console.ReadLine();
             Console.WriteLine("last name.. ");
-            Console.WriteLine("All character creation past this is currently except for ")
+            Console.WriteLine("All character creation past this is currently except for ");
             string lastname = Console.ReadLine();
 
 
@@ -93,15 +94,15 @@ namespace Neoa
                 Console.WriteLine("Axian.");
                 Console.WriteLine("Aurelian.");
                 Ethnicity = Console.ReadLine();
-                if (Ethnicity == "Neoan");
+                if (Ethnicity == "Neoan")
                 {
                 correct = 1;
                 }
-                if (Ethnicity == "Axian");
+                if (Ethnicity == "Axian")
                 {
                     correct = 1;
                 }
-                if (Ethnicity == "Aurelian");
+                if (Ethnicity == "Aurelian")
                 {
                     correct = 1;
                 }

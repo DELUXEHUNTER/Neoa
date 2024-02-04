@@ -5,19 +5,22 @@ This is one of the first games, if anyone would like to help me than please do I
 
 Everything in this game is made by me and nothing is made by anyone else. Until specified otherwise.
 
+
 ### To-Do/Things I need help with:
-* Type Animation/slow print animation
-* Literally everything
+* TOP PRIORITY:Type Animation/slow print animation
+- I will not be making this type animation because it ruins the text everytime I attempt to use it, I end up ruining the code.
+* Literally everything 
 * Lore writing having an actual good idea for lore while sticking with my vision.
 * Lore Writing to actually make most of the game
 * Health, combat, ect...
 * Save system.
 * More character creation options
 * Character creation actually working
+* Seperate files
 
 ### Future Plans:
 A text based roleplay with battle mechanics ect.... 
 
 
 ### Short Lore:
-The planet neo, is also a
+Based in the planet neo a planet with freezing cold tempuratures and an inhospitable enviroment 

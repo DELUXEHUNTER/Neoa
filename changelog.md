@@ -1,2 +1,4 @@
 # V.0.0.0
-Added character creation menu that 
+* Added beta version title screen
+* Added character creation menu that doesn't function
+ 
