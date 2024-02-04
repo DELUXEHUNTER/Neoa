@@ -6,7 +6,9 @@ You start out with selecting your characters name, and gender, it is recommended
 
 ![image](https://github.com/DELUXEHUNTER/neo/assets/100684231/972a537c-0833-4070-8966-d3036b555923)
 
-After naming your character you will get to select your gender, and once the other character creation options are added, you will be able to select your ethnicity, and species, maybe even your age if I decide to but the more options I decide to add the more difficult it will be for me to code the many options that will be available within the game, so for now the game will stick to having a few options until someone would like to help me code them. I plan on spending a lot of time on this but I will not waste time doing that until the basegame is entirely finished. 
+After naming your character you will get to select your gender, and once the other character creation options are added, you will be able to select your ethnicity, and species, maybe even your age if I decide to but the more options I decide to add the more difficult it will be for me to code the many options that will be available within the game, so for now the game will stick to having a few options until someone would like to help me code them. I plan on spending a lot of time on this but I'm not going to waste time doing that until the basegame is entirely finished. Or almost entirely finished.  
+
+If the text stops appearing press enter one time, usualling
 
 
 

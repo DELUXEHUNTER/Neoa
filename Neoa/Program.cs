@@ -80,12 +80,15 @@ namespace Neoa
             {
             Console.WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon corporation system.. Employee record not found ");
             Console.WriteLine("...Searching community records... New Employee File being created" );
-            Console.WriteLine("|===============================================|");
-            Console.WriteLine("|Name:"+firstname+" "+lastname+"                             |");
-            Console.WriteLine("|Gender:"+Gender+" "+"                                   |");
-            Console.WriteLine("|Age:25                                         |");
-            Console.WriteLine("|Ethnicity:Axian                                |");
-            Console.WriteLine("|===============================================|");
+            Console.WriteLine("|=========================================================|");
+            Console.WriteLine("|Name:"+firstname+" "+lastname+"                                       |");
+            Console.WriteLine("|Gender:"+Gender+" "+"                                             |");
+            Console.WriteLine("|Age:25                                                   |");
+            Console.WriteLine("|Ethnicity:Axian                                          |");
+            Console.WriteLine("|=========================================================|");
+            Console.WriteLine("                                          ... Employee File Created ");
+            Console.WriteLine("Operator system access given. Welcome "+firstname+" "+lastname+". The first of the Exeon corporation to be born you are ");
+            Console.WriteLine("")
 
             }
             if (Gender == "Female")
