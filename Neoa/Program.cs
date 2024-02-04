@@ -26,7 +26,6 @@ namespace Neoa
             Console.WriteLine("   ..... System initializing");
             Console.WriteLine("         ......... Initialization complete");
             Console.WriteLine("                      Enter operator first name.");
-
             //Naming.
             string firstname = Console.ReadLine();
             Console.WriteLine("last name.. ");
@@ -108,6 +107,8 @@ namespace Neoa
                 }
           } while(correct == 0);
             correct = 0;
+
+            
 
 
 
