@@ -76,7 +76,7 @@ namespace Neoa
             Console.Clear();
             Console.Clear();
             Console.WriteLine("Introduction:");
-            if (Gender == "Male");
+            if (Gender == "Male")
             {
             Console.WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon corporation system.. Employee record not found ");
             Console.WriteLine("...Searching community records... New Employee File being created" );
