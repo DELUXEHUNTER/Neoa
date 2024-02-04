@@ -1,10 +1,9 @@
 # Neo
 Welcome to neo, a simple C# game that I will be developing completely online, not in the sense that the game runs online, in the sense that the game is developed using the web editor. I've never developed a game of any kind and I'm hoping that this game will be somewhat enjoyable and the narrative will be followable and coherant. It may not function properly but I will try my best.
 
-This is one of the first games, if anyone would like to help me than please do I'd really appreciate
+This is one of the first games, if anyone would like to help me than please do I'd really appreciate tbe help, contributions are welcome for anyone, I would really appreciate it, but otherwise I will be working on this game entirely on my own until someone helps.
 
-Welcome to Neo, a simple C# game that I am going to be making completely online, so it may not function properly, but I will try my best to make a good game that someone will find and enjoy playing or even help me make. It might not be good, but I'm learning, and this is my first game of any type of code. Hopefully, when it's done, you will enjoy it. Check the To-Do list to see the features that need to be added. Anyone is welcome to contribute to the game as long as they do not ruin the game for others.
-
+So far this g
 
 ### To-Do/Things I need help with:
 * Type Animation/slow print animation
@@ -14,9 +13,10 @@ Welcome to Neo, a simple C# game that I am going to be making completely online,
 * Health, combat, ect...
 * Save system.
 * More character creation options
+* Character creation actually working
 
 ### Future Plans:
-
+A text based roleplay with battle mechanics ect.... 
 
 
 ### Short Lore:
