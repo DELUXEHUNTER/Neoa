@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Neoa
 {
     class Program
@@ -24,13 +25,12 @@ namespace Neoa
             Console.WriteLine("         πππ     πππππ    πππ            ππππ    πππππ          ");
             Console.WriteLine("         πππ       πππ    πππππππππππ      πππππππππ            ");
 
-            Console.WriteLine("   ..... System initializing");
-            Console.WriteLine("         ......... Initialization complete");
-            Console.WriteLine("                      Enter operator first name.");
-            //Naming.
+            Console.WriteLine("..... System initializing");
+            Console.WriteLine("            ..Initialization partially.. complete");
+            Console.WriteLine("                .....Enter operator first name.");
+
             string firstname = Console.ReadLine();
-            Console.WriteLine("last name.. ");
-            Console.WriteLine("All character creation past this is currently except for ");
+            Console.WriteLine("last name input: ");
             string lastname = Console.ReadLine();
 
 
@@ -44,9 +44,9 @@ namespace Neoa
 
             //strings
             string Gender; 
-            string Species;
-            string Ethnicity;
-            string Faction;
+            string Species = "Human";
+            string Ethnicity = "Axian";
+            string Faction = "Exeon";
 
 
             //Gender selection
@@ -54,74 +54,36 @@ namespace Neoa
                 Console.Clear();
                 Console.WriteLine("Operator.. Gender input");
                 Console.WriteLine("Male, Female.");
-                Gender = Console.ReadLine();
+                Console.WriteLine("[Its reccomended you select male until I recieve more help]")
+                string Gender = Console.ReadLine();
                 if (Gender == "Male")
                 {
                     correct = 1;
                 }
-                if (Gender == "Male")
+                if (Gender == "Female")
                 {
                     correct = 1;
                 }
-                else {Console.WriteLine("Operator input invalid... retry input"); Console.ReadLine();}
+                else {Console.WriteLine("Operator input invalid... reattempt input"); Console.ReadLine();}
             } while(correct == 0);
             correct = 0;
 
 
-        //Species selection
-            do {
-                Console.Clear();
-                Console.WriteLine("Specify species");
-                Console.WriteLine("Human, Robot.");
-                Species = Console.ReadLine();
-                if (Species == "Human")
-                {
-                    correct = 1;
-                }
-                if (Species == "Robot")
-                {
-                    correct = 1;
-                }
-                else {Console.WriteLine("Operator input species invalid... retry input"); Console.ReadLine();}
-            }while(correct == 0);
-            correct = 0;
-            
-            //Ethnicity 
-            do { 
-                Console.Clear();
-                Console.WriteLine("Ethnicity");
-                Console.WriteLine("Neoan.");
-                Console.WriteLine("Axian.");
-                Console.WriteLine("Aurelian.");
-                Ethnicity = Console.ReadLine();
-                if (Ethnicity == "Neoan")
-                {
-                correct = 1;
-                }
-                if (Ethnicity == "Axian")
-                {
-                    correct = 1;
-                }
-                if (Ethnicity == "Aurelian")
-                {
-                    correct = 1;
-                }
-          } while(correct == 0);
-            correct = 0;
-          
+        
+            Console.WriteLine("Initialization complete");
+            Console.WriteLine("[Clear console. Press Enter.]");
+            Console.Clear();
+            Console.Clear();
+            Console.WriteLine("Introduction:")
+            if (Gender == "Male")
+            {
+                Console.WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon System." )
+            }
+            if (Gender == "Female")
+            {
 
-            
-
-
-
-
-           
-
-
-
-
-
-
+                
+            }
 
 
 
@@ -149,5 +111,70 @@ namespace Neoa
             Console.WriteLine("         πππ     πππππ    πππ            ππππ    πππππ   πππ       πππ          ");
             Console.WriteLine("         πππ       πππ    πππππππππππ      πππππππππ    πππ         πππ         ");
   
-*/
+
+
+
+
+
+            //Species selection
+            do {
+                Console.Clear();
+                Console.WriteLine("Species detection.....");
+                Console.WriteLine("......Detecting");
+                Console.WriteLine("Failure to detect.. required manual input")
+                Console.WriteLine("Human, Robot.");
+                Species = Console.ReadLine();
+                if (Species == "Human")
+                {
+                    correct = 1;
+                }
+                if (Species == "Robot")
+                {
+                    correct = 1;
+                }
+                else {Console.WriteLine("Operator input invalid... reattempt input"); Console.ReadLine();}
+            }while(correct == 0);
+            correct = 0;
+
+
+        
+            //Ethnicity 
+            do { 
+                Console.Clear();
+                Console.WriteLine("Ethnicity");
+                Console.WriteLine("Neoan.");
+                Console.WriteLine("Axian.");
+                Console.WriteLine("Aurelian.");
+                Ethnicity = Console.ReadLine();
+                if (Ethnicity == "Neoan")
+                {
+                correct = 1;
+                }
+                if (Ethnicity == "Axian")
+                {
+                    correct = 1;
+                }
+                if (Ethnicity == "Aurelian")
+                {
+                    correct = 1;
+                }
+
+          } while(correct == 0);
+            correct = 0;
+
             
+          */
+          
+
+          
+
+            
+
+
+
+
+           
+
+
+
+
