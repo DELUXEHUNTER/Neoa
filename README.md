@@ -3,7 +3,7 @@ Welcome to neo, a simple C# game that I will be developing completely online, no
 
 This is one of the first games, if anyone would like to help me than please do I'd really appreciate tbe help, contributions are welcome for anyone, I would really appreciate it, but otherwise I will be working on this game entirely on my own until someone helps.
 
-So far this g
+Everything in this game is made by me and nothing is made by anyone else. Until specified otherwise.
 
 ### To-Do/Things I need help with:
 * Type Animation/slow print animation
