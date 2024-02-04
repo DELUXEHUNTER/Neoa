@@ -3,8 +3,6 @@ Welcome to neo, a simple C# game that I will be developing completely online, no
 
 #### The beginning 
 You start out with selecting your characters name, and gender, it is recommended your first and last name be 6 characters otherwise it could end up like this 
-> |===============================================|
-> |Name:"+f                            |
 
 
 
