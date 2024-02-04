@@ -30,11 +30,11 @@ namespace Neoa
             //Naming.
             string firstname = Console.ReadLine();
             Console.WriteLine("last name.. ");
-            Console.WriteLine("... input required");
-
+            Console.WriteLine("All character creation past this is currently except for ")
             string lastname = Console.ReadLine();
 
-            Console.ResetColor();
+
+           // reset color command Console.ResetColor();
 
             Console.Clear();
 
@@ -45,7 +45,7 @@ namespace Neoa
             //strings
             string Gender; 
             string Species;
-            //string Ethnicity
+            string Ethnicity;
             string Faction;
 
 
@@ -83,21 +83,31 @@ namespace Neoa
                     correct = 1;
                 }
                 else {Console.WriteLine("Operator input species invalid... retry input"); Console.ReadLine();}
-            }
+            }while(correct == 0);
             correct = 0;
             
             //Ethnicity 
             do { 
                 Console.Clear();
                 Console.WriteLine("Ethnicity");
-                Console.WriteLine("Neoan, you are a native to the neoan landscape.")
-                Console.WriteLine("[Neoan is the only Ethnicity available within this game.]")
+                Console.WriteLine("Neoan.");
+                Console.WriteLine("Axian.");
+                Console.WriteLine("Aurelian.");
                 Ethnicity = Console.ReadLine();
-                if (Ethnicity == "Neo");
+                if (Ethnicity == "Neoan");
                 {
                 correct = 1;
                 }
-            }
+                if (Ethnicity == "Axian");
+                {
+                    correct = 1;
+                }
+                if (Ethnicity == "Aurelian");
+                {
+                    correct = 1;
+                }
+          } while(correct == 0);
+            correct = 0;
 
 
 
@@ -119,7 +129,7 @@ namespace Neoa
 
 
 
-            Console.WriteLine(firstname + lastname );
+            Console.WriteLine(firstname " " + lastname );
             Console.WriteLine("");
             Console.ReadLine();
         }
