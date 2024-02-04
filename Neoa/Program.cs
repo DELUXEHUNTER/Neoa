@@ -24,6 +24,7 @@ namespace Neoa
             Console.WriteLine("         πππ    ππππππ    πππ           ππππ       ππππ         ");
             Console.WriteLine("         πππ     πππππ    πππ            ππππ    πππππ          ");
             Console.WriteLine("         πππ       πππ    πππππππππππ      πππππππππ            ");
+            
 
             Console.WriteLine("..... System initializing");
             Console.WriteLine("            ..Initialization partially.. complete");
@@ -54,8 +55,8 @@ namespace Neoa
                 Console.Clear();
                 Console.WriteLine("Operator.. Gender input");
                 Console.WriteLine("Male, Female.");
-                Console.WriteLine("[Its reccomended you select male until I recieve more help]")
-                string Gender = Console.ReadLine();
+                Console.WriteLine("[Its reccomended you select male until I recieve more help]");
+                Gender = Console.ReadLine();
                 if (Gender == "Male")
                 {
                     correct = 1;
@@ -77,10 +78,26 @@ namespace Neoa
             Console.WriteLine("Introduction:")
             if (Gender == "Male")
             {
-                Console.WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon System." )
+            Console.WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon corporation system.. Employee record not found ");
+            Console.WriteLine("...Searching community records... New Employee File being created" );
+            Console.WriteLine("|===============================================|");
+            Console.WriteLine("|Name:"+firstname+" "+lastname+"                             |");
+            Console.WriteLine("|Gender:"+Gender+" "+"                                   |");
+            Console.WriteLine("|Age:25                                         |");
+            Console.WriteLine("|Ethnicity:Axian                                |");
+            Console.WriteLine("|===============================================|");
+
             }
             if (Gender == "Female")
             {
+            Console.WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon corporation system.. Employee record not found ");
+            Console.WriteLine("...Searching community records... New Employee File being created" );
+            Console.WriteLine("|===============================================|");
+            Console.WriteLine("|Name:"+firstname+" "+lastname+"                             |");
+            Console.WriteLine("|Gender:"+Gender+" "+"                                   |");
+            Console.WriteLine("|Age:25                                         |");
+            Console.WriteLine("|Ethnicity:Axian                                |");
+            Console.WriteLine("|===============================================|");
 
                 
             }
@@ -164,17 +181,3 @@ namespace Neoa
 
             
           */
-          
-
-          
-
-            
-
-
-
-
-           
-
-
-
-
