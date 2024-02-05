@@ -1,6 +1,8 @@
 # Neo, C# Game 
 Welcome to Neo, a simple C# game that I will be developing completely online, not in the sense that the game runs online but in the sense that the game is developed using the web editor. I've never developed a game of any kind, and I'm hoping that this game will be somewhat enjoyable and the narrative will be followable and coherent. It may not function properly, but I will try my best. This is one of the first games. If anyone would like to help me, then please do. I'd really appreciate the help. Contributions are welcome for anyone; I would really appreciate it, but otherwise I will be working on this game entirely on my own until someone helps. If you come across this, I hope you enjoy playing, and if you have suggestions for lore or anything like that, then let me know and I'll be glad to add them.
 
+Sometime in a few months I will have to leave for 3 months and will not be able to access any of my electronic devices. I don't expect anyone to want to help with this project/game but if you do remember this, and when I do come back I'll review everything and start coding again.
+
 ### To-Do/Things I need help with:
 * TOP PRIORITY: Type Animation/Slow print animation.
 * Lore writing
