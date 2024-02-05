@@ -1,1 +1,3 @@
-# Lore
+# Stellar level 
+#### Interspace
+The region within space that everything in this game/story happens, filled with planets both inhospitable and hospitable alike, Interspace is home to many corporate entities, pirates, government facilities, and so on, most of the region is unexplored and uncolonized, despite being discovered hundreds of years ago, although this is due to the size of the region and many conflicts that have taken place. Almost half of the region remains unexplored 

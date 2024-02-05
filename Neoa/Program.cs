@@ -59,7 +59,7 @@ namespace Neoa
             Console.Clear();
             Console.WriteLine("Introduction:");
             {
-            WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon corporation system..", 95)
+            WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon corporation system..", 95);
             WriteLine("Employee record not found ",95);
             WriteLine("...Searching community records... New Employee File being created",80 );
             WriteLine("|=======================================================|",80);
