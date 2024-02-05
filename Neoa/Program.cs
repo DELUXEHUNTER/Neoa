@@ -72,8 +72,6 @@ namespace Neoa
             WriteLine("");
               
         }
-
-        }
         public static void WriteLine(string text, int speed = 60)
         {
             foreach (char c in text)
