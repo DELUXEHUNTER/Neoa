@@ -33,33 +33,25 @@ namespace Neoa
             WriteLine("DFG: Rising",110);
             WriteLine("..... System re-initializing",95);
             WriteLine("New operator detected.....",95);
+
+
+            //Naming
+
             WriteLine("                .....Enter operator first name.",95);
 
             string firstname = Console.ReadLine();
-            WriteLine("..Input last name ",95);
+            WriteLine("Input last name ",95);
             string lastname = Console.ReadLine();
             WriteLine("Continuing Initilization process",95);
     
             Console.WriteLine("[In the case you haven't read the readme, press enter anytime nothing happens");
-            Console.WriteLine("if this does not work send a screenshot of where you are.");
-            Console.WriteLine("Typically this marks a Console.Clear command or a temporary pause to read.]");
+            Console.WriteLine("if this does not work send a screenshot of where you are.]");
             Console.ReadLine();
 
                      
-
-        
-            
-
 //Rest of the game
 
-
-
-
-
            // reset color command Console.ResetColor();
-
-            Console.Clear();
-
 
             //Ints
             //int correct = 0;
@@ -73,9 +65,9 @@ namespace Neoa
 
             WriteLine("Initialization complete",80);
             Console.WriteLine("[Clear console. Press Enter.]");
+            Console.ReadLine();
             Console.Clear();
             Console.Clear();
-            Console.WriteLine("Introduction:");
             WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon corporate system..", 95);
             WriteLine("Searching for Record..",95);
             WriteLine("Employee record not found ",95);
@@ -90,16 +82,16 @@ namespace Neoa
             WriteLine("Employee File Created..."+firstname+" "+lastname,95);
             WriteLine("Complete system access given operator X998. Welcome "+firstname+" "+lastname+". System restore.. Success. ",95);
             WriteLine("Base employee access given",95);
-            WriteLine("Initilization complete.")
+            WriteLine("Initilization complete.");
 
             WriteLine(firstname+" "+lastname+":");
-            WriteLine("F");
+            WriteLine("");
     
              
         }
         public static void WriteLine(string text, int speed = 60)
         {
-            foreach (char c in text)
+            foreach (char c in text);
         {
             Console.Write(c);
             System.Threading.Thread.Sleep(98);
