@@ -8,26 +8,18 @@ You start out with selecting your characters name, and gender, it is recommended
 
 After naming your character you will get to select your gender, and once the other character creation options are added, you will be able to select your ethnicity, and species, maybe even your age if I decide to but the more options I decide to add the more difficult it will be for me to code the many options that will be available within the game, so for now the game will stick to having a few options until someone would like to help me code them. I plan on spending a lot of time on this but I'm not going to waste time doing that until the basegame is entirely finished. Or almost entirely finished.  
 
-If the text stops appearing press enter one time, usualling
-
-
-
 
 
 ### To-Do/Things I need help with:
-* TOP PRIORITY:Type Animation/slow print animation
-- I will not be making this type animation because it ruins the text everytime I attempt to use it, I end up ruining the code.
-* Literally everything 
-* Lore writing having an actual good idea for lore while sticking with my vision.
-* Lore Writing to actually make most of the game
-* Health, combat, ect...
-* Save system.
-* More character creation options
-* Character creation actually working
-* Seperate files
+* TOP PRIORITY: Type Animation/Slow print animation.
+* Lore writing
+* Health, combat, rpg mechanics in general
+* Save System
+* Character creation
+* Gender selection failing to work properly the first time.
 
 ### Future Plans:
-A text based roleplay with many mechanics, ect... actual effects from having your selected character
+A text based roleplay with many mechanics, ect... actual effects from having your selected character, for now it is a te
 
 
 ### Short Lore:
