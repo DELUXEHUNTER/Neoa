@@ -16,16 +16,20 @@ namespace Neoa
     class Program
     {
         {
-            static void Main()
+            public static Player CNAME = new Player();
+            static void Main(string[] args)
             {
                 Start();
 
             }
 
+
             static void Start()
             {
 
             }
+
+
 
     static void Start()
     {
@@ -42,7 +46,7 @@ namespace Neoa
 
       WriteLine("The knob on the door begins to turn.. A guard walks through..");
       WriteLine("\"Come with me "+CNAME " you have been released on order from the king\"");
-      WriteLine("He takes you to the entrance.. ")
+      WriteLine("He takes you to the entrance.. ");
     }
 
 
@@ -56,22 +60,13 @@ namespace Neoa
         Console.WriteLine();
         } 
     }
-    class Game
+    class 
     {
         
-    
-    
     }
 
    
     }
-
-    class Item
-    {
-
-    }
-   
-
  }
 
       
