@@ -43,7 +43,7 @@ namespace Neoa
 
 
             //Ints
-            int correct = 0;
+            //int correct = 0;
 
             //strings
             string Gender; 
