@@ -70,7 +70,7 @@ namespace Neoa
             WriteLine("Complete system access given operator X998. Welcome "+firstname+" "+lastname+". System restore.. Success. ",95);
             WriteLine("Level 1 Exeon base employee acess given",95);
             WriteLine("");
-              
+             
         }
         public static void WriteLine(string text, int speed = 60)
         {
@@ -82,6 +82,8 @@ namespace Neoa
         Console.WriteLine();
         } 
     }
+
+ }
 
         
  
