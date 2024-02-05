@@ -21,5 +21,9 @@ Aurelia, is the well known home planet of the Aurelians, the aurelians are almos
 
 
 
+
 ## Neo
 Anything relating to on, in, or directly around the planet Neo.
+
+#### Neo 
+The planet 
