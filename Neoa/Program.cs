@@ -52,30 +52,29 @@ namespace Neoa
             string Faction = "Exeon";
 
 
-        
-            Console.WriteLine("Initialization complete");
+            WriteLine("Initialization complete",80);
             Console.WriteLine("[Clear console. Press Enter.]");
             Console.Clear();
             Console.Clear();
             Console.WriteLine("Introduction:");
-            {
-            WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon corporation system..", 95);
+            WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon corporate system..", 95);
             WriteLine("Employee record not found ",95);
             WriteLine("...Searching community records... New Employee File being created",80 );
-            WriteLine("|=======================================================|",80);
+            WriteLine("|==============================================|",80);
            // WriteLine("|Name:"+firstname+" "+lastname+"                                     |",90);
-            WriteLine("|Gender:Male                                            |",80);
-            WriteLine("|Age:25                                                 |",80);
-            WriteLine("|Ethnicity:Axian                                        |",80);
-            WriteLine("|=======================================================|",80);
+            WriteLine("|Gender:Male                                   |",80);
+            WriteLine("|Age:25                                        |",80);
+            WriteLine("|Ethnicity:Axian                               |",80);
+            WriteLine("|==============================================|",80);
             WriteLine("Employee File Created..."+firstname+" "+lastname,95);
-            WriteLine("Operator system access given. Welcome "+firstname+" "+lastname+". The first of the Exeon corporation to be born you are ",95);
-            WriteLine("",95);
-                
-            }
+            WriteLine("Complete system access given operator X998. Welcome "+firstname+" "+lastname+". System restore.. Success. ",95);
+            WriteLine("Level 1 Exeon base employee acess given",95);
+            WriteLine("");
+              
+        }
 
         }
-        public static void WriteLine(string text, int speed = 40)
+        public static void WriteLine(string text, int speed = 60)
         {
             foreach (char c in text)
         {
