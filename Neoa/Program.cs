@@ -27,14 +27,26 @@ namespace Neoa
             Console.WriteLine("         πππ     πππππ    πππ            ππππ    πππππ          ");
             Console.WriteLine("         πππ       πππ    πππππππππππ      πππππππππ            ");
             
+            WriteLine("....GALACTIC YEAR:2200",110);
+            WriteLine("System Operator... status: Deceased. ")
+            WriteLine("Motion sensor: Motion Detected")
+            
 
-            Console.WriteLine("..... System initializing");
-            Console.WriteLine("            ..Initialization partially.. complete");
-            Console.WriteLine("                .....Enter operator first name.");
+//Rest of the game
+
+
+
+            WriteLine("..... System initializing",95);
+            WriteLine("            ..Initialization partially.. complete",95);
+            WriteLine("                .....Enter operator first name.",95);
 
             string firstname = Console.ReadLine();
-            Console.WriteLine("last name input: ");
+            WriteLine("..Input last name ",95);
             string lastname = Console.ReadLine();
+            WriteLine("Continuing Initilization process",95);
+            WriteLine();
+
+
 
 
            // reset color command Console.ResetColor();
@@ -69,7 +81,11 @@ namespace Neoa
             WriteLine("Employee File Created..."+firstname+" "+lastname,95);
             WriteLine("Complete system access given operator X998. Welcome "+firstname+" "+lastname+". System restore.. Success. ",95);
             WriteLine("Level 1 Exeon base employee acess given",95);
-            WriteLine("");
+            WriteLine("Welcome to the system, would you like an explanation of your mission?");
+            Console.WriteLine();
+            WriteLine(firstname+" "+lastname":");
+            
+            if (Console.ReadLine(); = Y)
              
         }
         public static void WriteLine(string text, int speed = 60)

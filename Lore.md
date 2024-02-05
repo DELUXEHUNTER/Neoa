@@ -1,8 +1,13 @@
 # Lore Guide
-There are almost zero restrictions to what you entries you may add to the lore, as long as you maintain relevancy to the main story/other lore entries, you don't have to read the other entries to add your own but it is highly suggested you at least read a few of them so that you will have a better chance of having your entry accepted.  Each entry will be reviewed at least once before being accepted. 
+
+There are absolutely no restrictions to what entries you may add, or edit. As long as you maintain relevancy to the main story and other lore entries than you may add anything you want. It is suggested you read the other entries before adding lore, or discuss your addition in discussions. 
+
+Each entry that is made will be reviewed at least one, before being added to this file.
+
+For the first stages of this game my main focus will be the lore for neo, so the rest of the universe may not be fully written which is why I'm giving anyone the oppurtunity to write lore
 
 
-Note: until people make contributions everything in this file will be written by me, the owner. And I'm sorry if the lore isn't good or if my writing is hard to follow, I'm not a very good writer. 
+**Note:until people make contributions everything in this file will be written by me, the owner. And I'm sorry if the lore isn't good or if my writing is hard to follow, I'm not a very good writer.** 
 
 ## Stellar level 
 The areas around the planet Neo. 
@@ -26,4 +31,4 @@ Aurelia, is the well known home planet of the Aurelians, the aurelians are almos
 Anything relating to on, in, or directly around the planet Neo.
 
 #### Neo 
-The planet 
+Neo is the planet that the entire game is based on, Neo is one of the most dangerous planets to live on with
