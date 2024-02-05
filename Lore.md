@@ -13,10 +13,7 @@ Interspace is the region within space that the story takes place within, filled 
 Axis, the home planet of Axians, the closest neighbors to both the Neoans, and Aurelians. Typically considered the sister, and in some cases the brother planet of Neo, having similiar weather, a similar ecosystem, and environment. Axis is considered the only place to be both more dangerous and safer than the planet of Neo. Axians are responsible for the discovery and colonization of Neo, specifically credited to the Exeon corporation.
 
 #### Aurelia
-Aurelia, is the well known home planet of the Aurelians, the aurelians are almost completely isolated 
-
-Aurelia, planet home to the Aurelians, sometimes refered to as the dreamers planet, and in some cases the nightmare planet , Aurelia is known for its many strange creatures and mindbending environment, sometimes seeming absolutely terrifying and impossible to live in, day is the time that any kind of peace on Aurelia. Aurelians are not known to leave their planet unless absolutely necessary.
-
+Aurelia, is the well known home planet of the Aurelians, the aurelians are almost completely isolated from the Interspace by choice of their government. Also another of the close neighbors to Axis, and Neo. Aurelia is almost completely underwater, and is typically considered quite peaceful, until the sun is down, which is most of the time on aurelia due to Aurelia being behind both Neo, and Axis. 
 
 
 
@@ -25,4 +22,4 @@ Aurelia, planet home to the Aurelians, sometimes refered to as the dreamers plan
 
 
 ## Neo
-Anything relating to on, or in the planet Neo. 
+Anything relating to on, in, or directly around the planet Neo.
