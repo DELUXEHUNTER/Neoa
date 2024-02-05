@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+OWNER: DEACON HUNTER
+CONTRIBUTERS
+
+
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,18 +17,40 @@ namespace Neoa
 {
     class Program
     {
-        public static void Main(string[] args)
         {
+            static void Main()
+            {
+                Start();
+
+            }
+
+            static void Start()
+            {
+
+            }
+
+    static void Start()
+    {
       WriteLine("The KINGDOM OF NEOA:");
-      WriteLine("Greetings..");
-      WriteLine("..Hm I can't seem to think of your name");
+      WriteLine("Enter your name.");
+      string CNAME = Console.ReadLine();
+      Console.Clear();
+      WriteLine("You awake in a dark cell, with no memory of anything from your past..");
+        if (CNAME == "")
+            WriteLine("Not even your name..");
+        else 
+            WriteLine("Your name is " + CNAME);
+      Console.ReadKey();
+
+      WriteLine("The knob on the door begins to turn.. A guard walks through..");
+      WriteLine("\"Come with me "+CNAME " you have been released on order from the king\"");
+      WriteLine("He takes you to the entrance.. ")
+    }
 
 
-             
-        }
-        public static void WriteLine(string text, int speed = 60)
-        {
-            foreach (char c in text)
+     public static void WriteLine(string text, int speed = 60)
+    {
+        foreach (char c in text)
         {
             Console.Write(c);
             System.Threading.Thread.Sleep(98);
@@ -29,6 +58,21 @@ namespace Neoa
         Console.WriteLine();
         } 
     }
+    class Game
+    {
+        
+    
+    
+    }
+
+   
+    }
+
+    class Item
+    {
+
+    }
+   
 
  }
 
