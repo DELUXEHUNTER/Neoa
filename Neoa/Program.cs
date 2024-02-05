@@ -91,7 +91,7 @@ namespace Neoa
         }
         public static void WriteLine(string text, int speed = 60)
         {
-            foreach (char c in text);
+            foreach (char c in text)
         {
             Console.Write(c);
             System.Threading.Thread.Sleep(98);
