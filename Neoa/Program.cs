@@ -27,24 +27,31 @@ namespace Neoa
             Console.WriteLine("         πππ     πππππ    πππ            ππππ    πππππ          ");
             Console.WriteLine("         πππ       πππ    πππππππππππ      πππππππππ            ");
             
-            WriteLine("....GALACTIC YEAR:2200",110);
-            WriteLine("System Operator... status: Deceased. ")
-            WriteLine("Motion sensor: Motion Detected")
-            
-
-//Rest of the game
-
-
-
-            WriteLine("..... System initializing",95);
-            WriteLine("            ..Initialization partially.. complete",95);
+            WriteLine("....GALACTIC YEAR:2200..MONTH:SEPTEMBER..DAY: 1",110);
+            WriteLine("OPERATOR... STATUS: Deceased. ",110);
+            WriteLine("MOTIONSENSOR: Motion Detected",110);
+            WriteLine("DFG: Rising",110);
+            WriteLine("..... System re-initializing",95);
+            WriteLine("New operator detected.....",95);
             WriteLine("                .....Enter operator first name.",95);
 
             string firstname = Console.ReadLine();
             WriteLine("..Input last name ",95);
             string lastname = Console.ReadLine();
             WriteLine("Continuing Initilization process",95);
-            WriteLine();
+    
+            Console.WriteLine("[In the case you haven't read the readme, press enter anytime nothing happens");
+            Console.WriteLine("if this does not work send a screenshot of where you are.");
+            Console.WriteLine("Typically this marks a Console.Clear command or a temporary pause to read.]");
+            Console.ReadLine();
+
+                     
+
+        
+            
+
+//Rest of the game
+
 
 
 
@@ -70,22 +77,24 @@ namespace Neoa
             Console.Clear();
             Console.WriteLine("Introduction:");
             WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon corporate system..", 95);
+            WriteLine("Searching for Record..",95);
             WriteLine("Employee record not found ",95);
             WriteLine("...Searching community records... New Employee File being created",80 );
             WriteLine("|==============================================|",80);
            // WriteLine("|Name:"+firstname+" "+lastname+"                                     |",90);
+            WriteLine("|Name:Classified                               |",80);
             WriteLine("|Gender:Male                                   |",80);
             WriteLine("|Age:25                                        |",80);
             WriteLine("|Ethnicity:Axian                               |",80);
             WriteLine("|==============================================|",80);
             WriteLine("Employee File Created..."+firstname+" "+lastname,95);
             WriteLine("Complete system access given operator X998. Welcome "+firstname+" "+lastname+". System restore.. Success. ",95);
-            WriteLine("Level 1 Exeon base employee acess given",95);
-            WriteLine("Welcome to the system, would you like an explanation of your mission?");
-            Console.WriteLine();
-            WriteLine(firstname+" "+lastname":");
-            
-            if (Console.ReadLine(); = Y)
+            WriteLine("Base employee access given",95);
+            WriteLine("Initilization complete.")
+
+            WriteLine(firstname+" "+lastname+":");
+            WriteLine("F");
+    
              
         }
         public static void WriteLine(string text, int speed = 60)
@@ -93,7 +102,7 @@ namespace Neoa
             foreach (char c in text)
         {
             Console.Write(c);
-            System.Threading.Thread.Sleep(95);
+            System.Threading.Thread.Sleep(98);
         }
         Console.WriteLine();
         } 
@@ -101,19 +110,4 @@ namespace Neoa
 
  }
 
-        
- 
-
-/* NEOA  TITLE SCREEN
-
-            Console.WriteLine("         πππ       πππ    πππππππππππ       πππππππ           πππ               ");
-            Console.WriteLine("         ππππ      πππ    πππππππππππ     ππππ  πππππ        πππππ              ");
-            Console.WriteLine("         πππππ     πππ    πππ            πππ       πππ      πππ πππ             ");
-            Console.WriteLine("         ππππππ    πππ    πππ           πππ         πππ     πππ πππ             ");
-            Console.WriteLine("         πππ ππππ  πππ    ππππππππππ   πππ          πππ    πππ   πππ            ");
-            Console.WriteLine("         πππ  ππππ πππ    ππππππππππ   πππ          πππ   πππ    ππππ           ");
-            Console.WriteLine("         πππ    ππ πππ    πππ           πππ         πππ   πππππππππππ           ");
-            Console.WriteLine("         πππ    ππππππ    πππ           ππππ       ππππ  πππ      ππππ          ");
-            Console.WriteLine("         πππ     πππππ    πππ            ππππ    πππππ   πππ       πππ          ");
-            Console.WriteLine("         πππ       πππ    πππππππππππ      πππππππππ    πππ         πππ         ");
-  */
+      
