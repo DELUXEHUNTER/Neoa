@@ -59,27 +59,28 @@ namespace Neoa
             Console.Clear();
             Console.WriteLine("Introduction:");
             {
-            WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon corporation system.. Employee record not found ",80);
+            WriteLine("Initialization complete welcome, " + firstname + " " + lastname + " to the Neoan Exeon corporation system..", 95)
+            WriteLine("Employee record not found ",95);
             WriteLine("...Searching community records... New Employee File being created",80 );
-            WriteLine("|=========================================================|",90);
-            WriteLine("|Name:"+firstname+" "+lastname+"                                       |",90);
-            WriteLine("|Gender:Male                                             |",90);
-            WriteLine("|Age:25                                                   |",90);
-            WriteLine("|Ethnicity:Axian                                          |",90);
-            WriteLine("|=========================================================|",90);
-            WriteLine("Employee File Created...",90);
-            WriteLine("Operator system access given. Welcome "+firstname+" "+lastname+". The first of the Exeon corporation to be born you are ",80);
-            WriteLine("",80);
+            WriteLine("|=======================================================|",80);
+           // WriteLine("|Name:"+firstname+" "+lastname+"                                     |",90);
+            WriteLine("|Gender:Male                                            |",80);
+            WriteLine("|Age:25                                                 |",80);
+            WriteLine("|Ethnicity:Axian                                        |",80);
+            WriteLine("|=======================================================|",80);
+            WriteLine("Employee File Created..."+firstname+" "+lastname,95);
+            WriteLine("Operator system access given. Welcome "+firstname+" "+lastname+". The first of the Exeon corporation to be born you are ",95);
+            WriteLine("",95);
                 
             }
 
         }
-        public static void WriteLine(string text, int speed)
+        public static void WriteLine(string text, int speed = 40)
         {
             foreach (char c in text)
         {
             Console.Write(c);
-            System.Threading.Thread.Sleep(80);
+            System.Threading.Thread.Sleep(95);
         }
         Console.WriteLine();
         } 
