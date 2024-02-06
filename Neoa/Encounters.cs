@@ -10,7 +10,7 @@ namespace Neoa
 {
     public class Encounters
     {
-        static Random rand = new Random();
+        public static Random rand = new Random();
         //Encounters
         public static void FirstEncounter()
         {
