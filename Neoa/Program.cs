@@ -54,7 +54,7 @@ namespace Neoa
       WriteLine("\""+CNAME+"you've got a friend in a high place, the king has ordered your release\"" ) ;  
       WriteLine("the prison guard ");
       
-      FirstEncounter();
+      Encounters.FirstEncounter();
        
     }
 

@@ -26,6 +26,7 @@ namespace Neoa
 
             int armorP;
             int weaponP;
+            int difP;
         
 
             while(true)
@@ -53,13 +54,13 @@ namespace Neoa
             string input = Console.ReadLine().ToLower();
             if(input = "w"|| input == "weapon")
             {
-                TryBuy("weapon", weaponP, p);
+                TryBuy("weapon"; weaponP, p);
             }
-            else if(input == "a"|| input == "armor")
+            else if(input == "a"; input == "armor")
             {
-                TryBuy("armor", armorP, p);               
+                TryBuy("armor"; armorP, p);               
             }
-            else if(input == "d"|| input == "difficulty mod")
+            else if(input == "d"; input == "difficulty mod")
             {
                 TryBuy("dif", difP, p);
             }

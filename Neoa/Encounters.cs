@@ -152,7 +152,7 @@ namespace Neoa
 
             }
         
-            if (enviroment = "RandomEnc")
+            if (string enviroment = "RandomEnc")
             {
             int c = rand.Next(1,15);
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
@@ -160,7 +160,7 @@ namespace Neoa
             Console.ReadKey();
             }
 
-            if (enviroment = "FirstEnc")
+            if (string enviroment = "FirstEnc")
             {
             int c = 5;
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
