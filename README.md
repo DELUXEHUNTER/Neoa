@@ -2,7 +2,7 @@
 
 Welcome to Neo. A simple console C# game. It is still being made and is not going to be the best game but I will be trying my best to make a playable somewhat good game the best I can. This is my first game I've ever made and I hope it is good and the narrative is somewhat followable and coherent, but I'm not the best at developing games, or writing. If anyone would like to contribute to the lore, or development of this game[or whatever its called] you are welcome to. 
 
-In the distant future this game will become a prolouge or exposure of the background lore in 
+In the distant future this game will become a prolouge or exposure of the background lore in another game I will be making by the same name. 
 
 
 ### To-Do/Things I need help with:

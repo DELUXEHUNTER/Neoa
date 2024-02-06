@@ -35,7 +35,7 @@ namespace Neoa
             }
     static void Start()
     {
-      WriteLine("The KINGDOM OF NEOA:");
+      WriteLine("NEOA");
       WriteLine("Enter your name.");
       string CNAME = Console.ReadLine();
       Console.Clear();
@@ -59,7 +59,13 @@ namespace Neoa
         }
         Console.WriteLine();
         } 
+
+
     }
+
+
+
+
 
 
 
@@ -70,7 +76,7 @@ namespace Neoa
         //Encounters
         public static void FirstEncounter()
         {
-            WriteLine("\"So you think your a big shot, how about you back that up with a fight\"");
+            WriteLine()
             Console.ReadKey();
             Combat(false, "Prisoner",1,5);
         
@@ -119,7 +125,7 @@ namespace Neoa
                 if(input.ToLower() == "a" || input.ToLower() == "attack")
                 {
                     //Attack
-                    WriteLine("With a quick thrust towards the "+n+" as you thrust towards the "+n+" strikes you");
+                    WriteLine("A quick thrust towards the "+n+" as you thrust the "+n+" strikes you");
                     int damage = p - Program.CNAME.armorValue;
                     if (damage < 0)
                         damage = 0;
@@ -186,7 +192,9 @@ namespace Neoa
                 if (Program.CNAME.health<0)
                 {
                     //Death 
-                    Console.WriteLine("As the "+n+" stands high it "+n+" has slain you" );
+                    WriteLine("As the "+n+" stands high it "+n+" has slain you" );
+                    Console.ReadKey();
+                    System.Enviroment.Exit 
                 }
                 Console.ReadKey();
 
@@ -231,8 +239,8 @@ namespace Neoa
         class Player
         {
             public string CNAME;
-            public int NeoanMarks = 0;
-            //marks are coins
+            public int marks = 0;
+            //Neoan marks are coins
             public int health = 10;
             public int damage = 1;
             public int armorValue = 0;
