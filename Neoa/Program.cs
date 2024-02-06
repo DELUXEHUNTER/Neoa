@@ -15,22 +15,14 @@ namespace Neoa
 {
     class Program
     {
-        {
             public static Player CNAME = new Player();
             static void Main(string[] args)
             {
                 Start();
+                Encounters.FirstEncounter();
+        
 
             }
-
-
-            static void Start()
-            {
-
-            }
-
-
-
     static void Start()
     {
       WriteLine("The KINGDOM OF NEOA:");
@@ -41,16 +33,15 @@ namespace Neoa
         if (CNAME == "")
             WriteLine("Not even your name..");
         else 
-            WriteLine("Your name is " + CNAME);
+            WriteLine("The only thing you remember is your name " + CNAME);
       Console.ReadKey();
 
       WriteLine("The knob on the door begins to turn.. A guard walks through..");
-      WriteLine("\"Come with me "+CNAME " you have been released on order from the king\"");
+      WriteLine("\"Come with me "+CNAME+" you have been released on order from the king\"");
       WriteLine("He takes you to the entrance.. ");
+      WriteLine("");
     }
-
-
-     public static void WriteLine(string text, int speed = 60)
+   public static void WriteLine(string text, int speed = 60)
     {
         foreach (char c in text)
         {
@@ -60,13 +51,163 @@ namespace Neoa
         Console.WriteLine();
         } 
     }
-    class 
+
+
+
+
+
+
+
+
+
+    class Encounters
     {
+        static Random rand = new Random();
+        //Encounters
+        public static void FirstEncounter()
+        {
+            WriteLine("Fight");
+            WriteLine("Fight");
+            Console.ReadKey();
+            Combat(false, "Knight",1,4);
+
+        }
+
+
+        //Encounter Tools 
+        public static void Combat(bool random, string name, int power, int health )
+        {
+            string n = "";
+            int p = 0;
+            int h = 0; 
+            if (random)
+            {
+
+            }
+            else
+            {
+                n = name;
+                p = power;
+                h = health;
+            }
+            while (h > 0)
+            {
+                Console.Clear();
+                Console.WriteLine(n);
+                Console.WriteLine(p + "/"+ h);
+                Console.WriteLine("======================");
+                Console.WriteLine("| (A)ttack (D)efend  |");
+                Console.WriteLine("|  (R)un    (H)eal   |");
+                Console.WriteLine("======================");
+                Console.WriteLine(" Potions: "+Program.CNAME.potion+" Health: "+Program.CNAME.health);
+                string input = Console.ReadLine();
+                if(input.ToLower() == "a" || input.ToLower() == "attack")
+                {
+                    //Attack
+                    WriteLine("With a quick thrust towards the "+n+" as you thrust towards the "+n+" strikes you");
+                    int damage = p - Program.CNAME.armorValue;
+                    if (damage < 0)
+                        damage = 0;
+                    int attack = rand.Next(0, Program.CNAME.weaponValue) + rand.Next(1,4);
+                    WriteLine("You lose "+ damage + "health and deal "+attack+" damage");
+                    Program.CNAME.health -= damage;
+                    h -= attack;
+                }
+                else if(input.ToLower() == "d" || input.ToLower() == "defend")
+                {
+                    //Defend
+                    WriteLine("As the "+n+" prepares to strike, you ready your sword in a defensive stane");
+                    int damage = (p/4) - Program.CNAME.armorValue;
+                    if (damage < 0)
+                        damage = 0;
+                    int attack = rand.Next(0, Program.CNAME.weaponValue)/2;
+                    
+                    WriteLine("You lose "+ damage + "health and deal "+attack+" damage");
+                    Program.CNAME.health -= damage;
+                    h -= attack;
+                }
+                else if(input.ToLower() == "r" || input.ToLower() == "run")
+                {
+                    //Run
+                    if(rand.Next(0,2) == 0)
+                    {
+                        WriteLine("As you sprint away the "+n+" strikes you in the back, sending you sprawling");
+                        int damage = p -  Program.CNAME.armorValue;
+                        if (damage < 0)
+                            damage = 0;
+                        WriteLine("You lose "+damage+" health and are unable to escape.");
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        WriteLine("You use your agility to escape from the "+n+" and you successfullY escape!");
+                        Console.ReadKey();
+                        //Go to store
+
+                    }
+                }
+                else if(input.ToLower() == "h" || input.ToLower() == "Heal")
+                {
+                    //Heal
+                    WriteLine("");
+                    if (Program.CNAME.potion==0)
+                    {
+                    WriteLine("You deprately grasp for a potion in your bag but all you can feel are empty flasks");
+                    int damage = p - Program.CNAME.armorValue;
+                    if (damage < 0)
+                        damage = 0;
+                    WriteLine("The "+n+" stikes you with a sword and you lose "+damage+" health!");
+                    }
+                    else
+                    {
+                        WriteLine("You reach into your bag and drink the liquid in the vial");
+                        int potionV = 5;
+                        WriteLine("You gain "+ potionV + " health");
+                        Program.CNAME.health += potionV;
+
+                    }
+                    Console.ReadKey();
+                }
+                Console.ReadKey();
+                
+            }
+        }
+
+
+        public static void WriteLine(string text, int speed = 60)
+    {
+        foreach (char c in text)
+        {
+            Console.Write(c);
+            System.Threading.Thread.Sleep(98);
+        }
+        Console.WriteLine();
+        } 
+
+
+
+
+
+}
+
+
+        class Player
+        {
+            public string CNAME;
+            public int NeoanMarks = 0;
+            //marks are coins
+            public int health = 10;
+            public int damage = 1;
+            public int armorValue = 0;
+            public int potion = 5;
+            public int weaponValue;
+        }
         
-    }
+
+
 
    
-    }
- }
+   
+}
 
       
