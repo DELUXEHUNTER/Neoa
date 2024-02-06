@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Neoa
 
 {
-class Encounters
+    public class Encounters
     {
         static Random rand = new Random();
         //Encounters
