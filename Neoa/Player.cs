@@ -10,7 +10,8 @@ namespace Neoa
         {
             Random rand;
 
-            public string CNAME;
+            public string name;
+            public int id;
             public int NeoanMarks = 0;
             //Neoan marks are coins
             public int health = 10;
