@@ -14,7 +14,7 @@ namespace Neoa
         //Encounters
         public static void FirstEncounter()
         {
-            WriteLine("Rahhh");
+            WriteLine("");
             Console.ReadKey();
             Combat(false, "Prisoner",2,5);
         
@@ -37,6 +37,7 @@ namespace Neoa
                 case 0:
                     BasicFightEncounter();
                     break;
+                
 
 
             }
@@ -148,11 +149,21 @@ namespace Neoa
                 Console.ReadKey();
 
             }
+            if(RandomEncounter();)
+            {
             int c = rand.Next(1,15);
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
             Program.CNAME.NeoanMarks +=c;
             Console.ReadKey();
             }
+            else if(FirstEncounter();)
+            {
+            int c = 5;
+            Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
+            Program.CNAME.NeoanMarks +=c;
+            Console.ReadKey();
+            }
+        }
 
             public static string GetName()
             {

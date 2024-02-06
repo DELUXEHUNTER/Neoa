@@ -7,7 +7,7 @@ namespace Neoa
 {
         public class Player
         {
-            Random rand;
+            Random rand = new Random();
 
             public string CNAME;
             public int id;

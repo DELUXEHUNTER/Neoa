@@ -19,18 +19,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Neoa
 {
     public class Program
     {
+        Random rand = new Random();
         public static Player CNAME = new Player();
         static void Main(string[] args)
         {
         Console.ForegroundColor = ConsoleColor.Red;
         Start();
+
+        LoadShop();
         }
+
+
+
+
+
     static void Start()
     {
       WriteLine("NEOA");
@@ -47,12 +54,14 @@ namespace Neoa
       WriteLine("he pulls you up and tells you to follow him.");
       WriteLine("\""+CNAME+"you've got a friend in a high place, the king has ordered your release\"" ) ;  
       WriteLine("the prison guard ");
+      
+      FirstEncounter();
        
     }
 
 
 
-   static void WriteLine(string text, int speed = 60)
+    public static void WriteLine(string text, int speed = 60)
     {
         foreach (char c in text)
         {
