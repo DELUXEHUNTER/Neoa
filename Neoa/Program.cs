@@ -67,9 +67,9 @@ namespace Neoa
         public static void FirstEncounter()
         {
             WriteLine("\"So "+CNAME+"you think your a big shot, how about you back that up with a fight");
-
             Console.ReadKey();
-            Combat(false, "Knight",1,4);
+            Combat(false, "Prisoner",1,5);
+        
 
         }
 
@@ -94,7 +94,8 @@ namespace Neoa
             {
                 Console.Clear();
                 Console.WriteLine(n);
-                Console.WriteLine(p + "/"+ h);
+                Console.WriteLine("Health: "+h);
+                Console.WriteLine("Strength: "+p);
                 Console.WriteLine("======================");
                 Console.WriteLine("| (A)ttack (D)efend  |");
                 Console.WriteLine("|  (R)un    (H)eal   |");
@@ -169,13 +170,30 @@ namespace Neoa
                     Console.ReadKey();
                 }
                 Console.ReadKey();
-                
             }
-        }
+            int c = rand.next(10,50);
+            Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
+            Console.ReadKey();
+            }
 
+            public string GetName()
+            {
+                switch (rand.next(0, 4))
+                {
+                    case 0:
+                        return "Keeper";
+                    case  1:
+                        return "Guardian";
+                    case 2:
+                        return "Human Cultist";
+                }
+                return "Escaped Prisoner";
 
+            }
+        
+        
         public static void WriteLine(string text, int speed = 60)
-    {
+        {   
         foreach (char c in text)
         {
             Console.Write(c);
@@ -184,11 +202,11 @@ namespace Neoa
         Console.WriteLine();
         } 
 
+    }
 
 
 
 
-}
 
 
         class Player
