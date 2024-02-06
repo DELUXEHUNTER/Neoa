@@ -153,7 +153,7 @@ namespace Neoa
 
             }
         
-            if (int randomEnc = 2)
+            if (int randomEnc = 2;)
             {
             int c = rand.Next(1,15);
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
@@ -161,7 +161,7 @@ namespace Neoa
             Console.ReadKey();
             }
 
-            if (int Enc = 1)
+            if (int Enc = 1;)
             {
             int c = 5;
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
