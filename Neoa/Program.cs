@@ -27,10 +27,10 @@ namespace Neoa
     {
         public static Player CNAME = new Player();
         static void Main(string[] args);
-        {
+        
         Console.ForegroundColor = ConsoleColor.Red;
         Start();
-        }
+        
     static void Start()
     {
       WriteLine("NEOA");
@@ -61,7 +61,7 @@ namespace Neoa
         }
         Console.WriteLine();
     } 
-}  
+ }  
 
 }
 
