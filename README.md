@@ -8,7 +8,8 @@ In the distant future this game will become a prolouge or exposure of the backgr
 ### To-Do/Things I need help with:
 - TOP PRIORITY <a href="https://github.com/DELUXEHUNTER/neo/blob/Master/Lore.md">Lore writing</a>
 - Save System/Progress restore
-- Classes, Race, Alignments, ect.... 
+- Classes, Race, Alignments, ect....
+- OPTIONAL ACSII art, either found or someone making them.
 
 
 

@@ -14,10 +14,10 @@ namespace Neoa
         //Encounters
         public static void FirstEncounter()
         {
-            enviro = "spen";
+            enviro = "FirstEnc";
             WriteLine("");
             Console.ReadKey();
-            Combat(false, "Prisoner",2,5);
+            Combat(false, "Prisoner",1,5);
         
 
         }
@@ -34,7 +34,7 @@ namespace Neoa
         //Encounter Tools 
         public static void RandomEncounter()
         {
-            enviro = "";
+            enviro = "RandomEnc";
             switch(rand.Next(0,2))
             {
                 case 0:
@@ -82,7 +82,7 @@ namespace Neoa
                     int damage = p - Program.CNAME.armorValue;
                     if (damage < 0)
                         damage = 0;
-                    int attack = rand.Next(0, Program.CNAME.weaponValue) + rand.Next(5,5);
+                    int attack = rand.Next(0, Program.CNAME.weaponValue) + rand.Next(1,5);
                     WriteLine("You lose "+ damage + "health and deal "+attack+" damage");
                     Program.CNAME.health -= damage;
                     h -= attack;
@@ -153,14 +153,14 @@ namespace Neoa
 
             }
         
-            if (enviro == "spen")
+            if (enviro == "RandomEnc")
             {
             int c = rand.Next(1,15);
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
             Program.CNAME.NeoanMark +=c;
             Console.ReadKey();
             }
-            if (enviro == "")
+            if (enviro == "FirstEnc")
             {
             int c = 9;
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
@@ -191,7 +191,7 @@ namespace Neoa
 
 
 
-        
+
         public static void WriteLine(string text, int speed = 60)
         {   
         foreach (char c in text)
