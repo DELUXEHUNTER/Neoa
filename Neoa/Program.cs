@@ -92,6 +92,17 @@ namespace Neoa
 
 
         //Encounter Tools 
+        public static void RandomEncounter()
+        {
+            switch(rand.Next(0,2))
+            {
+                case 0:
+                    BasicFightEncounter();
+                    break;
+                case 1:
+                
+            }
+        }
         public static void Combat(bool random, string name, int power, int health )
         {
             string n = "";
@@ -100,8 +111,8 @@ namespace Neoa
             if (random)
             {
                 n = GetName();
-                p = rand.Next(1,8);
-                h = rand.Next(1,13);
+                p = Program.CNAME.GetPower();
+                h = Program.CNAME.GetHealth();
 
             }
             else
@@ -245,7 +256,24 @@ namespace Neoa
             public int damage = 1;
             public int armorValue = 0;
             public int potion = 5;
-            public int weaponValue;
+            public int weaponValue = 1;
+
+            public int mods = 0;
+
+            public int GetHealth()
+            {
+                int upper = (2 * mods + 7);
+                int lower = (mods + 2);
+                return rand.Next(lower,upper);
+
+            }
+            public int GetPower()
+            {
+                int upper = (2 * mods + 2);
+                int lower = (mods + 2);
+                return rand.Next(lower,upper);
+
+            }
         }
         
 
