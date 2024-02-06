@@ -33,7 +33,7 @@ namespace Neoa
             armorP = 45 * (p.armorValue+1);
             weaponP = 67 * (p.weaponValue + 2);
             difP = 200 + 50 * (p.mods);
-            Console.Clear
+            Console.Clear();
             Console.WriteLine("         Shop         ");
             Console.WriteLine("======================");
             Console.WriteLine("| (W)eapon:         $"+weaponP);
