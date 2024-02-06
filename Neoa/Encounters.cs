@@ -14,7 +14,7 @@ namespace Neoa
         //Encounters
         public static void FirstEncounter()
         {
-            int Enc = 1;
+            enviro = "spen";
             WriteLine("");
             Console.ReadKey();
             Combat(false, "Prisoner",2,5);
@@ -23,6 +23,7 @@ namespace Neoa
         }
         public static void BasicFightEncounter()
         {   
+
             WriteLine("Hi");
             Console.ReadKey();
             Combat(true, "",0,0);
@@ -33,7 +34,7 @@ namespace Neoa
         //Encounter Tools 
         public static void RandomEncounter()
         {
-            int Enc = 2;
+            enviro = "";
             switch(rand.Next(0,2))
             {
                 case 0:
@@ -81,7 +82,7 @@ namespace Neoa
                     int damage = p - Program.CNAME.armorValue;
                     if (damage < 0)
                         damage = 0;
-                    int attack = rand.Next(0, Program.CNAME.weaponValue) + rand.Next(1,4);
+                    int attack = rand.Next(0, Program.CNAME.weaponValue) + rand.Next(5,5);
                     WriteLine("You lose "+ damage + "health and deal "+attack+" damage");
                     Program.CNAME.health -= damage;
                     h -= attack;
@@ -152,21 +153,23 @@ namespace Neoa
 
             }
         
-            if (RandomEncounter.Enc = 2)
+            if (enviro == "spen")
             {
             int c = rand.Next(1,15);
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
             Program.CNAME.NeoanMark +=c;
             Console.ReadKey();
             }
-
-            if (FirstEncounter.Enc = 1)
+            if (enviro == "")
             {
-            int c = 5;
+            int c = 9;
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
             Program.CNAME.NeoanMark +=c;
             Console.ReadKey();
             }
+            else 
+            Console.WriteLine("You win");
+            Console.ReadKey();
         
         }
             public static string GetName()
@@ -184,6 +187,10 @@ namespace Neoa
 
             }
         
+        public static string enviro = "";
+
+
+
         
         public static void WriteLine(string text, int speed = 60)
         {   
