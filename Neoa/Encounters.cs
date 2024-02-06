@@ -168,7 +168,7 @@ class Encounters
             }
         
         
-        public static void WriteLine(string text, int speed = 60)
+      /*  public static void WriteLine(string text, int speed = 60)
         {   
         foreach (char c in text)
         {
@@ -177,8 +177,9 @@ class Encounters
         }
         Console.WriteLine();
         } 
+*/
 
-//Encounter Class end
+
     }
-//namespace end
+
 }
