@@ -33,8 +33,6 @@ namespace Neoa
                     Directory.CreateDirectory("saves");
                 }
                 Console.ForegroundColor = ConsoleColor.Red;
-                NewStart();
-                Encounters.FirstEncounter();
         
 
             }
@@ -95,7 +93,7 @@ namespace Neoa
             }
         }
 
-        Console.WriteLine("Please input player name or id (id:# or playername)");
+        Console.WriteLine("Please input player name or id (id:# or playername) 'Create' will start new game");
         string[] data = Console.ReadLine().Split(':');
 
         try 
@@ -119,6 +117,12 @@ namespace Neoa
                     WriteLine("Your id needs to be a number press any key to continue");
                     Console.ReadKey();
                 }
+            }
+            else if(date[0] == "create")
+            {
+                NewStart();
+                Encounters.FirstEncounter();
+
             }
             else
             {
@@ -155,4 +159,6 @@ namespace Neoa
         }
         Console.WriteLine();
     } 
-}      
+}  
+
+}   
