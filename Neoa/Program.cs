@@ -19,16 +19,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ID;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Neoa
 {
-    class Program
+    public class Program
     {
             public static Player CNAME = new Player();
             static void Main(string[] args)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                
+              
+
                 Encounters.FirstEncounter();
         
 
@@ -45,10 +48,11 @@ namespace Neoa
         else 
             WriteLine("The only thing you remember is your name " + CNAME);
       Console.ReadKey();
-
-      WriteLine("The knob on the door begins to turn.. Another prisoner walks through..");
-      WriteLine("\"So "+CNAME+"you think your a big shot, how about you back that up with a fight");
-      
+      WriteLine("The knob on the door begins to turn.. a guard walks through the door");
+      WriteLine("he pulls you up and tells you to follow him.");
+      WriteLine("\""+CNAME+"you've got a friend in a high place, the king has ordered your release\"" ) ;  
+      WriteLine("the prison guard ");
+       
     }
    public static void WriteLine(string text, int speed = 60)
     {
@@ -80,7 +84,7 @@ namespace Neoa
         {
             WriteLine("Rahhh");
             Console.ReadKey();
-            Combat(false, "Prisoner",1,5);
+            Combat(false, "Prisoner",2,5);
         
 
         }
@@ -249,7 +253,8 @@ namespace Neoa
 
 
 //Player
-        class Player
+        [Serializable]
+        public class Player
         {
             Random rand;
 
