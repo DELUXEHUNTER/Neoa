@@ -11,7 +11,7 @@ namespace Neoa
 
             public string CNAME;
             public int id;
-            public int NeoanMarks = 0;
+            public int NeoanMark = 0;
             //Neoan marks are coins
             public int health = 10;
             public int damage = 1;

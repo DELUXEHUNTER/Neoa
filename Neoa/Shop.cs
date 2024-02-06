@@ -21,7 +21,7 @@ namespace Neoa
             RunShop(p);
         }
 
-        public static void RunShop(Player P)
+        public static void RunShop(Player p)
         {
 
             int armorP;
@@ -88,7 +88,15 @@ namespace Neoa
 
     }
 
-
+ public static void WriteLine(string text, int speed = 60)
+    {
+        foreach (char c in text)
+        {
+            Console.Write(c);
+            System.Threading.Thread.Sleep(98);
+        }
+        Console.WriteLine();
+    } 
 
 
 
