@@ -14,7 +14,7 @@ namespace Neoa
         //Encounters
         public static void FirstEncounter()
         {
-            string = "FirstEnc"
+            string == "FirstEnc"
             WriteLine("");
             Console.ReadKey();
             Combat(false, "Prisoner",2,5);
@@ -34,7 +34,7 @@ namespace Neoa
         //Encounter Tools 
         public static void RandomEncounter()
         {
-            string = "RandomEnc"
+            string == "RandomEnc"
             switch(rand.Next(0,2))
             {
                 case 0:
@@ -153,7 +153,7 @@ namespace Neoa
 
             }
         
-            if (string = "RandomEnc")
+            if (string == "RandomEnc")
             {
             int c = rand.Next(1,15);
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
@@ -161,7 +161,7 @@ namespace Neoa
             Console.ReadKey();
             }
 
-            if (string = "FirstEnc");
+            if (string == "FirstEnc");
             {
             int c = 5;
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
