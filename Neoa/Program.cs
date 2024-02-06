@@ -19,7 +19,7 @@ namespace Neoa
             static void Main(string[] args)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Start();
+                
                 Encounters.FirstEncounter();
         
 
@@ -61,10 +61,17 @@ namespace Neoa
         //Encounters
         public static void FirstEncounter()
         {
-            WriteLine("\"So "+CNAME+"you think your a big shot, how about you back that up with a fight");
+            WriteLine("\"So you think your a big shot, how about you back that up with a fight\"");
             Console.ReadKey();
             Combat(false, "Prisoner",1,5);
         
+
+        }
+        public static void BasicFightEncounter()
+        {
+            WriteLine("Hi");
+            Console.ReadKey();
+            Combat(true, "",0,0);
 
         }
 
@@ -78,7 +85,7 @@ namespace Neoa
             if (random)
             {
                 n = GetName();
-                p = rand.Next(1,8)
+                p = rand.Next(1,8);
                 h = rand.Next(1,13);
 
             }
@@ -167,10 +174,17 @@ namespace Neoa
                     }
                     Console.ReadKey();
                 }
+                if (Program.CNAME.health<0)
+                {
+                    //Death 
+                    Console.WriteLine("As the "+n+" stands high it "+n+" has slain you" )
+                }
                 Console.ReadKey();
+
             }
-            int c = rand.Next(10,50);
+            int c = rand.Next(1,15);
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
+            Program.CNAME.NeoanMarks +=c;
             Console.ReadKey();
             }
 
@@ -199,7 +213,7 @@ namespace Neoa
         }
         Console.WriteLine();
         } 
-
+//Encounteg
     }
 
 
@@ -207,6 +221,7 @@ namespace Neoa
 
 
 
+//Player
         class Player
         {
             public string CNAME;
