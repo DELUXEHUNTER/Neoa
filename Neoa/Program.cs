@@ -55,11 +55,6 @@ namespace Neoa
 
 
 
-
-
-
-
-
     class Encounters
     {
         static Random rand = new Random();
@@ -82,6 +77,9 @@ namespace Neoa
             int h = 0; 
             if (random)
             {
+                n = GetName();
+                p = rand.Next(1,8)
+                h = rand.Next(1,13);
 
             }
             else
@@ -171,14 +169,14 @@ namespace Neoa
                 }
                 Console.ReadKey();
             }
-            int c = rand.next(10,50);
+            int c = rand.Next(10,50);
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
             Console.ReadKey();
             }
 
-            public string GetName()
+            public static string GetName()
             {
-                switch (rand.next(0, 4))
+                switch (rand.Next(0, 4))
                 {
                     case 0:
                         return "Keeper";
