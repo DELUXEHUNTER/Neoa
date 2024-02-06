@@ -61,6 +61,8 @@ namespace Neoa
         } 
 
 
+
+//Program Class end
     }
 
 
@@ -76,7 +78,7 @@ namespace Neoa
         //Encounters
         public static void FirstEncounter()
         {
-            WriteLine()
+            WriteLine("Rahhh");
             Console.ReadKey();
             Combat(false, "Prisoner",1,5);
         
@@ -99,8 +101,8 @@ namespace Neoa
                 case 0:
                     BasicFightEncounter();
                     break;
-                case 1:
-                
+
+
             }
         }
         public static void Combat(bool random, string name, int power, int health )
@@ -203,9 +205,9 @@ namespace Neoa
                 if (Program.CNAME.health<0)
                 {
                     //Death 
-                    WriteLine("As the "+n+" stands high it "+n+" has slain you" );
+                    WriteLine("As the "+n+" stands high it "+n+" has slain you");
                     Console.ReadKey();
-                    System.Enviroment.Exit 
+                
                 }
                 Console.ReadKey();
 
@@ -242,15 +244,17 @@ namespace Neoa
         Console.WriteLine();
         } 
 
-
+//Encounter Class end
     }
 
 
 //Player
         class Player
         {
+            Random rand;
+
             public string CNAME;
-            public int marks = 0;
+            public int NeoanMarks = 0;
             //Neoan marks are coins
             public int health = 10;
             public int damage = 1;
@@ -274,7 +278,9 @@ namespace Neoa
                 return rand.Next(lower,upper);
 
             }
+        //Player class End
         }
+
         
 
 
