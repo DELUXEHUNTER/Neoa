@@ -6,5 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
   </PropertyGroup>
+  
+  <Reference Include="Name, Version=...">
+  <HintPath>...</HintPath>
+  <SpecificVersion>False</SpecificVersion>
+</Reference>
 
 </Project>
