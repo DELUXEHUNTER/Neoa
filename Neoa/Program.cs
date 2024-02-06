@@ -41,11 +41,11 @@ namespace Neoa
         if (CNAME == "")
          WriteLine("Not even your name..");
         else 
-        WriteLine("The only thing you remember is your name " + CNAME);
+        WriteLine("The only thing you remember is your name " + CNAME.name);
       Console.ReadKey();
       WriteLine("The knob on the door begins to turn.. a guard walks through the door");
       WriteLine("he pulls you up and tells you to follow him.");
-      WriteLine("\""+CNAME+"you've got a friend in a high place, the king has ordered your release\"" ) ;  
+      WriteLine("\""+CNAME.name+"you've got a friend in a high place, the king has ordered your release\"" ) ;  
       WriteLine("the prison guard ");
        
     }

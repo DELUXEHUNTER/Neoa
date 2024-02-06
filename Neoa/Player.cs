@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Neoa
 {
-        class Player
+        public class Player
         {
             Random rand;
 
