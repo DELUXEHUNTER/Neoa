@@ -1,7 +1,16 @@
 ﻿/*
-OWNER: DEACON HUNTER
+OWNER: 
+DEACON HUNTER
+
 CONTRIBUTERS:
-DATE CREATED: FEBRUARY 1ST 2024
+DEACON HUNTER
+
+
+DATE CREATED: 
+FEBRUARY 1ST 2024
+
+INDIRECT CONTRIBUTERS:
+1. TUTORIAL USED
 
 
 */
@@ -213,12 +222,9 @@ namespace Neoa
         }
         Console.WriteLine();
         } 
-//Encounteg
+
+
     }
-
-
-
-
 
 
 //Player
@@ -238,7 +244,7 @@ namespace Neoa
 
 
    
-   
+//Namespace-End  
 }
 
       
