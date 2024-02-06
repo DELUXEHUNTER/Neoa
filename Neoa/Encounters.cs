@@ -150,14 +150,15 @@ namespace Neoa
 
             }
         
-            if ((Encounters.RandomEncounter());)
+            if (Encounters.RandomEncounter())
             {
             int c = rand.Next(1,15);
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
             Program.CNAME.NeoanMarks +=c;
             Console.ReadKey();
-            };
-            else {(Encounters.FirstEncounter();)}
+            }
+
+            if (Encounters.FirstEncounter())
             {
             int c = 5;
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
