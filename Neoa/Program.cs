@@ -30,7 +30,7 @@ namespace Neoa
         {
         Console.ForegroundColor = ConsoleColor.Red;
         Start();
-        LoadShop();
+        Shop.LoadShop();
         }
 
 

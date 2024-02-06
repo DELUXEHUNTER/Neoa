@@ -44,7 +44,7 @@ namespace Neoa
 /*Stats*/   Console.WriteLine();
             Console.WriteLine(p.name+"'s Stats      ");
             Console.WriteLine("======================");
-            Console.WriteLine("Marks:           "+p.NeoanMarks);
+            Console.WriteLine("Marks:           "+p.NeoanMark);
             Console.WriteLine("Weapon Strength: "+p.weaponValue);
             Console.WriteLine("Armor Toughness: "+p.armorValue);
             Console.WriteLine("Difficulty: "+p.mods);
@@ -78,7 +78,7 @@ namespace Neoa
             else if (item == "dif")
                 p.mods++;
 
-            p.NeoanMarks -= cost; 
+            p.NeoanMark -= cost; 
         }
         else
         {
