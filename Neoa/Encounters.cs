@@ -14,7 +14,7 @@ namespace Neoa
         //Encounters
         public static void FirstEncounter()
         {
-            int Enc = 2
+            int Enc = 1;
             WriteLine("");
             Console.ReadKey();
             Combat(false, "Prisoner",2,5);
@@ -33,9 +33,7 @@ namespace Neoa
         //Encounter Tools 
         public static void RandomEncounter()
         {
-            int Enc = 2
-
-        
+            int Enc = 2;
             switch(rand.Next(0,2))
             {
                 case 0:
