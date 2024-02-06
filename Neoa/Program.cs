@@ -26,17 +26,14 @@ namespace Neoa
     public class Program
     {
             public static Player CNAME = new Player();
-            static void Main(string[] args)
+            static void Main(string[] args);
             {
-                if(!Directory.Exists("saves"))
-                {
-                    Directory.CreateDirectory("saves");
-                }
-                Console.ForegroundColor = ConsoleColor.Red;
-        
-
+            Console.ForegroundColor = ConsoleColor.Red;
+            Start();
             }
-    static void NewStart()
+    
+     }
+    static void Start()
     {
       WriteLine("NEOA");
       WriteLine("Enter your name.");
@@ -55,99 +52,6 @@ namespace Neoa
        
     }
 
-    
-    
-
-    public static void Save(Player p)
-    {
-        BinaryFormatter binForm = new BinaryFormatter();
-        string path = "saves/" + CNAME.id.ToString();
-        FileStream file = File.Open(path, FileMode.OpenOrCreate);
-        binForm.Serialize(file, CNAME);
-        file.Close();
-    }
-    
-    public static Player Load(string path)
-    {
-        Console.Clear();
-        WriteLine("Choose your player");
-        string[] paths = Directory.GetDirectories("saves");
-        List<Player> players = new List<Player>();
-        BinaryFormatter binForm = new BinaryFormatter();
-
-        foreach (string p in paths)
-        {
-            FileStream file = File.Open(p,FileMode.Open);
-            Player player = (Player)binForm.Deserialize(file);
-            file.Close();
-            players.Add(player);
-        }
-
-        while (true)
-        {
-            Console.Clear();
-            Console.WriteLine("Choose your player:");
-            foreach (Player p in players)
-            {
-            WriteLine(p.id+": " + p.name);
-            }
-        }
-
-        Console.WriteLine("Please input player name or id (id:# or playername) 'Create' will start new game");
-        string[] data = Console.ReadLine().Split(':');
-
-        try 
-        {
-            if(date[0] == "id")
-            {
-                if(int.TryParse(data[1],out int id))
-                {
-                    foreach (Player player in players)
-                    {
-                        if(player.id == id)
-                        {
-                            return player;
-                        }
-                    }
-                    WriteLine("There is no player with that id!");
-                    Console.ReadKey();
-                }
-                else
-                {
-                    WriteLine("Your id needs to be a number press any key to continue");
-                    Console.ReadKey();
-                }
-            }
-            else if(date[0] == "create")
-            {
-                NewStart();
-                Encounters.FirstEncounter();
-
-            }
-            else
-            {
-                foreach(Player player in players)
-                {
-                    if(player.name == data[0])
-                    {
-                        return player;
-                    }
-                }
-                WriteLine("There is no player with that name!");
-                Console.ReadKey();
-
-            }
-        }
-        catch(IndexOutOfRangeException)
-        {
-            WriteLine("Your id needs to be a number press any key to continue");
-            Console.ReadKey();
-        }
-
-
-        
-    }
-
 
 
    public static void WriteLine(string text, int speed = 60)
@@ -161,4 +65,4 @@ namespace Neoa
     } 
 }  
 
-}   
+ 
