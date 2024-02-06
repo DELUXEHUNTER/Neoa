@@ -177,7 +177,7 @@ namespace Neoa
                 if (Program.CNAME.health<0)
                 {
                     //Death 
-                    Console.WriteLine("As the "+n+" stands high it "+n+" has slain you" )
+                    Console.WriteLine("As the "+n+" stands high it "+n+" has slain you" );
                 }
                 Console.ReadKey();
 
