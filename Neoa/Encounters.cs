@@ -149,7 +149,8 @@ namespace Neoa
                 Console.ReadKey();
 
             }
-            if(RandomEncounter();)
+        {
+            if (RandomEncounter();)
             {
             int c = rand.Next(1,15);
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
