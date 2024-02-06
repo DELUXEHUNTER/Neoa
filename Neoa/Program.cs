@@ -9,8 +9,8 @@ DEACON HUNTER
 DATE CREATED: 
 FEBRUARY 1ST 2024
 
-INDIRECT CONTRIBUTERS:
-1. TUTORIAL USED
+INDIRECT CONTRIBUTERS/CONTRIBUTION/CREDIT:
+1. TUTORIAL USED I FORGOT THE NAME
 
 
 */
@@ -30,9 +30,9 @@ namespace Neoa
             {
             Console.ForegroundColor = ConsoleColor.Red;
             Start();
+
             }
-    
-     }
+    }
     static void Start()
     {
       WriteLine("NEOA");
@@ -41,9 +41,9 @@ namespace Neoa
       Console.Clear();
       WriteLine("You awake in a dark cell, with no memory of anything from your past..");
         if (CNAME == "")
-            WriteLine("Not even your name..");
+         WriteLine("Not even your name..");
         else 
-            WriteLine("The only thing you remember is your name " + CNAME);
+        WriteLine("The only thing you remember is your name " + CNAME);
       Console.ReadKey();
       WriteLine("The knob on the door begins to turn.. a guard walks through the door");
       WriteLine("he pulls you up and tells you to follow him.");
@@ -54,7 +54,7 @@ namespace Neoa
 
 
 
-   public static void WriteLine(string text, int speed = 60)
+   static void WriteLine(string text, int speed = 60)
     {
         foreach (char c in text)
         {

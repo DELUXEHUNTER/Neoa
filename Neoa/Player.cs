@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Neoa
 {
-     [Serializable]
-        public class Player
+        class Player
         {
             Random rand;
 
@@ -34,7 +33,6 @@ namespace Neoa
                 int upper = (2 * mods + 2);
                 int lower = (mods + 2);
                 return rand.Next(lower,upper);
-
             }
         //Player class End
         }
