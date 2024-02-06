@@ -18,6 +18,7 @@ namespace Neoa
             public static Player CNAME = new Player();
             static void Main(string[] args)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Start();
                 Encounters.FirstEncounter();
         
@@ -36,10 +37,9 @@ namespace Neoa
             WriteLine("The only thing you remember is your name " + CNAME);
       Console.ReadKey();
 
-      WriteLine("The knob on the door begins to turn.. A guard walks through..");
-      WriteLine("\"Come with me "+CNAME+" you have been released on order from the king\"");
-      WriteLine("He takes you to the entrance.. ");
-      WriteLine("");
+      WriteLine("The knob on the door begins to turn.. Another prisoner walks through..");
+      WriteLine("\"So "+CNAME+"you think your a big shot, how about you back that up with a fight");
+      
     }
    public static void WriteLine(string text, int speed = 60)
     {
@@ -66,8 +66,8 @@ namespace Neoa
         //Encounters
         public static void FirstEncounter()
         {
-            WriteLine("Fight");
-            WriteLine("Fight");
+            WriteLine("\"So "+CNAME+"you think your a big shot, how about you back that up with a fight");
+
             Console.ReadKey();
             Combat(false, "Knight",1,4);
 
