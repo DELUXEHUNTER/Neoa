@@ -30,7 +30,7 @@ namespace Neoa
             {
                 if(!Directory.Exists("saves"))
                 {
-                    Directory.CreateDirectory("saves")
+                    Directory.CreateDirectory("saves");
                 }
                 Console.ForegroundColor = ConsoleColor.Red;
                 Start();
