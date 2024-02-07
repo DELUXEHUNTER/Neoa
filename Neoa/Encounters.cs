@@ -53,7 +53,7 @@ namespace Neoa
             {
                 n = GetName();
                 p = Program.CNAME.GetPower();
-                h = Program.CNAME.GetHealth()+2;
+                h = Program.CNAME.GetHealth();
 
             }
             else
