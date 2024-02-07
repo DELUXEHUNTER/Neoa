@@ -65,16 +65,27 @@ namespace Neoa
 |00▀█000█▀0000██████████00▀██████▀0000███0000█▀0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
 |00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
 +=====================================================================================================================================================+");
-      WriteLine("The land of Neoa awaits... Are you prepared for your fate..?");
-      WriteLine("[Name:");
+      WriteLine("The land of Neoa awaits, are you prepared for your fate....");
+      WriteLine("..Whoever you are..?");
+      WriteLine("Tell us your name");
       string CNAME = Console.ReadLine();
+      WriteLine("Where are you from?")
+      Console.WriteLine("==============");
+      Console.WriteLine("|(N)eoa      |");
+      Console.WriteLine("|(A)naxes    |")
+      if (CNAME = "Azrael","Azon")
+      {
+      Console.WriteLine("|(L)iminas   |");     
+      }
+      Console.WriteLine("==============");
+      string 
 
       Console.Clear();
       WriteLine("");
       WriteLine("...You awake in a dark cell, with no memory of anything from your past..");
-      WriteLine("")
+      WriteLine("");
         if (CNAME == "")
-         WriteLine("Not even your name..");
+         WriteLine("Not even your name.. as you begin to think..");
         else 
       WriteLine("The only thing you remember is your name " + CNAME);
       Console.ReadKey();

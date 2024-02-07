@@ -10,9 +10,16 @@ namespace Neoa
             Random rand = new Random();
 
             public string CNAME;
-            public int id;
+            public string PlayerBackstory;
+            public string Ethnicity;
+
+            //ints
             public int NeoanMark = 0;
-            //Neoan marks are coins
+
+
+
+
+            //Encounter ints/strings
             public int health = 10;
             public int damage = 1;
             public int armorValue = 0;
