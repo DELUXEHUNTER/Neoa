@@ -30,7 +30,7 @@ namespace Neoa
 
         {
         Console.ForegroundColor = ConsoleColor.Red;
-
+        
         Start();
         Encounters.FirstEncounter();
         
@@ -65,12 +65,14 @@ namespace Neoa
 |00▀█000█▀0000██████████00▀██████▀0000███0000█▀0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
 |00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
 +=====================================================================================================================================================+");
-      WriteLine("The land of Neoa awaits... Are you prepared to enter?.");
+      WriteLine("The land of Neoa awaits... Are you prepared for your fate..?");
       WriteLine("[Name:");
       string CNAME = Console.ReadLine();
 
       Console.Clear();
-      WriteLine("You awake in a dark cell, with no memory of anything from your past..");
+      WriteLine("");
+      WriteLine("...You awake in a dark cell, with no memory of anything from your past..");
+      WriteLine("")
         if (CNAME == "")
          WriteLine("Not even your name..");
         else 
@@ -79,7 +81,8 @@ namespace Neoa
       WriteLine("The knob on the door begins to turn.. a guard walks through the door");
       WriteLine("he pulls you up and tells you to follow him.");
       WriteLine("\""+CNAME+"you've got some friends in high places, the king has ordered your release\"" );  
-      WriteLine("
+      WriteLine("after leading you to the entrance of the prison the guard tells you one thing before releasing you");
+      WriteLine("");
       
       Encounters.FirstEncounter();
        
@@ -92,7 +95,7 @@ namespace Neoa
         foreach (char c in text)
         {
             Console.Write(c);
-            System.Threading.Thread.Sleep(95);
+            System.Threading.Thread.Sleep(110);
         }
         Console.WriteLine();
     } 

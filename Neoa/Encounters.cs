@@ -52,8 +52,8 @@ namespace Neoa
             if (random)
             {
                 n = GetName();
-                p = Program.CNAME.GetPower();
-                h = Program.CNAME.GetHealth();
+                p = Program.CNAME.GetPower()+1;
+                h = Program.CNAME.GetHealth()+1;
 
             }
             else
