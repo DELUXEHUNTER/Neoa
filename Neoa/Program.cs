@@ -65,9 +65,9 @@ Console.WriteLine(@"
       WriteLine("..Whoever you are..?");
       WriteLine("Tell us your name.");
       string CNAME = Console.ReadLine();
+
       bool correct = false;
-      while(correct == false)
-    {
+     
         
       WriteLine("Where are you from "+CNAME);
       Console.WriteLine("===============");
@@ -76,7 +76,9 @@ Console.WriteLine(@"
       Console.WriteLine("|Wanderer     |");
 //      if(CNAME == "Deacon" || CNAME == "Aaron")
       Console.WriteLine("===============");
-      public string Ethnicity = Console.ReadLine();
+      string Ethnicity = Console.ReadLine();
+      while(correct == false)
+    {
       correct = true;
       if (Ethnicity == "Neoan")
       {
