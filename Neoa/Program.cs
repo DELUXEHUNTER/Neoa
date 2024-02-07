@@ -68,37 +68,37 @@ namespace Neoa
       WriteLine("The land of Neoa awaits, are you prepared for your fate....");
       WriteLine("..Whoever you are..?");
       WriteLine("Tell us your name.")
-     string CNAME = Console.ReadLine();
-     bool correct = false;
-     while(correct == false)
+      string CNAME = Console.ReadLine();
+      bool correct = false;
+      while(correct == false)
     {
         
-      WriteLine("Where are you from?");
+      WriteLine("Where are you from "+CNAME);
       Console.WriteLine("===============");
-      Console.WriteLine("|(N)eoa       |");
-      Console.WriteLine("|(A)naxes     |");
+      Console.WriteLine("|Neoan       |");
+      Console.WriteLine("|Anaxian     |");
 //      if(CNAME == "Deacon" || CNAME == "Aaron")
       Console.WriteLine("===============");
-      string input = Console.ReadLine();
+      string Ethnicity = Console.ReadLine();
       correct = true;
-      if (input.ToLower() == "n")
+      if (Ethnicity == "Neoan")
       {
-         CNAME.Ethnicity = "Neoan";
+        correct = true;
       }
-      else if (input.ToLower() == "a" )
+      else if (Ethnicity == "Anaxian" )
       {
-        string CNAME.Ethnicity = "Anaxian";
+        correct = true;
       }
       else
       {
-        Console.WriteLine(CNAME.Ethnicity);
         WriteLine("The schizophrenic voices kick in");
         Console.WriteLine("That isn't a real place, or ethnicity within this realm");
+        WriteLine("[Make sure to use proper capitalization]");
         correct = false;
       }
       if(correct == true)
       {
-        WriteLine("Are you sure this is what you want? Your current ethnicity is "+CNAME.Ethnicity);
+        WriteLine("Are you sure this is what you want? Your current ethnicity is "+Ethnicity);
         Console.WriteLine("Y/N");
         string yes = Console.ReadLine();
         if(yes.ToLower() == "y")
@@ -113,6 +113,7 @@ namespace Neoa
       }
       
     }
+
 
 
 
