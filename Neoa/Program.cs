@@ -77,6 +77,9 @@ namespace Neoa
       Console.WriteLine("===============");
       Console.WriteLine("|Neoan       |");
       Console.WriteLine("|Anaxian     |");
+      Console.WriteLine("|Anaxian     |");
+      Console.WriteLine("|     |");
+
 //      if(CNAME == "Deacon" || CNAME == "Aaron")
       Console.WriteLine("===============");
       string Ethnicity = Console.ReadLine();
@@ -95,17 +98,19 @@ namespace Neoa
         Console.WriteLine("That isn't a real place, or ethnicity within this realm");
         WriteLine("[Make sure to use proper capitalization]");
         correct = false;
+        Console.ReadKey();
+        Console.Clear
       }
       if(correct == true)
       {
         WriteLine("Are you sure this is what you want? Your current ethnicity is "+Ethnicity);
         Console.WriteLine("Y/N");
-        string yes = Console.ReadLine();
-        if(yes.ToLower() == "y")
+        string input = Console.ReadLine();
+        if(input.ToLower() == "y")
         {
             correct = true;
         }
-        else if (yes.ToLower() == "n")
+        else if (input.ToLower() == "n")
         {
             correct = false;
         }
