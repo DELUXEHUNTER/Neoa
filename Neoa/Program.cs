@@ -69,16 +69,34 @@ namespace Neoa
       WriteLine("..Whoever you are..?");
       WriteLine("Tell us your name");
       string CNAME = Console.ReadLine();
-      WriteLine("Where are you from?")
-      Console.WriteLine("==============");
-      Console.WriteLine("|(N)eoa      |");
-      Console.WriteLine("|(A)naxes    |")
-      if (CNAME = "Azrael","Azon")
+
+      WriteLine("Where are you from?");
+      Console.WriteLine("===============");
+      Console.WriteLine("|(N)eoa       |");
+      Console.WriteLine("|(A)naxes     |");
+      if(CNAME == "Deacon" || CNAME == "Aaron")
+      Console.WriteLine("|(T)raveller  |"); 
+      Console.WriteLine("===============");
+      Console.ReadKey();
+      string input = Console.ReadKey();
+      if (input.ToLower() == "n")
       {
-      Console.WriteLine("|(L)iminas   |");     
+        string Ethnicity = "Neoan";
       }
-      Console.WriteLine("==============");
-      string 
+      if (input.ToLower() == "a" )
+      {
+        string Ethnicity = "Anaxian"
+      }
+      if (input.ToLower() == "t")
+      {
+        string Ethnicity = "Traveling Trader"
+      }
+      else 
+      {
+        Console.WriteLine("Those are not real ethnicities?")
+      }
+      Console.ReadKey();
+
 
       Console.Clear();
       WriteLine("");
