@@ -128,10 +128,7 @@ Console.WriteLine(@"
       WriteLine("he pulls you up and tells you to follow him.");
 
       if (Ethnicity == "Anaxian")
-      {
-        Console.WriteLine();
-        Encounters.PrisonFirstEncounter();
-      }
+      Encounters.PrisonFirstEncounter();
       WriteLine("\""+CNAME+"you've got some friends in high places, the king has ordered your release\"" );  
       WriteLine("after leading you to the entrance of the prison the guard tells you one thing before releasing you");
       WriteLine("");
