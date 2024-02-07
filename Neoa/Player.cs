@@ -8,9 +8,10 @@ namespace Neoa
         public class Player
         {
             Random rand = new Random();
-            
+
             public string CNAME;
             public string Ethnicity;
+            
 
             //ints
             public int NeoanMark = 0;

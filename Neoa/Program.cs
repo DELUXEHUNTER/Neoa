@@ -116,6 +116,7 @@ Console.WriteLine(@"
       }
       
     }
+    correct = true;
     
       Console.Clear();
       WriteLine("...You awake in a dark cell, with no memory of anything from your past..");
@@ -127,7 +128,8 @@ Console.WriteLine(@"
       WriteLine("The knob on the door begins to turn.. a guard walks through the door");
       WriteLine("he pulls you up and tells you to follow him.");
 
-      if (CNAME.Ethnicity == "Anaxian")
+      if (Ethnicity == "Anaxian")
+      Encounters.PrisonFirstEncounter();
       WriteLine("\""+CNAME+"you've got some friends in high places, the king has ordered your release\"" );  
       WriteLine("after leading you to the entrance of the prison the guard tells you one thing before releasing you");
       WriteLine("");
