@@ -32,12 +32,7 @@ namespace Neoa
         Console.ForegroundColor = ConsoleColor.Red;
         Prologue();
 
-
-
-
-
         Credits();
-        
         
         }
 
@@ -187,7 +182,8 @@ Console.WriteLine(@"
 
     static void NewBeginnings()
     {
-      Console.WriteLine("Wombad");
+      //
+      Console.WriteLine("Wombat");
     }
 
 
@@ -195,15 +191,6 @@ Console.WriteLine(@"
 
 
 
-    public static void WriteLine(string text, int speed = 60)
-      {
-        foreach (char c in text)
-        {
-            Console.Write(c);
-            System.Threading.Thread.Sleep(110);
-        }
-        Console.WriteLine();
-      } 
 
   static void Credits()
   {
@@ -228,6 +215,17 @@ Console.WriteLine(@"
   Console.Clear();
 
   }
+
+  public static void WriteLine(string text, int speed = 60)
+    {
+      foreach (char c in text)
+      {
+        Console.Write(c);
+         System.Threading.Thread.Sleep(110);
+      }
+      Console.WriteLine();
+    } 
+
   }  
 
 }

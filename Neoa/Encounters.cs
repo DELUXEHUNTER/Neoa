@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks; 
 
-
 namespace Neoa
-
 {
     public class Encounters
     {
@@ -26,10 +24,9 @@ namespace Neoa
             WriteLine(".... he takes a short pause");
             Console.WriteLine("Save game? Y/n");
             Console.ReadKey();
-            WriteLine("Did you actually think I made a save game yet? Not yet, you can tell I got bored doing this.",200);
-        
-
+            WriteLine("Did you actually think I made a save game yet? Not yet, you can tell I got bored doing this.");
         }
+
          public static void FirstEncounter()
         {
             enviro = "FirstEnc";
@@ -38,6 +35,7 @@ namespace Neoa
         
 
         }
+
         public static void BasicFightEncounter()
         {   
             WriteLine("Hi");
@@ -45,9 +43,9 @@ namespace Neoa
             Combat(true, "",0,0);
 
         }
-
-
+    
         //Encounter Tools 
+
         public static void RandomEncounter()
         {
             enviro = "RandomEnc";
@@ -166,9 +164,8 @@ namespace Neoa
                 
                 }
                 Console.ReadKey();
-
             }
-        
+        //The Enviro string is used to tell apart the rewards from random and first encounter, 
             if (enviro == "RandomEnc")
             {
             int c = rand.Next(1,15);
@@ -191,39 +188,34 @@ namespace Neoa
 
 
 
-
-            public static string GetName()
+//These are just temporary and the only one that will remain is Escaped Prisoner
+        public static string GetName()
+        {
+         switch (rand.Next(0, 4))
             {
-                switch (rand.Next(0, 4))
-                {
-                    case 0:
-                        return "Keeper";
-                    case  1:
-                        return "Guardian";
-                    case 2:
-                        return "Human Cultist";
-                }
-                return "Escaped Prisoner";
-
+                case 0:
+                    return "Keeper";
+                case  1:
+                    return "Guardian";
+                case 2:
+                    return "Human Cultist";
             }
-        
-        public static string enviro = "";
+        return "Escaped Prisoner";
 
-
-
+        }
 
         public static void WriteLine(string text, int speed = 60)
         {   
         foreach (char c in text)
-        {
+            {
             Console.Write(c);
             System.Threading.Thread.Sleep(98);
-        }
+            }
         Console.WriteLine();
         } 
 
-
-
-    }
+        public static string enviro = "";
 
     }
+
+}
