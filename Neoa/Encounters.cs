@@ -18,6 +18,14 @@ namespace Neoa
             WriteLine("");
             Console.ReadKey();
             Combat(false, "Prisoner",1,5);
+        
+
+        }
+        public static void BasicFightEncounter()
+        {   
+            WriteLine("Hi");
+            Console.ReadKey();
+            Combat(true, "",0,0);
 
         }
 
@@ -45,7 +53,7 @@ namespace Neoa
             {
                 n = GetName();
                 p = Program.CNAME.GetPower();
-                h = Program.CNAME.GetHealth();
+                h = Program.CNAME.GetHealth()+2;
 
             }
             else
@@ -158,7 +166,9 @@ namespace Neoa
             Program.CNAME.NeoanMark +=c;
             Console.ReadKey();
             }
-
+            else 
+            Console.WriteLine("You win");
+            Console.ReadKey();
         
         }
             public static string GetName()
