@@ -80,8 +80,8 @@ namespace Neoa
       WriteLine("he pulls you up and tells you to follow him.");
       WriteLine("\""+CNAME+"you've got some friends in high places, the king has ordered your release\"" );  
       WriteLine("the guard leads you to a room filled with objects and gold,\"The warden wanted to see you before you left\"");
-      WriteLine("he said, right before leaving the room.")
-      WriteLine("The")
+      WriteLine("he said, right before leaving the room.");
+      WriteLine("The");
       
       Encounters.FirstEncounter();
        
