@@ -7,9 +7,10 @@
 * Removed useless code/comments
 * Player stats
 * Basic Character creation
+* Very basic choice system[Literally just two things are chooseable]
 
 
-### V.0.0.1 
+### V.0.0.0.1
 
 
  

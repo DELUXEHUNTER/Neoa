@@ -30,14 +30,11 @@ namespace Neoa
 
         {
         Console.ForegroundColor = ConsoleColor.Red;
-        
-        Start();
-        
-        Encounters.FirstEncounter();
+        Prologue();
         
         }
 
-    static void Start()
+    static void Prologue()
     {
 Console.WriteLine(@"
 +=====================================================================================================================================================+
@@ -66,13 +63,17 @@ Console.WriteLine(@"
       WriteLine("Tell us your name.");
       string CNAME = Console.ReadLine();
       bool correct = false;
-      string Ethnicity;
+
+    //Strings
+    string Ethnicity;
+    string Faction; 
+    string Relation; 
     do {  
       WriteLine("Where are you from "+CNAME);
       Console.WriteLine("===============");
       Console.WriteLine("|Neoan        |");
       Console.WriteLine("|Anaxian      |");
-      Console.WriteLine("|Wanderer     |");
+      Console.WriteLine("|Null         |");
 //      if(CNAME == "Deacon" || CNAME == "Aaron")
       Console.WriteLine("===============");
       Ethnicity = Console.ReadLine();
@@ -85,13 +86,15 @@ Console.WriteLine(@"
       {
         correct = true;
       }
-      else if (Ethnicity == "Wanderer" )
+      else if (Ethnicity == "Null" )
       {
-        correct = true;
+        correct = false;
+        Console.WriteLine("You really thought this did something did you?");
+
       }
       else 
       {
-        WriteLine("The schizophrenic voices kick in");
+        WriteLine("The schizophrenic voices kick in "+CNAME".");
         Console.WriteLine("That isn't a real place, or ethnicity within this realm");
         WriteLine("[Make sure to use proper capitalization]");
         correct = false;
@@ -101,6 +104,15 @@ Console.WriteLine(@"
       if(correct == true)
       {
         WriteLine("Are you sure this is what you want? Your current ethnicity is "+Ethnicity);
+        if(Ethnicity == "Neoan")
+        {
+          Console.WriteLine("Selecting Neoan is the most basic option you can pick during these stages");
+          Console.WriteLine("Anaxians have more dialog. Are you sure you want to pick this? you may only turn back if you reset");
+        }
+        else if(Ethnicity == "Anaxian")
+        {
+          Console.WriteLine("Selecting Anaxian gives you many more options at this stage in the games development.");
+        }
         Console.WriteLine("Y/N");
         string input = Console.ReadLine();
         if(input.ToLower() == "y")
@@ -117,8 +129,18 @@ Console.WriteLine(@"
     } 
     while(correct == false);
     
+    do {
+      WriteLine("Are you related to anyone");
+      
+    }
+
+
+
+
+
+    
       Console.Clear();
-      WriteLine("...You awake in a dark cell, with no memory of anything from your past..");
+      WriteLine("...You awaken in a dark cell, with no memory of anything from your past..");
       WriteLine("");
       if (CNAME == "")
         WriteLine("Not even your name.. as you begin to think..");
@@ -129,9 +151,9 @@ Console.WriteLine(@"
 
       if (Ethnicity == "Anaxian")
       Encounters.PrisonFirstEncounter();
+
       WriteLine("\""+CNAME+"you've got some friends in high places, the king has ordered your release\"" );  
-      WriteLine("after leading you to the entrance of the prison the guard tells you one thing before releasing you");
-      WriteLine("");
+      WriteLine("after leading you to the entrance of the prison the guard leads you to the prison");
        
       }
 

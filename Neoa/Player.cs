@@ -11,7 +11,7 @@ namespace Neoa
 
             public string CNAME;
             public string Ethnicity;
-            
+
 
             //ints
             public int NeoanMark = 0;

@@ -15,7 +15,8 @@ namespace Neoa
         public static void PrisonFirstEncounter()
         {
             enviro = "FirstEnc";
-            WriteLine("\"You damn anaxians are all the same I'm tired of you all\"");
+            WriteLine("After walking a short distance from your cell a prisoner comes up to you..");
+            WriteLine("..\"You damn anaxians are all the same I'm tired of you all\"");
             WriteLine("The deranged man begins to attempt to attack you using a rusty sword");
             WriteLine("Right before the man can attack you the guard quickly tosses you his sword");
             Console.ReadKey();

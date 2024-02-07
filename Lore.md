@@ -14,10 +14,10 @@ The world of [Placeholder], is one filled with many creatures, and realms from m
 
 ### NEOA 
 Neoa is a massive kingdom, in the realm of [Placeholder1], filled with creatures and beings from legends and mythologies around the world. Neoa is typically seen as the most prominent and well known kingdoms in the entirety of 
-[Placeholder1], Surrounded by many kingdoms.
+[Placeholder1], Surrounded by many kingdoms, that loosely base themselves around the government structure of Neoa
 
 #### Nightcreature Policies
-For several decades the presence of creatures like lycans, and vampires were not persecuted by the government. While still not legally allowed within cities, or towns, in recent decades many laws have been pased 
+For several decades the presence of creatures like lycans, and vampires were not persecuted by the government. While still not legally allowed within cities, or towns, in recent decades many laws have been passed and ordinants that they are to but hunted and killed when seen. 
 
 
 
