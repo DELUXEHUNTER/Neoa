@@ -65,9 +65,10 @@ Console.WriteLine(@"
       WriteLine("..Whoever you are..?");
       WriteLine("Tell us your name.");
       string CNAME = Console.ReadLine();
+      string Ethnicity;
       bool correct = false;
       while(correct == false)
-    do {  
+    {  
       WriteLine("Where are you from "+CNAME);
       Console.WriteLine("===============");
       Console.WriteLine("|Neoan        |");
@@ -75,7 +76,7 @@ Console.WriteLine(@"
       Console.WriteLine("|Wanderer     |");
 //      if(CNAME == "Deacon" || CNAME == "Aaron")
       Console.WriteLine("===============");
-      string Ethnicity = Console.ReadLine();
+      Ethnicity = Console.ReadLine();
       correct = true;
       if (Ethnicity == "Neoan")
       {
@@ -113,10 +114,8 @@ Console.WriteLine(@"
         }
         
       }
-    return Ethnicity;
+      
     }
-    return Ethnicity;
-    
     
       Console.Clear();
       WriteLine("...You awake in a dark cell, with no memory of anything from your past..");
