@@ -76,7 +76,7 @@ Console.WriteLine(@"
       Console.WriteLine("|Wanderer     |");
 //      if(CNAME == "Deacon" || CNAME == "Aaron")
       Console.WriteLine("===============");
-      string Ethnicity = Console.ReadLine();
+      public string Ethnicity = Console.ReadLine();
       correct = true;
       if (Ethnicity == "Neoan")
       {
@@ -116,7 +116,6 @@ Console.WriteLine(@"
       }
       
     }
-    string Ethnicity = Ethnicity;
     
       Console.Clear();
       WriteLine("...You awake in a dark cell, with no memory of anything from your past..");
