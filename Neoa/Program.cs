@@ -126,7 +126,7 @@ Console.WriteLine(@"
       WriteLine("The only thing you remember is your name " + CNAME);
       WriteLine("The knob on the door begins to turn.. a guard walks through the door");
       WriteLine("he pulls you up and tells you to follow him.");
-      if (Program.Ethnicity == "Anaxian")
+      if (Ethnicity == "Anaxian")
       {
         Encounters.FirstEncounter();
       }
