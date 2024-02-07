@@ -21,14 +21,6 @@ namespace Neoa
         
 
         }
-        public static void BasicFightEncounter()
-        {   
-
-            WriteLine("Hi");
-            Console.ReadKey();
-            Combat(true, "",0,0);
-
-        }
 
 
         //Encounter Tools 
@@ -124,7 +116,7 @@ namespace Neoa
                 {
                     //Heal
                     WriteLine("");
-                    if (Program.CNAME.potion==0)
+                    if (Player.CNAME.potion==0)
                     {
                     WriteLine("You deprately grasp for a potion in your bag but all you can feel are empty flasks");
                     int damage = p - Program.CNAME.armorValue;
@@ -142,7 +134,7 @@ namespace Neoa
                     }
                     Console.ReadKey();
                 }
-                if (Program.CNAME.health<0)
+                if (Player.CNAME.health<0)
                 {
                     //Death 
                     WriteLine("As the "+n+" stands high it "+n+" has slain you");
@@ -167,9 +159,7 @@ namespace Neoa
             Program.CNAME.NeoanMark +=c;
             Console.ReadKey();
             }
-            else 
-            Console.WriteLine("You win");
-            Console.ReadKey();
+
         
         }
             public static string GetName()
