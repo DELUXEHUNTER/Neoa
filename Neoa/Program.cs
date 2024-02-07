@@ -65,6 +65,7 @@ Console.WriteLine(@"
       WriteLine("..Whoever you are..?");
       WriteLine("Tell us your name.");
       string CNAME = Console.ReadLine();
+      string Ethnicity;
       bool correct = false;
       while(correct == false)
     {
@@ -126,7 +127,8 @@ Console.WriteLine(@"
       WriteLine("The only thing you remember is your name " + CNAME);
       WriteLine("The knob on the door begins to turn.. a guard walks through the door");
       WriteLine("he pulls you up and tells you to follow him.");
-      if (Ethnicity == "Anaxian")
+
+      if (Ethnicity = "Anaxian")
       {
         Encounters.FirstEncounter();
       }
