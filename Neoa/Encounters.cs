@@ -20,10 +20,13 @@ namespace Neoa
             WriteLine("The deranged man begins to attempt to attack you using a rusty sword");
             WriteLine("Right before the man can attack you the guard quickly tosses you his sword");
             Console.ReadKey();
-            Combat(false, "prisoner",2,4);
+            Combat(false, "deranged prisoner",1,2);
             WriteLine("The guard takes back his sword and tells you to continue on");
             WriteLine("\"So back to what we were taking about, \"");
             WriteLine(".... he takes a short pause");
+            Console.WriteLine("Save game? Y/n");
+            Console.ReadKey();
+            WriteLine("Did you actually think I made a save game yet? Not yet, you can tell I got bored doing this.",200);
         
 
         }
