@@ -67,35 +67,53 @@ namespace Neoa
 +=====================================================================================================================================================+");
       WriteLine("The land of Neoa awaits, are you prepared for your fate....");
       WriteLine("..Whoever you are..?");
-      WriteLine("Tell us your name");
-      string CNAME = Console.ReadLine();
-
+      WriteLine("Tell us your name.")
+     string CNAME = Console.ReadLine();
+     bool correct = false;
+     while(correct == false)
+    {
+        
       WriteLine("Where are you from?");
       Console.WriteLine("===============");
       Console.WriteLine("|(N)eoa       |");
       Console.WriteLine("|(A)naxes     |");
-      if(CNAME == "Deacon" || CNAME == "Aaron")
-      Console.WriteLine("|(T)raveller  |"); 
+//      if(CNAME == "Deacon" || CNAME == "Aaron")
       Console.WriteLine("===============");
-      Console.ReadKey();
-      string input = Console.ReadKey();
+      string input = Console.ReadLine();
+      correct = true;
       if (input.ToLower() == "n")
       {
-        string Ethnicity = "Neoan";
+         CNAME.Ethnicity = "Neoan";
       }
-      if (input.ToLower() == "a" )
+      else if (input.ToLower() == "a" )
       {
-        string Ethnicity = "Anaxian"
+        string CNAME.Ethnicity = "Anaxian";
       }
-      if (input.ToLower() == "t")
+      else
       {
-        string Ethnicity = "Traveling Trader"
+        Console.WriteLine(CNAME.Ethnicity);
+        WriteLine("The schizophrenic voices kick in");
+        Console.WriteLine("That isn't a real place, or ethnicity within this realm");
+        correct = false;
       }
-      else 
+      if(correct == true)
       {
-        Console.WriteLine("Those are not real ethnicities?")
+        WriteLine("Are you sure this is what you want? Your current ethnicity is "+CNAME.Ethnicity);
+        Console.WriteLine("Y/N");
+        string yes = Console.ReadLine();
+        if(yes.ToLower() == "y")
+        {
+            correct = true;
+        }
+        else if (yes.ToLower() == "n")
+        {
+            correct = false;
+        }
+        
       }
-      Console.ReadKey();
+      
+    }
+
 
 
       Console.Clear();
