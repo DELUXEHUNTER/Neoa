@@ -67,8 +67,8 @@ Console.WriteLine(@"
       string CNAME = Console.ReadLine();
       bool correct = false;
       string Ethnicity;
-      while(correct == false)
-    {  
+     
+    do {  
       WriteLine("Where are you from "+CNAME);
       Console.WriteLine("===============");
       Console.WriteLine("|Neoan        |");
@@ -115,7 +115,7 @@ Console.WriteLine(@"
         
       }
       
-    }
+    } while(correct == false)
     
       Console.Clear();
       WriteLine("...You awake in a dark cell, with no memory of anything from your past..");
