@@ -115,7 +115,7 @@ Console.WriteLine(@"
       }
       
     }
-    return Ethnicity
+    return Ethnicity;
     
       Console.Clear();
       WriteLine("...You awake in a dark cell, with no memory of anything from your past..");
