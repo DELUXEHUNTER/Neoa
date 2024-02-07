@@ -11,8 +11,9 @@ At the very end of the game a credit scene will be played, I don't have the cred
 
 ### To-Do/Things I need help with:
 - TOP PRIORITY <a href="https://github.com/DELUXEHUNTER/neo/blob/Master/Lore.md">Lore writing</a>
+- Writing the dialog and giving choices.
 - Save System/Progress restore
-- Classes, Race, Alignments, ect....
+- Classes, Race, Alignments/factions, ect....
 - OPTIONAL ACSII art, either found or someone making them.
 
 

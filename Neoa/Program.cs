@@ -68,7 +68,6 @@ namespace Neoa
       WriteLine("The land of Neoa awaits... Are you prepared to enter?.");
       WriteLine("[Name:");
       string CNAME = Console.ReadLine();
-      
 
       Console.Clear();
       WriteLine("You awake in a dark cell, with no memory of anything from your past..");
@@ -80,7 +79,9 @@ namespace Neoa
       WriteLine("The knob on the door begins to turn.. a guard walks through the door");
       WriteLine("he pulls you up and tells you to follow him.");
       WriteLine("\""+CNAME+"you've got some friends in high places, the king has ordered your release\"" );  
-      WriteLine("the guard leads you to a room filled with your ");
+      WriteLine("the guard leads you to a room filled with objects and gold,\"The warden wanted to see you before you left\"");
+      WriteLine("he said, right before leaving the room.")
+      WriteLine("The")
       
       Encounters.FirstEncounter();
        

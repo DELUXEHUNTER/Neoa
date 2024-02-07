@@ -18,7 +18,6 @@ namespace Neoa
             WriteLine("");
             Console.ReadKey();
             Combat(false, "Prisoner",1,5);
-        
 
         }
 
@@ -116,7 +115,7 @@ namespace Neoa
                 {
                     //Heal
                     WriteLine("");
-                    if (Player.CNAME.potion==0)
+                    if (Program.CNAME.potion==0)
                     {
                     WriteLine("You deprately grasp for a potion in your bag but all you can feel are empty flasks");
                     int damage = p - Program.CNAME.armorValue;
@@ -134,7 +133,7 @@ namespace Neoa
                     }
                     Console.ReadKey();
                 }
-                if (Player.CNAME.health<0)
+                if (Program.CNAME.health<0)
                 {
                     //Death 
                     WriteLine("As the "+n+" stands high it "+n+" has slain you");
