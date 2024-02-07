@@ -7,11 +7,12 @@ There is no specific restriction or way to write the lore for this game, you may
 If this file fills up too much I will go through and create several seprate files for different aspects of the game, Items, people, places/locations, ect....That way it doesn't get so overwhelming and everything.
 
 ## WORLD
-**<div>MEDIEVAL FANTASY</div>**
-The world of [PLACEHOLDER1]is filled with many realms, and dimensions accessable to some powerful people, filled with massive kingdoms, cities, towns, many animals, people, creatures, ect..... 
 
-Neoa is a massive kingdom, in the realm of **[PLACEHOLDER2]**, filled with creatures and beings from ledgends and mythologies around the world. Neoa is surrounded by several kingdoms. The player is able to go to these kingdoms and influence them in various ways. These kingdoms are unnamed until someone decides to name them.
+**<div>MEDIEVAL FANTASY</div>**
+The world of [PLACEHOLDER1]is filled with many realms, and dimensions accessable to some powerful people, filled with massive kingdoms, cities, towns, many animals, people, creatures, ect..... This chatagory
 
 
 
 #### NEOA 
+Neoa is a massive kingdom, in the realm of **[PLACEHOLDER2]**, filled with creatures and beings from ledgends and mythologies around the world. Neoa is surrounded by several kingdoms. The player is able to go to these kingdoms and influence them in various ways. These kingdoms are unnamed until someone decides to name them.
+
