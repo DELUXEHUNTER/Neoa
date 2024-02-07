@@ -8,7 +8,7 @@ A future thanks to anyone who contributes in any way, thank you for all of your 
 At the very end of the game a credit scene will be played, I don't have the credit scene made yet but in the distant future I will.
 
 #### Information
-The game is still in development and is almost unplayable
+The game is still in development and is almost unplayable. At some point during the game there will be absolutely 0 encounters, and there will barely be any encounters
 
 
 
