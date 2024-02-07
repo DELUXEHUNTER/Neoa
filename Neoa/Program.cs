@@ -65,7 +65,6 @@ Console.WriteLine(@"
       WriteLine("..Whoever you are..?");
       WriteLine("Tell us your name.");
       string CNAME = Console.ReadLine();
-      string Ethnicity;
       bool correct = false;
       while(correct == false)
     {
@@ -128,9 +127,10 @@ Console.WriteLine(@"
       WriteLine("The knob on the door begins to turn.. a guard walks through the door");
       WriteLine("he pulls you up and tells you to follow him.");
 
-      if (Ethnicity = "Anaxian")
+      if (Ethnicity == "Anaxian")
       {
-        Encounters.FirstEncounter();
+        Console.WriteLine();
+        Encounters.PrisonFirstEncounter();
       }
       WriteLine("\""+CNAME+"you've got some friends in high places, the king has ordered your release\"" );  
       WriteLine("after leading you to the entrance of the prison the guard tells you one thing before releasing you");
