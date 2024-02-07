@@ -212,8 +212,8 @@ Console.WriteLine(@"
     Console.WriteLine(@"   
   ____________________________________________________________________________________________
   |              Code/Lore                      |              Honorable Mention              |          
-  |               Creator:                      |                                             |
-  |             Deacon Hunter                   |                                             |
+  |             Deacon Hunter                   |                 Neoan King                  |
+  |                                             |                                             |
   |                                             |                                             |
   |                                             |                                             |
   |                                             |                                             |
