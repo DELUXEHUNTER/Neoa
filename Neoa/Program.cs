@@ -65,8 +65,8 @@ Console.WriteLine(@"
       WriteLine("..Whoever you are..?");
       WriteLine("Tell us your name.");
       string CNAME = Console.ReadLine();
-      string Ethnicity;
       bool correct = false;
+      string Ethnicity;
       while(correct == false)
     {  
       WriteLine("Where are you from "+CNAME);
