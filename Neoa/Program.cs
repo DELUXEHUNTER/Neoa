@@ -67,7 +67,6 @@ Console.WriteLine(@"
       string CNAME = Console.ReadLine();
       bool correct = false;
       string Ethnicity;
-     
     do {  
       WriteLine("Where are you from "+CNAME);
       Console.WriteLine("===============");
@@ -115,7 +114,8 @@ Console.WriteLine(@"
         
       }
       
-    } while(correct == false)
+    } 
+    while(correct == false);
     
       Console.Clear();
       WriteLine("...You awake in a dark cell, with no memory of anything from your past..");
