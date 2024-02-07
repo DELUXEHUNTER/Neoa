@@ -31,6 +31,13 @@ namespace Neoa
         {
         Console.ForegroundColor = ConsoleColor.Red;
         Prologue();
+
+
+
+
+
+        Credits();
+        
         
         }
 
@@ -67,15 +74,15 @@ Console.WriteLine(@"
     //Strings
     string Ethnicity;
     string Faction; 
-    string Relation; 
+    string ANC; 
     do {  
       WriteLine("Where are you from "+CNAME);
-      Console.WriteLine("===============");
+      Console.WriteLine("+=============+");
       Console.WriteLine("|Neoan        |");
       Console.WriteLine("|Anaxian      |");
       Console.WriteLine("|Null         |");
 //      if(CNAME == "Deacon" || CNAME == "Aaron")
-      Console.WriteLine("===============");
+      Console.WriteLine("+=============+");
       Ethnicity = Console.ReadLine();
       correct = true;
       if (Ethnicity == "Neoan")
@@ -89,7 +96,7 @@ Console.WriteLine(@"
       else if (Ethnicity == "Null" )
       {
         correct = false;
-        Console.WriteLine("You really thought this did something did you?");
+        Console.WriteLine("You really thought this did something did you? Not yet at least");
 
       }
       else 
@@ -130,7 +137,31 @@ Console.WriteLine(@"
     while(correct == false);
     
     do {
-      WriteLine("Are you related to anyone");
+      WriteLine("Ancient Ancestor");
+      Console.WriteLine("+=========================+");
+      Console.WriteLine("|Avalon                   |");
+      Console.WriteLine("|Iedelan                  |");
+      Console.WriteLine("|Tau-an                   |");
+      Console.WriteLine("|Null                     |");
+      Console.WriteLine("+=========================+");
+      ANC = Console.ReadLine();
+      if(ANC == "Avalon")
+      {
+        correct = true;
+      }
+      else if(ANC ==  "Iedelan")
+      {
+        correct = true;
+      }
+      else if(ANC == "Tau-an")
+      {
+        correct = true;
+      }
+      else
+      {
+        Console.WriteLine("The schizophrenic voices.... "+CNAME);
+        Console.WriteLine("That is not a real ancestor");
+      }
       
     }while(correct == false);
 
@@ -173,6 +204,30 @@ Console.WriteLine(@"
         }
         Console.WriteLine();
       } 
+
+  static void Credits()
+  {
+    WriteLine("So, you've reached a point that the game ended sadly");
+    WriteLine("In the future there will be more. For now enjoy these credits");
+    Console.WriteLine(@"   
+  ____________________________________________________________________________________________
+  |              Code/Lore                      |              Honorable Mention              |          
+  |               Creator:                      |                                             |
+  |             Deacon Hunter                   |                                             |
+  |                                             |                                             |
+  |                                             |                                             |
+  |                                             |                                             |
+  |                                             |                                             |
+  |                                             |                                             |
+  /\____________________________________________/\____________________________________________/\
+          
+          
+          ");
+  WriteLine("Press enter to clear.");
+  Console.ReadKey();
+  Console.Clear();
+
+  }
   }  
 
 }

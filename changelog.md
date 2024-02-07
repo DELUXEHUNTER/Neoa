@@ -6,8 +6,9 @@
 * Encounters
 * Removed useless code/comments
 * Player stats
-* Basic Character creation
+* Added Ethnicity, and ANC[Ancient Ancestor] selection. 
 * Very basic choice system[Literally just two things are chooseable]
+* Added credits in file, not to the game just yet.
 
 
 ### V.0.0.0.1
