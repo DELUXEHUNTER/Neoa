@@ -94,7 +94,7 @@ Console.WriteLine(@"
       }
       else 
       {
-        WriteLine("The schizophrenic voices kick in "+CNAME".");
+        WriteLine("The schizophrenic voices kick in "+CNAME+".");
         Console.WriteLine("That isn't a real place, or ethnicity within this realm");
         WriteLine("[Make sure to use proper capitalization]");
         correct = false;
@@ -132,13 +132,10 @@ Console.WriteLine(@"
     do {
       WriteLine("Are you related to anyone");
       
-    }
+    }while(correct == false);
 
 
 
-
-
-    
       Console.Clear();
       WriteLine("...You awaken in a dark cell, with no memory of anything from your past..");
       WriteLine("");
