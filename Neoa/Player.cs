@@ -8,19 +8,13 @@ namespace Neoa
         public class Player
         {
             Random rand = new Random();
-
             public string CNAME;
-            public string PlayerBackstory;
-            public string Ethnicity;
 
             //ints
             public int NeoanMark = 0;
 
-
-
-
             //Encounter ints/strings
-            public int health = 10;
+            public int health = 14;
             public int damage = 1;
             public int armorValue = 0;
             public int potion = 5;

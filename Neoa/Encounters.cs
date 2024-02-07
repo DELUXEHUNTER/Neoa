@@ -12,12 +12,25 @@ namespace Neoa
     {
         public static Random rand = new Random();
         //Encounters
-        public static void FirstEncounter()
+        public static void PrisonFirstEncounter()
         {
             enviro = "FirstEnc";
-            WriteLine("");
+            WriteLine("\"You damn anaxians are all the same I'm tired of you all\"");
+            WriteLine("The deranged man begins to attempt to attack you using a rusty sword");
+            WriteLine("Right before the man can attack you the guard quickly tosses you his sword");
             Console.ReadKey();
-            Combat(false, "Prisoner",1,5);
+            Combat(false, "prisoner",2,4);
+            WriteLine("The guard takes back his sword and tells you to continue on");
+            WriteLine("\"So back to what we were taking about, \"");
+            WriteLine(".... he takes a short pause");
+        
+
+        }
+         public static void FirstEncounter()
+        {
+            enviro = "FirstEnc";
+            Console.ReadKey();
+            Combat(false, "prisoner",2,4);
         
 
         }
@@ -161,16 +174,20 @@ namespace Neoa
             }
             if (enviro == "FirstEnc")
             {
-            int c = 9;
+            int c = rand.Next(0,5);
             Console.WriteLine("You stand victorious over "+n+" and gain "+c+" Neoan Marks");
             Program.CNAME.NeoanMark +=c;
             Console.ReadKey();
             }
-            else 
-            Console.WriteLine("You win");
-            Console.ReadKey();
+
         
         }
+
+
+
+
+
+
             public static string GetName()
             {
                 switch (rand.Next(0, 4))

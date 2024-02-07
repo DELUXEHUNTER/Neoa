@@ -32,18 +32,14 @@ namespace Neoa
         Console.ForegroundColor = ConsoleColor.Red;
         
         Start();
+        
         Encounters.FirstEncounter();
         
         }
 
-
-
-
-
     static void Start()
     {
-
-    Console.WriteLine(@"
+Console.WriteLine(@"
 +=====================================================================================================================================================+
 |00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
 |00000███00000000▄█0000█▄0000000▄████████0000000▄█000▄█▄00▄█00███▄▄▄▄000000▄██████▄00████████▄000▄██████▄0000▄▄▄▄███▄▄▄▄0000000▄██████▄00000▄████████0|
@@ -67,7 +63,7 @@ namespace Neoa
 +=====================================================================================================================================================+");
       WriteLine("The land of Neoa awaits, are you prepared for your fate....");
       WriteLine("..Whoever you are..?");
-      WriteLine("Tell us your name.")
+      WriteLine("Tell us your name.");
       string CNAME = Console.ReadLine();
       bool correct = false;
       while(correct == false)
@@ -75,11 +71,9 @@ namespace Neoa
         
       WriteLine("Where are you from "+CNAME);
       Console.WriteLine("===============");
-      Console.WriteLine("|Neoan       |");
-      Console.WriteLine("|Anaxian     |");
-      Console.WriteLine("|Anaxian     |");
-      Console.WriteLine("|     |");
-
+      Console.WriteLine("|Neoan        |");
+      Console.WriteLine("|Anaxian      |");
+      Console.WriteLine("|Wanderer     |");
 //      if(CNAME == "Deacon" || CNAME == "Aaron")
       Console.WriteLine("===============");
       string Ethnicity = Console.ReadLine();
@@ -92,6 +86,10 @@ namespace Neoa
       {
         correct = true;
       }
+       else if (Ethnicity == "Wanderer" )
+      {
+        correct = true;
+      }
       else
       {
         WriteLine("The schizophrenic voices kick in");
@@ -99,7 +97,7 @@ namespace Neoa
         WriteLine("[Make sure to use proper capitalization]");
         correct = false;
         Console.ReadKey();
-        Console.Clear
+        Console.Clear();
       }
       if(correct == true)
       {
@@ -119,40 +117,45 @@ namespace Neoa
       
     }
 
-
-
-
       Console.Clear();
-      WriteLine("");
       WriteLine("...You awake in a dark cell, with no memory of anything from your past..");
       WriteLine("");
-        if (CNAME == "")
-         WriteLine("Not even your name.. as you begin to think..");
-        else 
+      if (CNAME == "")
+        WriteLine("Not even your name.. as you begin to think..");
+      else 
       WriteLine("The only thing you remember is your name " + CNAME);
-      Console.ReadKey();
       WriteLine("The knob on the door begins to turn.. a guard walks through the door");
       WriteLine("he pulls you up and tells you to follow him.");
+      if (Ethnicity == "Anaxian")
+      {
+        Encounters.FirstEncounter();
+      }
       WriteLine("\""+CNAME+"you've got some friends in high places, the king has ordered your release\"" );  
       WriteLine("after leading you to the entrance of the prison the guard tells you one thing before releasing you");
       WriteLine("");
-      
-      Encounters.FirstEncounter();
        
+      }
+
+    static void NewBeginnings()
+    {
+      Console.WriteLine("Wombad");
     }
 
 
 
+
+
+
     public static void WriteLine(string text, int speed = 60)
-    {
+      {
         foreach (char c in text)
         {
             Console.Write(c);
             System.Threading.Thread.Sleep(110);
         }
         Console.WriteLine();
-    } 
- }  
+      } 
+  }  
 
 }
 
