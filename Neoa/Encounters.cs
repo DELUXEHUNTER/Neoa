@@ -59,6 +59,7 @@ namespace Neoa
 
             }
         }
+
         public static void Combat(bool random, string name, int power, int health )
         {
             string n = "";
@@ -184,7 +185,7 @@ namespace Neoa
         
         }
 
-//These are just temporary and the only one that will remain is Escaped Prisoner
+     //Temporary
         public static string GetName()
         {
          switch (rand.Next(0, 4))
