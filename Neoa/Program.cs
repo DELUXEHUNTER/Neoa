@@ -1,27 +1,40 @@
-﻿/*OWNER: 
-  DEACON HUNTER
+﻿/*
+Add your name
 
-  CONTRIBUTERS:
-  DEACON HUNTER
+OWNER: 
+DEACON HUNTER
 
-  DATE CREATED:
-  FEBRUARY 1ST 2024
+CONTRIBUTERS:
+DEACON HUNTER
 
-  INDIRECT CONTRIBUTERS/CONTRIBUTION/CREDIT:
-  1. TUTORIAL USED I FORGOT THE NAME
 
-  If you want to see your name in the credits section, add your name above. */
+DATE CREATED: 
+FEBRUARY 1ST 2024
+
+INDIRECT CONTRIBUTERS/CONTRIBUTION/CREDIT:
+1. TUTORIAL USED I FORGOT THE NAME
+*/
+
+using System.Xml.Linq;
 
 namespace Neoa
 {
     public class Program
     {
-        Random rand = new Random();
-        public static Player CNAME = new Player();
+        public static Player player = new();
 
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Red;
+            if (OperatingSystem.IsWindows())
+            {
+                Console.SetWindowSize(155, 45);
+                Console.BufferWidth = Console.WindowWidth;
+                Console.BufferHeight = Console.WindowHeight;
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.BackgroundColor = ConsoleColor.Black;
+
+            }
+
             Prologue();
             Credits();
         }
@@ -29,177 +42,119 @@ namespace Neoa
         static void Prologue()
         {
             Console.WriteLine(@"
-+=====================================================================================================================================================+
-|00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
-|00000███00000000▄█0000█▄0000000▄████████0000000▄█000▄█▄00▄█00███▄▄▄▄000000▄██████▄00████████▄000▄██████▄0000▄▄▄▄███▄▄▄▄0000000▄██████▄00000▄████████0|
-|0▀█████████▄000███0000███00000███0000███000000███0▄███▀0███00███▀▀▀██▄000███0000███0███000▀███0███0000███0▄██▀▀▀███▀▀▀██▄0000███0000███000███0000███0|
-|0000▀███▀▀██000███0000███00000███0000█▀0000000███▐██▀000███▌0███000███000███0000█▀00███0000███0███0000███0███000███000███0000███0000███000███0000█▀00|
-|00000███000▀00▄███▄▄▄▄███▄▄00▄███▄▄▄000000000▄█████▀0000███▌0███000███00▄███00000000███0000███0███0000███0███000███000███0000███0000███00▄███▄▄▄00000|
-|00000███00000▀▀███▀▀▀▀███▀00▀▀███▀▀▀00000000▀▀█████▄0000███▌0███000███0▀▀███0████▄00███0000███0███0000███0███000███000███0000███0000███0▀▀███▀▀▀00000|
-|00000███0000000███0000███00000███0000█▄0000000███▐██▄000███00███000███000███0000███0███0000███0███0000███0███000███000███0000███0000███000███00000000|
-|00000███0000000███0000███00000███0000███000000███0▀███▄0███00███000███000███0000███0███000▄███0███0000███0███000███000███0000███0000███000███00000000|
-|0000▄████▀00000███0000█▀000000██████████000000███000▀█▀0█▀0000▀█000█▀0000████████▀00████████▀000▀██████▀000▀█000███000█▀000000▀██████▀0000███00000000|
-|0000000000000000000000000000000000000000000000▀000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
-|0███▄▄▄▄000000▄████████00▄██████▄00000▄████████000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
-|0███▀▀▀██▄000███0000███0███0000███000███0000███000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
-|0███000███000███0000█▀00███0000███000███0000███000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
-|0███000███00▄███▄▄▄00000███0000███000███0000███000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
-|0███000███0▀▀███▀▀▀00000███0000███0▀███████████000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
-|0███000███000███0000█▄00███0000███000███0000███000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
-|0███000███000███0000███0███0000███000███0000███000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
-|00▀█000█▀0000██████████00▀██████▀0000███0000█▀0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
-|00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
-+=====================================================================================================================================================+");
-            WriteLine("The land of Neoa awaits, are you prepared for your fate....");
-            WriteLine("..Whoever you are..?");
-            WriteLine("Tell us your name.");
-            string CNAME = Console.ReadLine();
-            bool correct = false;
+╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000║
+║000000███00000000▄█0000█▄0000000▄████████0000000▄█000▄█▄00▄█00███▄▄▄▄000000▄██████▄00████████▄000▄██████▄0000▄▄▄▄███▄▄▄▄0000000▄██████▄00000▄████████0000║
+║00▀█████████▄000███0000███00000███0000███000000███0▄███▀0███00███▀▀▀██▄000███0000███0███000▀███0███0000███0▄██▀▀▀███▀▀▀██▄0000███0000███000███0000███0000║
+║00000▀███▀▀██000███0000███00000███0000█▀0000000███▐██▀000███▌0███000███000███0000█▀00███0000███0███0000███0███000███000███0000███0000███000███0000█▀00000║
+║000000███000▀00▄███▄▄▄▄███▄▄00▄███▄▄▄000000000▄█████▀0000███▌0███000███00▄███00000000███0000███0███0000███0███000███000███0000███0000███00▄███▄▄▄00000000║
+║000000███00000▀▀███▀▀▀▀███▀00▀▀███▀▀▀00000000▀▀█████▄0000███▌0███000███0▀▀███0████▄00███0000███0███0000███0███000███000███0000███0000███0▀▀███▀▀▀00000000║
+║000000███0000000███0000███00000███0000█▄0000000███▐██▄000███00███000███000███0000███0███0000███0███0000███0███000███000███0000███0000███000███00000000000║
+║000000███0000000███0000███00000███0000███000000███0▀███▄0███00███000███000███0000███0███000▄███0███0000███0███000███000███0000███0000███000███00000000000║
+║00000▄████▀00000███0000█▀000000██████████000000███000▀█▀0█▀0000▀█000█▀0000████████▀00████████▀000▀██████▀000▀█000███000█▀000000▀██████▀0000███00000000000║
+║00000000000000000000000000000000000000000000000▀000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000║
+║000000000000000000000000000000000000000000000000000███▄▄▄▄000000▄████████00▄██████▄00000▄████████00000000000000000000000000000000000000000000000000000000║
+║000000000000000000000000000000000000000000000000000███▀▀▀██▄000███0000███0███0000███000███0000███00000000000000000000000000000000000000000000000000000000║
+║000000000000000000000000000000000000000000000000000███000███000███0000█▀00███0000███000███0000███00000000000000000000000000000000000000000000000000000000║
+║000000000000000000000000000000000000000000000000000███000███00▄███▄▄▄00000███0000███000███0000███00000000000000000000000000000000000000000000000000000000║
+║000000000000000000000000000000000000000000000000000███000███0▀▀███▀▀▀00000███0000███0▀███████████00000000000000000000000000000000000000000000000000000000║
+║000000000000000000000000000000000000000000000000000███000███000███0000█▄00███0000███000███0000███00000000000000000000000000000000000000000000000000000000║
+║000000000000000000000000000000000000000000000000000███000███000███0000███0███0000███000███0000███00000000000000000000000000000000000000000000000000000000║
+║0000000000000000000000000000000000000000000000000000▀█000█▀0000██████████00▀██████▀0000███0000█▀000000000000000000000000000000000000000000000000000000000║
+║000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000║
+╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝");
+            DisplayLine("The land of Neoa awaits, are you prepared for your fate...");
+            DisplayLine("...Whoever you are?");
+            DisplayLine("Tell us your name.");
 
-            //Strings
-            //Faction selection string used later on
-            string Ethnicity;
-            string Faction;
-            string ANC;
-
-            do
+            player.Name = Console.ReadLine();
+            while (string.IsNullOrWhiteSpace(player.Name))
             {
-                WriteLine("Where are you from " + CNAME);
-                Console.WriteLine("+=============+");
-                Console.WriteLine("|Neoan        |");
-                Console.WriteLine("|Anaxian      |");
-                Console.WriteLine("|Null         |");
-                Console.WriteLine("+=============+");
-                Ethnicity = Console.ReadLine();
-                correct = true;
-                if (Ethnicity == "Neoan")
-                {
-                    correct = true;
-                }
-                else if (Ethnicity == "Anaxian")
-                {
-                    correct = true;
-                }
-                else if (Ethnicity == "Null")
-                {
-                    correct = false;
-                    Console.WriteLine("You really thought this did something did you? Not yet at least");
+                Console.WriteLine("It's not even a name!\n");
+                player.Name = Console.ReadLine();
+            }
 
+            while (true)
+            {
+                DisplayLine($"\nWhere are you from {player.Name}");
+                Console.WriteLine("╔═════════════════════════╗");
+                Console.WriteLine("║          Neoan          ║");
+                Console.WriteLine("║         Anaxian         ║");
+                Console.WriteLine("╚═════════════════════════╝");
+
+                player.Ethnicity = Console.ReadLine();
+                while (string.IsNullOrWhiteSpace(player.Ethnicity) && player.Ethnicity != "Neoan" && player.Ethnicity != "Anaxian")
+                {
+                    Console.WriteLine("That isn't a real place, or ethnicity within this realm!");
+                    player.Ethnicity = Console.ReadLine();
+                }
+
+                DisplayLine($"Are you sure this is what you want? Your current ethnicity is {player.Ethnicity}");
+                if (player.Ethnicity == "Neoan")
+                {
+                    Console.WriteLine("Selecting Neoan is the most basic option you can pick during these stages");
+                    Console.WriteLine("Anaxians have more dialog. Are you sure you want to pick this? you may only turn back if you reset");
+                }
+                else if (player.Ethnicity == "Anaxian")
+                {
+                    Console.WriteLine("Selecting Anaxian gives you many more options at this stage in the games development.");
+                }
+
+                Console.WriteLine("Y/N");
+                string input = Console.ReadLine();
+                if (input.ToLower() == "y")
+                {
+                    break;
                 }
                 else
                 {
-                    WriteLine("The schizophrenic voices kick in " + CNAME + ".");
-                    Console.WriteLine("That isn't a real place, or ethnicity within this realm");
-                    WriteLine("[Make sure to use proper capitalization]");
-                    correct = false;
-                    Console.ReadKey();
-                    Console.Clear();
+                    continue;
                 }
-                if (correct == true)
-                {
-                    WriteLine("Are you sure this is what you want? Your current ethnicity is " + Ethnicity);
-                    if (Ethnicity == "Neoan")
-                    {
-                        Console.WriteLine("Selecting Neoan is the most basic option you can pick during these stages");
-                        Console.WriteLine("Anaxians have more dialog. Are you sure you want to pick this? you may only turn back if you reset");
-                    }
-                    else if (Ethnicity == "Anaxian")
-                    {
-                        Console.WriteLine("Selecting Anaxian gives you many more options at this stage in the games development.");
-                    }
-                    Console.WriteLine("Y/N");
-                    string input = Console.ReadLine();
-                    if (input.ToLower() == "y")
-                    {
-                        correct = true;
-                    }
-                    else if (input.ToLower() == "n")
-                    {
-                        correct = false;
-                    }
-
-                }
-
             }
-            while (correct == false);
 
-            do
+            while (true)
             {
-                WriteLine("Ancient Ancestor");
-                Console.WriteLine("+=========================+");
-                Console.WriteLine("|Avalon                   |");
-                Console.WriteLine("|Iedelan                  |");
-                Console.WriteLine("|Tau-an                   |");
-                Console.WriteLine("|Null                     |");
-                Console.WriteLine("+=========================+");
-                ANC = Console.ReadLine();
-                if (ANC == "Avalon")
+                DisplayLine("Ancient Ancestor");
+                Console.WriteLine("╔═════════════════════════╗");
+                Console.WriteLine("║          Avalon         ║");
+                Console.WriteLine("║         Iedelan         ║");
+                Console.WriteLine("║          Tau-an         ║");
+                Console.WriteLine("╚═════════════════════════╝");
+
+                player.Ancestor = Console.ReadLine();
+                while (string.IsNullOrWhiteSpace(player.Ancestor) && player.Ancestor != "Avalon" && player.Ancestor != "Iedelan" && player.Ancestor != "Tau-an")
                 {
-                    correct = true;
-                    Console.WriteLine("Avalon");
-                    Console.ReadKey();
+                    Console.WriteLine("That is not a real ancestor!");
+                    player.Ancestor = Console.ReadLine();
                 }
-                else if (ANC == "Iedelan")
+
+
+                Console.WriteLine($"Current Ancient Ancestor {player.Ancestor}");
+                DisplayLine("Are you sure this is what you want your decision to be? You cannot change this.");
+                Console.WriteLine("Y/N");
+
+                string input = Console.ReadLine();
+                if (input.ToLower() == "y")
                 {
-                    correct = true;
-                    Console.WriteLine("Iedelan");
-                    Console.WriteLine();
-                    Console.ReadKey();
-                }
-                else if (ANC == "Tau-an")
-                {
-                    correct = true;
+                    break;
                 }
                 else
                 {
-                    Console.WriteLine("The schizophrenic voices.... " + CNAME);
-                    Console.WriteLine("That is not a real ancestor");
-                    Console.ReadKey();
-                    Console.Clear();
+                    continue;
                 }
-                if (ANC == "Avalon" || ANC == "Iedelan" || ANC == "Tau-an")
-                {
-                    Console.WriteLine("Current Ancient Ancestor " + ANC);
-                    WriteLine("Are you sure this is what you want your decision to be? You cannot change this.");
-                    Console.WriteLine("Y/N");
-                    string input = Console.ReadLine();
-                    if (input.ToLower() == "y")
-                    {
-                        correct = true;
-                    }
-                    else if (input.ToLower() == "n")
-                    {
-                        correct = false;
-                        Console.Clear();
-                    }
-                }
-
-            } while (correct == false);
-
-            do
-            {
-                WriteLine("");
             }
-            while (correct == false);
 
             Console.Clear();
-            WriteLine("...You awaken in a dark cell, with no memory of anything from your past..");
-            WriteLine("");
-            if (CNAME == "")
-                WriteLine("Not even your name.. as you begin to think..");
-            else
-                WriteLine("The only thing you remember is your name " + CNAME);
-            WriteLine("The knob on the door begins to turn.. a guard walks through the door");
-            WriteLine("he pulls you up and tells you to follow him.");
-            //This begining is just an idea and not solidified.
-            if (Ethnicity == "Anaxian")
-                Encounters.PrisonFirstEncounter();
+            DisplayLine("...You awaken in a dark cell, with no memory of anything from your past...\n");
+            DisplayLine($"The only thing you remember is your name {player.Name}");
+            DisplayLine("The knob on the door begins to turn.. a guard walks through the door...");
+            DisplayLine("...he pulls you up and tells you to follow him.");
 
-            WriteLine("\"" + CNAME + "you've got some friends in high places, the king has ordered your release\"");
-            WriteLine("after leading you to the entrance of the prison the guard tells you one thing before letting you leave");
-            WriteLine("\"be careful with what you do out there, you aren't going to like what they think of you");
+            //if (Ethnicity == "Anaxian") Encounters.PrisonFirstEncounter();
 
-
+            DisplayLine($"\"{player.Name}you've got some friends in high places, the king has ordered your release\"");
+            DisplayLine("after leading you to the entrance of the prison the guard tells you one thing before letting you leave");
+            DisplayLine("\"be careful with what you do out there, you aren't going to like what they think of you");
         }
 
         static void NewBeginnings()
@@ -210,10 +165,9 @@ namespace Neoa
 
         static void Credits()
         {
-            WriteLine("So, you've reached a point that the game ended sadly");
-            WriteLine("In the future there will be more. For now enjoy these credits");
+            DisplayLine("So, you've reached a point that the game ended sadly");
+            DisplayLine("In the future there will be more. For now enjoy these credits");
             Console.WriteLine(@"   
-
   ____________________________________________________________________________________________
   |              Code/Lore                      |     Honorable Mention[Characters]           |          
   |             Deacon Hunter                   |             Neoan King                      |
@@ -223,18 +177,17 @@ namespace Neoa
   |                                             |                                             |
   |                                             |                                             |
   |                                             |                                             |
-  |                                             |                                             |
-  |                                             |                                             |  
-  |                                             |                                             |
-  |                                             |                                             |
-  /\____________________________________________/\____________________________________________/\");
-            WriteLine("Press enter to clear.");
+  /\____________________________________________/\____________________________________________/\
+          
+          
+          ");
+            DisplayLine("Press enter to clear.");
             Console.ReadKey();
             Console.Clear();
+
         }
 
-        //type animation
-        public static void WriteLine(string text, int speed = 70)
+        public static void DisplayLine(string text, int speed = 60)
         {
             foreach (char c in text)
             {
