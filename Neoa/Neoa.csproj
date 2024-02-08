@@ -1,19 +1,12 @@
-﻿
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <PackageId>Neoa</PackageId>
-    <Version>0.0.0.1</Version>
-   <Authors>Deacon-Hunter</Authors>
-   <PackageDescription>Text based game</PackageDescription>
-    <RepositoryUrl>https://github.com/DELUXEHUNTER/Neoa</RepositoryUrl>
 
-  </PropertyGroup>
+ <PropertyGroup>
+   <OutputType>Exe</OutputType>
+   <TargetFramework>net8.0</TargetFramework>
+   <ImplicitUsings>enable</ImplicitUsings>
+   <Nullable>disable</Nullable>
+ </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Neoa" Version="0.0.0.1" />
-  </ItemGroup>
 
 </Project>
