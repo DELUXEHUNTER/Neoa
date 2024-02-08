@@ -1,24 +1,21 @@
-# Neoa.
-Welcome to Neo, despite all the files and even the title screen being Neoa, this game is called Neo, eventually I may decide to change the names to neo, or remove mention of neo at all but for now this game is called Neo. This is the first game I've ever made, and I do understand that it may not be the best game, or story at all but thats not the point of this game, the point of the game is to have fun while making or playing it. And I hope that if you enjoy the game you will star it, share with your friends, help me develop it, or contribute to the lore writing, whatever you would like to do, because I will try my best but without help I don't know what I will do, especially with certain things like the save system, I can't do that sadly despite trying my hardest. 
-
-In the distant future this game will possibly become either a prolouge or exposure of the background lore in another game I will be making by the same name, or the first few sections of the game will be considered the prolouge but it would possibly be better if I just make two seperate games. 
-
-A future thanks to anyone who contributes in any way, thank you for all of your hard work, and help, I couldn't have done it without you, well maybe I could have if I worked hard and took a few months, but with your help it has been faster than ever, and I really do appreciate it, because all this is is really just a waste of time and that makes it mean even more to me, I know this apology is useless because I expect no one to help me but still thank you a lot. 
-
-
-**Discord Server:** In progress
-
-Also just another note, if I don't respond on discord, I'm unable during school at 6:58AM until 4:20PM. Sorry for the inconvience  
+<h1 align="center">Lands of Neoa</h1>
+<p align="left">Welcome to Neo, despite all the files and even the title screen being Neoa, this game is called Neo, eventually I may decide to change the names to neo, or remove mention of neo at all but for now this game is called Neo. This is the first game I've ever made, and I do understand that it may not be the best game, or story at all but thats not the point of this game, the point of the game is to have fun while making or playing it. And I hope that if you enjoy the game you will star it, share with your friends, help me develop it, or contribute to the lore writing, whatever you would like to do, because I will try my best but without help I don't know what I will do, especially with certain things like the save system, I can't do that sadly despite trying my hardest.</p>
+<br>
+<p>A future thank you to anyone who contributes in any way, thank you for all of your hard work, and help, I couldn't have done it without you, well maybe I could have if I worked hard and took a few months, but with your help it has been faster than ever, and I really do appreciate it, because all this is is really just a waste of time and that makes it mean even more to me, I know this apology is useless because I expect no one to help me but still thank you a lot.</p>
+<br>
+<p>if I don't respond on discord, I'm unable during school at 6:58AM until 4:20PM. Sorry for the inconvience</p>
 
 #### Information
 The game is still in development and is almost unplayable. At some point during the game there will be absolutely 0 encounters, and there will barely be any encounters, the game will be less focused on stats and more on the story until someone else would like to help with all of that. I don't feel like doing that all until I at least finish the entire thing.
+
+-------------------------------------
 
 ### To-Do/Things I need help with/Future Ideas:
 - TOP PRIORITY: <a href="https://github.com/DELUXEHUNTER/neo/blob/Master/Lore.md">Lore writing</a>
 - TOP PRIORITY: In browser gameplay.
 - Writing the dialog and giving choices.
 - Save System/Progress restore
-- Classes, Race, Alignments/factions, ect....
+- Classes, Race, Alignments/factions, ect.... 
 - OPTIONAL ACSII art, either found or someone making them.
 - Better choice selection.
 - Alternate Modes/DLCS:
