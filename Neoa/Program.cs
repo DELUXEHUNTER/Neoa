@@ -168,7 +168,7 @@ Console.WriteLine(@"
         Console.ReadKey();
         Console.Clear();
       }
-      if (ANC == "Avalon"||ANC == "Iedelan"||ANC == Tau-an)
+      if (ANC == "Avalon"||ANC == "Iedelan"||ANC == "Tau-an")
       {        
         Console.WriteLine("Current Ancient Ancestor "+ANC);
         WriteLine("Are you sure this is what you want your decision to be? You cannot change this.");
