@@ -154,8 +154,8 @@ Console.WriteLine(@"
       else if(ANC ==  "Iedelan")
       {
         correct = true;
-        Console.WriteLine("Iedelan, The keeper")
-        Console.WriteLine()
+        Console.WriteLine("Iedelan, The keeper");
+        Console.WriteLine();
       }
       else if(ANC == "Tau-an")
       {
@@ -189,8 +189,8 @@ Console.WriteLine(@"
 
     do {
       WriteLine("");
-
     }
+    while(correct == false);
 
 
 
