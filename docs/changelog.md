@@ -1,9 +1,9 @@
-## Changelog/Version History
-The code of the game is divided into parts a part does is not stated inside the actual game and is hidden.
+<h2> Changelog/Version History</h2>
+<p>The code of the game is divided into parts a part does is not stated inside the actual game and is hidden. The Prologue is considered Part 0</p>
 
-### V.0.0.0
-Prologue:
 
+<h3> V.0.0.0<h3>
+<p>Prologue:</p>
 * Titlescreen
 * Type effect
 * Encounters
@@ -16,7 +16,7 @@ Prologue:
 
 
 V.0.0.1 will be used once prologue is finished
-### V.0.0.1.
-Part 1:
+<h3> V.0.0.1.</h3>
+<p>Part 1:</p>
 
  

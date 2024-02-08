@@ -26,7 +26,3 @@
 
 
 <p align="justify">Sometime in a few months I will have to leave for 3 months and will not be able to access any of my electronic devices. I don't expect anyone to want to help with this project/game but if you do remember this, and when I do come back I'll review everything and start coding again</p>
-
-
-
-
