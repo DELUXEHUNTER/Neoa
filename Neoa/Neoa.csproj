@@ -8,3 +8,21 @@
   </PropertyGroup>
 
 </Project>
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageId>Neoa</PackageId>
+    <Version>X.X.X</Version>
+   <Authors>Deacon-Hunter</Authors>
+   <PackageDescription>This package adds an Octocat!</PackageDescription>
+    <RepositoryUrl>https://github.com/OWNER/REPOSITORY</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PACKAGE_NAME" Version="X.X.X" />
+  </ItemGroup>
+
+</Project>
