@@ -61,11 +61,11 @@ Idelan is the patron of Anaxia, The greatest King in Anaxian history
 
 <h3> | Miscellaneous |</h3>
 
-This category is for miscellaneous things, like really dumb myths and joke characters, basically useless and just for fun not even actual writing, some may be actual myths but typically these are jokes not meant for anything. Typically the people of this world do believe in them.
+<p>This category is for miscellaneous things, like really dumb myths and joke characters, basically useless and just for fun not even actual writing, some may be actual myths but typically these are jokes not meant for anything. Typically the people of this world do believe in them.</p>
 
 <h3> Neoan</h3>
 
-Neoan myths and legends
+<p>Neoan myths and legends</p>
 
 
 
@@ -73,7 +73,7 @@ Neoan myths and legends
 ---------------------------------------------------------------
 <h3> Anaxian</h3>
 
-Anaxian myths and legends
+<p>Anaxian myths and legends</p>
 
 
 
