@@ -45,7 +45,6 @@ namespace Neoa
         }
     
         //Encounter Tools 
-
         public static void RandomEncounter()
         {
             enviro = "RandomEnc";
