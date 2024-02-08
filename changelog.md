@@ -11,7 +11,6 @@
 * Added credits in file, not to the game just yet.
 
 
-### V.0.0.0.1
-
+### V.0.0.1.
 
  

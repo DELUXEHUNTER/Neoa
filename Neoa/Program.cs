@@ -1,4 +1,7 @@
 ﻿/*
+
+Add your name
+
 OWNER: 
 DEACON HUNTER
 
@@ -11,6 +14,7 @@ FEBRUARY 1ST 2024
 
 INDIRECT CONTRIBUTERS/CONTRIBUTION/CREDIT:
 1. TUTORIAL USED I FORGOT THE NAME
+
 
 
 */
@@ -31,6 +35,7 @@ namespace Neoa
         {
         Console.ForegroundColor = ConsoleColor.Red;
         Prologue();
+        
 
         Credits();
         
@@ -70,6 +75,8 @@ Console.WriteLine(@"
     string Ethnicity;
     string Faction; 
     string ANC; 
+    
+
     do {  
       WriteLine("Where are you from "+CNAME);
       Console.WriteLine("+=============+");
@@ -156,9 +163,32 @@ Console.WriteLine(@"
       {
         Console.WriteLine("The schizophrenic voices.... "+CNAME);
         Console.WriteLine("That is not a real ancestor");
+        Console.ReadKey();
+        Console.Clear();
+      }
+      if (ANC == "Avalon"||ANC == "Iedelan"||ANC == Tau-an)
+      {        
+        Console.WriteLine("Current Ancient Ancestor "+ANC);
+        WriteLine("Are you sure this is what you want your decision to be? You cannot change this.");
+        Console.WriteLine("Y/N");
+        string input = Console.ReadLine();
+        if (input.ToLower() == "y")
+        {
+          correct = true;
+        }
+        else if(input.ToLower() == "n")
+        {
+          correct = false;
+          Console.Clear();
+        }
       }
       
     }while(correct == false);
+
+    do {
+      WriteLine("");
+
+    }
 
 
 
@@ -182,7 +212,7 @@ Console.WriteLine(@"
 
     static void NewBeginnings()
     {
-      //
+      //Temp name
       Console.WriteLine("Wombat");
     }
 

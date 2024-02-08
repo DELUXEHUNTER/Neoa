@@ -10,19 +10,18 @@ At the very end of the game a credit scene will be played, I don't have the cred
 #### Information
 The game is still in development and is almost unplayable. At some point during the game there will be absolutely 0 encounters, and there will barely be any encounters, the game will be less focused on stats and more on the story until someone else would like to help with all of that. I don't feel like doing that all until I at least finish the entire thing.
 
-
-
 ### To-Do/Things I need help with:
 - TOP PRIORITY <a href="https://github.com/DELUXEHUNTER/neo/blob/Master/Lore.md">Lore writing</a>
 - Writing the dialog and giving choices.
 - Save System/Progress restore
 - Classes, Race, Alignments/factions, ect....
 - OPTIONAL ACSII art, either found or someone making them.
+- Better choice selection.
+
+A future plan is for this game to be playable in browser, and to add it to itch.io or newgrounds. 
 
 
 
-
-Sometime in the future I will add an entire ending screen with credit to the people who helped make this project, ect...
 
 **IMPORTANT:** Sometime in a few months I will have to leave for 3 months and will not be able to access any of my electronic devices. I don't expect anyone to want to help with this project/game but if you do remember this, and when I do come back I'll review everything and start coding again.
 
