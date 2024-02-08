@@ -12,32 +12,23 @@
 
   If you want to see your name in the credits section, add your name above. */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Neoa
 {
     public class Program
     {
         Random rand = new Random();
         public static Player CNAME = new Player();
+
         static void Main(string[] args)
-
         {
-        Console.ForegroundColor = ConsoleColor.Red;
-        Prologue();
-        
-
-        Credits();
-        
+            Console.ForegroundColor = ConsoleColor.Red;
+            Prologue();
+            Credits();
         }
 
-      static void Prologue()
-    {
-Console.WriteLine(@"
+        static void Prologue()
+        {
+            Console.WriteLine(@"
 +=====================================================================================================================================================+
 |00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
 |00000███00000000▄█0000█▄0000000▄████████0000000▄█000▄█▄00▄█00███▄▄▄▄000000▄██████▄00████████▄000▄██████▄0000▄▄▄▄███▄▄▄▄0000000▄██████▄00000▄████████0|
@@ -59,171 +50,169 @@ Console.WriteLine(@"
 |00▀█000█▀0000██████████00▀██████▀0000███0000█▀0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
 |00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000|
 +=====================================================================================================================================================+");
-      WriteLine("The land of Neoa awaits, are you prepared for your fate....");
-      WriteLine("..Whoever you are..?");
-      WriteLine("Tell us your name.");
-      string CNAME = Console.ReadLine();
-      bool correct = false;
+            WriteLine("The land of Neoa awaits, are you prepared for your fate....");
+            WriteLine("..Whoever you are..?");
+            WriteLine("Tell us your name.");
+            string CNAME = Console.ReadLine();
+            bool correct = false;
 
-    //Strings
-    //Faction selection string used later on
-    string Ethnicity;
-    string Faction; 
-    string ANC; 
+            //Strings
+            //Faction selection string used later on
+            string Ethnicity;
+            string Faction;
+            string ANC;
 
-    do {  
-      WriteLine("Where are you from "+CNAME);
-      Console.WriteLine("+=============+");
-      Console.WriteLine("|Neoan        |");
-      Console.WriteLine("|Anaxian      |");
-      Console.WriteLine("|Null         |");
-      Console.WriteLine("+=============+");
-      Ethnicity = Console.ReadLine();
-      correct = true;
-      if (Ethnicity == "Neoan")
-      {
-        correct = true;
-      }
-      else if (Ethnicity == "Anaxian" )
-      {
-        correct = true;
-      }
-      else if (Ethnicity == "Null" )
-      {
-        correct = false;
-        Console.WriteLine("You really thought this did something did you? Not yet at least");
+            do
+            {
+                WriteLine("Where are you from " + CNAME);
+                Console.WriteLine("+=============+");
+                Console.WriteLine("|Neoan        |");
+                Console.WriteLine("|Anaxian      |");
+                Console.WriteLine("|Null         |");
+                Console.WriteLine("+=============+");
+                Ethnicity = Console.ReadLine();
+                correct = true;
+                if (Ethnicity == "Neoan")
+                {
+                    correct = true;
+                }
+                else if (Ethnicity == "Anaxian")
+                {
+                    correct = true;
+                }
+                else if (Ethnicity == "Null")
+                {
+                    correct = false;
+                    Console.WriteLine("You really thought this did something did you? Not yet at least");
 
-      }
-      else 
-      {
-        WriteLine("The schizophrenic voices kick in "+CNAME+".");
-        Console.WriteLine("That isn't a real place, or ethnicity within this realm");
-        WriteLine("[Make sure to use proper capitalization]");
-        correct = false;
-        Console.ReadKey();
-        Console.Clear();
-      }
-      if(correct == true)
-      {
-        WriteLine("Are you sure this is what you want? Your current ethnicity is "+Ethnicity);
-        if(Ethnicity == "Neoan")
-        {
-          Console.WriteLine("Selecting Neoan is the most basic option you can pick during these stages");
-          Console.WriteLine("Anaxians have more dialog. Are you sure you want to pick this? you may only turn back if you reset");
+                }
+                else
+                {
+                    WriteLine("The schizophrenic voices kick in " + CNAME + ".");
+                    Console.WriteLine("That isn't a real place, or ethnicity within this realm");
+                    WriteLine("[Make sure to use proper capitalization]");
+                    correct = false;
+                    Console.ReadKey();
+                    Console.Clear();
+                }
+                if (correct == true)
+                {
+                    WriteLine("Are you sure this is what you want? Your current ethnicity is " + Ethnicity);
+                    if (Ethnicity == "Neoan")
+                    {
+                        Console.WriteLine("Selecting Neoan is the most basic option you can pick during these stages");
+                        Console.WriteLine("Anaxians have more dialog. Are you sure you want to pick this? you may only turn back if you reset");
+                    }
+                    else if (Ethnicity == "Anaxian")
+                    {
+                        Console.WriteLine("Selecting Anaxian gives you many more options at this stage in the games development.");
+                    }
+                    Console.WriteLine("Y/N");
+                    string input = Console.ReadLine();
+                    if (input.ToLower() == "y")
+                    {
+                        correct = true;
+                    }
+                    else if (input.ToLower() == "n")
+                    {
+                        correct = false;
+                    }
+
+                }
+
+            }
+            while (correct == false);
+
+            do
+            {
+                WriteLine("Ancient Ancestor");
+                Console.WriteLine("+=========================+");
+                Console.WriteLine("|Avalon                   |");
+                Console.WriteLine("|Iedelan                  |");
+                Console.WriteLine("|Tau-an                   |");
+                Console.WriteLine("|Null                     |");
+                Console.WriteLine("+=========================+");
+                ANC = Console.ReadLine();
+                if (ANC == "Avalon")
+                {
+                    correct = true;
+                    Console.WriteLine("Avalon");
+                    Console.ReadKey();
+                }
+                else if (ANC == "Iedelan")
+                {
+                    correct = true;
+                    Console.WriteLine("Iedelan");
+                    Console.WriteLine();
+                    Console.ReadKey();
+                }
+                else if (ANC == "Tau-an")
+                {
+                    correct = true;
+                }
+                else
+                {
+                    Console.WriteLine("The schizophrenic voices.... " + CNAME);
+                    Console.WriteLine("That is not a real ancestor");
+                    Console.ReadKey();
+                    Console.Clear();
+                }
+                if (ANC == "Avalon" || ANC == "Iedelan" || ANC == "Tau-an")
+                {
+                    Console.WriteLine("Current Ancient Ancestor " + ANC);
+                    WriteLine("Are you sure this is what you want your decision to be? You cannot change this.");
+                    Console.WriteLine("Y/N");
+                    string input = Console.ReadLine();
+                    if (input.ToLower() == "y")
+                    {
+                        correct = true;
+                    }
+                    else if (input.ToLower() == "n")
+                    {
+                        correct = false;
+                        Console.Clear();
+                    }
+                }
+
+            } while (correct == false);
+
+            do
+            {
+                WriteLine("");
+            }
+            while (correct == false);
+
+            Console.Clear();
+            WriteLine("...You awaken in a dark cell, with no memory of anything from your past..");
+            WriteLine("");
+            if (CNAME == "")
+                WriteLine("Not even your name.. as you begin to think..");
+            else
+                WriteLine("The only thing you remember is your name " + CNAME);
+            WriteLine("The knob on the door begins to turn.. a guard walks through the door");
+            WriteLine("he pulls you up and tells you to follow him.");
+            //This begining is just an idea and not solidified.
+            if (Ethnicity == "Anaxian")
+                Encounters.PrisonFirstEncounter();
+
+            WriteLine("\"" + CNAME + "you've got some friends in high places, the king has ordered your release\"");
+            WriteLine("after leading you to the entrance of the prison the guard tells you one thing before letting you leave");
+            WriteLine("\"be careful with what you do out there, you aren't going to like what they think of you");
+
+
         }
-        else if(Ethnicity == "Anaxian")
+
+        static void NewBeginnings()
         {
-          Console.WriteLine("Selecting Anaxian gives you many more options at this stage in the games development.");
+            //Temp name
+            Console.WriteLine("Wombat");
         }
-        Console.WriteLine("Y/N");
-        string input = Console.ReadLine();
-        if(input.ToLower() == "y")
+
+        static void Credits()
         {
-            correct = true;
-        }
-        else if (input.ToLower() == "n")
-        {
-            correct = false;
-        }
-        
-      }
-      
-    } 
-    while(correct == false);
-    
-    do {
-      WriteLine("Ancient Ancestor");
-      Console.WriteLine("+=========================+");
-      Console.WriteLine("|Avalon                   |");
-      Console.WriteLine("|Iedelan                  |");
-      Console.WriteLine("|Tau-an                   |");
-      Console.WriteLine("|Null                     |");
-      Console.WriteLine("+=========================+");
-      ANC = Console.ReadLine();
-      if(ANC == "Avalon")
-      {
-        correct = true;
-        Console.WriteLine("Avalon");
-        Console.ReadKey();
-      }
-      else if(ANC ==  "Iedelan")
-      {
-        correct = true;
-        Console.WriteLine("Iedelan");
-        Console.WriteLine();
-        Console.ReadKey();
-      }
-      else if(ANC == "Tau-an")
-      {
-        correct = true;
-      }
-      else
-      {
-        Console.WriteLine("The schizophrenic voices.... "+CNAME);
-        Console.WriteLine("That is not a real ancestor");
-        Console.ReadKey();
-        Console.Clear();
-      }
-      if (ANC == "Avalon"||ANC == "Iedelan"||ANC == "Tau-an")
-      {        
-        Console.WriteLine("Current Ancient Ancestor "+ANC);
-        WriteLine("Are you sure this is what you want your decision to be? You cannot change this.");
-        Console.WriteLine("Y/N");
-        string input = Console.ReadLine();
-        if (input.ToLower() == "y")
-        {
-          correct = true;
-        }
-        else if(input.ToLower() == "n")
-        {
-          correct = false;
-          Console.Clear();
-        }
-      }
-      
-    }while(correct == false);
-
-    do {
-      WriteLine("");
-    }
-    while(correct == false);
-
-      Console.Clear();
-      WriteLine("...You awaken in a dark cell, with no memory of anything from your past..");
-      WriteLine("");
-      if (CNAME == "")
-        WriteLine("Not even your name.. as you begin to think..");
-      else 
-      WriteLine("The only thing you remember is your name " + CNAME);
-      WriteLine("The knob on the door begins to turn.. a guard walks through the door");
-      WriteLine("he pulls you up and tells you to follow him.");
-      //This begining is just an idea and not solidified.
-      if (Ethnicity == "Anaxian")
-      Encounters.PrisonFirstEncounter();
-
-      WriteLine("\""+CNAME+"you've got some friends in high places, the king has ordered your release\"" );  
-      WriteLine("after leading you to the entrance of the prison the guard tells you one thing before letting you leave");
-      WriteLine("\"be careful with what you do out there, you aren't going to like what they think of you");
-
-       
-      }
-
-    static void NewBeginnings()
-    {
-      //Temp name
-      Console.WriteLine("Wombat");
-    }
-
-
-
-
-
-
-  static void Credits()
-  {
-    WriteLine("So, you've reached a point that the game ended sadly");
-    WriteLine("In the future there will be more. For now enjoy these credits");
-    Console.WriteLine(@"   
+            WriteLine("So, you've reached a point that the game ended sadly");
+            WriteLine("In the future there will be more. For now enjoy these credits");
+            Console.WriteLine(@"   
 
   ____________________________________________________________________________________________
   |              Code/Lore                      |     Honorable Mention[Characters]           |          
@@ -239,23 +228,20 @@ Console.WriteLine(@"
   |                                             |                                             |
   |                                             |                                             |
   /\____________________________________________/\____________________________________________/\");
-  WriteLine("Press enter to clear.");
-  Console.ReadKey();
-  Console.Clear();
-  }
+            WriteLine("Press enter to clear.");
+            Console.ReadKey();
+            Console.Clear();
+        }
 
-
-//type animation
-  public static void WriteLine(string text, int speed = 70)
-    {
-      foreach (char c in text)
-      {
-        Console.Write(c);
-         System.Threading.Thread.Sleep(110);
-      }
-      Console.WriteLine();
-    } 
-
-  }  
-
+        //type animation
+        public static void WriteLine(string text, int speed = 70)
+        {
+            foreach (char c in text)
+            {
+                Console.Write(c);
+                System.Threading.Thread.Sleep(110);
+            }
+            Console.WriteLine();
+        }
+    }
 }
