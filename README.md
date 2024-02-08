@@ -14,8 +14,8 @@
 
 <h3> To-Do/Things I need help with/Future Ideas:</h3>
 
-- TOP PRIORITY: <a href="https://github.com/DELUXEHUNTER/neo/blob/Master/Lore.md">Lore writing</a>
-- TOP PRIORITY: In browser gameplay.
+- <a href="https://github.com/DELUXEHUNTER/neo/blob/Master/Lore.md">Lore writing</a>
+- Play in browser. 
 - Writing the dialog and giving choices.
 - Save System/Progress restore
 - Classes, Race, Alignments/factions, ect.... 
