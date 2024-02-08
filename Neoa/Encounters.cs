@@ -7,18 +7,18 @@ namespace Neoa
         public static void PrisonFirstEncounter()
         {
             enviro = "FirstEnc";
-            WriteLine("After walking a short distance from your cell a prisoner comes up to you..");
-            WriteLine("..\"Anaxians are all the same I'm tired of you all\"");
-            WriteLine("The deranged man begins to attempt to attack you using a rusty sword");
-            WriteLine("Right before the man can attack you the guard quickly tosses you his sword");
+            Program.DisplayLine("After walking a short distance from your cell a prisoner comes up to you..");
+            Program.DisplayLine("..\"Anaxians are all the same I'm tired of you all\"");
+            Program.DisplayLine("The deranged man begins to attempt to attack you using a rusty sword");
+            Program.DisplayLine("Right before the man can attack you the guard quickly tosses you his sword");
             Console.ReadKey();
             Combat(false, "deranged prisoner", 1, 2);
-            WriteLine("The guard takes back his sword and tells you to continue on");
-            WriteLine("\"So back to what we were taking about, \"");
-            WriteLine(".... he takes a short pause");
+            Program.DisplayLine("The guard takes back his sword and tells you to continue on");
+            Program.DisplayLine("\"So back to what we were taking about, \"");
+            Program.DisplayLine(".... he takes a short pause");
             Console.WriteLine("Save game? Y/n");
             Console.ReadKey();
-            WriteLine("Did you actually think I made a save game yet? Not yet, you can tell I got bored doing this.");
+            Program.DisplayLine("Did you actually think I made a save game yet? Not yet, you can tell I got bored doing this.");
         }
 
         public static void FirstEncounter()
@@ -32,7 +32,7 @@ namespace Neoa
 
         public static void BasicFightEncounter()
         {
-            WriteLine("Hi");
+            Program.DisplayLine("Hi");
             Console.ReadKey();
             Combat(true, "", 0, 0);
 
@@ -61,8 +61,8 @@ namespace Neoa
             if (random)
             {
                 n = GetName();
-                p = Program.CNAME.GetPower() + 1;
-                h = Program.CNAME.GetHealth() + 1;
+                p = Program.player.GetPower() + 1;
+                h = Program.player.GetHealth() + 1;
 
             }
             else
@@ -81,31 +81,31 @@ namespace Neoa
                 Console.WriteLine("| (A)ttack (D)efend  |");
                 Console.WriteLine("|  (R)un    (H)eal   |");
                 Console.WriteLine("======================");
-                Console.WriteLine(" Potions: " + Program.CNAME.potion + " Health: " + Program.CNAME.health);
+                Console.WriteLine(" Potions: " + Program.player.potion + " Health: " + Program.player.health);
                 string input = Console.ReadLine();
                 if (input.ToLower() == "a" || input.ToLower() == "attack")
                 {
                     //Attack
-                    WriteLine("A quick thrust towards the " + n + " as you thrust the " + n + " strikes you");
-                    int damage = p - Program.CNAME.armorValue;
+                    Program.DisplayLine("A quick thrust towards the " + n + " as you thrust the " + n + " strikes you");
+                    int damage = p - Program.player.armorValue;
                     if (damage < 0)
                         damage = 0;
-                    int attack = rand.Next(0, Program.CNAME.weaponValue) + rand.Next(1, 5);
-                    WriteLine("You lose " + damage + "health and deal " + attack + " damage");
-                    Program.CNAME.health -= damage;
+                    int attack = rand.Next(0, Program.player.weaponValue) + rand.Next(1, 5);
+                    Program.DisplayLine("You lose " + damage + "health and deal " + attack + " damage");
+                    Program.player.health -= damage;
                     h -= attack;
                 }
                 else if (input.ToLower() == "d" || input.ToLower() == "defend")
                 {
                     //Defend
-                    WriteLine("As the " + n + " prepares to strike, you ready your sword in a defensive stane");
-                    int damage = (p / 4) - Program.CNAME.armorValue;
+                    Program.DisplayLine("As the " + n + " prepares to strike, you ready your sword in a defensive stane");
+                    int damage = (p / 4) - Program.player.armorValue;
                     if (damage < 0)
                         damage = 0;
-                    int attack = rand.Next(0, Program.CNAME.weaponValue) / 2;
+                    int attack = rand.Next(0, Program.player.weaponValue) / 2;
 
-                    WriteLine("You lose " + damage + "health and deal " + attack + " damage");
-                    Program.CNAME.health -= damage;
+                    Program.DisplayLine("You lose " + damage + "health and deal " + attack + " damage");
+                    Program.player.health -= damage;
                     h -= attack;
                 }
                 else if (input.ToLower() == "r" || input.ToLower() == "run")
@@ -113,16 +113,16 @@ namespace Neoa
                     //Run
                     if (rand.Next(0, 2) == 0)
                     {
-                        WriteLine("As you sprint away the " + n + " strikes you in the back, sending you sprawling");
-                        int damage = p - Program.CNAME.armorValue;
+                        Program.DisplayLine("As you sprint away the " + n + " strikes you in the back, sending you sprawling");
+                        int damage = p - Program.player.armorValue;
                         if (damage < 0)
                             damage = 0;
-                        WriteLine("You lose " + damage + " health and are unable to escape.");
+                        Program.DisplayLine("You lose " + damage + " health and are unable to escape.");
                         Console.ReadKey();
                     }
                     else
                     {
-                        WriteLine("You use your agility to escape from the " + n + " and you successfullY escape!");
+                        Program.DisplayLine("You use your agility to escape from the " + n + " and you successfullY escape!");
                         Console.ReadKey();
                         //Go to store
 
@@ -131,29 +131,29 @@ namespace Neoa
                 else if (input.ToLower() == "h" || input.ToLower() == "Heal")
                 {
                     //Heal
-                    WriteLine("");
-                    if (Program.CNAME.potion == 0)
+                    Program.DisplayLine("");
+                    if (Program.player.potion == 0)
                     {
-                        WriteLine("You deprately grasp for a potion in your bag but all you can feel are empty flasks");
-                        int damage = p - Program.CNAME.armorValue;
+                        Program.DisplayLine("You deprately grasp for a potion in your bag but all you can feel are empty flasks");
+                        int damage = p - Program.player.armorValue;
                         if (damage < 0)
                             damage = 0;
-                        WriteLine("The " + n + " stikes you with a sword and you lose " + damage + " health!");
+                        Program.DisplayLine("The " + n + " stikes you with a sword and you lose " + damage + " health!");
                     }
                     else
                     {
-                        WriteLine("You reach into your bag and drink the liquid in the vial");
+                        Program.DisplayLine("You reach into your bag and drink the liquid in the vial");
                         int potionV = 5;
-                        WriteLine("You gain " + potionV + " health");
-                        Program.CNAME.health += potionV;
+                        Program.DisplayLine("You gain " + potionV + " health");
+                        Program.player.health += potionV;
 
                     }
                     Console.ReadKey();
                 }
-                if (Program.CNAME.health < 0)
+                if (Program.player.health < 0)
                 {
                     //Death 
-                    WriteLine("As the " + n + " stands high it " + n + " has slain you");
+                    Program.DisplayLine("As the " + n + " stands high it " + n + " has slain you");
                     Console.ReadKey();
 
                 }
@@ -164,14 +164,14 @@ namespace Neoa
             {
                 int c = rand.Next(1, 15);
                 Console.WriteLine("You stand victorious over " + n + " and gain " + c + " Neoan Marks");
-                Program.CNAME.NeoanMark += c;
+                Program.player.NeoanMark += c;
                 Console.ReadKey();
             }
             if (enviro == "FirstEnc")
             {
                 int c = rand.Next(0, 5);
                 Console.WriteLine("You stand victorious over " + n + " and gain " + c + " Neoan Marks");
-                Program.CNAME.NeoanMark += c;
+                Program.player.NeoanMark += c;
                 Console.ReadKey();
             }
 
@@ -194,22 +194,6 @@ namespace Neoa
 
         }
 
-
-
-
-        //Type speed
-        public static void WriteLine(string text, int speed = 70)
-        {
-            foreach (char c in text)
-            {
-                Console.Write(c);
-                System.Threading.Thread.Sleep(98);
-            }
-            Console.WriteLine();
-        }
-
         public static string enviro = "";
-
     }
-
 }
