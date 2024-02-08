@@ -4,7 +4,7 @@
 
 <p align="left">A future thank you to anyone who contributes in any way, thank you for all of your hard work, and help, I couldn't have done it without you, well maybe I could have if I worked hard and took a few months, but with your help it has been faster than ever, and I really do appreciate it, because all this is is really just a waste of time and that makes it mean even more to me, I know this apology is useless because I expect no one to help me but still thank you a lot.</p>
 
-<p>if I don't respond on discord, I'm unable during school at 6:58AM until 4:20PM. Sorry for the inconvience</p>
+<p align="justify">if I don't respond on discord, I'm unable during school at 6:58AM until 4:20PM. Sorry for the inconvience</p>
 
 <h4>Information</h4>
 

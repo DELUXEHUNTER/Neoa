@@ -14,23 +14,22 @@
 
 <h3>| World |</h3>
 
-<p>Category for everything in the world, including characters, people, places, ect....</p>
+<p align="justify">Category for everything in the world, including characters, people, places, ect....</p>
 
 
 
 <h3> Neoa</h3>
 
-<p>Neoa is a massive kingdom, in the world of [PlaceHolder], filled with creatures and beings from legends and mythologies around the world. Neoa is typically seen as the most prominent and well known kingdoms in the entirety of 
-[PlaceHolder], Surrounded by many kingdoms, that loosely base themselves around the government structure of Neoa.</p>
+<p align="justify">Neoa is a massive kingdom, in the world of [PlaceHolder], filled with creatures and beings from legends and mythologies around the world. Neoa is typically seen as the most prominent and well known kingdoms in the entirety of [PlaceHolder], Surrounded by many kingdoms, that loosely base themselves around the government structure of Neoa.</p>
 
 <h4>Aedon</h4>
 
-<p>Aedon is the capital of Neoa.</p>
+<p align="justify">Aedon is the capital of Neoa.</p>
 
 ---------------------------------------------------------------
 <h3> Anaxia</h3>
 
-<p>Anaxia is the more tame neighbor to Neoa.</p>
+<p align="justify">Anaxia is the more tame neighbor to Neoa.</p>
 
 ---------------------------------------------------------------
 
@@ -39,17 +38,18 @@
 <p>These people are common ancestors the people of [PlaceHolder] have in common</p>
 
 <h4> Avalon, Neoan Lord</h4>
+<p align="justify"></p>
 
-<p>Avalon is the patron of Neoa, He is the founder of Neoa.</p>
+<p align="justify" >Avalon is the patron of Neoa, He is the founder of Neoa.</p>
 
 <h4> Iedelan, Anaxian hero</h4>
 
-<p>Idelan is the patron of Anaxia, The greatest King in Anaxian history</p>
+<p align="justify">Idelan is the patron of Anaxia, The greatest King in Anaxian history</p>
 
 <h4>Dresden, Traveler of worlds</h4>
 
-<p>[Known as Tau-An in code currently. Dresden is a temporary name and is subject to change]</p>
-<p>A mysterious wandering man who appears at certain times, its unknown why he randomly shows up to certain things, but by many historians in their findings its been noted hes been seen at many important events. No one has ever spoken or seen him but it is suspected that he still lives to this day.</p>
+<p align="justify">[Known as Tau-An in code currently. Dresden is a temporary name and is subject to change]</p>
+<p align="justify">A mysterious wandering man who appears at certain times, its unknown why he randomly shows up to certain things, but by many historians in their findings its been noted hes been seen at many important events. No one has ever spoken or seen him but it is suspected that he still lives to this day.</p>
 
 
 
@@ -58,11 +58,11 @@
 
 <h3> | Miscellaneous |</h3>
 
-<p>This category is for miscellaneous things, like really dumb myths and joke characters, basically useless and just for fun not even actual writing, some may be actual myths but typically these are jokes not meant for anything. Typically the people of this world do believe in them.</p>
+<p align="justify">This category is for miscellaneous things, like really dumb myths and joke characters, basically useless and just for fun not even actual writing, some may be actual myths but typically these are jokes not meant for anything. Typically the people of this world do believe in them.</p>
 
 <h3> Neoan</h3>
 
-<p>Neoan myths and legends</p>
+<p align="justify">Neoan myths and legends</p>
 
 
 
@@ -70,7 +70,7 @@
 ---------------------------------------------------------------
 <h3> Anaxian</h3>
 
-<p>Anaxian myths and legends</p>
+<p align="justify">Anaxian myths and legends</p>
 
 
 
