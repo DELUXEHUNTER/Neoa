@@ -22,7 +22,7 @@
 - OPTIONAL ACSII art, either found or someone making them.
 - Better choice selection.
 - Alternate Modes/DLCS:
-    - The Kingdom: A mode where you will be able to found and rule over a kingdom of your own, this is a very distant idea. for now just an idea especially until the games actually developed and reached a state where this is a possible
+    - The Kingdom:DLC, planned dlc. You will be able to found and rule over a kingdom of your own, this is a very distant idea. for now just an idea especially until the games actually developed and reached a state where this is a possible:
 
 
 <p align="justify">Sometime in a few months I will have to leave for 3 months and will not be able to access any of my electronic devices. I don't expect anyone to want to help with this project/game but if you do remember this, and when I do come back I'll review everything and start coding again</p>
