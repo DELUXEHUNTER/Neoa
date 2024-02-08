@@ -165,7 +165,7 @@ namespace Neoa
                 }
                 Console.ReadKey();
             }
-        //The Enviro string is used to tell apart the rewards from random and first encounter, 
+             //The Enviro string is used to tell apart the rewards from random and first encounter, without rewriting the entire combat multiple times
             if (enviro == "RandomEnc")
             {
             int c = rand.Next(1,15);
@@ -184,10 +184,6 @@ namespace Neoa
         
         }
 
-
-
-
-
 //These are just temporary and the only one that will remain is Escaped Prisoner
         public static string GetName()
         {
@@ -204,7 +200,11 @@ namespace Neoa
 
         }
 
-        public static void WriteLine(string text, int speed = 60)
+
+
+
+//Type speed
+        public static void WriteLine(string text, int speed = 70)
         {   
         foreach (char c in text)
             {

@@ -83,7 +83,6 @@ Console.WriteLine(@"
       Console.WriteLine("|Neoan        |");
       Console.WriteLine("|Anaxian      |");
       Console.WriteLine("|Null         |");
-//      if(CNAME == "Deacon" || CNAME == "Aaron")
       Console.WriteLine("+=============+");
       Ethnicity = Console.ReadLine();
       correct = true;
@@ -150,12 +149,15 @@ Console.WriteLine(@"
       if(ANC == "Avalon")
       {
         correct = true;
+        Console.WriteLine("Avalon");
+        Console.ReadKey();
       }
       else if(ANC ==  "Iedelan")
       {
         correct = true;
-        Console.WriteLine("Iedelan, The keeper");
+        Console.WriteLine("Iedelan");
         Console.WriteLine();
+        Console.ReadKey();
       }
       else if(ANC == "Tau-an")
       {
@@ -192,8 +194,6 @@ Console.WriteLine(@"
     }
     while(correct == false);
 
-
-
       Console.Clear();
       WriteLine("...You awaken in a dark cell, with no memory of anything from your past..");
       WriteLine("");
@@ -203,12 +203,14 @@ Console.WriteLine(@"
       WriteLine("The only thing you remember is your name " + CNAME);
       WriteLine("The knob on the door begins to turn.. a guard walks through the door");
       WriteLine("he pulls you up and tells you to follow him.");
-
+      //This begining is just an idea and not solidified.
       if (Ethnicity == "Anaxian")
       Encounters.PrisonFirstEncounter();
 
       WriteLine("\""+CNAME+"you've got some friends in high places, the king has ordered your release\"" );  
-      WriteLine("after leading you to the entrance of the prison the guard leads you to the prison");
+      WriteLine("after leading you to the entrance of the prison the guard tells you one thing before letting you leave");
+      WriteLine("\"be careful with what you do out there, you aren't going to like what they think of you");
+
        
       }
 
@@ -217,7 +219,6 @@ Console.WriteLine(@"
       //Temp name
       Console.WriteLine("Wombat");
     }
-
 
 
 
@@ -248,7 +249,9 @@ Console.WriteLine(@"
 
   }
 
-  public static void WriteLine(string text, int speed = 60)
+
+//type animation
+  public static void WriteLine(string text, int speed = 70)
     {
       foreach (char c in text)
       {

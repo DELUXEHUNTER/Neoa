@@ -5,24 +5,28 @@ In the distant future this game will possibly become either a prolouge or exposu
 
 A future thanks to anyone who contributes in any way, thank you for all of your hard work, and help, I couldn't have done it without you, well maybe I could have if I worked hard and took a few months, but with your help it has been faster than ever, and I really do appreciate it, because all this is is really just a waste of time and that makes it mean even more to me, I know this apology is useless because I expect no one to help me but still thank you a lot. 
 
-At the very end of the game a credit scene will be played, I don't have the credit scene made yet but in the distant future I will.
+
+**Discord Server:** In progress
+
+Also just another note, if I don't respond on discord, I'm unable during school at 6:58AM until 4:20PM. Sorry for the inconvience  
 
 #### Information
 The game is still in development and is almost unplayable. At some point during the game there will be absolutely 0 encounters, and there will barely be any encounters, the game will be less focused on stats and more on the story until someone else would like to help with all of that. I don't feel like doing that all until I at least finish the entire thing.
 
-### To-Do/Things I need help with:
-- TOP PRIORITY <a href="https://github.com/DELUXEHUNTER/neo/blob/Master/Lore.md">Lore writing</a>
+### To-Do/Things I need help with/Future Ideas:
+- TOP PRIORITY: <a href="https://github.com/DELUXEHUNTER/neo/blob/Master/Lore.md">Lore writing</a>
+- TOP PRIORITY: In browser gameplay.
 - Writing the dialog and giving choices.
 - Save System/Progress restore
 - Classes, Race, Alignments/factions, ect....
 - OPTIONAL ACSII art, either found or someone making them.
 - Better choice selection.
-
-A future plan is for this game to be playable in browser, and to add it to itch.io or newgrounds. 
-
-
+- Alternate Modes/DLCS:
+ - The Kingdom: A mode where you will be able to found and rule over a kingdom of your own, this is a very distant idea. for now just an idea especially until the games actually developed and reached a state where this is a possible
 
 
-**IMPORTANT:** Sometime in a few months I will have to leave for 3 months and will not be able to access any of my electronic devices. I don't expect anyone to want to help with this project/game but if you do remember this, and when I do come back I'll review everything and start coding again.
+**IMPORTANT:** Sometime in a few months I will have to leave for 3 months and will not be able to access any of my electronic devices. I don't expect anyone to want to help with this project/game but if you do remember this, and when I do come back I'll review everything and start coding again
+
+
 
 
