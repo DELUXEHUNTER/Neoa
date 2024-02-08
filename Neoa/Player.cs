@@ -14,9 +14,18 @@ namespace Neoa
 
 
             //ints
+
+
+
+            //currency int not very important until given use
             public int NeoanMark = 0;
 
-            //Encounter ints/strings
+
+
+
+
+
+            //Encounter ints/strings, rarely used
             public int health = 14;
             public int damage = 1;
             public int armorValue = 0;

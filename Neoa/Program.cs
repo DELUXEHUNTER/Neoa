@@ -154,6 +154,8 @@ Console.WriteLine(@"
       else if(ANC ==  "Iedelan")
       {
         correct = true;
+        Console.WriteLine("Iedelan, The keeper")
+        Console.WriteLine()
       }
       else if(ANC == "Tau-an")
       {
@@ -228,8 +230,8 @@ Console.WriteLine(@"
     WriteLine("In the future there will be more. For now enjoy these credits");
     Console.WriteLine(@"   
   ____________________________________________________________________________________________
-  |              Code/Lore                      |              Honorable Mention              |          
-  |             Deacon Hunter                   |                 Neoan King                  |
+  |              Code/Lore                      |     Honorable Mention[Characters]           |          
+  |             Deacon Hunter                   |             Neoan King                      |
   |                                             |                                             |
   |                                             |                                             |
   |                                             |                                             |

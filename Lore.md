@@ -8,14 +8,23 @@ In order to avoid overwhelming readers, and writers alike if this file becomes t
 
 ---------------------------------------------------------------
 
-### Background
+## Background
 
 The world of [Placeholder], is one filled with many creatures, and realms from mystery, mythology and legend, unique animals, massive kingdoms, cities, towns, people even. Some similiarities to the real world is the system used to tell is month and day, with the exception of a number year instead replaced with a term or word for each year the current date is: September, Monday the 1st, of the year Apafi[Y01](I don't know where I got the idea for the name Apafi). The entire world is set into an eternal darkness, it is unknown who, how, or what caused this to occur but it has been like this for years the people of [Placeholder] have found many ways to live with this and dispel/repel dark creatures that live in the night. 
 
 
-### NEOA 
-Neoa is a massive kingdom, in the realm of [Placeholder1], filled with creatures and beings from legends and mythologies around the world. Neoa is typically seen as the most prominent and well known kingdoms in the entirety of 
-[Placeholder1], Surrounded by many kingdoms, that loosely base themselves around the government structure of Neoa. 
+## NEOA 
+Neoa is a massive kingdom, in the world of [PlaceHolder], filled with creatures and beings from legends and mythologies around the world. Neoa is typically seen as the most prominent and well known kingdoms in the entirety of 
+[PlaceHolder], Surrounded by many kingdoms, that loosely base themselves around the government structure of Neoa.
+
+
+## Anaxia
+Anaxia is the more tame neighbor to Neoa. 
+
+#### Ancient ancestors
+These people are common ancestors the people of [PlaceHolder] have in common
+
+
 
 
 
