@@ -5,7 +5,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <PackageId>Neoa</PackageId>
-    <Version>X.X.X</Version>
+    <Version>0.0.0.1</Version>
    <Authors>Deacon-Hunter</Authors>
    <PackageDescription>Text based game</PackageDescription>
     <RepositoryUrl>https://github.com/DELUXEHUNTER/Neoa</RepositoryUrl>
