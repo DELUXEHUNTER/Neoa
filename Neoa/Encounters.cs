@@ -203,7 +203,7 @@ namespace Neoa
 
 
 
-//Type speed
+     //Type speed
         public static void WriteLine(string text, int speed = 70)
         {   
         foreach (char c in text)

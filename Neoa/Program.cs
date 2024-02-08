@@ -1,23 +1,17 @@
-﻿/*
+﻿/*OWNER: 
+  DEACON HUNTER
 
-Add your name
+  CONTRIBUTERS:
+  DEACON HUNTER
 
-OWNER: 
-DEACON HUNTER
+  DATE CREATED:
+  FEBRUARY 1ST 2024
 
-CONTRIBUTERS:
-DEACON HUNTER
+  INDIRECT CONTRIBUTERS/CONTRIBUTION/CREDIT:
+  1. TUTORIAL USED I FORGOT THE NAME
 
+  If you want to see your name in the credits section, add your name above. */
 
-DATE CREATED: 
-FEBRUARY 1ST 2024
-
-INDIRECT CONTRIBUTERS/CONTRIBUTION/CREDIT:
-1. TUTORIAL USED I FORGOT THE NAME
-
-
-
-*/
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,7 +35,7 @@ namespace Neoa
         
         }
 
-    static void Prologue()
+      static void Prologue()
     {
 Console.WriteLine(@"
 +=====================================================================================================================================================+
@@ -72,10 +66,10 @@ Console.WriteLine(@"
       bool correct = false;
 
     //Strings
+    //Faction selection string used later on
     string Ethnicity;
     string Faction; 
     string ANC; 
-    
 
     do {  
       WriteLine("Where are you from "+CNAME);
@@ -230,6 +224,7 @@ Console.WriteLine(@"
     WriteLine("So, you've reached a point that the game ended sadly");
     WriteLine("In the future there will be more. For now enjoy these credits");
     Console.WriteLine(@"   
+
   ____________________________________________________________________________________________
   |              Code/Lore                      |     Honorable Mention[Characters]           |          
   |             Deacon Hunter                   |             Neoan King                      |
@@ -239,14 +234,14 @@ Console.WriteLine(@"
   |                                             |                                             |
   |                                             |                                             |
   |                                             |                                             |
-  /\____________________________________________/\____________________________________________/\
-          
-          
-          ");
+  |                                             |                                             |
+  |                                             |                                             |  
+  |                                             |                                             |
+  |                                             |                                             |
+  /\____________________________________________/\____________________________________________/\");
   WriteLine("Press enter to clear.");
   Console.ReadKey();
   Console.Clear();
-
   }
 
 
