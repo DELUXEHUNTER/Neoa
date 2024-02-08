@@ -3,18 +3,14 @@ namespace Neoa
     public class Player
     {
         Random rand = new Random();
-        //strings
-        public string CNAME;
+
+        public string Name;
+        public string Ancestor;
         public string Ethnicity;
-
-
-        //ints
-
-
-
 
         //currency int not very important until given use
         public int NeoanMark = 0;
+
         //Encounter ints/strings, rarely used
         public int health = 14;
         public int damage = 1;
@@ -37,8 +33,5 @@ namespace Neoa
             int lower = (mods + 2);
             return rand.Next(lower, upper);
         }
-        //Player class End
     }
-
-
 }
