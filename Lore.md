@@ -6,7 +6,7 @@ There is no specific restriction or way to write the lore for this game, you may
 
 In order to avoid overwhelming readers, and writers alike if this file becomes too large I will split the file into several other ones giving each file their own category, some files may take two categories but I'm unsure on how I want to do this hopefully I figure it out in the future. Hopefully I can find a way to structure these files in a way that doesn't seem off, or too stylish, as I want neither. I again want to apologize for the horrible grammar and just overall story. I'm not good with grammar or writing in general, my ideas are seemingly dumb, but I had them so I will use them the best I can, I'll try to keep the story as followable as I can. I hope you enjoy reading and thank you for checking this file/page out.
 
-Sorry for the awkward formatting I'm not the best
+Sorry for the awkward formatting I'm not the best, I'm trying I swear
 
 ---------------------------------------------------------------
 
@@ -21,55 +21,52 @@ The world of [Placeholder], is one filled with many creatures, and realms from m
 Category for everything in the world, including characters, people, places, ect....
 
 
+
 ### Neoa
 Neoa is a massive kingdom, in the world of [PlaceHolder], filled with creatures and beings from legends and mythologies around the world. Neoa is typically seen as the most prominent and well known kingdoms in the entirety of 
 [PlaceHolder], Surrounded by many kingdoms, that loosely base themselves around the government structure of Neoa.
 
+#### Aedon
+Aedon is the capital of Neoa.
 
 
 ---------------------------------------------------------------
 ### Anaxia
 Anaxia is the more tame neighbor to Neoa. 
 
-
-
+#### 
 
 
 ---------------------------------------------------------------
 ### Ancient ancestors
 These people are common ancestors the people of [PlaceHolder] have in common
 
-#### Avalon
+#### Avalon, Neoan Lord
+Avalon is the patron of Neoa, He is the founder of Neoa. 
 
-#### Iedelan
+#### Iedelan, Anaxian hero
+Idelan is the patron of Anaxia, The greatest King in Anaxian history
 
+#### Dresden, Traveler of worlds
+[Known as Tau-An in code currently. Dresden is a temporary name and is subject to change]
 
-Ancient Ancestors
-      |Avalon                   |
-      |Iedelan                  |
-      |Tau-an                   |
-
-
-
-
+A mysterious wandering man who appears at certain times, its unknown why he randomly shows up to certain things, but by many historians in their findings its been noted hes been seen at many important events. No one has ever spoken or seen him but it is suspected that he still lives to this day.
 
 
 
 
 ---------------------------------------------------------------
 
-
-
 ### | Miscellaneous |
-This category is for miscellaneous things, like really dumb myths and joke characters, basically useless and just for fun not even actual writing, some may be actual myths but typically these are jokes not meant for anything. 
+This category is for miscellaneous things, like really dumb myths and joke characters, basically useless and just for fun not even actual writing, some may be actual myths but typically these are jokes not meant for anything. Typically the people of this world do believe in them.
 
 ### Neoan
 Neoan myths and legends
 
-#### Avalon
 
 
 
+---------------------------------------------------------------
 ### Anaxian
 Anaxian myths and legends
 
