@@ -35,7 +35,7 @@ namespace Neoa
         {
             enviro = "FirstEnc";
             Console.ReadKey();
-            Combat(false, "Escaped Prisoner ", 1, 2,3);
+            Combat(false, "Escaped Prisoner ", 1, 2);
 
 
         }
