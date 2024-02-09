@@ -52,7 +52,7 @@ namespace Neoa
             string n = "";
             int p = 0;
             int h = 0;
-            int NM = 0;
+
             if (random)
             {
                 n = GetName();
