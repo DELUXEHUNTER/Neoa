@@ -195,7 +195,7 @@ namespace Neoa
             return "Escaped Prisoner";
 
         }
-        public static string GetReward()
+        public static int GetReward()
         {
             return rand.Next(0,25);
         }
