@@ -17,16 +17,14 @@
 ```mermaid
 graph TD;
     Ithin-->Ax;
-    Ithin->Na;
+    Ithin-->Na;
     Ax-->Kyronian;
     Na-->Kyronian;
     Deian-->Ado;
-    Ado-->Ancient Aedonian;
-    Kyronian-->Ancient Aedonian;
-    Ancient Aedonian-->Anaxian;
-    Ancient Aedonian-->Aedonian;
-
-
+    Ado-->Ancient-Aedonian;
+    Kyronian-->Ancient-Aedonian;
+    Ancient-Aedonian-->Anaxian;
+    Ancient-Aedonian-->Aedonian;
 ```
 
 <p align="justify">these names are all just ideas and have no meaning yet, I am not good at names.</p>
