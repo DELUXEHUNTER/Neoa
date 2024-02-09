@@ -1,11 +1,12 @@
 ﻿/*
-Add your name
+Add your name for credit[I'll auto add if you've directly talked to me]
 
 OWNER: 
-DEACON HUNTER
+@DELUXEHUNTER
 
 CONTRIBUTERS:
-DEACON HUNTER
+@DELUXEHUNTER
+@Fuinny
 
 
 DATE CREATED: 
