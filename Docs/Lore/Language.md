@@ -11,21 +11,32 @@
 
 
 
-<h4>Evolution</h4>
-<p>This is just me testing currently has no meaning just for ideas </p>
+
+
+
+
+
+<!--
+Unused, I probably will just make a spreadsheet and screenshot it and place it in this file, I'd prefer the lines be straight otherwise it bothers me, but this isn't going to really be used anyways
+
 
 ```mermaid
-graph TD;
-    Ithin-->Ax;
-    Ithin-->Na;
-    Ax-->Kyronian;
-    Na-->Kyronian;
-    Deian-->Ado;
-    Ado-->Ancient-Aedonian;
-    Kyronian-->Ancient-Aedonian;
-    Ancient-Aedonian-->Anaxian;
-    Ancient-Aedonian-->Aedonian;
+---
+title: Language Evolution
+--- 
+flowchart LR;
+Ithin --- Ax & Na;
+
+Ax & Na --- Kyronian;
+
+Kyronian --- Ancient-Aedonian;
+
+Ancient-Aedonian --- Aedonian & Anaxian;
+
 ```
+
+
 
 <p align="justify">these names are all just ideas and have no meaning yet, I am not good at names.</p>
 <p align="justify"></p>
+-->
