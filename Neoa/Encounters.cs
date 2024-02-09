@@ -39,28 +39,7 @@ namespace Neoa
 
         }
 
-        public static void BasicFightEncounter()
-        {
-            Program.DisplayLine("Hi");
-            Console.ReadKey();
-            Combat(true, "", 0, 0, 0);
 
-        }
-
-        //Encounter Tools 
-        public static void RandomEncounter()
-        {
-            enviro = "RandomEnc";
-            switch (rand.Next(0, 2))
-            {
-                case 0:
-                    BasicFightEncounter();
-                    break;
-
-
-
-            }
-        }
 
         public static void Combat(bool random, string name, int power, int health, int NeoanMark)
         {
@@ -170,7 +149,7 @@ namespace Neoa
                 }
                 Console.ReadKey();
             }
-                int NM = 0;
+                int NM = NM;
                 Console.WriteLine("You stand victorious over " + n + " and gain " + NM + " Neoan Marks");
                 Program.player.NeoanMark += NM;
                 Console.ReadKey();
