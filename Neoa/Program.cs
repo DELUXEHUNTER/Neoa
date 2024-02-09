@@ -34,7 +34,7 @@ namespace Neoa
                 Console.BackgroundColor = ConsoleColor.Black;
 
             }
-
+        
             Prologue();
             Credits();
         }
@@ -154,7 +154,9 @@ namespace Neoa
 
             DisplayLine($"\"{player.Name}you've got some friends in high places, the king has ordered your release\"");
             DisplayLine("after leading you to the entrance of the prison the guard tells you one thing before letting you leave");
-            DisplayLine("\"be careful with what you do out there, you aren't going to like what they think of you");
+            DisplayLine("\"Be careful outside of here, its very different than how it was a few years ago,\"");
+
+
         }
 
         static void NewBeginnings()

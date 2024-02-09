@@ -57,11 +57,17 @@
 ---------------------------------------------------------------
 
 <h3> | Miscellaneous |</h3>
-
 <p align="justify">This category is for miscellaneous things, like really dumb myths and joke characters, basically useless and just for fun not even actual writing, some may be actual myths but typically these are jokes not meant for anything. Typically the people of this world do believe in them.</p>
 
-<h3> Neoan</h3>
+<h3>Neoan</h3>
 <p align="justify">Neoan myths and legends</p>
+
+<h4>The king and wolf</h4>
+<p align="justify">The story of the king of the wolf
+
+Its believed by the Neoan's, that this completely black wolf, with dark red eyes is a manifestation of the Legendary king Avalon
+
+</p> 
 
 
 
