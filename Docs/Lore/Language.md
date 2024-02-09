@@ -11,28 +11,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br><br><br><br><br><br>
-
 <h4>Evolution</h4>
 
 ```mermaid
 graph TD;
-    Neoan-->Anaxian;
-    A-->C;
+    Ancient-Anaxian-->Aedon;
+    Ancient-Anaxian-->Aedon;
     B-->D;
     C-->D;
 ```
