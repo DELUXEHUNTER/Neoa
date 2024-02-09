@@ -183,11 +183,11 @@ namespace Neoa
         }
         public static int GetReward()
         {
-            if(bool RandomReward = true) 
+            if(enviro == "RandEnc")
             {
-             return reward = rand.Next(0,25);
+            return reward = rand.Next(0,25);
             }
-            else if (bool RandomReward = false )
+            else if (enviro == "")
             {
              return reward = reward;
             }
