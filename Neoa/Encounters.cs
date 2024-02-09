@@ -16,7 +16,7 @@ namespace Neoa
         //Encounters
         public static void PrisonFirstEncounter()
         {
-            enviro = "FirstEnc";
+            reward = 1
             Program.DisplayLine("After walking a short distance from your cell a prisoner comes up to you..");
             Program.DisplayLine("..\"Anaxians are all the same I'm tired of you all\"");
             Program.DisplayLine("The deranged man begins to attempt to attack you using a rusty sword");
@@ -36,6 +36,11 @@ namespace Neoa
             Console.ReadKey();
             Combat(false, "Escaped Prisoner ", 1, 2,3);
 
+
+        }
+        public static void RandomEncounter()
+        {
+            Console.WriteLine("Empty");
 
         }
 
@@ -152,7 +157,7 @@ namespace Neoa
                 if (random)
                 NM = GetReward();
                 else
-                NM = Reward();
+                NM = GetReward();
                 Console.WriteLine("You stand victorious over " + n + " and gain " + NM + " Neoan Marks");
                 Program.player.NeoanMark += NM;
                 Console.ReadKey();
@@ -178,10 +183,10 @@ namespace Neoa
         {
             if (RandomEncounter())
             {
-            return rand.Next(0,25);
+            reward = rand.Next(0,25)  ;
             }
             else if
-            return int reward 
+            return int reward;
         }
 
         public static string enviro = "";
