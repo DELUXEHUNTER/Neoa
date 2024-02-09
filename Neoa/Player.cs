@@ -19,6 +19,8 @@ namespace Neoa
         public int potion = 5;
         public int weaponValue = 1;
 
+        public int mods;
+
         public int GetHealth()
         {
             int upper = (2 * mods + 7);
