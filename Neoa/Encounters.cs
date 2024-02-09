@@ -197,7 +197,7 @@ namespace Neoa
         }
         public static string GetReward()
         {
-            return rand.Next(0,25)
+            return rand.Next(0,25);
         }
 
         public static string enviro = "";
