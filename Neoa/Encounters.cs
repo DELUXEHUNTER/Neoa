@@ -173,7 +173,7 @@ namespace Neoa
                 int NM = 0;
                 Console.WriteLine("You stand victorious over " + n + " and gain " + NM + " Neoan Marks");
                 Program.player.NeoanMark += NM;
-                Console.ReadKey()
+                Console.ReadKey();
 
 
         }
