@@ -10,7 +10,7 @@ namespace Neoa
 
         //Ints without use yet
         public int NeoanMark = 0;
-        //Idea? public int Sanity = 150;
+        public int Sanity = 150;
 
         //Encounter ints/strings, rarely used
         public int health = 15;
@@ -35,5 +35,7 @@ namespace Neoa
             int lower = (mods + 2);
             return rand.Next(lower, upper);
         }
+        public static void PlayerProfile()
+
     }
 }

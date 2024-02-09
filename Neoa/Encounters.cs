@@ -24,8 +24,7 @@ namespace Neoa
             Console.ReadKey();
             Combat(false, "deranged prisoner", 1, 2);
             Program.DisplayLine("The guard takes back his sword and tells you to continue on");
-            Program.DisplayLine("\"So back to what we were taking about, \"");
-            Program.DisplayLine(".... he takes a short pause");
+
             Console.WriteLine("Save game? Y/n");
             Console.ReadKey();
             Program.DisplayLine("Did you actually think I made a save game yet? Not yet, you can tell I got bored doing this.");
@@ -35,7 +34,7 @@ namespace Neoa
         {
             enviro = "FirstEnc";
             Console.ReadKey();
-            Combat(false, "Escaped Prisoner ", 1, 2);
+            Combat(false, "Escaped Prisoner ", 1, 2,3);
 
 
         }
@@ -44,7 +43,7 @@ namespace Neoa
         {
             Program.DisplayLine("Hi");
             Console.ReadKey();
-            Combat(true, "", 0, 0);
+            Combat(true, "", 0, 0, 0);
 
         }
 
@@ -63,17 +62,18 @@ namespace Neoa
             }
         }
 
-        public static void Combat(bool random, string name, int power, int health)
+        public static void Combat(bool random, string name, int power, int health, int NeoanMark)
         {
             string n = "";
             int p = 0;
             int h = 0;
+            int NM = 0;
             if (random)
             {
                 n = GetName();
                 p = Program.player.GetPower() + 1;
                 h = Program.player.GetHealth() + 1;
-
+                NM = GetReward();
             }
             else
             {
@@ -169,19 +169,11 @@ namespace Neoa
                 }
                 Console.ReadKey();
             }
-            //The Enviro string is used to tell apart the rewards from random and first encounter, without rewriting the entire combat multiple times
-            if (enviro == "RandomEnc")
+            
             {
-                int c = rand.Next(1, 15);
-                Console.WriteLine("You stand victorious over " + n + " and gain " + c + " Neoan Marks");
-                Program.player.NeoanMark += c;
-                Console.ReadKey();
-            }
-            if (enviro == "FirstEnc")
-            {
-                int c = rand.Next(0, 5);
-                Console.WriteLine("You stand victorious over " + n + " and gain " + c + " Neoan Marks");
-                Program.player.NeoanMark += c;
+                int NM = NM 
+                Console.WriteLine("You stand victorious over " + n + " and gain " + NM + " Neoan Marks");
+                Program.player.NeoanMark += NM;
                 Console.ReadKey();
             }
 
@@ -201,6 +193,10 @@ namespace Neoa
             }
             return "Escaped Prisoner";
 
+        }
+        public static string GetReward();
+        {
+            int NM = rand.Next(0,15)
         }
 
         public static string enviro = "";

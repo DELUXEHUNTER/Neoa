@@ -148,15 +148,15 @@ namespace Neoa
             Console.Clear();
             DisplayLine("...You awaken in a dark cell, with no memory of anything from your past...\n");
             DisplayLine($"The only thing you remember is your name {player.Name}");
+            DisplayLine("you hear a muffled voice from outside your door you could only make out a few words \"and..a few days away from.. execution\"");
             DisplayLine("The knob on the door begins to turn.. a guard walks through the door...");
             DisplayLine("...he pulls you up and tells you to follow him.");
 
             //if (Ethnicity == "Anaxian") Encounters.PrisonFirstEncounter();
 
-            DisplayLine($"\"{player.Name}you've got some friends in high places, the king has ordered your release\"");
-            DisplayLine("after leading you to the entrance of the prison the guard tells you one thing before letting you leave");
-            DisplayLine("\"Be careful outside of here, its very different than how it was a few years ago,\"");
-
+            DisplayLine("the guard leads you to the entrance where you see someone who looked like royalty he stood calm with purpose and pride");
+            DisplayLine("speaking to you the guard tells you \"thats the royal who begged us to release you\"");
+            DisplayLine($"So, your {player.Name}.");
 
         }
 
