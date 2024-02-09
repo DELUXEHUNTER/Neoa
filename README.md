@@ -1,4 +1,4 @@
-<h1 align="center"> <img align="left" src="Docs/Images/Uncomplete_Icon_Neoa_2.png"> 
+<h1 align="center"> <img align="left" src="Docs/Images/Uncomplete_Icon_Neo.png"> 
 <br>
 Neo<br>Land of Neoa</h1>
 
@@ -7,6 +7,7 @@ Neo<br>Land of Neoa</h1>
 Here is a future thank you to anyone who contributes thank you all for your hard work, I genuinely appreciate it and I want you to know I couldn't have done it without you all. And heres a thank you to anyone who plays the game, that means a lot too because we have put a lot of time into making this game and it means a lot that you play and(hopefully) enjoy our game. 
 <br><br>
 
+The Icon is not the final product and also its supposed to be a helmet but I'm struggling to make a simple helmet I also have struggled to spell helmet properly, I spelled, Helmet, helpmet, about 30 times.
 </p>
 
 ---------------------------------------------------------------
