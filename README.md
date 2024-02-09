@@ -1,4 +1,5 @@
-<h1 align="center">Neo<br>Land of Neoa</h1>
+<h1 align="center"> <img align="left" src="Docs/Images/Uncomplete_Icon_Neo.png">    
+Neo<br>Land of Neoa</h1>
 
 <p align="justify">Welcome to the land of Neoa. The first game I've ever made, or worked on, it might not be the best game I'll ever make, or the best game i've ever made but I'm trying my hardest to do my best and make this game. This isn't going to be something that is worked on every single day[He says working on it every single day], so it might take some time to develop, because for now I am, or we are just beginner developers, all we are trying to do is have fun making this game giving people something to do when their bored.
 <br>
