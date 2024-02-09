@@ -1,3 +1,13 @@
+/* An important note. Read this if first time contributer:
+
+The encounter system is not ready to use and is completely useless. In the future we will redo this code and improve the encounter system
+basically the encounters are in beta or prototype? I don't know how to class them other than not in use and useless
+*/
+
+
+
+
+
 namespace Neoa
 {
     public class Encounters

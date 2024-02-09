@@ -8,11 +8,12 @@ namespace Neoa
         public string Ancestor;
         public string Ethnicity;
 
-        //currency int not very important until given use
+        //Ints without use yet
         public int NeoanMark = 0;
+        //Idea? public int Sanity = 150;
 
         //Encounter ints/strings, rarely used
-        public int health = 14;
+        public int health = 15;
         public int mana = 100;
         public int damage = 1;
         public int armorValue = 0;
