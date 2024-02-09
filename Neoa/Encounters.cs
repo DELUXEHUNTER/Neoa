@@ -41,7 +41,7 @@ namespace Neoa
         }
         public static void RandomEncounter()
         {
-            enviro = "RandEnc"
+            enviro = "RandEnc";
             Console.WriteLine("Empty");
 
         }
@@ -184,10 +184,13 @@ namespace Neoa
         public static int GetReward()
         {
             if(bool RandomReward = true) 
-            return reward = rand.Next(0,25);
-            else 
-            return reward = reward;
-            
+            {
+             return reward = rand.Next(0,25);
+            }
+            else if (bool RandomReward = false )
+            {
+             return reward = reward;
+            }
         }
 
         public static string enviro = "";
