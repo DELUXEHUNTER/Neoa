@@ -10,9 +10,6 @@ Here is a future thank you to anyone who contributes thank you all for your hard
 The Icon is not the final product and also its supposed to be a helmet but I'm struggling to make a simple helmet I also have struggled to spell helmet properly, I spelled, Helmet, helpmet, about 30 times.
 </p>
 
----------------------------------------------------------------
-
-
 <h3>PLANS/HELP-NEEDED</h3>
 
 - <a href="https://github.com/DELUXEHUNTER/neo/blob/Master/Lore/Lore.md">Lore writing</a>
