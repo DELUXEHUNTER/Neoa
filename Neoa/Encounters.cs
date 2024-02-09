@@ -169,9 +169,9 @@ namespace Neoa
                 }
                 Console.ReadKey();
             }
-            
+
             {
-                int NM = NM 
+                int NM = NM;
                 Console.WriteLine("You stand victorious over " + n + " and gain " + NM + " Neoan Marks");
                 Program.player.NeoanMark += NM;
                 Console.ReadKey();
@@ -194,9 +194,9 @@ namespace Neoa
             return "Escaped Prisoner";
 
         }
-        public static string GetReward();
+        public static string GetReward()
         {
-            int NM = rand.Next(0,15)
+            int NM = rand.Next(0,15);
         }
 
         public static string enviro = "";

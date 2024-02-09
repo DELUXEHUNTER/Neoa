@@ -35,7 +35,6 @@ namespace Neoa
             int lower = (mods + 2);
             return rand.Next(lower, upper);
         }
-        public static void PlayerProfile()
 
     }
 }
