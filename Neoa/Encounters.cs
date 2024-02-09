@@ -149,11 +149,11 @@ namespace Neoa
                 }
                 Console.ReadKey();
             }
-                in
+            {
                 Console.WriteLine("You stand victorious over " + n + " and gain " + NM + " Neoan Marks");
                 Program.player.NeoanMark += NM;
                 Console.ReadKey();
-
+            }
 
         }
         //Temporary
