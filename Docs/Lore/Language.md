@@ -6,17 +6,28 @@
 
 
 ---------------------------------------------------------------
-<h3>Anaxian</h3>
-<p align="justify">The Anaxian language dialects are some of the oldest and still most used today, and used by many Neoans, and Anaxians alike.</p>
+<h3>Aedonian</h3>
+<p align="justify">The Aedonian language is one of the oldest and most used by many Neoans, and Anaxians alike.</p>
 
 
 
 <h4>Evolution</h4>
+<p>This is just me testing currently has no meaning just for ideas </p>
 
 ```mermaid
 graph TD;
-    Ancient-Anaxian-->Aedon;
-    Ancient-Anaxian-->Aedon;
-    B-->D;
-    C-->D;
+    Ithin-->Ax;
+    Ithin->Na;
+    Ax-->Kyronian;
+    Na-->Kyronian;
+    Deian-->Ado;
+    Ado-->Ancient Aedonian;
+    Kyronian-->Ancient Aedonian;
+    Ancient Aedonian-->Anaxian;
+    Ancient Aedonian-->Aedonian;
+
+
 ```
+
+<p align="justify">these names are all just ideas and have no meaning yet, I am not good at names.</p>
+<p align="justify"></p>

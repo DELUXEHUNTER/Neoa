@@ -17,14 +17,13 @@
 <p align="justify">Category for everything in the world, including characters, people, places, ect....</p>
 
 
-
 <h3> Neoa</h3>
 
 <p align="justify">Neoa is a massive kingdom, in the world of [PlaceHolder], filled with creatures and beings from legends and mythologies around the world. Neoa is typically seen as the most prominent and well known kingdoms in the entirety of [PlaceHolder], Surrounded by many kingdoms, that loosely base themselves around the government structure of Neoa.</p>
 
 <h4>Aedon</h4>
 
-<p align="justify">Aedon is the capital of Neoa.</p>
+<p align="justify">Aedon, the capital and home of the royal Neoan family. Filled with ancient Neoan and Anaxian history.</p>
 
 ---------------------------------------------------------------
 <h3> Anaxia</h3>
