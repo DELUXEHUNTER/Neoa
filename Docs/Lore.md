@@ -63,7 +63,7 @@
 <p align="justify">Neoan myths and legends</p>
 
 <h4>The king and wolf</h4>
-<p align="justify">The story of the king of the wolf
+<p align="justify">The story of the king of the wolf. The first Neoan king was greeted by a wolf with a pure black fur coat
 
 Its believed by the Neoan's, that this completely black wolf, with dark red eyes is a manifestation of the Legendary king Avalon
 
