@@ -187,9 +187,9 @@ namespace Neoa
             {
             return reward = rand.Next(0,25);
             }
-            else if (enviro == "")
+            if (enviro == "")
             {
-             return reward = reward;
+            return reward = reward;
             }
         }
 
