@@ -41,7 +41,7 @@ namespace Neoa
 
 
 
-        public static void Combat(bool random, string name, int power, int health, int NeoanMark )
+        public static void Combat(bool random, string name, int power, int health, NeoanMark)
         {
             string n = "";
             int p = 0;
