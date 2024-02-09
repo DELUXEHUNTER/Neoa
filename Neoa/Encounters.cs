@@ -16,7 +16,7 @@ namespace Neoa
         //Encounters
         public static void PrisonFirstEncounter()
         {
-            reward = 1
+            reward = 1;
             Program.DisplayLine("After walking a short distance from your cell a prisoner comes up to you..");
             Program.DisplayLine("..\"Anaxians are all the same I'm tired of you all\"");
             Program.DisplayLine("The deranged man begins to attempt to attack you using a rusty sword");
@@ -73,7 +73,7 @@ namespace Neoa
                 Console.WriteLine("Strength: " + p);
                 Console.WriteLine("======================");
                 Console.WriteLine("| (A)ttack (D)efend  |");
-                Console.WriteLine("|  (R)un    (H)eal   |");
+                Console.WriteLine("|  (R)un    (M)agic   |");
                 Console.WriteLine("======================");
                 Console.WriteLine(" Potions: " + Program.player.potion + " Health: " + Program.player.health);
                 string input = Console.ReadLine();
@@ -185,8 +185,8 @@ namespace Neoa
             {
             reward = rand.Next(0,25)  ;
             }
-            else if
-            return int reward;
+            else 
+            reward;
         }
 
         public static string enviro = "";
