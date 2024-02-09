@@ -152,7 +152,7 @@ namespace Neoa
                 if (random)
                 NM = GetReward();
                 else
-                NM = NeoanMark
+                NM = NeoanMark;
                 Console.WriteLine("You stand victorious over " + n + " and gain " + NM + " Neoan Marks");
                 Program.player.NeoanMark += NM;
                 Console.ReadKey();
