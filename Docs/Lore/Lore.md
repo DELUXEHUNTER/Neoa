@@ -52,6 +52,9 @@
 <p align="justify">A mysterious wandering man who appears at certain times, its unknown why he randomly shows up to certain things, but by many historians in their findings its been noted hes been seen at many important events. No one has ever spoken or seen him but it is suspected that he still lives to this day.</p>
 
 
+<h3>Religion</h3>
+<p align="justify">Religions within this game are not going to be very in depth unless someone has an interest in writing a long lore for each religion</p>
+
 
 
 ---------------------------------------------------------------
@@ -62,10 +65,10 @@
 <h3>Neoan</h3>
 <p align="justify">Neoan myths and legends</p>
 
-<h4>The king and wolf</h4>
-<p align="justify">The story of the king of the wolf. The first Neoan king was greeted by a wolf with a pure black fur coat
+<h4></h4>
+<p align="justify"> 
 
-Its believed by the Neoan's, that this completely black wolf, with dark red eyes is a manifestation of the Legendary king Avalon
+[Uncomplete]Its believed by the Neoan's, that this completely black wolf, with dark red eyes is a manifestation of the Legendary king Avalon
 
 </p> 
 

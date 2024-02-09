@@ -10,7 +10,8 @@
 
 <p align="left">The game is still in development and is almost unplayable. At some point during the game there will be absolutely 0 encounters, and there will barely be any encounters, the game will be less focused on stats and more on the story until someone else would like to help with all of that. I don't feel like doing that all until I at least finish the entire thing.</p>
 
--------------------------------------
+---------------------------------------------------------------
+
 
 <h3> To-Do/Things I need help with/Future Ideas:</h3>
 
