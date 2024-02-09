@@ -31,7 +31,7 @@ namespace Neoa
             Program.DisplayLine("Did you actually think I made a save game yet? Not yet, you can tell I got bored doing this.");
         }
 
-        public static FirstEncounter()
+        public static void FirstEncounter()
         {
             enviro = "FirstEnc";
             Console.ReadKey();
@@ -39,8 +39,9 @@ namespace Neoa
 
 
         }
-        public static RandomEncounter()
+        public static void RandomEncounter()
         {
+            enviro = "RandEnc"
             Console.WriteLine("Empty");
 
         }
@@ -182,10 +183,11 @@ namespace Neoa
         }
         public static int GetReward()
         {
-            if (RandomEncounter())
+            if(bool RandomReward = true) 
             return reward = rand.Next(0,25);
             else 
             return reward = reward;
+            
         }
 
         public static string enviro = "";
