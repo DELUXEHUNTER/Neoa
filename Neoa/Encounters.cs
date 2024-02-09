@@ -80,6 +80,7 @@ namespace Neoa
                 n = name;
                 p = power;
                 h = health;
+                NM = NeoanMark;
             }
             while (h > 0)
             {
@@ -196,7 +197,7 @@ namespace Neoa
         }
         public static string GetReward()
         {
-            int NM = rand.Next(0,15);
+            return rand.Next(0,25)
         }
 
         public static string enviro = "";
