@@ -169,9 +169,9 @@ namespace Neoa
             DisplayLine("In the future there will be more. For now enjoy these credits");
             Console.WriteLine(@"   
   ____________________________________________________________________________________________
-  |              Code/Lore                      |     Honorable Mention[Characters]           |          
-  |             Deacon Hunter                   |             Neoan King                      |
-  |                                             |                                             |
+  |              Code/Lore                      |        Honorable Mention[Characters]        |          
+  |             Deacon Hunter                   |                                             |
+  |               Fuinny                        |                                             |
   |                                             |                                             |
   |                                             |                                             |
   |                                             |                                             |

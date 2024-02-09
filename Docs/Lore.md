@@ -61,7 +61,6 @@
 <p align="justify">This category is for miscellaneous things, like really dumb myths and joke characters, basically useless and just for fun not even actual writing, some may be actual myths but typically these are jokes not meant for anything. Typically the people of this world do believe in them.</p>
 
 <h3> Neoan</h3>
-
 <p align="justify">Neoan myths and legends</p>
 
 
@@ -69,12 +68,8 @@
 
 ---------------------------------------------------------------
 <h3> Anaxian</h3>
-
 <p align="justify">Anaxian myths and legends</p>
 
 
 
 ---------------------------------------------------------------
-
-
-

@@ -13,12 +13,11 @@ namespace Neoa
 
         //Encounter ints/strings, rarely used
         public int health = 14;
+        public int mana = 100;
         public int damage = 1;
         public int armorValue = 0;
         public int potion = 5;
         public int weaponValue = 1;
-
-        public int mods = 0;
 
         public int GetHealth()
         {

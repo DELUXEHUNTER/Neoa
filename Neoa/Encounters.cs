@@ -177,7 +177,6 @@ namespace Neoa
 
 
         }
-
         //Temporary
         public static string GetName()
         {
