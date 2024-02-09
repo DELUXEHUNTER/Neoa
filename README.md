@@ -1,9 +1,9 @@
-<h1 align="center"> <img align="left" src="Docs/Images/Uncomplete_Icon_Neo.png"> 
+<h1 align="center"> <img align="right" src="Docs/Images/Uncomplete_Icon_Neo.png"> 
 <br>
 Neo<br>Land of Neoa</h1>
 
 <p align="justify">Welcome to the land of Neoa. The first game I've ever made, or worked on, it might not be the best game I'll ever make, or the best game i've ever made but I'm trying my hardest to do my best and make this game. This isn't going to be something that is worked on every single day[He says working on it every single day], so it might take some time to develop, because for now I am, or we are just beginner developers, all we are trying to do is have fun making this game giving people something to do when their bored.
-<br>
+<br><br>
 Here is a future thank you to anyone who contributes thank you all for your hard work, I genuinely appreciate it and I want you to know I couldn't have done it without you all. And heres a thank you to anyone who plays the game, that means a lot too because we have put a lot of time into making this game and it means a lot that you play and(hopefully) enjoy our game. 
 <br><br>
 
