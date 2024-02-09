@@ -53,6 +53,7 @@ namespace Neoa
             string n = "";
             int p = 0;
             int h = 0;
+            int NM = 0;
 
             if (random)
             {
@@ -157,7 +158,7 @@ namespace Neoa
             }
             {
                 if (random)
-                int NM = GetReward();
+                NM = GetReward();
                 else
                 NM = GetReward();
                 Console.WriteLine("You stand victorious over " + n + " and gain " + NM + " Neoan Marks");
@@ -191,6 +192,7 @@ namespace Neoa
             {
             return reward = reward;
             }
+            return reward = 1;
         }
 
         public static string enviro = "";
