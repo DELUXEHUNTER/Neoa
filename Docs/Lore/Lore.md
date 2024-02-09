@@ -7,18 +7,21 @@ In order to avoid overwhelming readers, and the writers alike if this file begin
 ---------------------------------------------------------------
 
 <h3>Background</h3>
-<p align="justify">The world of [Placeholder], is one filled with many creatures, and realms from mystery, mythology and legend, unique animals, massive kingdoms, cities, towns, people even. Some similiarities to the real world is the system used to tell is month and day, with the exception of a number year instead replaced with a term or word for each year the current date is: September, Monday the 1st, of the year Apafi[Y01](I don't know where I got the idea for the name Apafi).The entire world is set into an eternal darkness, it is unknown who, how, or what caused this to occur but it has been like this for years the people of [Placeholder] have found many ways to live with this and dispel/repel dark creatures that live in the night.</p>
+
+<p align="justify">The world of [PlaceHolder] is one filled with many creatures, mysteries, mythologies and legends, massive kingdoms, cities, towns, and even people. The world is set into an eternal night, its completely unknown who, or what caused the night to last this long. But it has been this way for hundreds of years, vampires and other creatures of the night became more active due to their need to hide from daylight or the need for the moon to access their powers, this caused the people of [PlaceHolder] to create new ways, new methods, to protect themselves and keep these creatures from harming them in their sleep or other ways. They eventually figured out a way to mimic the sunlight, similar to sun magic, but does not require the energy from the sun to access and use. Typically some creatures, the not inherently evil ones are allowed to be left alone and even have normal lives, while inhrently evil creatures, like vampires, werewolves are usually persecuted and judged more harshly. Not all creatures born from the night, or who live within its grace are evil[including zombies, and skeletons]. But this is the view that most people have sadly. 
+<br> 
+There are many similarities to the real world in this world, but not many, to make it easier this game uses the dates and months, aswell as days of the real world, like monday, january, ect... the only difference in this system is the year, the years are given specific terms. The current starting date is September, Friday the 1st, in the year Apafi, Apafi is known as year 01, throughout this game the year and day may change obviously otherwise how would the story even progress. It wouldn't unless this was about a time loop that changed slightly each time you relived it, but thats not what this game is, if I'm being honest I don't even know what this game is, all I know is we're gonna have fun making it and hopefully you playing it.</p>
 
 ---------------------------------------------------------------
 
-<h3>| World |</h3>
-
-<p align="justify">Category for everything in the world, including characters, people, places, ect....</p>
-
-
 <h3> Neoa</h3>
+<!-- <p align="justify">The kingdom of Neoa, sometimes refered to as greater Aedon. Is the largest most prominent kingdom within the world of [PlaceHolder]</p>
+-->
 
-<p align="justify">Neoa is a massive kingdom, in the world of [PlaceHolder], filled with creatures and beings from legends and mythologies around the world. Neoa is typically seen as the most prominent and well known kingdoms in the entirety of [PlaceHolder], Surrounded by many kingdoms, that loosely base themselves around the government structure of Neoa.</p>
+<p align="justify">Neoa, also sometimes called greater Aedon is a massive kingdom, in the world of [PlaceHolder], filled with creatures and beings from legends and mythologies around the world. Neoa is typically seen as the most prominent and well known kingdoms in the entirety of [PlaceHolder], Surrounded by many kingdoms, that loosely base themselves around the government structure of Neoa.(rewriting)</p>
+
+
+
 
 <h4>Aedon</h4>
 
