@@ -41,7 +41,7 @@ namespace Neoa
 
 
 
-        public static void Combat(bool random, string name, int power, int health, int NeoanMark)
+        public static void Combat(bool random, string name, int power, int health, int neoanmark)
         {
             string n = "";
             int p = 0;
@@ -59,7 +59,7 @@ namespace Neoa
                 n = name;
                 p = power;
                 h = health;
-                NM = NeoanMark;
+                NM = neoanmark;
             }
             while (h > 0)
             {
@@ -149,7 +149,7 @@ namespace Neoa
                 }
                 Console.ReadKey();
             }
-                int NM = NM;
+                in
                 Console.WriteLine("You stand victorious over " + n + " and gain " + NM + " Neoan Marks");
                 Program.player.NeoanMark += NM;
                 Console.ReadKey();
