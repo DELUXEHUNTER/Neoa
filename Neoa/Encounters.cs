@@ -182,10 +182,8 @@ namespace Neoa
         }
         public static int GetReward()
         {
-            if (RandomEncounter();)
-            {
-            return reward = rand.Next(0,25) ;
-            }
+            if (RandomEncounter())
+            return reward = rand.Next(0,25);
             else 
             return reward = reward;
         }
