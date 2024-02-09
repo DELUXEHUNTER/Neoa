@@ -13,7 +13,7 @@ namespace Neoa
     public class Encounters
     {
         public static Random rand = new Random();
-        public int reward = 0;
+        public static int reward = 0;
         //Encounters
         public static void PrisonFirstEncounter()
         {
@@ -184,7 +184,7 @@ namespace Neoa
         {
             if (RandomEncounter())
             {
-            reward = rand.Next(0,25)  ;
+            return reward = rand.Next(0,25) ;
             }
             else 
             return reward = reward;
