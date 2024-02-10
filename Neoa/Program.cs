@@ -37,7 +37,7 @@ namespace Neoa
             TitleScreen();
 
             if (player.Species != "Human")
-            PrologueType2();
+            //PrologueType2();
             else
             PrologueType1();
             Credits();
@@ -136,7 +136,7 @@ namespace Neoa
                 if (player.Species != "Human")
                 {
                 DisplayLine("Now your subspecies");
-                if (player.Species = "Undead")
+                if (player.Species == "Undead")
                 {
                 DisplayLine("Typically these are evil but not in this case, Dhampir is not considered a ");
                 Console.WriteLine("╔══════════════════════╗");
@@ -147,7 +147,7 @@ namespace Neoa
                 Console.WriteLine("╚══════════════════════╝");
                 player.Subspecies = Console.ReadLine();
                 }
-                else if (player.Species = "Demonic")
+                else if (player.Species == "Demonic")
                 {
                 DisplayLine("These beings are typically evil and do not.");
                 Console.WriteLine("╔══════════════════════╗");

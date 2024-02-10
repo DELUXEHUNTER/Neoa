@@ -106,26 +106,6 @@ namespace Neoa
 
                     }
                 }
-                else if (input.ToLower() == "h" || input.ToLower() == "Heal")
-                {
-                    //Heal
-                    Program.DisplayLine("");
-                    if (Program.player.potion == 0)
-                    {
-                        Program.DisplayLine("You deprately grasp for a potion in your bag but all you can feel are empty flasks");
-                        int damage = p - Program.player.armorValue;
-                        if (damage < 0)
-                            damage = 0;
-                        Program.DisplayLine("The " + n + " stikes you with a sword and you lose " + damage + " health!");
-                    }
-                    else
-                    {
-                        Program.DisplayLine("You reach into your bag and drink the liquid in the vial");
-                        int potionV = 5;
-                        Program.DisplayLine("You gain " + potionV + " health");
-                        Program.player.health += potionV;
-
-                    }
                     Console.ReadKey();
                 }
                 if (Program.player.health < 0)
