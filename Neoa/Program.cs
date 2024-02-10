@@ -143,7 +143,7 @@ namespace Neoa
                 Console.WriteLine("║        Vampire       ║");
                 Console.WriteLine("║         Zombie       ║");
                 Console.WriteLine("║        Skeleton      ║");
-                Console.WriteLine("║        Dhampir       ║")
+                Console.WriteLine("║        Dhampir       ║");
                 Console.WriteLine("╚══════════════════════╝");
                 player.Subspecies = Console.ReadLine();
                 }
