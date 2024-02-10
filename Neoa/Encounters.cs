@@ -27,6 +27,7 @@ namespace Neoa
         public static void FirstEncounter()
         {
             enviro = "FirstEnc";
+            reward = 30;
             Console.ReadKey();
             Combat(true, "Escaped Prisoner ", 1, 2);
 
@@ -118,7 +119,7 @@ namespace Neoa
                 Console.ReadKey();
             {
 
-                NM = GetReward();
+                NM = reward;
                 Console.WriteLine("You stand victorious over " + n + " and gain " + NM + " Neoan Marks");
                 Program.player.NeoanMark += NM;
                 Console.ReadKey();
@@ -140,19 +141,6 @@ namespace Neoa
             return "Escaped Prisoner";
 
         }
-        public static int GetReward()
-        {
-            if(enviro == "RandEnc")
-            {
-            return reward = rand.Next(0,25);
-            }
-            if (enviro == "")
-            {
-            return reward = reward;
-            }
-            return reward = 1;
-        }
-
         public static string enviro = "";
     }
 }
