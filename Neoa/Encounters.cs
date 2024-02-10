@@ -59,7 +59,7 @@ namespace Neoa
                 Console.WriteLine("| (A)ttack (D)efend  |");
                 Console.WriteLine("|  (R)un    (M)agic   |");
                 Console.WriteLine("======================");
-                Console.WriteLine(" Mana" + player.mana + "Health: " + player.health);
+                Console.WriteLine(" Mana" + Program.player.mana + "Health: " + Program.player.health);
                 string input = Console.ReadLine();
                 if (input.ToLower() == "a" || input.ToLower() == "attack")
                 {
