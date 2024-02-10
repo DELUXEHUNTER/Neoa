@@ -7,7 +7,7 @@ on:
   push:
     branches: [ "Stable","Experimental" ]
   pull_request:
-    branches: [ "Stable","Experimental ]
+    branches: [ "Stable","Experimental" ]
 
 jobs:
   build:
