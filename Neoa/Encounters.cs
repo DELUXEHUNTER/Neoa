@@ -28,7 +28,7 @@ namespace Neoa
         {
             enviro = "FirstEnc";
             Console.ReadKey();
-            Combat(false, "Escaped Prisoner ", 1, 2);
+            Combat("Escaped Prisoner ", 1, 2);
 
 
         }
@@ -39,26 +39,16 @@ namespace Neoa
 
         }
 
-        public static void Combat(bool random, string name, int power, int health)
+        public static void Combat(string name, int power, int health)
         {
             string n = "";
             int p = 0;
             int h = 0;
             int NM = 0;
-
-            if (random)
-            {
-                n = GetName();
-                p = Program.player.GetPower() + 1;
-                h = Program.player.GetHealth() + 1;
-            }
-            else
-            {
-                n = name;
-                p = power;
-                h = health;
+            n = name;
+            p = power;
+            h = health;
     
-            }
             while (h > 0)
             {
                 Console.Clear();
