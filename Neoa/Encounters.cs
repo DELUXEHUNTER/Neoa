@@ -16,7 +16,7 @@ namespace Neoa
             Program.DisplayLine("The deranged man begins to attempt to attack you using a rusty sword");
             Program.DisplayLine("Right before the man can attack you the guard quickly tosses you his sword");
             Console.ReadKey();
-            Combat(false, "deranged prisoner", 1, 2);
+            Combat(true, "deranged prisoner", 1, 2);
             Program.DisplayLine("The guard takes back his sword and tells you to continue on");
 
             Console.WriteLine("Save game? Y/n");
@@ -39,7 +39,7 @@ namespace Neoa
 
         }
 
-        public static void Combat(string name, int power, int health)
+        public static void Combat(bool combat, string name, int power, int health)
         {
             string n = "";
             int p = 0;
@@ -59,7 +59,7 @@ namespace Neoa
                 Console.WriteLine("| (A)ttack (D)efend  |");
                 Console.WriteLine("|  (R)un    (M)agic   |");
                 Console.WriteLine("======================");
-                Console.WriteLine(" Potions: " + Program.player.potion + " Health: " + Program.player.health);
+                Console.WriteLine(" Mana" + player.mana + "Health: " + player.health);
                 string input = Console.ReadLine();
                 if (input.ToLower() == "a" || input.ToLower() == "attack")
                 {
@@ -117,9 +117,7 @@ namespace Neoa
                 }
                 Console.ReadKey();
             {
-                if (random)
-                NM = GetReward();
-                else
+
                 NM = GetReward();
                 Console.WriteLine("You stand victorious over " + n + " and gain " + NM + " Neoan Marks");
                 Program.player.NeoanMark += NM;
