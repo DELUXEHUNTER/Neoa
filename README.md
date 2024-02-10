@@ -1,4 +1,4 @@
-<h1 align="center"> <img align="right" src="Docs/Images/Uncomplete_Icon_Neo.png"> 
+<h1 align="center"> <img align="right" src="Docs/Images/Neoa-Icon.png"> 
 <br>
 Neo<br>Land of Neoa</h1>
 
