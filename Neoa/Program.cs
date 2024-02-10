@@ -119,7 +119,7 @@ namespace Neoa
 
             while(true)
             {
-                DisplayLine("Species-type")
+                DisplayLine("Species-type");
                 Console.WriteLine("╔═════════════════════════╗");
                 Console.WriteLine("║         Human           ║");
                 Console.WriteLine("║         Undead          ║");
@@ -138,7 +138,7 @@ namespace Neoa
                 DisplayLine("Now your subspecies");
                 if (player.Species = "Undead")
                 {
-                DisplayLine("Typically these are evil but not in this case, Dhampir is not considered a ")
+                DisplayLine("Typically these are evil but not in this case, Dhampir is not considered a ");
                 Console.WriteLine("╔══════════════════════╗");
                 Console.WriteLine("║        Vampire       ║");
                 Console.WriteLine("║         Zombie       ║");
