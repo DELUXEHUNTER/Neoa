@@ -36,9 +36,9 @@ namespace Neoa
         
             TitleScreen();
 
-            if (player.Species != "Human")
+            //if (player.Species != "Human")
             //PrologueType2();
-            else
+            //else
             PrologueType1();
             Credits();
             
