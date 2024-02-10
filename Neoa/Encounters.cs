@@ -116,7 +116,6 @@ namespace Neoa
 
                 }
                 Console.ReadKey();
-            }
             {
                 if (random)
                 NM = GetReward();
