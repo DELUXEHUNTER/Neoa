@@ -1,6 +1,4 @@
-﻿/*
-Add your name for credit[I'll auto add if you've directly talked to me]
-
+﻿/* Add your name for credit[I'll auto add if you've directly talked to me]
 OWNER: 
 @DELUXEHUNTER
 
@@ -8,14 +6,11 @@ CONTRIBUTERS:
 @DELUXEHUNTER
 @Fuinny
 
-
 DATE CREATED: 
 FEBRUARY 1ST 2024
 
 INDIRECT CONTRIBUTERS/CONTRIBUTION/CREDIT:
-1. TUTORIAL USED I FORGOT THE NAME
-*/
-
+1. TUTORIAL USED I FORGOT THE NAME */
 using System.Xml.Linq;
 
 namespace Neoa
@@ -23,6 +18,9 @@ namespace Neoa
     public class Program
     {
         public static Player player = new();
+
+        public bool DLC1 = false;
+        public bool DLC2 = false;
 
         static void Main(string[] args)
         {
@@ -36,11 +34,17 @@ namespace Neoa
 
             }
         
-            Prologue();
+            TitleScreen();
+
+            if (player.Species != "Human")
+            PrologueType2();
+            else
+            PrologueType1();
             Credits();
+            
         }
 
-        static void Prologue()
+        static void TitleScreen()
         {
             Console.WriteLine(@"
 ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -113,6 +117,59 @@ namespace Neoa
                 }
             }
 
+            while(true)
+            {
+                DisplayLine("Species-type")
+                Console.WriteLine("╔═════════════════════════╗");
+                Console.WriteLine("║         Human           ║");
+                Console.WriteLine("║         Undead          ║");
+                Console.WriteLine("║         Demonic         ║");
+                Console.WriteLine("╚═════════════════════════╝");
+                
+                player.Species = Console.ReadLine();
+                while(string.IsNullOrWhiteSpace(player.Species) && player.Species != "Human" && player.Species != "Undead" && player.Species != "Demonic" && player.Species != "Angelic")
+                {
+                    Console.WriteLine("Thats not a real species type within this realm, the species you are looking for may be found within a subspecies.");
+                    player.Species = Console.ReadLine();
+                }
+
+                if (player.Species != "Human")
+                {
+                DisplayLine("Now your subspecies");
+                if (player.Species = "Undead")
+                {
+                DisplayLine("Typically these are evil but not in this case, Dhampir is not considered a ")
+                Console.WriteLine("╔══════════════════════╗");
+                Console.WriteLine("║        Vampire       ║");
+                Console.WriteLine("║         Zombie       ║");
+                Console.WriteLine("║        Skeleton      ║");
+                Console.WriteLine("║        Dhampir       ║")
+                Console.WriteLine("╚══════════════════════╝");
+                player.Subspecies = Console.ReadLine();
+                }
+                else if (player.Species = "Demonic")
+                {
+                DisplayLine("These beings are typically evil and do not.");
+                Console.WriteLine("╔══════════════════════╗");
+                Console.WriteLine("║       Changeling     ║");
+                Console.WriteLine("║         Demon        ║");                             
+                Console.WriteLine("╚══════════════════════╝");                
+                }
+                }
+
+                DisplayLine($"Are you sure you want this. Your current species is {player.Species}, while your sub species is {player.Subspecies}");
+                Console.WriteLine("Y/N");
+                string input = Console.ReadLine();
+                if (input.ToLower() == "y")
+                {
+                    break;
+                }
+                else
+                {
+                    continue;
+                }
+            }
+
             while (true)
             {
                 DisplayLine("Ancient Ancestor");
@@ -129,7 +186,6 @@ namespace Neoa
                     player.Ancestor = Console.ReadLine();
                 }
 
-
                 Console.WriteLine($"Current Ancient Ancestor {player.Ancestor}");
                 DisplayLine("Are you sure this is what you want your decision to be? You cannot change this.");
                 Console.WriteLine("Y/N");
@@ -144,6 +200,10 @@ namespace Neoa
                     continue;
                 }
             }
+        }
+
+        static void PrologueType1()
+        {
 
             Console.Clear();
             DisplayLine("...You awaken in a dark cell, with no memory of anything from your past...\n");
@@ -160,11 +220,6 @@ namespace Neoa
 
         }
 
-        static void NewBeginnings()
-        {
-            //Temp name
-            Console.WriteLine("Wombat");
-        }
 
         static void Credits()
         {
@@ -190,7 +245,7 @@ namespace Neoa
 
         }
 
-        public static void DisplayLine(string text, int speed = 60)
+        public static void DisplayLine(string text, int speed = 70)
         {
             foreach (char c in text)
             {
