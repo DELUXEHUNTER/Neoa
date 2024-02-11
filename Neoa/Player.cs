@@ -57,7 +57,7 @@ namespace Neoa
         {
             if(Program.Player.Subspecies == "Vampire")
             {
-            Program.Player.Health = 125
+            Program.Player.Health = 125;
             Program.Player.Mana = 200;
             Program.Player.Damage = 10; 
             Program.Player.BloodDamage = 2;
