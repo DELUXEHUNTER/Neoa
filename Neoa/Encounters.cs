@@ -40,7 +40,79 @@ namespace Neoa
 
         }
 
-        public static void Combat(bool combat, string name, int power, int health)
+        public static void Combat(bool random, string name, int power, int health, int mana)
+        {
+            string n = "";
+            int p = 0;
+            int h = 0;
+            int m = 0;
+            n = name;
+            p = power;
+            h = health;
+            m = mana;
+            int NM = 0;
+        
+        while (h > 0)
+        {
+            Console.Clear();
+            Program.DisplayLine(n);
+            Program.DisplayLine($"Health: {h}");
+            Program.DisplayLine($"Strength: {p}");
+            Program.DisplayLine($"Mana: {m}");
+            Console.WriteLine("╔══════════════════════╗");
+            Console.WriteLine("║  (A)ttack (M)agic    ║");
+            Console.WriteLine("║    (D)efend (F)lee   ║");                             
+            Console.WriteLine("╚══════════════════════╝");  
+            Program.DisplayLine($"{player.Name}");
+            Program.DisplayLine($"Health: {player.health}");
+            Program.DisplayLine($"Mana: {player.mana}");
+            string input = Console.ReadLine();
+            if (input.ToLower() == "a" && player.class != mage && input == "attack")
+            {
+                Program.DisplayLine("");
+            }
+            else if (input.ToLower() == "m" && input == "magic")
+            {
+                Console.DisplayLine("Spells");
+            }
+            else if (input.ToLower() == "d" && input == "defend")
+            {
+                Program.DisplayLine("");
+            }
+            else if  (input.ToLower() == "f" && input == "flee")
+            {
+                Program.DisplayLine("");
+            }
+            while (string.IsNullOrWhiteSpace(input) && input != "a" && input != "m" && input != "d" && input != "f")
+            {
+                Console.WriteLine("Attack, magic, defend, or flee.");
+                input = Console.ReadLine();
+            }
+            if (player.health < 0)
+            {
+                Program.DisplayLine("So you've died? thats not great");
+                Program.Death();
+            }
+
+            }
+            Console.ReadKey();
+
+            {
+                //Temporary
+                NM = reward; 
+                Program.DisplayLine($"You looted {NM}")
+                Program.player.NeoanMark += NM;
+
+
+            }
+
+            
+    
+
+        }
+        
+
+   /*     public static void Combat(bool combat, string name, int power, int health)
         {
             string n = "";
             int p = 0;
@@ -84,7 +156,7 @@ namespace Neoa
                     int attack = rand.Next(0, Program.player.weaponValue) / 2;
 
                     Program.DisplayLine("You lose " + damage + "health and deal " + attack + " damage");
-                    Program.player.health -= damage;
+                    player.health -= damage;
                     h -= attack;
                 }
                 else if (input.ToLower() == "r" || input.ToLower() == "run")
@@ -93,7 +165,7 @@ namespace Neoa
                     if (rand.Next(0, 2) == 0)
                     {
                         Program.DisplayLine("As you sprint away the " + n + " strikes you in the back, sending you sprawling");
-                        int damage = p - Program.player.armorValue;
+                        int damage = p - player.armorValue;
                         if (damage < 0)
                             damage = 0;
                         Program.DisplayLine("You lose " + damage + " health and are unable to escape.");
@@ -109,7 +181,7 @@ namespace Neoa
                 }
                     Console.ReadKey();
                 }
-                if (Program.player.health < 0)
+                if (player.health < 0)
                 {
                     //Death 
                     Program.DisplayLine("As the " + n + " stands high it " + n + " has slain you");
@@ -126,6 +198,9 @@ namespace Neoa
             }
 
         }
+
+        */
+
         //Temporary
         public static string GetName()
         {

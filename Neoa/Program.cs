@@ -221,6 +221,28 @@ namespace Neoa
         }
 
 
+
+        public static void Death()
+        {
+            //Temporary death, death screen will change depending on way of death
+            while(true)
+            {
+                Console.Clear();
+                DisplayLine("The realm of the dead claims your soul.");
+
+                DisplayLine("Info")
+                DisplayLine($"Name: {player.name}");
+                DisplayLine($"Species: {player.Species}/{player.Subspecies}");
+                DisplayLine($"Ethnicity: {player.Ethnicity}");
+                DisplayLine($"Ancestor: {player.Ancestor}");
+
+                Console.WriteLine("Stats");
+                DisplayLine($"Sanity {player.Sanity}")
+                DisplayLine($"Divine & Ancestral Favor: {player.DivineFavor}, {player.AncestralFavor}");
+            }
+            Console.ReadKey();
+        }
+
         static void Credits()
         {
             DisplayLine("So, you've reached a point that the game ended sadly");

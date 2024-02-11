@@ -9,14 +9,15 @@ namespace Neoa
         public string Species;
         public string Subspecies; 
         public string Ethnicity;
+        public string Class;
         
-
         public int NeoanMark = 0;
         public int Sanity = 225;
-        
 
+        public int DivineFavor = 0;
+        public int AncestralFavor = -50;
 
-        
+    
         //Encounter ints/strings, rarely used
         public int health = 100;
         public int mana = 100;
