@@ -38,7 +38,8 @@ namespace Neoa
 
 //Unique stats & Player systems
 
-        if (Program.Player.Species == "Human")
+
+       public static if (Program.Player.Species == "Human")
         {
             Program.Player.Health = 105;
             Program.Player.Mana = 125;

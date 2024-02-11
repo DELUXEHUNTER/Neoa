@@ -14,19 +14,6 @@ namespace Neoa
             Program.DisplayLine("The deranged man begins to attempt to attack you using a rusty sword");
             Program.DisplayLine("Right before the man can attack you the guard quickly tosses you his sword");
             Console.ReadKey();
-            switch (rand.Next(1,3))
-            {
-                case 1:
-                    {
-                    Program.DisplayLine("Random Effect:")
-                    Program.DisplayLine("Brushing Insanity")
-                    }
-                Case 2
-                    {
-                    
-                    }
-
-            }
             Combat(false, "deranged prisoner", 1, 2, 0);
             Program.DisplayLine("The guard takes back his sword and tells you to continue on");
         }
