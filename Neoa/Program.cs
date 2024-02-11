@@ -230,14 +230,14 @@ namespace Neoa
                 Console.Clear();
                 DisplayLine("The realm of the dead claims your soul.");
 
-                DisplayLine("Info")
+                DisplayLine("Info");
                 DisplayLine($"Name: {player.name}");
                 DisplayLine($"Species: {player.Species}/{player.Subspecies}");
                 DisplayLine($"Ethnicity: {player.Ethnicity}");
                 DisplayLine($"Ancestor: {player.Ancestor}");
 
                 Console.WriteLine("Stats");
-                DisplayLine($"Sanity {player.Sanity}")
+                DisplayLine($"Sanity {player.Sanity}");
                 DisplayLine($"Divine & Ancestral Favor: {player.DivineFavor}, {player.AncestralFavor}");
             }
             Console.ReadKey();
