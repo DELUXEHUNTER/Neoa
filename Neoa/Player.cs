@@ -52,7 +52,7 @@ namespace Neoa
         }
 
         
-        if (Program.Player.Species == "Undead")
+        public static if (Program.Player.Species == "Undead")
         {
             if(Program.Player.Subspecies == "Vampire")
             {
@@ -101,7 +101,7 @@ namespace Neoa
         }
 
  
-        if (Program.Player.Species == "Demonic")
+        public static if (Program.Player.Species == "Demonic")
         {
             if(Program.Player.Subspecies == "Demon")
             {
