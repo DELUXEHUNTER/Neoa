@@ -2,8 +2,6 @@ namespace Neoa
 {
     public class Player
     {
-        Random rand = new Random();
-
         public string Name;
         public string Ancestor;
         public string Species;
@@ -17,12 +15,11 @@ namespace Neoa
         public int DivineFavor = 0;
         public int AncestralFavor = -50;
 
-    
         //Encounter ints/strings, rarely used
-        public int health = 100;
-        public int mana = 100;
-        public int damage = 10;
-        public int armorValue = 0;
-        public int weaponValue = 1;
+        public int Health = 100;
+        public int Mana = 100;
+        public int Damage = 10;
+        public int Armor = 0;
+        public int WeaponStrength = 1;
     }
 }
