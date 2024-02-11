@@ -70,6 +70,7 @@ namespace Neoa
             if (input.ToLower() == "a" && player.class != mage && input == "attack")
             {
                 Program.DisplayLine("");
+                Program.DisplayLine("");
             }
             else if (input.ToLower() == "m" && input == "magic")
             {
@@ -78,12 +79,14 @@ namespace Neoa
             else if (input.ToLower() == "d" && input == "defend")
             {
                 Program.DisplayLine("");
+                Program.DisplayLine("");
             }
             else if  (input.ToLower() == "f" && input == "flee")
             {
                 Program.DisplayLine("");
+                Program.DisplayLine("");
             }
-            while (string.IsNullOrWhiteSpace(input) && input != "a" && input != "m" && input != "d" && input != "f")
+            while (string.IsNullOrWhiteSpace(input) && input != "a" && input = "m" && input != "d" && input != "f")
             {
                 Console.WriteLine("Attack, magic, defend, or flee.");
                 input = Console.ReadLine();
@@ -100,7 +103,7 @@ namespace Neoa
             {
                 //Temporary
                 NM = reward; 
-                Program.DisplayLine($"You looted {NM}")
+                Program.DisplayLine($"You looted {NM}");
                 Program.player.NeoanMark += NM;
 
 
@@ -110,97 +113,6 @@ namespace Neoa
     
 
         }
-        
-
-   /*     public static void Combat(bool combat, string name, int power, int health)
-        {
-            string n = "";
-            int p = 0;
-            int h = 0;
-            int NM = 0;
-            n = name;
-            p = power;
-            h = health;
-    
-            while (h > 0)
-            {
-                Console.Clear();
-                Console.WriteLine(n);
-                Console.WriteLine("Health: " + h);
-                Console.WriteLine("Strength: " + p);
-                Console.WriteLine("======================");
-                Console.WriteLine("| (A)ttack (D)efend  |");
-                Console.WriteLine("|  (R)un    (M)agic   |");
-                Console.WriteLine("======================");
-                Console.WriteLine(" Mana" + Program.player.mana + "Health: " + Program.player.health);
-                string input = Console.ReadLine();
-                if (input.ToLower() == "a" || input.ToLower() == "attack")
-                {
-                    //Attack
-                    Program.DisplayLine("A quick thrust towards the " + n + " as you thrust the " + n + " strikes you");
-                    int damage = p - Program.player.armorValue;
-                    if (damage < 0)
-                        damage = 0;
-                    int attack = rand.Next(0, Program.player.weaponValue) + rand.Next(1, 5);
-                    Program.DisplayLine("You lose " + damage + "health and deal " + attack + " damage");
-                    Program.player.health -= damage;
-                    h -= attack;
-                }
-                else if (input.ToLower() == "d" || input.ToLower() == "defend")
-                {
-                    //Defend
-                    Program.DisplayLine("As the " + n + " prepares to strike, you ready your sword in a defensive stane");
-                    int damage = (p / 4) - Program.player.armorValue;
-                    if (damage < 0)
-                        damage = 0;
-                    int attack = rand.Next(0, Program.player.weaponValue) / 2;
-
-                    Program.DisplayLine("You lose " + damage + "health and deal " + attack + " damage");
-                    player.health -= damage;
-                    h -= attack;
-                }
-                else if (input.ToLower() == "r" || input.ToLower() == "run")
-                {
-                    //Run
-                    if (rand.Next(0, 2) == 0)
-                    {
-                        Program.DisplayLine("As you sprint away the " + n + " strikes you in the back, sending you sprawling");
-                        int damage = p - player.armorValue;
-                        if (damage < 0)
-                            damage = 0;
-                        Program.DisplayLine("You lose " + damage + " health and are unable to escape.");
-                        Console.ReadKey();
-                    }
-                    else
-                    {
-                        Program.DisplayLine("You use your agility to escape from the " + n + " and you successfullY escape!");
-                        Console.ReadKey();
-                        //Go to store
-
-                    }
-                }
-                    Console.ReadKey();
-                }
-                if (player.health < 0)
-                {
-                    //Death 
-                    Program.DisplayLine("As the " + n + " stands high it " + n + " has slain you");
-                    Console.ReadKey();
-
-                }
-                Console.ReadKey();
-            {
-
-                NM = reward;
-                Console.WriteLine("You stand victorious over " + n + " and gain " + NM + " Neoan Marks");
-                Program.player.NeoanMark += NM;
-                Console.ReadKey();
-            }
-
-        }
-
-        */
-
         //Temporary
         public static string GetName()
         {
