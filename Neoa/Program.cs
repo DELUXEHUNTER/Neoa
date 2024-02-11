@@ -140,19 +140,24 @@ namespace Neoa
                 Console.WriteLine("╔══════════════════════╗");
                 Console.WriteLine("║        Vampire       ║");
                 Console.WriteLine("║         Zombie       ║");
-                Console.WriteLine("║        Skeleton      ║");
-                Console.WriteLine("║        Dhampir       ║");
+                Console.WriteLine("║        Revenant      ║");
                 Console.WriteLine("╚══════════════════════╝");
                 Player.Subspecies = Console.ReadLine();
+                while(string.IsNullOrWhiteSpace(Player.Subspecies) && Player.Subspecies != "Human" && Player.Species != "Undead" && Player.Species != "Demonic" && Player.Species != "Angelic")
+                {
+                    Console.WriteLine("Thats not a real species type within this realm, the species you are looking for may be found within a subspecies.");
+                    Player.Species = Console.ReadLine();
+                }
+
                 }
                 else if (Player.Species == "Demonic")
                 {
-                DisplayLine("These beings are typically evil and do not.");
+                DisplayLine("These beings are typically evil");
                 Console.WriteLine("╔══════════════════════╗");
-                Console.WriteLine("║       Changeling     ║");
                 Console.WriteLine("║         Demon        ║");                             
                 Console.WriteLine("╚══════════════════════╝");                
                 }
+                //Demon is the only demonic race for now
                 }
 
                 DisplayLine($"Are you sure you want this. Your current species is {Player.Species}, while your sub species is {Player.Subspecies}");

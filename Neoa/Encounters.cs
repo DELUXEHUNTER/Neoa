@@ -6,31 +6,36 @@ namespace Neoa
 {
     public class Encounters
     {
-        public static string enviro = default;
-        public static int reward = 0;
 
         public static void PrisonFirstEncounter()
         {
-            reward = 1;
             Program.DisplayLine("After walking a short distance from your cell a prisoner comes up to you..");
             Program.DisplayLine("..\"Anaxians are all the same I'm tired of you all\"");
             Program.DisplayLine("The deranged man begins to attempt to attack you using a rusty sword");
             Program.DisplayLine("Right before the man can attack you the guard quickly tosses you his sword");
             Console.ReadKey();
-            Combat(true, "deranged prisoner", 1, 2, 0);
-            Program.DisplayLine("The guard takes back his sword and tells you to continue on");
+            switch (rand.Next(1,3))
+            {
+                case 1:
+                    {
+                    Program.DisplayLine("Random Effect:")
+                    Program.DisplayLine("Brushing Insanity")
+                    }
+                Case 2
+                    {
+                    
+                    }
 
-            Console.WriteLine("Save game? Y/n");
-            Console.ReadKey();
-            Program.DisplayLine("Did you actually think I made a save game yet? Not yet, you can tell I got bored doing this.");
+            }
+            Combat(false, "deranged prisoner", 1, 2, 0);
+            Program.DisplayLine("The guard takes back his sword and tells you to continue on");
         }
 
         public static void FirstEncounter()
         {
-            enviro = "FirstEnc";
-            reward = 30;
             Console.ReadKey();
-            Combat(true, "Escaped Prisoner ", 1, 2, 1);
+            
+            Combat(false, "Escaped Prisoner ", 1, 2, 1);
         }
 
         public static void RandomEncounter()
