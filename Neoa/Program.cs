@@ -231,7 +231,7 @@ namespace Neoa
                 DisplayLine("The realm of the dead claims your soul.");
 
                 DisplayLine("Info");
-                DisplayLine($"Name: {player.name}");
+                DisplayLine($"Name: {player.Name}");
                 DisplayLine($"Species: {player.Species}/{player.Subspecies}");
                 DisplayLine($"Ethnicity: {player.Ethnicity}");
                 DisplayLine($"Ancestor: {player.Ancestor}");

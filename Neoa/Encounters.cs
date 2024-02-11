@@ -67,7 +67,7 @@ namespace Neoa
             Program.DisplayLine($"Health: {player.health}");
             Program.DisplayLine($"Mana: {player.mana}");
             string input = Console.ReadLine();
-            if (input.ToLower() == "a" && player.Class != mage && input == "attack")
+            if (input.ToLower() == "a" && player.Class != "mage" && input == "attack")
             {
                 Program.DisplayLine("");
                 Program.DisplayLine("");
