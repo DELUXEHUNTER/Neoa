@@ -12,6 +12,7 @@ public class Player
     public string Subspecies;
     public string Ethnicity;
     public string Class;
+    public string Gender;
 
     //ints   
 
@@ -26,6 +27,9 @@ public class Player
     public int Reputation = 0;
     public int DivineFavor = 0;
     public int AncestralFavor = -50;
+
+    //Physical/Magical
+    public int Age; 
 
     //Physical/Magical(Encounters)
     public int Health = 100;
