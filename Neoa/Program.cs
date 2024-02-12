@@ -13,7 +13,7 @@
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.BackgroundColor = ConsoleColor.Black;
             }
-            
+
             TitleScreen();
             //if (player.Species != "Human")
             //PrologueType2();
