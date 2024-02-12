@@ -38,10 +38,6 @@ namespace Neoa
 
 //Unique stats & Player systems
 
-    public static Stats()
-    {
-
-        return;
         if (Program.Player.Species == "Human")
         {
             Program.Player.Health = 105;
@@ -54,7 +50,7 @@ namespace Neoa
 
         }
 
-        else if(Program.Player.Species == "Undead")
+        if(Program.Player.Species == "Undead")
         {
             if(Program.Player.Subspecies == "Vampire")
             {
@@ -98,7 +94,7 @@ namespace Neoa
 
         }
 
-        else if(Program.Player.Species == "Demonic")
+        if(Program.Player.Species == "Demonic")
         {
             if(Program.Player.Subspecies == "Demon")
             {
