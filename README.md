@@ -21,5 +21,4 @@ Here is a future thank you to anyone who contributes thank you all for your hard
     - The Kingdom:DLC, planned, You will be able to found and rule over a kingdom of your own, this is a very distant idea. for now just an idea especially until the games actually developed and reached a state where this is a possible.
 
     - Your Home?: Dream DLC
-
 <p align="justify">Sometime in a few months I will have to leave for 3 months and will not be able to access any of my electronic devices. I don't expect anyone to want to help with this project/game but if you do remember this, and when I do come back I'll review everything and start coding again, I really do apologize for this, I will try my best to come back as soon as possible, and if I don't come back that soon, I'm sorry.</p>
