@@ -38,7 +38,7 @@ namespace Neoa
 
 //Unique stats & Player systems
 
-    public static int Stats()
+    public static Stats()
     {
 
         if (Program.Player.Species == "Human")
@@ -50,6 +50,8 @@ namespace Neoa
             Program.Player.AncestralFavor = 5;
             Program.Player.Sanity = 250;
             Program.Player.Reputation = 0;
+
+            return;
 
         }
 
@@ -70,6 +72,7 @@ namespace Neoa
             Program.Player.Bloodthirst = 1;
             Program.Player.Reputation = 0;
 
+            return;
             }
             else if (Program.Player.Subspecies == "Zombie")
             {
@@ -82,6 +85,8 @@ namespace Neoa
             Program.Player.AncestralFavor = -100;
             Program.Player.Sanity = -250;
             Program.Player.Reputation = -50;
+
+            return;
             }
             else if (Program.Player.Subspecies == "Revenant")
             {
@@ -93,6 +98,8 @@ namespace Neoa
             Program.PLayer.AncestralFavor = -50;
             Program.Player.Sanity = -300;
             Program.Player.Reputation = -60;
+
+            return;
             }
 
         }
@@ -109,6 +116,8 @@ namespace Neoa
             Program.Player.AncestralFavor = -200;
             Program.Player.Sanity = 450;
             Program.Player.Reputation -100;
+            
+            return;
         
             }
         }
