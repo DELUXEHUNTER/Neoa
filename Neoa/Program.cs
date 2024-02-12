@@ -209,7 +209,12 @@
             while(true)
             {
                 Console.Clear();
-                DisplayLine("The realm of the dead claims your soul.");
+                DisplayLine("......A tall black figure appears before you");
+                DisplayLine($"...{Player.Name}.. Did you expect this?");
+                Console.ReadKey();
+
+                Console.WriteLine("The end..");
+                
 
                 DisplayLine("Info");
                 DisplayLine($"Name: {Player.Name}");

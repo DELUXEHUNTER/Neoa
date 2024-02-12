@@ -4,23 +4,14 @@ namespace Neoa
     public class YourHome
     {
         public bool Dreams = false;
-        public bool DreamEnd = false;
-        //name
-        string Dreamer;
+        public string Dreamer;
+
         public static void Intro()
         {
             Program.DisplayLine("..What is this.....?");
             Program.DisplayLine("Who are you....");
             Dreamer = Console.ReadLine();
 
-            if(Dreamer = Program.Player.Name)
-            {
-            Program.DisplayLine("");
-            }
-            else 
-            {
-
-            }
             
         } 
 
