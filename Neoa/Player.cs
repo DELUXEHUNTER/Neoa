@@ -13,19 +13,21 @@ namespace Neoa
 
 
 //ints   
+
+        //Currency 
         public int NeoanMark;
 
         //Mind
         public int Sanity = 225;
         public int Bloodthirst = 0;
 
-
+        //World
         public int Reputation = 0;
         public int DivineFavor = 0;
         public int AncestralFavor = -50;
-        
 
 
+        //Physical/Magical(Encounters)
         public int Health = 100;
         public int Mana = 100;
         public int Damage = 10;
@@ -37,10 +39,7 @@ namespace Neoa
 
 
 //Unique stats & Player systems
-
-
-//I don't really know how to fix this
-
+//I don't really know how to fix this, so I'm not gonna mess with it anymore
     public static Stats()
     {
 
@@ -115,8 +114,6 @@ namespace Neoa
         
             }
         }
-
-        return Program.Player;
 
         }
     }
