@@ -110,7 +110,7 @@ public class Player
                 Program.Player.DivineFavor = -30;
                 Program.Player.AncestralFavor = -200;
                 Program.Player.Sanity = 450;
-                Program.Player.Reputation -100;
+                Program.Player.Reputation = -100;
 
             }
         }
