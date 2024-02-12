@@ -12,24 +12,24 @@ namespace Neoa
             Program.DisplayLine("Who are you....");
             Dreamer = Console.ReadLine();
 
-            
-        } 
 
-    
+        }
+
+
     }
 
-// The kings court is a DLC that is completely seperate from the base game.
+    // The kings court is a DLC that is completely seperate from the base game.
 
     public class TKC
     {
-    public bool KCourt = false;
+        public bool KCourt = false;
 
-    public static void TKCIntro()
-    {
-        while(TKC = true)
+        public static void TKCIntro()
         {
+            while (TKC = true)
+            {
 
-        }
+            }
 
         }
 

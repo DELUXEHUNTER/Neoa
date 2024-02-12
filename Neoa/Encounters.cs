@@ -1,4 +1,4 @@
-//The Encounter system will constantly need to be changed, there is no set way
+////The Encounter system will constantly need to be changed, there is no set way
 namespace Neoa
 {
     public class Encounters
@@ -17,10 +17,10 @@ namespace Neoa
         public static void FirstEncounter()
         {
             Console.ReadKey();
-            
+
             Combat(false, "Escaped Prisoner ", 1, 2, 1);
         }
-    
+
         public static void Combat(bool random, string enemyName, int enemyPower, int enemyHealth, int enemyMana)
         {
             while (enemyHealth > 0)
@@ -69,7 +69,7 @@ namespace Neoa
                 if (Program.Player.Health < 0)
                 {
                     Program.DisplayLine("So you've died? thats not great");
-                    Program.Death();
+                    //Program.Death();
                 }
 
             }
