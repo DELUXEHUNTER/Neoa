@@ -93,7 +93,7 @@ public class Player
                 Program.Player.Damage = 17;
                 Program.Player.Armor = 5;
                 Program.Player.DivineFavor = -35;
-                Program.PLayer.AncestralFavor = -50;
+                Program.Player.AncestralFavor = -50;
                 Program.Player.Sanity = -300;
                 Program.Player.Reputation = -60;
             }
