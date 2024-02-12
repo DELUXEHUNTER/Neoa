@@ -5,7 +5,7 @@ namespace Neoa
 {
     public class YourHome
     {
-        public bool YourHome = false;
+        public bool Dreams = false;
         public bool DreamEnd = false;
         //name
         string Dreamer;
@@ -19,6 +19,10 @@ namespace Neoa
             {
             Program.DisplayLine("");
             }
+            else 
+            {
+
+            }
             
         } 
 
@@ -29,7 +33,7 @@ The kings court is a DLC that is completely seperate from the base game.
 */
     public class TKC
     {
-    public bool TKC = false;
+    public bool KCourt = false;
 
     public static void TKCIntro()
     {
