@@ -33,10 +33,12 @@ The kings court is a DLC that is completely seperate from the base game.
 
     public static void TKCIntro()
     {
-     while(TKC = true)
-    {
+        while(TKC = true)
+        {
 
-    }
+        }
+
+        }
 
     }
 }
