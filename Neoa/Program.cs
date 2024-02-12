@@ -200,7 +200,10 @@
 
             DisplayLine("the guard leads you to the entrance where you see someone who looked like royalty he stood calm with purpose and pride");
             DisplayLine("speaking to you the guard tells you \"thats the royal who begged us to release you\"");
-            DisplayLine($"So, your {Player.Name}.");
+            DisplayLine($"the strange man speaks \"So, your {Player.Name}.");
+            DisplayLine("what do you plan on doing now that I've released you?\"");
+            Console.WriteLine("");
+        
         }
 
         public static void Death()
