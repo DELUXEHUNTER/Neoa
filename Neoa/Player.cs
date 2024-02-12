@@ -38,7 +38,7 @@ namespace Neoa
 
 //Unique stats & Player systems
 
-    public static Stats()
+    public static int Stats()
     {
 
         if (Program.Player.Species == "Human")
