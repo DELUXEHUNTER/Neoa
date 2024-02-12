@@ -17,7 +17,7 @@ namespace Neoa
 
             if(Dreamer = Program.Player.Name)
             {
-            Program.DisplayLine("")
+            Program.DisplayLine("");
             }
             
         } 
@@ -29,11 +29,14 @@ The kings court is a DLC that is completely seperate from the base game.
 */
     public class TKC
     {
-        public bool TKC = false
-     while(TKC = true)
-     {
+    public bool TKC = false;
 
-     }
+    public static void TKCIntro()
+    {
+     while(TKC = true)
+    {
+
+    }
 
     }
 }
