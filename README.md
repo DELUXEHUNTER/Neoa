@@ -20,7 +20,7 @@ The Icon is not the final product and also its supposed to be a helmet but I'm s
 - OPTIONAL ACSII art, either found or someone making them.
 - Better choice selection.
 - Alternate Modes/DLCS
-    - The kingds court: DLC, planned. 
+    - The kings court: DLC, planned. Details Unknown
     - The Kingdom:DLC, planned, You will be able to found and rule over a kingdom of your own, this is a very distant idea. for now just an idea especially until the games actually developed and reached a state where this is a possible.
 
     - Your Home?: Dream DLC
