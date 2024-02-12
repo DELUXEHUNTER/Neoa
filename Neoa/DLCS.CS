@@ -1,4 +1,4 @@
-// This is a future CS File that will remain mostly unused until the entire game is complete or  most of the game//the part that completes it. For now this has no use, not really DLC's because you don't have to download them
+/* This is a future CS File that will remain mostly unused until the entire game is complete or  most of the game//the part that completes it. For now this has no use, not really DLC's because you don't have to download them
 namespace Neoa
 {
     public class YourHome
@@ -35,3 +35,6 @@ namespace Neoa
 
     }
 }
+
+
+*/
