@@ -12,9 +12,7 @@
 * Added Ethnicity, and ANC[Ancient Ancestor] selection. 
 * Very basic choice system[Literally just two things are chooseable]
 * Added credits in file, Not accessable in game yet. 
-
 * Added Unused DLC File
-
 
 
 Early Acess Alpha V.0.0.1 

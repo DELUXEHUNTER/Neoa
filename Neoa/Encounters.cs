@@ -1,3 +1,4 @@
+//The Encounter system will constantly need to be changed, there is no set way
 namespace Neoa
 {
     public class Encounters
@@ -19,13 +20,7 @@ namespace Neoa
             
             Combat(false, "Escaped Prisoner ", 1, 2, 1);
         }
-
-        public static void RandomEncounter()
-        {
-            enviro = "RandEnc";
-            Console.WriteLine("Empty");
-        }
-
+    
         public static void Combat(bool random, string enemyName, int enemyPower, int enemyHealth, int enemyMana)
         {
             while (enemyHealth > 0)

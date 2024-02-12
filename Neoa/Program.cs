@@ -205,7 +205,7 @@
 
         public static void Death()
         {
-            //Temporary death, death screen will change depending on way of death
+            //Temporary death, death screen will change depending on way of death, who or what killed you and will show you your players information
             while(true)
             {
                 Console.Clear();

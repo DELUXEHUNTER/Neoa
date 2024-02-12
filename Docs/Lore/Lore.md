@@ -14,18 +14,13 @@ There are many similarities to the real world in this world, but not many, to ma
 
 ---------------------------------------------------------------
 
-<h3> Neoa</h3>
-<!-- <p align="justify">The kingdom of Neoa, sometimes refered to as greater Aedon. Is the largest most prominent kingdom within the world of [PlaceHolder]</p>
--->
-
-<p align="justify">Neoa, also sometimes called greater Aedon is a massive kingdom, in the world of [PlaceHolder], filled with creatures and beings from legends and mythologies around the world. Neoa is typically seen as the most prominent and well known kingdoms in the entirety of [PlaceHolder], Surrounded by many kingdoms, that loosely base themselves around the government structure of Neoa.(rewriting)</p>
-
-
+<h3>Neoa</h3>
+<p align="justify">The kingdom of Neoa, sometimes refered to as greater Aedon. Is the largest most prominent kingdom within the world of [PlaceHolder] due to it being the most well adjusted kingdom due to the lack of a sun perfecting the magic used in order to mimic the sun and protect themselves from Nightcreatures, having many creatures, different terrains, ect... being the youngest kingdom Neoa still has a very rich history filled with wars, adventures, and great heroes since even before the founding of the kingdom, the government of Neoa is heavily influenced by the Church of Aedon and the culture of Neoa is a blend of surrounding cultures, and based within the many regions.</p> 
 
 
 <h4>Aedon</h4>
+<p align="justify">Aedon has always been the capital and largest city within Neoa being the very first city founded by Avalon, and is home to the royal Neoan family. Filled with years of ancient Neoan and Anaxian history from after and even before the city was founded and built to be what it is today. Due to Aedon being the capital the law is much more strict than any other city, and has many more laws, aswell as more experienced guardsmen/police. </p>
 
-<p align="justify">Aedon, the capital and home of the royal Neoan family. Filled with ancient Neoan and Anaxian history.</p>
 
 ---------------------------------------------------------------
 <h3> Anaxia</h3>
@@ -35,22 +30,24 @@ There are many similarities to the real world in this world, but not many, to ma
 ---------------------------------------------------------------
 
 <h3>Ancient ancestors</h3>
+<p align="justify">The Ancient ancestors of the world, being some of the greatest most mysterious people of the lands.</p>
 
-<p>These people are common ancestors the people of [PlaceHolder] have in common</p>
 
 <h4> Avalon, Neoan Lord</h4>
-<p align="justify"></p>
+<p align="justify" >Avalon is the patron of Neoa, He is the founder of Neoa</p>
 
-<p align="justify" >Avalon is the patron of Neoa, He is the founder of Neoa.</p>
 
 <h4> Iedelan, Anaxian hero</h4>
-
 <p align="justify">Idelan is the patron of Anaxia, The greatest King in Anaxian history</p>
 
-<h4>Dresden, Traveler of worlds</h4>
 
-<p align="justify">[Known as Tau-An in code currently. Dresden is a temporary name and is subject to change]</p>
-<p align="justify">A mysterious wandering man who appears at certain times, its unknown why he randomly shows up to certain things, but by many historians in their findings its been noted hes been seen at many important events. No one has ever spoken or seen him but it is suspected that he still lives to this day.</p>
+<h4>Dresden, Traveler of worlds</h4>
+<p align="justify">[Dresden is a temporary name and is subject to change, just as is his description]</p>
+<p align="justify">A mysterious wandering man who appears at certain times, its unknown why he randomly shows up to certain things, but by many historians in their findings its been noted hes been seen at many important events. No one has ever spoken or seen him but it is suspected that he still lives to this day. </p>
+
+
+<h4>Tau-an, The Undead.</h4>
+<p align="justify">[Idea?]The Immortal undead ancestor of all things dead. Considered the creator and master of the first undead until having been overthrown by the very dead he raised, as the more he brought back the more they learned and became sentient giving themselves thoughts and minds to use. Not one of the first vampires, but after the vampiric rise he has taken dominion over vampires giving them blessings and everything.</p>
 
 
 <h3>Religion</h3>
@@ -66,11 +63,14 @@ There are many similarities to the real world in this world, but not many, to ma
 <h3>Neoan</h3>
 <p align="justify">Neoan myths and legends</p>
 
-<h4></h4>
-<p align="justify"> 
-
-[Uncomplete]Its believed by the Neoan's, that this completely black wolf, with dark red eyes is a manifestation of the Legendary king Avalon
-
+<h4>Aedonian Wolf</h4>
+<p align="justify">
+I don't think this story is good but here
+<br>
+The story of the Aedonian wolf of Avalon, it was said that when the Neoan legend Avalon first arrived in the primitive region of Aedon he had found a lone wolf cub, taking it in and raising it like one of his pets, and sometimes even treating it like a child Avalon raised the wolf cub into a fierce but gentle wolf. Since Avalons disappearence from the world the wolf has been searching for him with its own pack, never ending its search, never resting until it has found him. Even now the wolf still hunts today forever searching, some have seen this great wolf and praised it. In recent years the wolf has been shown to be sweet while als some stories a monster.
+<br>
+The boy and wolf. A young boy by the name of Aaron, wandering throughout the woods after swearing he wished his parents were dead, his parents were not even searching for the boy, eventually he found himself lost, alone, and scared, hunted by the creatures of the night after almost being completely ripped apart by a vampire, the boy was saved when a wolf pulled the vampire away from him, the vampires flesh began to burn as if sunlight had touched him his wounds becoming worse every second, eventually fleeing from the fight realizing that the wolf had done something to him. The wolf comforted the boy and picked him up carrying him back to his home and gently placing him within the arms of his parents, warning them that they should never let a boy wander in the woods at night, alone in the dark.
+<br>
 </p> 
 
 

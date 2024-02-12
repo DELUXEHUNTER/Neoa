@@ -4,6 +4,8 @@ namespace Neoa
     {
 
 //strings
+
+    //Start(These strings are set at the begining of the game through character creation)
         public string Name;
         public string Ancestor;
         public string Species;
@@ -12,22 +14,24 @@ namespace Neoa
         public string Class;
 
 
+
 //ints   
 
-        //Currency 
+    //Currency
         public int NeoanMark;
 
-        //Mind
+    //Mind
         public int Sanity = 225;
         public int Bloodthirst = 0;
 
-        //World
+    //World/Influence
         public int Reputation = 0;
         public int DivineFavor = 0;
         public int AncestralFavor = -50;
 
 
-        //Physical/Magical(Encounters)
+
+    //Physical/Magical(Encounters)
         public int Health = 100;
         public int Mana = 100;
         public int Damage = 10;
