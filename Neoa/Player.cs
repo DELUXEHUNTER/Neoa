@@ -71,8 +71,7 @@ namespace Neoa
             Program.Player.Reputation = 0;
 
             }
-
-            if (Program.Player.Subspecies == "Zombie")
+            else if (Program.Player.Subspecies == "Zombie")
             {
             Program.Player.Health = 120;
             Program.Player.Mana = 20;
@@ -83,10 +82,8 @@ namespace Neoa
             Program.Player.AncestralFavor = -100;
             Program.Player.Sanity = -250;
             Program.Player.Reputation = -50;
-
             }
-
-            if (Program.Player.Subspecies == "Revenant")
+            else if (Program.Player.Subspecies == "Revenant")
             {
             Program.Player.Health = 65;
             Program.Player.Mana = 76;
@@ -96,12 +93,10 @@ namespace Neoa
             Program.PLayer.AncestralFavor = -50;
             Program.Player.Sanity = -300;
             Program.Player.Reputation = -60;
-
             }
 
         }
 
- 
         if (Program.Player.Species == "Demonic")
         {
             if(Program.Player.Subspecies == "Demon")
@@ -114,7 +109,7 @@ namespace Neoa
             Program.Player.AncestralFavor = -200;
             Program.Player.Sanity = 450;
             Program.Player.Reputation -100;
-          
+        
             }
         }
         }

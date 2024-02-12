@@ -1,26 +1,8 @@
-﻿/* Add your name for credit[I'll auto add if you've directly talked to me]
-OWNER: 
-@DELUXEHUNTER
-
-CONTRIBUTERS:
-@DELUXEHUNTER
-@Fuinny
-
-DATE CREATED: 
-FEBRUARY 1ST 2024
-
-INDIRECT CONTRIBUTERS/CONTRIBUTION/CREDIT:
-1. TUTORIAL USED I FORGOT THE NAME */
-
-namespace Neoa
+﻿namespace Neoa
 {
     public class Program
     {
         public static Player Player = new();
-
-        public bool DLC1 = false;
-        public bool DLC2 = false;
-
         static void Main(string[] args)
         {
             if (OperatingSystem.IsWindows())
@@ -31,15 +13,14 @@ namespace Neoa
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.BackgroundColor = ConsoleColor.Black;
             }
-        
+            
             TitleScreen();
-
             //if (player.Species != "Human")
             //PrologueType2();
             //else
             PrologueType1();
             Credits();
-            
+        
         }
 
         static void TitleScreen()

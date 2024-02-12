@@ -1,12 +1,7 @@
-/* An important note. Read this if first time contributer:
-The encounter system is not ready to use and is completely useless. In the future we will redo this code and improve the encounter system
-basically the encounters are in beta or prototype? I don't know how to class them other than not in use and useless */
-
 namespace Neoa
 {
     public class Encounters
     {
-
         public static void PrisonFirstEncounter()
         {
             Program.DisplayLine("After walking a short distance from your cell a prisoner comes up to you..");
@@ -84,22 +79,6 @@ namespace Neoa
 
             }
             Console.ReadKey();
-        }
-
-        //Temporary
-        public static string GetName()
-        {
-            Random rand = new ();
-            switch (rand.Next(0, 4))
-            {
-                case 0:
-                    return "Keeper";
-                case 1:
-                    return "Guardian";
-                case 2:
-                    return "Human Cultist";
-            }
-            return "Escaped Prisoner";
         }
     }
 }
