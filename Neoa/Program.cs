@@ -74,6 +74,22 @@ public class Program
 
         Console.WriteLine();
 
+        // Ask player's gender
+        DisplayLine(Console.Color.Read, "The Mystical Voice", $"What is your gender, {Player.Name}?:);
+        Console.WriteLine("{Possible answers: Male, Female}");
+
+        Console.WriteLine();
+                    
+        DisplayLine(ConsoleColor.Green, "You","", 0);
+        Player.Gender = Console.ReadLine();
+        while (string.IsNullOrWhiteSpace(Player.Gender) || (Player.Gender != "Male" && Player.Gender != "Female"))
+        {
+            DisplayLine(ConsoleColor.Red, "The Mystical Voice", "That isn't a real gender\n");
+            DisplayLine(ConsoleColor.Green, "You", "", 0);
+            Player.Gender = Console.ReadLine();
+        }
+        Console.WriteLine();
+
         // Ask player's ethnicity.
         DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"Where are you from, {Player.Name}?");
         Console.WriteLine("{Possible answers: Neoan, Anaxian}");
@@ -128,7 +144,7 @@ public class Program
         }
 
         // Ask player's ancestor.
-        DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"Who are your ancestor, {Player.Name}?");
+        DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"Who is your ancestor, {Player.Name}?");
         Console.WriteLine("{Possible answers: Avalon, Iedelan, Tau-an}");
         DisplayLine(ConsoleColor.Green, "You", "", 0);
         Player.Ancestor = Console.ReadLine();
@@ -198,6 +214,7 @@ public class Program
         Console.WriteLine($"Divine & Ancestral Favor: {Player.DivineFavor}, {Player.AncestralFavor}");
 
         Console.ReadKey();
+        
     }
 
     public static void Credit()
