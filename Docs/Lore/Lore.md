@@ -67,10 +67,11 @@ There are many similarities to the real world in this world, but not many, to ma
 <p align="justify">
 I don't think this story is good but here
 <br>
-The story of the Aedonian wolf of Avalon, it was said that when the Neoan legend Avalon first arrived in the primitive region of Aedon he had found a lone wolf cub, taking it in and raising it like one of his pets, and sometimes even treating it like a child Avalon raised the wolf cub into a fierce but gentle wolf. Since Avalons disappearence from the world the wolf has been searching for him with its own pack, never ending its search, never resting until it has found him. Even now the wolf still hunts today forever searching, some have seen this great wolf and praised it. In recent years the wolf has been shown to be sweet while als some stories a monster.
-<br>
+The story of the Aedonian wolf of Avalon, it was said that when the Neoan legend Avalon first arrived in the primitive region of Aedon he had found a lone wolf cub, taking it in and raising it like one of his pets, and sometimes even treating it like a child Avalon raised the wolf cub into a fierce but gentle wolf. Since Avalons disappearence from the world the wolf has been searching for him with its own pack, never ending its search, never resting until it has found him. Even now the wolf still hunts today forever searching.
+<br><br>
 The boy and wolf. A young boy by the name of Aaron, wandering throughout the woods after swearing he wished his parents were dead, his parents were not even searching for the boy, eventually he found himself lost, alone, and scared, hunted by the creatures of the night after almost being completely ripped apart by a vampire, the boy was saved when a wolf pulled the vampire away from him, the vampires flesh began to burn as if sunlight had touched him his wounds becoming worse every second, eventually fleeing from the fight realizing that the wolf had done something to him. The wolf comforted the boy and picked him up carrying him back to his home and gently placing him within the arms of his parents, warning them that they should never let a boy wander in the woods at night, alone in the dark.
 <br>
+
 </p> 
 
 
