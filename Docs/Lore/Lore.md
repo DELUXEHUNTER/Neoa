@@ -4,6 +4,8 @@
 In order to avoid overwhelming readers, and the writers alike if this file begins to become too large, or a better way to put it, has too many entries and it takes too long to scroll to find a specific entry the file will be split up into multiple others, each being their own category.  if you'd like to help something that we could really use is more lore writers, and someone to format this to make it easier to read and comprehend. 
 </p>
 
+**Again the biggest help would be someone who could format the writing better.**
+
 ---------------------------------------------------------------
 
 <h3>Background</h3>
