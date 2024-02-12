@@ -1,4 +1,4 @@
-////The Encounter system will constantly need to be changed, there is no set way
+/* The Encounter system will constantly need to be changed, there is no set way
 namespace Neoa
 {
     public class Encounters

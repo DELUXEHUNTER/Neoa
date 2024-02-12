@@ -75,7 +75,7 @@ public class Program
         Console.WriteLine();
 
         // Ask player's gender
-        DisplayLine(Console.Color.Read, "The Mystical Voice", $"What is your gender, {Player.Name}?:");
+        DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"What is your gender, {Player.Name}?:");
         Console.WriteLine("{Possible answers: Male, Female}");
 
         Console.WriteLine();

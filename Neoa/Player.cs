@@ -63,7 +63,7 @@ public class Player
                 Program.Player.Health = 125;
                 Program.Player.Mana = 200;
                 Program.Player.Damage = 10;
-                Program.Player.BloodDamage = 2;
+                Program.Player.Blooddamage = 2;
                 if (Program.Player.Ancestor == "Tau-an")
                     Program.Player.AncestralFavor = 5;
                 else if (Program.Player.Ancestor != "Tau-an")
@@ -92,7 +92,7 @@ public class Player
                 Program.Player.Mana = 76;
                 Program.Player.Damage = 17;
                 Program.Player.Armor = 5;
-                Program.Player.DivieFavor = -35;
+                Program.Player.DivineFavor = -35;
                 Program.PLayer.AncestralFavor = -50;
                 Program.Player.Sanity = -300;
                 Program.Player.Reputation = -60;
@@ -110,7 +110,7 @@ public class Player
                 Program.Player.DivineFavor = -30;
                 Program.Player.AncestralFavor = -200;
                 Program.Player.Sanity = 450;
-                Program.Player.Reputation - 100;
+                Program.Player.Reputation -100;
 
             }
         }
