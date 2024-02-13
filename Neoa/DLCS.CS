@@ -8,8 +8,8 @@ namespace Neoa
 
         public static void Intro()
         {
-            Program.DisplayLine("..What is this.....?");
-            Program.DisplayLine("Who are you....");
+            Program.DisplayLine(ConsoleColor.White, "Distorted Voices","..What is this.....?");
+            Program.DisplayLine(ConsoleColor.White, "Distorted Voices","Who are you....");
             Dreamer = Console.ReadLine();
 
 

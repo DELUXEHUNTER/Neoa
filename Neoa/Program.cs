@@ -23,7 +23,6 @@ public class Program
 
     public static void TitleScreen()
     {
-        // Note from Fuinny: we need to add ability to choose character's gender and age.
         // Narrator replicas.
         Console.WriteLine(@"
 ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
@@ -48,6 +47,9 @@ public class Program
 ║000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000║
 ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 ");
+        Console.WriteLine("Press any key to continue to the game.");
+        Console.ReadKey();
+        Console.Clear();
         DisplayLine(ConsoleColor.White, "narrator", "You find yourself... nowhere.");
         DisplayLine(ConsoleColor.White, "narrator", "You cannot see, smell, or touch anything...");
         DisplayLine(ConsoleColor.White, "narrator", "There is only eternal darkness before you.");
@@ -108,7 +110,7 @@ public class Program
         Console.WriteLine();
 
         // Ask player's species.
-        DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"What are you, {Player.Name}?");
+        DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"What species group are you, {Player.Name}?");
         Console.WriteLine("{Possible answers: Human, Undead, Demonic}");
 
         Console.WriteLine();
@@ -128,9 +130,13 @@ public class Program
         if (Player.Species != "Human")
         {
             DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"And now in more detail... Your subspecies, {Player.Name}.");
-            Console.WriteLine("{Possible answers: Vampire, Zombie, Revenant, Demon}");
+            if (Player.Species == "Undead")
+            Console.WriteLine("{Possible answers: Vampire, Zombie, Revenant.}");
+            else if (Player.Species == "Demonic")
+            Console.WriteLine("{Possible answers: Demon.}");
 
             Console.WriteLine();
+
             DisplayLine(ConsoleColor.Green, "You", "", 0);
             Player.Subspecies = Console.ReadLine();
             while (string.IsNullOrWhiteSpace(Player.Subspecies) && Player.Subspecies != "Human" && Player.Species != "Undead" && Player.Species != "Demonic" && Player.Species != "Angelic")
@@ -145,7 +151,7 @@ public class Program
 
         // Ask player's ancestor.
         DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"Who is your ancestor, {Player.Name}?");
-        Console.WriteLine("{Possible answers: Avalon, Iedelan, Tau-an}");
+        Console.WriteLine("{Possible answers: Avalon, First King of Neoa. Iedelan, The Anaxian Hero. Tau-an, The Undead Lord.}");
         DisplayLine(ConsoleColor.Green, "You", "", 0);
         Player.Ancestor = Console.ReadLine();
         while (string.IsNullOrWhiteSpace(Player.Ancestor) && Player.Ancestor != "Avalon" && Player.Ancestor != "Iedelan" && Player.Ancestor != "Tau-an")
@@ -184,24 +190,108 @@ public class Program
         Console.WriteLine();
 
         DisplayLine(ConsoleColor.White, "narrator", "You look up and it comes to us. The King of Neoa himself stands before you!");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.Yellow,"Neoan King", "Ahh I've been waiting for you {Player.Name}. I hope you find your release enjoyable.");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.White,"narrator", "The guard leans in to speak to the king in a quiet tone, you can only make out a few words from the guard while the king speaks clearly.");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.DarkMagenta,"Royal Guard", "Are you sure ....trust them?..");
+        //Maybe if two characters are talking don't add a blank line? Add a blank line if narrator is speaking or player? I don't really
+        DisplayLine(ConsoleColor.Yellow,"Neoan King", "I'm quite sure we can");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.White,"narrator", "The king looks back towards you to continue his conversation with you.");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.Yellow,"Neoan King", "So, where was I, ah yes the reason I've freed you..");
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","I quite honestly don't even know");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.Green,"You","You don't... know?");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","Yes I don't know, I just heard about you on the news, and decided I would meet you.");
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","I'm quite tired of seeing this dull enviroment, I think it is time relocated.");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.White,"narrator","You, and the king began their travel to the Aedonian Castle..");
+        if (Player.Ancestor == "Avalon")
+        {
+        DisplayLine(ConsoleColor.White,"narrator","Arriving at the castle you are taken in by its size and beauty, you recognize statues of Avalon, the first Neoan king");
+
+        Console.WriteLine();
+
+        if (Player.Ethnicity != "Neoan")
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","I see your admiring the statue of the first king I'm suprised you know who he is");
+        else
+        DisplayLine(ConsoleColor.Yellow,"That statue has been here since after his death, Avalon is still prominent today. Many of my family have hoped I'd live up to his name");
+        }
+
+        else if (Player.Ancestor != "Avalon")
+        {
+        DisplayLine(ConsoleColor.White,"narrator","Arriving at the castle you are taken in by its size and beauty. You see unrecognizeable statues of a glorified man, who is that?");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","Do you know who that is? Thats Avalon the very first Neoan King. He built this very city with his own hands.");
+        }
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.White,"narrator","Entering the castle.. you are greeted by several people wanting to shake your hand");
+        DisplayLine(ConsoleColor.White,"narrator","..to get to know you, but the king quickly tells you to follow him to a door behind the crowd of people");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","This is where you will be sleeping, there aren't much better places to put you but for now this will work.");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.White,"narrator","The king leaves the room.. The room the king has left you in seems as horrid as the cell you woke up in");
+        DisplayLine(ConsoleColor.White,"narrator","it was damp, and dark with only a single candle for light.. The bed was made completely of wood with no cloth or linen on it.");
+
+        Console.WriteLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     }
 
     // Note from Fuinny: we can actually add parameter to this method in the future and the output will change depending on way of death.
-    // Temporary death, death screen will change depending on way of death, who or what killed you and will show you your players information
+    // Temporary death screen will change depending on way of death, who or what killed you and will show you your players information
     public static void Death()
     {
         Console.Clear();
-
         DisplayLine(ConsoleColor.White,"narrator","A tall black figure appears before you...");
         DisplayLine(ConsoleColor.White, "narrator", "The figure looks at you for a few seconds and begins to speak...");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.DarkRed,"Death",$"...{Player.Name}... Did you expect this?");
+        DisplayLine(ConsoleColor.DarkRed,"Death",$"...{Player.Name}... Did you expect this? Could you have?..");
+        DisplayLine(ConsoleColor.DarkRed, "Death","use your last few moments alive to reflect on your life.");
 
         Console.WriteLine();
-
-        Console.WriteLine("THE END");
 
         Console.WriteLine("Info");
         Console.WriteLine($"Name: {Player.Name}");
@@ -214,7 +304,11 @@ public class Program
         Console.WriteLine($"Divine & Ancestral Favor: {Player.DivineFavor}, {Player.AncestralFavor}");
 
         Console.ReadKey();
-        
+
+        DisplayLine(ConsoleColor.DarkRed, "Death",$"{Player.Name}.. Its time to move on now....");
+
+        Console.WriteLine("THE END.");
+        Console.ReadKey();
     }
 
     public static void Credit()
@@ -249,6 +343,9 @@ public class Program
 `--------------------~___~-------------------''
 ");
     }
+
+
+
 
     public static void DisplayLine(ConsoleColor textColor, string name, string text, int speed = 120)
     {

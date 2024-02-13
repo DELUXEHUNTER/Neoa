@@ -21,7 +21,10 @@ public class Player
 
     //Mind
     public int Sanity = 225;
+
+    //Undead
     public int Bloodthirst = 0;
+
 
     //World/Influence
     public int Reputation = 0;
@@ -40,17 +43,20 @@ public class Player
     public int WeaponStrength = 1;
 
     //Unique stats & Player systems
-    //I don't really know how to fix this, so I'm not gonna mess with it anymore
+
+    //Should a players ancestor be able to gain them divine favor? or should the ancestor give the player status boosts too?
     public static void SetupStats()
     {
-
         if (Program.Player.Species == "Human")
         {
             Program.Player.Health = 105;
             Program.Player.Mana = 125;
             Program.Player.Damage = 10;
             Program.Player.DivineFavor = -5;
-            Program.Player.AncestralFavor = 5;
+            if (Program.Player.Ancestor == "Avalon" )
+            Program.Player.AncestralFavor = 20;
+            if (Program.Player.Ancestor != "Avalon" )
+            Program.Player.AncestralFavor = 2;
             Program.Player.Sanity = 250;
             Program.Player.Reputation = 0;
 
@@ -82,7 +88,10 @@ public class Player
                 Program.Player.Armor = 3;
                 //Due to them being resurected even if forced
                 Program.Player.DivineFavor = -30;
-                Program.Player.AncestralFavor = -100;
+                if (Program.Player.Ancestor == "Tau-An")
+                    Program.Player.AncestralFavor = 2;
+                else if (Program.Player.Ancestor != "Tau-An")
+                    Program.Player.AncestralFavor = -100;
                 Program.Player.Sanity = -250;
                 Program.Player.Reputation = -50;
             }
@@ -99,6 +108,7 @@ public class Player
             }
 
         }
+
         else if (Program.Player.Species == "Demonic")
         {
             if (Program.Player.Subspecies == "Demon")
