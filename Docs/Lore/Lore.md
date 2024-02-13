@@ -1,10 +1,16 @@
-<h1 align="Center">Writers guide.</h1>
-<p align="justify">Welcome, I hope you enjoy reading or adding to the lore! It might not be the best but we will try our hardest to keep the lore easily followable without too much confusion. You can add anything you would like to the lore as long as you stick to the theme and story of the world, its suggested you read at least a few of the other lore entries specifically. Most of the lore entries added to this file will be included within the game at some point. It might take some time for more recent entries to be added but thats to be expected when you have to rewrite the code in order to include something. 
-<br>
-In order to avoid overwhelming readers, and the writers alike if this file begins to become too large, or a better way to put it, has too many entries and it takes too long to scroll to find a specific entry the file will be split up into multiple others, each being their own category.  if you'd like to help something that we could really use is more lore writers, and someone to format this to make it easier to read and comprehend. 
-<br>
-Almost all entries within this file are editable as long as you are rewriting an entire to improve its comprehension, grammar, or format. Otherwise please ask permission before changing an entry, adding entries is unrestricted. The main thing that we could use with this is a lorewriter and someone to format/rewrite entries to properly convey their meaning.
-</p>
+Welcome I hope you enjoy reading or adding to the lore of neoa, the lore might not be the best but we are going to try our best to keep the lore followable and easily readable without the least amount of confusion in explanations, most lore entries within this file are ideas made or suggested by the community, our plan is to include most lore here inside of the game in either books found or through exposure by characters, items, or other means. The main problem with writing the lore is the difficulty formating to look eye pleasing and easier to read, so if you want we could really use help lore writing and formatting, it would be a massive amount of help for us.
+
+<!-- 
+Additions, Edits, and removals:
+Anyone who is interested in writing lore can, there are not many restrictions to adding  or editing lore as long as you follow the established lore in other lore entries, or if your entry does not contradict another earlier made entry. Its recommended before writing/editing/adding lore you read the other entries. Certain lore entries cannot be removed as it would require an entire rewrite to everything within the game, removing entries is usually not allowed at all but if its neccesary you may ask, or if its a very recent entry that YOU wrote you can as long as its not been solidified in the game code. 
+
+Rewrites:
+Rewriting lore entries, is entirely allowed and actually encouraged. Rewriting an entry is just simply writing them in another way while having the same meaning an example would be writing "I had a comment" to "I used to have a comment", or another form similar but more formal and easier to understand. 
+
+Notice:
+An entry that cannot be changed in any way usually will have a comment or notice that states that the entry is unable to be changed, edited, removed, or added to by anyone except a certain user or person 
+
+-->
 
 ---------------------------------------------------------------
 
@@ -16,7 +22,7 @@ There are many similarities to the real world in this world, but not many, to ma
 ---------------------------------------------------------------
 
 <h3 align="left">Neoa</h3>
-<p align="justify">The kingdom of Neoa, sometimes refered to as greater Aedon. Is the largest most prominent kingdom within the world of Ethran[PlaceHolderName] due to it being the most well adjusted kingdom due to the lack of a sun perfecting the magic used in order to mimic the sun and protect themselves from Nightcreatures, having many creatures, different terrains, ect... being the youngest kingdom Neoa still has a very rich history filled with wars, adventures, and great heroes since even before the founding of the kingdom, the government of Neoa is heavily influenced by the Church of Aedon and the culture of Neoa is a blend of surrounding cultures, and based within the many regions.</p> 
+<p align="justify">The kingdom of Neoa, sometimes refered to as greater Aedon. Is the largest most prominent kingdom within the world of Ethran[PlaceHolderName] due to it being the most well adjusted kingdom due to the lack of a sun perfecting the magic used in order to mimic the sun and protect themselves from Nightcreatures, having many creatures, different terrains, ect... being the youngest kingdom Neoa still has a very rich history filled with wars, adventures, and great heroes since even before the founding of the kingdom, the government of Neoa is heavily influenced by the Church of Aedon and the culture of Neoa is a blend of surrounding cultures, and based within the many regions. Neoa has many similiarities and advancements similar to modern day, like news paper and its bank system.</p> 
 
 
 <h4>Aedon</h4>
