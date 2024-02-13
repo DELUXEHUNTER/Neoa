@@ -235,7 +235,7 @@ public class Program
         if (Player.Ethnicity != "Neoan")
         DisplayLine(ConsoleColor.Yellow,"Neoan King","I see your admiring the statue of the first king I'm suprised you know who he is");
         else
-        DisplayLine(ConsoleColor.Yellow,"That statue has been here since after his death, Avalon is still prominent today. Many of my family have hoped I'd live up to his name");
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","That statue has been here since after his death, Avalon is still prominent today. Many of my family have hoped I'd live up to his name");
         }
 
         else if (Player.Ancestor != "Avalon")
