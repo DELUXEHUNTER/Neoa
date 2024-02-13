@@ -367,10 +367,23 @@ public class Program
         foreach (char c in text)
         {
             Console.Write(c);
-            Thread.Sleep(speed);
+
+            if (Console.KeyAvailable)
+            {
+                ConsoleKeyInfo key = Console.ReadKey(true);
+                if (key.Key == ConsoleKey.DownArrow)
+                {
+                    Thread.Sleep(speed / 4);
+                }
+            }
+            else
+            {
+                Thread.Sleep(speed);
+            }
         }
 
         if (name == "narrator") Console.Write(" ]");
         if (text != "") Console.Write("\n");
+
     }
 }
