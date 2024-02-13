@@ -262,6 +262,10 @@ public class Program
         DisplayLine(ConsoleColor.White,"narrator","it was damp, and dark with only a single candle for light.. The bed was made completely of wood with no cloth or linen on it.");
 
         Console.WriteLine();
+        
+        
+        //This is where the first dream of the YourHome DLC will be if the player sleeps in this room. Once dlc is added/playable 
+        
 
 
 
