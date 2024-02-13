@@ -189,11 +189,11 @@ public class Program
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.White, "narrator", "You look up and it comes to us. The King of Neoa himself stands before you!");
+        DisplayLine(ConsoleColor.White, "narrator", "You look up and it comes to you. The King of Neoa himself stands before you!");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.Yellow,"Neoan King", "Ahh I've been waiting for you {Player.Name}. I hope you find your release enjoyable.");
+        DisplayLine(ConsoleColor.Yellow, "Neoan King", $"Ahh I've been waiting for you {Player.Name}. I hope you find your release enjoyable.");
 
         Console.WriteLine();
 
@@ -264,26 +264,11 @@ public class Program
         Console.WriteLine();
         
         
-        //This is where the first dream of the YourHome DLC will be if the player sleeps in this room. Once dlc is added/playable 
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+        //This is where the first dream of the YourHome DLC will be if the player sleeps in this room. Once dlc is added/playable.
     }
 
     // Note from Fuinny: we can actually add parameter to this method in the future and the output will change depending on way of death.
-    // Temporary death screen will change depending on way of death, who or what killed you and will show you your players information
+    // Temporary death screen will change depending on way of death, who or what killed you and will show you your players information.
     public static void Death()
     {
         Console.Clear();
@@ -384,6 +369,5 @@ public class Program
 
         if (name == "narrator") Console.Write(" ]");
         if (text != "") Console.Write("\n");
-
     }
 }
