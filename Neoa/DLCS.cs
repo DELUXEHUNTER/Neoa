@@ -34,10 +34,7 @@ namespace Neoa
 
         public static void TKCIntro()
         {
-            while (TKC = true)
-            {
-
-            }
+         DisplayLine(ConsoleColor.Yellow,"King", "Hiiii");//Literally just temporary text
 
         }
     }
