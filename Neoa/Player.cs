@@ -17,6 +17,7 @@ public class Player
 
     //Currency
     public int NeoanMark = 0;
+    public int NeoanExchange = 0;
     
     //Mind
     public int Sanity = 225;
@@ -24,15 +25,19 @@ public class Player
     //Undead
 
     //blood thirst value is at a maximum of 10 and a minimum of negative 1. 
-    public int Bloodthirst = 0;
+    public int Bloodthirst;
 
     //World/Influence
-    public int Reputation = 0;
-    public int DivineFavor = 0;
+    public int Reputation;
+    public int DivineFavor;
     public int AncestralFavor = -50;
 
     //Physical/Magical
     public int Age; 
+
+    //This Value goes up everytime you revive yourself from death
+    public int Reincarnations;
+
 
     //Physical/Magical(Encounters)
     public int Health = 100;

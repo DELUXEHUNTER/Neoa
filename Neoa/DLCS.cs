@@ -19,7 +19,7 @@ namespace Neoa
 
             Console.WriteLine();
 
-            Program.DisplayLine(ConsoleColor.White,"Distorted Voices",$"Oh its...its... you? {Dreamer} we don't know you...");
+            Program.DisplayLine(ConsoleColor.White,"Distorted Voices",$"Oh its...its... you? {Dreamer} we don't know you... yet..");
 
 
 

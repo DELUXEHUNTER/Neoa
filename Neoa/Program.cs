@@ -2,6 +2,7 @@
 
 public class Program
 {
+    public string input;
     public static Player Player = new();
 
     public static void Main()
@@ -162,6 +163,20 @@ public class Program
             DisplayLine(ConsoleColor.Green, "You", "", 0);
             Player.Ancestor = Console.ReadLine();
         }
+
+        //Player Age
+        DisplayLine(ConsoleColor.Red,"The Mystical Voice",$"How long have you been alive {Player.Name}?");
+        Console.WriteLine("{Possible Answer: An age cannot be lower than 20, or higher than 45, its recommended you stay within 20-29.}")
+        Player.Age = Convert.ToInt32(Console.ReadLine());
+        while (Player.Age > 45 && Player.Age < 19)
+        {
+            if(Player.Age > 45)
+            DisplayLine(ConsoleColor.Red,"The Mystical Voice","Your age is too high it must be below 45");
+            else if (Player.Age < 20)
+            DisplayLine(ConsoleColor.Red,"The Mystical Voice","Your age is too low it must be higher than 19/20");
+
+            Player.Age = Convert.ToInt32(Console.ReadLine());
+        }
     }
 
     public static void Prologue()
@@ -291,6 +306,7 @@ public class Program
         DisplayLine(ConsoleColor.White,"narrator","you decide its best you sleep now and worry about your room later on.. laying in the bed you find it hard to sleep until eventually you find a comfortable spot in your bed");
         }
 
+
     // YourHome.Intro();
 
     }
@@ -304,12 +320,38 @@ public class Program
     public static void Part1()
     {
         DisplayLine(ConsoleColor.White,"narrator","You awaken to the sound of footsteps above you and knocking on your door");
+        DisplayLine(ConsoleColor.White,"narrator",$"you can hear a somewhat familiar voice say \"Wake up {Player.Name}. You have a busy day today\"");     
+
+        Console.ReadKey();   
 
         Console.WriteLine();
-
-        DisplayLine(ConsoleColor.DarkMagenta,"Royal Guard",$"Wake up {Player.Name}. You have a busy day today.");
         
+        DisplayLine(ConsoleColor.White,"narrator","you decide to get up and open the door for the man, and notice its the Royal Guard");
+
         Console.WriteLine();
+
+        DisplayLine(ConsoleColor.DarkMagenta,"Royal Guard",$"I've been trying to wake you up for hours {Player.Name}. Now that your up, the king told me I should properly introduce myself,");
+        DisplayLine(ConsoleColor.DarkMagenta,"Royal Guard","My name is Kain, I am the captain of the royal guard. ");
+
+        Console.WriteLine();
+
+        Console.ReadKey();
+
+        DisplayLine(ConsoleColor.White,"narrator","the guard being so kind is suprising to you as he hasn't been kind to you since meeting you.. why is he telling you his name you wonder..");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.DarkMagenta,"Kain","Now that you know my name, don't ever call me Kain. I am the captain to you, and you will refer to me as captain.");
+        DisplayLine(ConsoleColor.DarkMagenta,"Kain","Anyways now that thats out of the way. The king wanted me to tell you, there is something in town that requires your attention.");
+        DisplayLine(ConsoleColor.DarkMagenta,"Kain","you are going to need this, and you have to head to the local tavern, the keeper will know why your there.");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.White,"narrator","Kain hands you twenty four marks and a single piece of paper");
+        Player.NeoanExchange += 1; Player.NeoanMark += 24; 
+
+        Console.WriteLine();
+    
         
 
     }
