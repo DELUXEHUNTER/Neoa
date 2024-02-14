@@ -267,7 +267,7 @@ public class Program
 
         DisplayLine(ConsoleColor.White,"narrator","looking around the room you inspect it closer noticing a misplaced dresser with its drawer partially open");
         DisplayLine(ConsoleColor.White,"narrator","you have multiple options... you could sleep or you could inspect the dresser and fix it?");
-        Console.WriteLine("{Possible Choices: (S)leep, (I)nspect});
+        Console.WriteLine("{Possible Choices: (S)leep, (I)nspect}")
 
         Console.WriteLine();
         
@@ -275,8 +275,8 @@ public class Program
         input = Console.ReadLine();
         while(input.ToLower != "s" && input.ToLower != "i")
         {
-        DisplayLine(ConsoleColor.White,"narrator",$"{Player.Name} just stands there doing nothing")
-         Console.WriteLine("{Possible Choicees: (S)leep, (I)nspect;   
+        DisplayLine(ConsoleColor.White,"narrator",$"{Player.Name} just stands there doing nothing");
+         Console.WriteLine("{Possible Choicees: (S)leep, (I)nspect");
         } 
         if(input.ToLower == "i")
         {
@@ -284,13 +284,17 @@ public class Program
             //Int still needs to be added
         Player.NeoanExchange += 1; 
         DisplayLine(ConsoleColor.White,"narrator","searching through the drawers you find a piece of paper with a royal signature, for now you decide to put the paper back not knowing what to do with it");
-        
+        DisplayLine(ConsoleColor.White,"narrator","..you then decide to go to sleep");
         }  
         else if(input.ToLower == "s")
         {
         DisplayLine(ConsoleColor.White,"narrator","you decide its best you sleep now and worry about your room later on.. laying in the bed you find it hard to sleep until eventually you find a comfortable spot in your bed");
         }
+
+    // YourHome.Intro();
+
     }
+
     //A section will be split into multiple parts unless theres a better Idea I don't really know why I want this but I do
     static void Section1()
     {
@@ -299,6 +303,14 @@ public class Program
 
     public static void Part1()
     {
+        DisplayLine(ConsoleColor.White,"narrator","You awaken to the sound of footsteps above you and knocking on your door");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.DarkMagenta,"Royal Guard",$"Wake up {Player.Name}. You have a busy day today.");
+        
+        Console.WriteLine();
+        
 
     }
 
