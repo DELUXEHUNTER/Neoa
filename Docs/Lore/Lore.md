@@ -64,12 +64,10 @@ Aonis is a realm of mysteries and mind bending landscapes, it is used as a way t
 The Dream realm is the realm that all dreams of almost every being, resides and forms, there are no forces that truly can control the dream realm. Instead it is influenced by itself and its magic wielders in the forms of demons, dreamwalkers, and deities. The dream realm is very unique in the sense that its not considered its own realm but instead a collection of dreams. Each dream has its own distinct properties always unique depending on the mind of the dreamer and the influences that caused the dream. Typically a dreamer has full control over their dream but it is possible to lose control over your dream, in most cases this means a demonic entity of some kind has entered your dream or mind, or has a presence around you. Not much is known about the dream realm by mortals and its very rare that a mortal even knows of the existence of the dream realm outside of the typical dreams. It is almost impossible for a user to fully die within the dream realm unless they have brought their physical body or if the entity that is attacking you has mass amounts of power.
 
 
-
-
 ---------------------------------------------------------------
 ### Characters
 
-#### The mysterious voice
+#### The mysterious voice/Mystical Voice
 <!---Its possible the voice could be someone important to you? or possibly the one of your ancestors -->
-This mysterious voice guides you on your adventure, and rarely speaks to you. Its unknown if its malicious or intends to help you the best it can. Until its proven, its best you do what it says without questioning it too much. 
+This mysterious voice guides you on your adventure, and rarely speaks to you. Its unknown if its malicious or intends to help you the best it can. Until its proven, its best you do what it says without questioning it too much. It goes by many names, typically all variants of The mystical voice.
 

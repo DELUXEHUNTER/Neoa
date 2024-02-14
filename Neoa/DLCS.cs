@@ -1,7 +1,7 @@
-/* This is a future CS File that will remain mostly unused until the entire game is complete or  most of the game//the part that completes it. For now this has no use, not really DLC's because you don't have to download them
+// This is a future CS File that will remain mostly unused until the entire game is complete or  most of the game//the part that completes it. For now this has no use, not really DLC's because you don't have to download them
 namespace Neoa
-
-//YourHome is the dream DLC that triggers dreams sometimes when you sleep or are knocked out these dreams are sometimes eerie and creepy on purpose(as creepy as I can get)
+{
+//YourHome is the dream DLC that triggers dreams sometimes when you sleep or are knocked out these dreams are sometimes eerie and creepy on purpose(as creepy as I can get) 
  public class YourHome
     {
         public bool Dreams = false;
@@ -12,8 +12,16 @@ namespace Neoa
             Program.DisplayLine(ConsoleColor.White, "Distorted Voices","..What is this.....?");
             Program.DisplayLine(ConsoleColor.White, "Distorted Voices","Who are you....");
 
+            Console.WriteLine();
+
             Program.DisplayLine(ConsoleColor.DarkGreen,"You", "",0)
             Dreamer = Console.ReadLine();
+
+            Console.WriteLine();
+
+            Program.DisplayLine(ConsoleColor.White,"Distorted Voices",$"Oh its...its... you? {Dreamer} we don't know you...");
+
+
 
         }
     }
@@ -34,5 +42,4 @@ namespace Neoa
         }
     }
 
-
-*/
+}

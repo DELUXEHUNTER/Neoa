@@ -22,6 +22,8 @@ public class Player
     public int Sanity = 225;
 
     //Undead
+
+    //blood thirst value is at a maximum of 10 and a minimum of negative 1. 
     public int Bloodthirst = 0;
 
     //World/Influence
@@ -125,7 +127,7 @@ public class Player
                 Program.Player.Reputation = -100;
 
                 //Demonic
-                
+                Program.Player.Bloodthirst = 5; 
 
             }
         }

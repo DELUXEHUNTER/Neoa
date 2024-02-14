@@ -19,6 +19,7 @@ public class Program
         TitleScreen();
         Prologue();
         Section1();
+
         Credit();
     }
 
@@ -180,8 +181,8 @@ public class Program
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.White, "narrator", "The guard leads you to the entrance where you see someone who looked like royalty. He stood calm, with purpose and pride.");
-        DisplayLine(ConsoleColor.White, "narrator", "You stop in front of him. The guardian bent the knee.");
+        DisplayLine(ConsoleColor.White, "narrator", "The guard leads you to the entrance where you see someone who looked like royalty. standing calm, with purpose and proud of himself.");
+        DisplayLine(ConsoleColor.White, "narrator", "You stop in front of him. The guard bent the knee.");
         DisplayLine(ConsoleColor.White, "narrator", "The guard begins to speak. Loudly and with respect.");
 
         Console.WriteLine();
@@ -203,7 +204,6 @@ public class Program
         Console.WriteLine();
 
         DisplayLine(ConsoleColor.DarkMagenta,"Royal Guard", "Are you sure ....trust them?..");
-        //Maybe if two characters are talking don't add a blank line? Add a blank line if narrator is speaking or player? I don't really
         DisplayLine(ConsoleColor.Yellow,"Neoan King", "I'm quite sure we can");
 
         Console.WriteLine();
@@ -213,16 +213,16 @@ public class Program
         Console.WriteLine();
 
         DisplayLine(ConsoleColor.Yellow,"Neoan King", "So, where was I, ah yes the reason I've freed you..");
-        DisplayLine(ConsoleColor.Yellow,"Neoan King","I quite honestly don't even know");
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","I honestly don't even know why.");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.Green,"You","You don't... know?");
+        DisplayLine(ConsoleColor.Green,"You","You don't... know?..");
 
         Console.WriteLine();
 
         DisplayLine(ConsoleColor.Yellow,"Neoan King","Yes I don't know, I just heard about you on the news, and decided I would meet you.");
-        DisplayLine(ConsoleColor.Yellow,"Neoan King","I'm quite tired of seeing this dull enviroment, I think it is time relocated.");
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","I'm quite tired of seeing this dull enviroment, I think it is time we relocated.");
 
         Console.WriteLine();
 
@@ -251,29 +251,55 @@ public class Program
         Console.WriteLine();
 
         DisplayLine(ConsoleColor.White,"narrator","Entering the castle.. you are greeted by several people wanting to shake your hand");
-        DisplayLine(ConsoleColor.White,"narrator","..to get to know you, but the king quickly tells you to follow him to a door behind the crowd of people");
+        DisplayLine(ConsoleColor.White,"narrator","..to get to know you, but the king quickly tells you to follow him..");
+        DisplayLine(ConsoleColor.White,"narrator","you follow him down stairs.. he leads you to a room at the very end of a damp hallway");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.Yellow,"Neoan King","This is where you will be sleeping, there aren't much better places to put you but for now this will work.");
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","This is where you'll be sleeping not many places are better than this.. especially for you.");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.White,"narrator","The king leaves the room.. The room the king has left you in seems as horrid as the cell you woke up in");
-        DisplayLine(ConsoleColor.White,"narrator","it was damp, and dark with only a single candle for light.. The bed was made completely of wood with no cloth or linen on it.");
+        DisplayLine(ConsoleColor.White,"narrator","The king leaves the room.. The room he has left you in seems as horrid as the cell you woke up in");
+        DisplayLine(ConsoleColor.White,"narrator","it was damp, and dark with only a single candle for light.. The bed was made completely of wood with no cloth or linen on it... water dripped from the ceilling ");
 
         Console.WriteLine();
 
-        Console.WriteLine(@"
-        ");
+        DisplayLine(ConsoleColor.White,"narrator","looking around the room you inspect it closer noticing a misplaced dresser with its drawer partially open");
+        DisplayLine(ConsoleColor.White,"narrator","you have multiple options here.. you could sleep or you could inspect the dresser and fix it?");
+
+        //First choice but I don't know what to do
+        //I don't know how to do the input here but a few options are sleeping or inspecting the dresser
+        DisplayLine(ConsoleColor.White,"You","",0);
         
-        
-        //This is where the first dream of the YourHome DLC will be if the player sleeps in this room. Once dlc is added/playable.
+
+
     }
-    public static void Section1()
+    //A section will be split into multiple parts unless theres a better Idea I don't really know why I want this but I do
+    static void Section1()
     {
-        
+        Part1();
     }
+
+    public static void Part1()
+    {
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     // Note from Fuinny: we can actually add parameter to this method in the future and the output will change depending on way of death.

@@ -1,4 +1,5 @@
-/* The Encounter system will constantly need to be changed, there is no set way
+/* the encounter system is currently completely unused  and I don't know if we will implement it anytime soon 
+but it is whatever is decided by us. in the eventual future
 namespace Neoa
  public class Encounters
     {
