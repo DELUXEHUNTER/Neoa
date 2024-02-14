@@ -287,7 +287,7 @@ public class Program
         
         DisplayLine(ConsoleColor.Green,"You","",0);
         string input = Console.ReadLine();
-        while(input.ToLower() != "s" && input.ToLower != "i")
+        while(input.ToLower() != "s" && input.ToLower() != "i")
         {
         DisplayLine(ConsoleColor.White,"narrator",$"{Player.Name} just stands there doing nothing");
          Console.WriteLine("{Possible Choicees: (S)leep, (I)nspect");
