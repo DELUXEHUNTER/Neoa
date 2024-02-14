@@ -133,7 +133,7 @@ public class Program
         {
             DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"And now in more detail... Your subspecies, {Player.Name}.");
             if (Player.Species == "Undead")
-            Console.WriteLine("{Possible answers: Vampire, Zombie, Revenant.}");
+            Console.WriteLine("{Possible answers: Vampire, Revenant.}");
             else if (Player.Species == "Demonic")
             Console.WriteLine("{Possible answers: Demon.}");
 
