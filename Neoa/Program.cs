@@ -267,7 +267,7 @@ public class Program
 
         DisplayLine(ConsoleColor.White,"narrator","looking around the room you inspect it closer noticing a misplaced dresser with its drawer partially open");
         DisplayLine(ConsoleColor.White,"narrator","you have multiple options... you could sleep or you could inspect the dresser and fix it?");
-        Console.WriteLine("{Possible Choices: (S)leep, (I)nspect}")
+        Console.WriteLine("{Possible Choices: (S)leep, (I)nspect}");
 
         Console.WriteLine();
         
