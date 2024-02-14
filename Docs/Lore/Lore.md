@@ -36,21 +36,18 @@ Anaxia is the closest neighbor to Neoa being the third most prominent kingdom wi
 These are the ancient ancestors of the people of Ethran that some people have in common with themselves
 <!--- These entries are not going to be filled with much detail. -->
  
-#### Avalon, Neoan Lord
+#### Avalon,<br>Neoan Lord
+<!---Unremovable --->
 Avalon is the patron of Neoa, He is the founder of Neoa, and the very first king, often considered the greatest king in Neoan history by most Neoans. 
 
 
-#### Iedelan, Anaxian hero
-Idelan is the patron of Anaxia, The greatest King in Anaxian history
+#### Iedelan,<br>Anaxian hero
 
 
-#### Dresden, Traveler of worlds
-<!-- This is is temporary name and is subject to change, -->
 
-A mysterious wandering man who appears at certain times, its unknown why he randomly shows up to certain things, but by many historians in their findings its been noted hes been seen at many important events. No one has ever spoken or seen him. It is known by the world that he still lives to this day.
+#### Lexian
 
-
-#### Tau-an, The Undead.
+#### Tau-an,<br>The Undead.
 <!-- Idea Entry -->
 The Immortal undead ancestor of all things dead. Considered the creator and master of the first undead until having been overthrown by the very dead he raised, as the more he brought back the more they learned and became sentient giving themselves thoughts and minds to use. Not one of the first vampires, but after the vampiric rise he has taken dominion over vampires giving them blessings and everything.
 
@@ -72,4 +69,5 @@ The Dream realm is the realm that all dreams of almost every being, resides and 
 #### The mysterious voice/Mystical Voice
 <!---Its possible the voice could be someone important to you? or possibly the one of your ancestors -->
 This mysterious voice guides you on your adventure, and rarely speaks to you. Its unknown if its malicious or intends to help you the best it can. Until its proven, its best you do what it says without questioning it too much. It goes by many names, typically all variants of The mystical voice.
+
 

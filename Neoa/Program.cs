@@ -287,12 +287,12 @@ public class Program
         
         DisplayLine(ConsoleColor.Green,"You","",0);
         string input = Console.ReadLine();
-        while(input.ToLower != "s" && input.ToLower != "i")
+        while(input.ToLower() != "s" && input.ToLower != "i")
         {
         DisplayLine(ConsoleColor.White,"narrator",$"{Player.Name} just stands there doing nothing");
          Console.WriteLine("{Possible Choicees: (S)leep, (I)nspect");
         } 
-        if(input.ToLower == "i")
+        if(input.ToLower() == "i")
         {
         //NeoanExchange Papers are used to give a certain amount of Marks when turned in at a bank or some stores that will appear in the future
             //Int still needs to be added
@@ -300,7 +300,7 @@ public class Program
         DisplayLine(ConsoleColor.White,"narrator","searching through the drawers you find a piece of paper with a royal signature, for now you decide to put the paper back not knowing what to do with it");
         DisplayLine(ConsoleColor.White,"narrator","..you then decide to go to sleep");
         }  
-        else if(input.ToLower == "s")
+        else if(input.ToLower() == "s")
         {
         DisplayLine(ConsoleColor.White,"narrator","you decide its best you sleep now and worry about your room later on.. laying in the bed you find it hard to sleep until eventually you find a comfortable spot in your bed");
         }
