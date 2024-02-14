@@ -14,7 +14,7 @@ namespace Neoa
 
             Console.WriteLine();
 
-            Program.DisplayLine(ConsoleColor.DarkGreen,"You", "",0)
+            Program.DisplayLine(ConsoleColor.DarkGreen,"You", "",0);
             Dreamer = Console.ReadLine();
 
             Console.WriteLine();
