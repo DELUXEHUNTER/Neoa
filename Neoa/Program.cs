@@ -166,7 +166,7 @@ public class Program
 
         //Player Age
         DisplayLine(ConsoleColor.Red,"The Mystical Voice",$"How long have you been alive {Player.Name}?");
-        Console.WriteLine("{Possible Answer: An age cannot be lower than 20, or higher than 45, its recommended you stay within 20-29.}")
+        Console.WriteLine("{Possible Answer: An age cannot be lower than 20, or higher than 45, its recommended you stay within 20-29.}");
         Player.Age = Convert.ToInt32(Console.ReadLine());
         while (Player.Age > 45 && Player.Age < 19)
         {
