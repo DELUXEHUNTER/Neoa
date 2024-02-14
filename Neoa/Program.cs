@@ -2,7 +2,6 @@
 
 public class Program
 {
-    public static string input;
     public static Player Player = new();
 
     public static void Main()
@@ -287,7 +286,7 @@ public class Program
         Console.WriteLine();
         
         DisplayLine(ConsoleColor.Green,"You","",0);
-        input = Console.ReadLine();
+        string input = Console.ReadLine();
         while(input.ToLower != "s" && input.ToLower != "i")
         {
         DisplayLine(ConsoleColor.White,"narrator",$"{Player.Name} just stands there doing nothing");
