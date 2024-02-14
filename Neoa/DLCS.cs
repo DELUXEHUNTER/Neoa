@@ -5,7 +5,7 @@ namespace Neoa
  public class YourHome
     {
         public bool Dreams = false;
-        public string Dreamer;
+        public static string Dreamer;
 
         public static void Intro()
         {
