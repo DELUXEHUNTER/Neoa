@@ -2,7 +2,7 @@
 
 public class Program
 {
-    public string input;
+    public static string input;
     public static Player Player = new();
 
     public static void Main()
