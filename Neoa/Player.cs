@@ -1,30 +1,28 @@
 namespace Neoa;
 
 public class Player
-{
-
+{ 
     // strings
-
-    // Start(These strings are set at the begining of the game through character creation)
     public string Name;
+    public string Ethnicity;
+    public string Gender;
+
     public string Ancestor;
     public string Species;
     public string Subspecies;
-    public string Ethnicity;
+    
     public string Class;
-    public string Gender;
 
     //ints   
 
     //Currency
-    public int NeoanMark;
-
+    public int NeoanMark = 0;
+    
     //Mind
     public int Sanity = 225;
 
     //Undead
     public int Bloodthirst = 0;
-
 
     //World/Influence
     public int Reputation = 0;
@@ -37,14 +35,12 @@ public class Player
     //Physical/Magical(Encounters)
     public int Health = 100;
     public int Mana = 100;
+    public int Blood = 0;
     public int Damage = 10;
     public int Blooddamage = 0;
     public int Armor = 0;
     public int WeaponStrength = 1;
 
-    //Unique stats & Player systems
-
-    //Should a players ancestor be able to gain them divine favor? or should the ancestor give the player status boosts too?
     public static void SetupStats()
     {
         if (Program.Player.Species == "Human")
@@ -69,15 +65,18 @@ public class Player
                 Program.Player.Health = 125;
                 Program.Player.Mana = 200;
                 Program.Player.Damage = 10;
-                Program.Player.Blooddamage = 2;
                 if (Program.Player.Ancestor == "Tau-an")
                     Program.Player.AncestralFavor = 5;
                 else if (Program.Player.Ancestor != "Tau-an")
                     Program.Player.AncestralFavor = -50;
                 Program.Player.DivineFavor = -25;
                 Program.Player.Sanity = 235;
-                Program.Player.Bloodthirst = 1;
                 Program.Player.Reputation = 0;
+
+                //Vampiric
+                Program.Player.Blooddamage = 2;
+                Program.Player.Blood = 100;
+                Program.Player.Bloodthirst = 1;
 
             }
             else if (Program.Player.Subspecies == "Zombie")
@@ -94,6 +93,9 @@ public class Player
                     Program.Player.AncestralFavor = -100;
                 Program.Player.Sanity = -250;
                 Program.Player.Reputation = -50;
+
+                //Undead
+                Program.Player.Bloodthirst = 50;
             }
             else if (Program.Player.Subspecies == "Revenant")
             {
@@ -121,6 +123,9 @@ public class Player
                 Program.Player.AncestralFavor = -200;
                 Program.Player.Sanity = 450;
                 Program.Player.Reputation = -100;
+
+                //Demonic
+                
 
             }
         }
