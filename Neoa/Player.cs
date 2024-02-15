@@ -14,7 +14,6 @@ public class Player
     public string Class;
 
     //ints   
-
     //Currency
     public int NeoanMark = 0;
     public int NeoanExchange = 0;
@@ -24,7 +23,7 @@ public class Player
 
     //Undead
 
-    //blood thirst value is at a maximum of 10 and a minimum of negative 1. 
+    //BT max val 10, min val -5
     public int Bloodthirst;
 
     //World/Influence
@@ -131,7 +130,7 @@ public class Player
                 Program.Player.Sanity = 450;
                 Program.Player.Reputation = -100;
 
-                //Demonic
+                //Demonic 
                 Program.Player.Bloodthirst = 5; 
                 Program.Player.BloodMana = 100;
 

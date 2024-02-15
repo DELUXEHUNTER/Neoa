@@ -2,4 +2,5 @@
 <h1 align="center"><img align="left" src="Docs/Images/Neoan-Crown-Icon.png">
 Neo<br>Lands of Neoa</h1>
 This is a text-based game made using C#/Csharp. It is also the first game I have ever developed and tried to make. It might not be the best game ever, but we are trying to make it as fun and as playable as we possibly can. There are many plans for this game in the very distant and near future that we hope will improve the game even more. A future thank you to anyone who contributes to the game in the distant future. It means a lot.
-<br><br>
+
+I don't really know what to put in the readme.

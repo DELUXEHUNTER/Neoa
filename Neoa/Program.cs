@@ -305,8 +305,6 @@ public class Program
         DisplayLine(ConsoleColor.White,"narrator","you decide its best you sleep now and worry about your room later on.. laying in the bed you find it hard to sleep until eventually you find a comfortable spot in your bed");
         }
 
-
-
     // YourHome.Intro();
 
     }
@@ -316,7 +314,6 @@ public class Program
     {
         Part1();
     }
-
     public static void Part1()
     {
         DisplayLine(ConsoleColor.White,"narrator","You awaken to the sound of footsteps above you and knocking on your door");
@@ -345,32 +342,59 @@ public class Program
         DisplayLine(ConsoleColor.DarkMagenta,"Kain","Anyways now that thats out of the way. The king wanted me to tell you, there is something in town that requires your attention.");
         DisplayLine(ConsoleColor.DarkMagenta,"Kain","you are going to need this, and you have to head to the local tavern, the keeper will know why your there.");
 
-        Console.WriteLine();
-
         DisplayLine(ConsoleColor.White,"narrator","Kain hands you twenty four marks and a single piece of paper");
         Player.NeoanExchange += 1; Player.NeoanMark += 24; 
 
         Console.WriteLine();
 
+        DisplayLine(ConsoleColor.Green,"You","What am I supposed to do with this?");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.DarkMagenta,"Kain","Just head to the tavern and do what the man there tells you");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.White,"narrator","Kain leaves the room and you begin to walk out to the hallway.. looking down for a moment someone bumps into you but you look back and theres nothing there.");
+        DisplayLine(ConsoleColor.White,"narrator","continuing on, once you reach the top of the stairs you find the entire hall empty with no one inside \"where has everyone gone\" you wonder to yourself.");
+        DisplayLine(ConsoleColor.WHite,"narrator","instead of dwelling on it you  exit the castle, you notice the tavern is convienently outside of the castle");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.Cyan,"Beggar","Excuse me, sir, do you have money to spare?");
+
+        Console.WriteLine("(Y)es I do, (N)o I don't");
+
+        DisplayLine(ConsoleColor.Green,"You","",0);
+        string input = Console.ReadLine();
+        while(input.ToLower() != "y" && input.ToLower() != "")
+        {
+        DisplayLine(ConsoleColor.White,"narrator",$"{Player.Name} just stands there doing nothing");
+         Console.WriteLine("(Y)es I do, (N)o I don't.");
+        } 
+        if(input.ToLower() == "y")
+        {
+        DisplayLine(ConsoleColor.White,"narrator","you give the beggar 1 mark");
+        Player.NeoanMark -= 1; 
+        Player.AncestralFavor += 2;
+        Player.DivineFavor += 1;
         
-    
+        DisplayLine(ConsoleColor.Cyan,"Beggar","Thank you, sir.");
+        Console.ReadKey();
+        Player.Sanity += 3;
+        DisplayLine(ConsoleColor.White,"narrator","you continue to the tavern with a feeling of acomplishment");
+        }
+        else if(input.ToLower() == "n")
+        {
+        DisplayLine(ConsoleColor.White,"narrator","you leave the beggar in the streets and don't give him anything");
+        Player.AncestralFavor -= 2;
+        Player.DivineFavor -= 3;
+        }
         
+        Console.WriteLine();
+
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -76,5 +76,4 @@ namespace Neoa
             Console.ReadKey();
         }
     }
-    
 */
