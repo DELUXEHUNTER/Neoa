@@ -425,7 +425,7 @@ public class Program
         Console.WriteLine();
         DisplayLine(ConsoleColor.Cyan,"Thomas","Thank you.");
         }
-        if (Player.NeoanMark = 23)
+        if (Player.NeoanMark == 23)
         {
         DisplayLine(ConsoleColor.Green,"You","I have 23, is that good enough?");
         Console.WriteLine();
