@@ -1,7 +1,6 @@
 # GH Files
 
 *.github/
-*Neoa/Neoa.csproj
 # User-specific files
 *.rsuser
 *.suo
