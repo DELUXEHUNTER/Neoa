@@ -26,6 +26,8 @@ Neoa, sometimes referred to as the Aedonian Kingdom, or greater Aedon in some ca
 #### Aedon
 Aedon is both the capital and the very first city that was founded in Neoa, built by the original Neoan king Avalon. To this day, it remains the largest and richest city within Neoa, filled with history from even before its creation, and it even remains home to the Royal Neoan Families that have ruled over Neoa. Aedon has some of the strictest laws due to it being the capital and home to the royal Neoan family. It also has more experienced guards that patrol its streets.
 
+
+
 ---------------------------------------------------------------
 ### Anaxia
 <!-- I don't know what to write for anaxia and I think it'd be better if someone else writes something for it due to my inability to think of any ideas -->
@@ -43,9 +45,6 @@ Avalon is the patron of Neoa, He is the founder of Neoa, and the very first king
 
 #### Iedelan,<br>Anaxian hero
 
-
-
-#### Lexian
 
 #### Tau-an,<br>The Undead.
 <!-- Idea Entry -->
@@ -70,4 +69,6 @@ The Dream realm is the realm that all dreams of almost every being, resides and 
 <!---Its possible the voice could be someone important to you? or possibly the one of your ancestors -->
 This mysterious voice guides you on your adventure, and rarely speaks to you. Its unknown if its malicious or intends to help you the best it can. Until its proven, its best you do what it says without questioning it too much. It goes by many names, typically all variants of The mystical voice.
 
+
+#### Lexian,<br>The King of Neoa.
 

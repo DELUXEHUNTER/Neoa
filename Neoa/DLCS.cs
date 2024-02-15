@@ -1,6 +1,8 @@
-// This is a future CS File that will remain mostly unused until the entire game is complete or  most of the game//the part that completes it. For now this has no use, not really DLC's because you don't have to download them
+//Future CS file used for now. 
+/*
 namespace Neoa
 {
+
 //YourHome is the dream DLC that triggers dreams sometimes when you sleep or are knocked out these dreams are sometimes eerie and creepy on purpose(as creepy as I can get) 
  public class YourHome
     {
@@ -34,9 +36,10 @@ namespace Neoa
 
         public static void TKCIntro()
         {
-        Program.DisplayLine(ConsoleColor.Yellow,"King", "Hiiii");//Literally just temporary text
-
+        Program.DisplayLine(ConsoleColor.Yellow,"King", "Hiiii"); 
         }
     }
 
 }
+
+*/

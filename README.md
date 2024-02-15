@@ -1,10 +1,5 @@
 <!--- A note for anyone who contributes to this game in the future, as of now February 13th 2024 I will have to leave in a few months for three months and I will be unable to access any of my electronic devices except for my phone, which I will be unable to use github, discord, or anything that is not google docs or call and messaging service. I'm extremely sorry for this inconvincience and I hope it doesn't cause too many problems. -->
-
 <h1 align="center"><img align="left" src="Docs/Images/Neoan-Crown-Icon.png">
-Neo<br>Land of Neoa</h1>
-Welcome to the land of Neoa. The first game I've ever made or worked on, it might not be the best game I'll ever make or the best game I've ever made, but I'm trying my hardest to do my best and make this game. This isn't going to be something that is worked on every single day, so it might take some time to develop. All we are trying to do is have fun making this game and giving people something to do when they are bored. 
-<br>
-A future thank you to anyone who contributes. Thank you all for your hard work. I genuinely appreciate it, and I want you to know I couldn't have done it without you all. And here's a thank you to anyone who plays the game. That means a lot too, because we have put a lot of time into making this game, and it means a lot that you play and enjoy our game. 
-<br><br><br>
-
-There are many plans for this game that will help keep the game interesting, like future DLCS (not really DLCS) that we will be making in the future. Alongside many other things, like unique modes, for now we will be working on the base game. For obvious reasons, a game shouldn't have addons until it is fully developed. Now here are a few of our future plans for this game. The main plan for this game is to have a long, playable text-based game with some fights and encounters and many different semi-unique systems, as well as eventually making this game playable online in a browser. Hopefully, we will have a comprehendable story and lore for all to enjoy.
+Neo<br>Lands of Neoa</h1>
+This is a text-based game made using C#/Csharp. It is also the first game I have ever developed and tried to make. It might not be the best game ever, but we are trying to make it as fun and as playable as we possibly can. There are many plans for this game in the very distant and near future that we hope will improve the game even more. A future thank you to anyone who contributes to the game in the distant future. It means a lot.
+<br><br>

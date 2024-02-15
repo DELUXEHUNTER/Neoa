@@ -306,6 +306,7 @@ public class Program
         }
 
 
+
     // YourHome.Intro();
 
     }
@@ -350,6 +351,8 @@ public class Program
         Player.NeoanExchange += 1; Player.NeoanMark += 24; 
 
         Console.WriteLine();
+
+        
     
         
 

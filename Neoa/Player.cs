@@ -42,7 +42,7 @@ public class Player
     //Physical/Magical(Encounters)
     public int Health = 100;
     public int Mana = 100;
-    public int Blood = 0;
+    public int BloodMana = 0;
     public int Damage = 10;
     public int Blooddamage = 0;
     public int Armor = 0;
@@ -70,7 +70,7 @@ public class Player
             if (Program.Player.Subspecies == "Vampire")
             {
                 Program.Player.Health = 125;
-                Program.Player.Mana = 200;
+                Program.Player.Mana = 100;
                 Program.Player.Damage = 10;
                 if (Program.Player.Ancestor == "Tau-an")
                     Program.Player.AncestralFavor = 5;
@@ -82,7 +82,7 @@ public class Player
 
                 //Vampiric
                 Program.Player.Blooddamage = 2;
-                Program.Player.Blood = 100;
+                Program.Player.BloodMana = 100;
                 Program.Player.Bloodthirst = 1;
 
             }
@@ -123,7 +123,7 @@ public class Player
             if (Program.Player.Subspecies == "Demon")
             {
                 Program.Player.Health = 175;
-                Program.Player.Mana = 400;
+                Program.Player.Mana = 300;
                 Program.Player.Damage = 15;
                 Program.Player.Armor = 2;
                 Program.Player.DivineFavor = -30;
@@ -133,6 +133,7 @@ public class Player
 
                 //Demonic
                 Program.Player.Bloodthirst = 5; 
+                Program.Player.BloodMana = 100;
 
             }
         }
