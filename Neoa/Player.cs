@@ -22,8 +22,7 @@ public class Player
     public int Sanity = 225;
 
     //Undead
-
-    //BT max val 10, min val -5
+     //BT max val 10, min val -5
     public int Bloodthirst;
 
     //World/Influence
@@ -33,10 +32,6 @@ public class Player
 
     //Physical/Magical
     public int Age; 
-
-    //This Value goes up everytime you revive yourself from death
-    public int Reincarnations;
-
 
     //Physical/Magical(Encounters)
     public int Health = 100;
@@ -63,7 +58,6 @@ public class Player
             Program.Player.Reputation = 0;
 
         }
-
         else if (Program.Player.Species == "Undead")
         {
             if (Program.Player.Subspecies == "Vampire")
@@ -116,7 +110,6 @@ public class Player
             }
 
         }
-
         else if (Program.Player.Species == "Demonic")
         {
             if (Program.Player.Subspecies == "Demon")

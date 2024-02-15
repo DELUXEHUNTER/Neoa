@@ -442,18 +442,7 @@ public class Program
         Console.WriteLine();
 
         DisplayLine(ConsoleColor.Cyan,"Thomas","Now, I think its time you head to the next place, the guard told me you're supposed to head to the mail office.");
-
-
-
-        
-
-        
-
-
-
-
-
-        
+          
 
     }
 
