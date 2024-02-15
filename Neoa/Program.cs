@@ -418,7 +418,7 @@ public class Program
         Console.WriteLine();
         Console.ReadKey();
     //Choice could be added here??
-        if (Player.NeoanMark = 24)
+        if (Player.NeoanMark == 24)
         {
         DisplayLine(ConsoleColor.Green,"You","Yes I do. Here ");
         Player.NeoanMark -= 24;
