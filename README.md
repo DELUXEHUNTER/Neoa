@@ -3,4 +3,7 @@
 Neo<br>Lands of Neoa</h1>
 This is a text-based game made using C#/Csharp. It is also the first game I have ever developed and tried to make. It might not be the best game ever, but we are trying to make it as fun and as playable as we possibly can. There are many plans for this game in the very distant and near future that we hope will improve the game even more. A future thank you to anyone who contributes to the game in the distant future. It means a lot.
 
-I don't really know what to put in the readme.
+<br><br>
+There are several things we could use help with while making this game, a few of them could be story writing, and lore writing, by story writing I mean the games choices and story, as it might not be followable. If you just want to help anyway just join the <a href="https://discord.gg/EsRTWUwbvp">server</a>, or dm me on discord. Another thing that would be nice is someone helping us get our game discovered. 
+
+All story and dialog you see in the game currently are all subject to change and isn't going to be the final product, currently in desprate need of someone who would like to improve the story I'm writing as I go, I'm not proud of my writing skills and wish I could do better. 

@@ -176,6 +176,7 @@ public class Program
 
             Player.Age = Convert.ToInt32(Console.ReadLine());
         }
+
     }
 
     public static void Prologue()
@@ -316,6 +317,8 @@ public class Program
     }
     public static void Part1()
     {
+
+    //Choices could be added anywhere this is just the basic story and is going to change over time.
         DisplayLine(ConsoleColor.White,"narrator","You awaken to the sound of footsteps above you and knocking on your door");
         DisplayLine(ConsoleColor.White,"narrator",$"you can hear a somewhat familiar voice say \"Wake up {Player.Name}. You have a busy day today\"");     
 
@@ -326,9 +329,9 @@ public class Program
         DisplayLine(ConsoleColor.White,"narrator","you decide to get up and open the door for the man, and notice its the Royal Guard");
 
         Console.WriteLine();
-
         DisplayLine(ConsoleColor.DarkMagenta,"Royal Guard",$"I've been trying to wake you up for hours {Player.Name}. Now that your up, the king told me I should properly introduce myself,");
-        DisplayLine(ConsoleColor.DarkMagenta,"Royal Guard","My name is Kain, I am the captain of the royal guard. ");
+        DisplayLine(ConsoleColor.DarkMagenta,"Royal Guard","My name is Kain,");
+        DisplayLine(ConsoleColor.DarkMagenta,"Kain","I am the captain of the royal guard.");
 
         Console.WriteLine();
 
@@ -357,7 +360,7 @@ public class Program
 
         DisplayLine(ConsoleColor.White,"narrator","Kain leaves the room and you begin to walk out to the hallway.. looking down for a moment someone bumps into you but you look back and theres nothing there.");
         DisplayLine(ConsoleColor.White,"narrator","continuing on, once you reach the top of the stairs you find the entire hall empty with no one inside \"where has everyone gone\" you wonder to yourself.");
-        DisplayLine(ConsoleColor.WHite,"narrator","instead of dwelling on it you  exit the castle, you notice the tavern is convienently outside of the castle");
+        DisplayLine(ConsoleColor.White,"narrator","instead of dwelling on it you  exit the castle, you notice the tavern is convienently outside of the castle");
 
         Console.WriteLine();
 
@@ -369,34 +372,90 @@ public class Program
         string input = Console.ReadLine();
         while(input.ToLower() != "y" && input.ToLower() != "")
         {
-        DisplayLine(ConsoleColor.White,"narrator",$"{Player.Name} just stands there doing nothing");
-         Console.WriteLine("(Y)es I do, (N)o I don't.");
+        Console.WriteLine("Incorrect input.");
+        Console.WriteLine("{(Y)es I do, (N)o I don't.}");
         } 
         if(input.ToLower() == "y")
         {
         DisplayLine(ConsoleColor.White,"narrator","you give the beggar 1 mark");
-        Player.NeoanMark -= 1; 
-        Player.AncestralFavor += 2;
-        Player.DivineFavor += 1;
+        Player.NeoanMark -= 1; Player.AncestralFavor += 2; Player.DivineFavor += 1;
         
         DisplayLine(ConsoleColor.Cyan,"Beggar","Thank you, sir.");
+
         Console.ReadKey();
         Player.Sanity += 3;
+
         DisplayLine(ConsoleColor.White,"narrator","you continue to the tavern with a feeling of acomplishment");
         }
         else if(input.ToLower() == "n")
         {
         DisplayLine(ConsoleColor.White,"narrator","you leave the beggar in the streets and don't give him anything");
-        Player.AncestralFavor -= 2;
-        Player.DivineFavor -= 3;
+        Player.AncestralFavor -= 2; Player.DivineFavor -= 3;
+
+        DisplayLine(ConsoleWhite.White,"narrator","continuing to the tavern..")
         }
         
         Console.WriteLine();
+        
+        DisplayLine(ConsoleColor.White,"narrator","you reach the front of the tavern and hesitantly enter.. upon walking in the tavern keeper looks at you");
+        DisplayLine(ConsoleColor.Cyan,"Tavern Keeper",$"Its been a while since I've seen someone new here.. You must be {Player.Name} that guard told me you were coming");
+        DisplayLine(ConsoleColor.Cyan,"Tavern Keeper","My name is Thomas, and I've owned this tavern here for about 10 years.");
+        
+        Console.WriteLine();
 
+        DisplayLine(ConsoleColor.Green,"You","I was told to come here because the king needed something from here?");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.White,"narrator","Thomas walks into the backroom and you hear russeling noises...");
+        DisplayLine(ConsoleColor.White,"narrator","walking out you see he has a small piece of metal. ");
+
+        Console.ReadKey();
+
+        DisplayLine(ConsoleColor.Cyan,"Thomas",$"This metal piece is one of the rarest things you'll ever seen in your life {Player.Name}")
+        DisplayLine(ConsoleColor.Cyan,"Thomas","Kain was supposed to pay me 24 marks for it, do you have them?");
+
+        Console.WriteLine();
+        Console.ReadKey();
+    //Choice could be added here??
+        if (Player.NeoanMark = 24)
+        {
+        DisplayLine(ConsoleColor.Green,"You","Yes I do. Here ");
+        Player.NeoanMark -= 24;
+        Console.WriteLine();
+        DisplayLine(ConsoleColor.Cyan,"Thomas","Thank you.");
+        }
+        if (Player.NeoanMark = 23)
+        {
+        DisplayLine(ConsoleColor.Green,"You","I have 23, is that good enough?");
+        Console.WriteLine();
+        DisplayLine(ConsoleColor.Cyan,"Thomas","Your lucky today I didn't have to deal with one of my other clients, otherwise we'd be in trouble.");
+        Player.NeoanMark -= 23;
+        }
+        DisplayLine(ConsoleColor.Cyan,"Thomas","So, now that we've got that out of the way, a small reward for helping me, 2 Marks.");
+        Player.NeoanMark += 2;
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.Green,"You","I didn't do much.. but still thank you");
+
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.Cyan,"Thomas","Now, I think its time you head to the next place, the guard told me you're supposed to head to the mail office.");
+
+
+
+        
+
+        
+
+
+
+
+
+        
 
     }
-
-
 
     // Note from Fuinny: we can actually add parameter to this method in the future and the output will change depending on way of death.
     // Temporary death screen will change depending on way of death, who or what killed you and will show you your players information.

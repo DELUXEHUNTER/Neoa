@@ -1,7 +1,9 @@
-/* the encounter system is currently completely unused  and I don't know if we will implement it anytime soon 
-but it is whatever is decided by us. in the eventual future
+/* This CS File is used for encounters, and minigames, like card games, chess ect... 
+Anything relating to those that you will find inside the game.
+ currently combat encounters are disabled because I don't know how to do them 
+
 namespace Neoa
- public class Encounters
+ public class Enc
     {
         public static void PrisonFirstEncounter()
         {
@@ -76,4 +78,5 @@ namespace Neoa
             Console.ReadKey();
         }
     }
+
 */

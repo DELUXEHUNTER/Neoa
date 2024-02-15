@@ -17,8 +17,7 @@ These are lore entries that will be explained through playing the game and are t
   Restrictions:
 Entries that have been used as a base for several others cannot be changed or removed without permission, due to the fact that if you change something in an entry that several were based on would cause confusion and they wouldn't make sense. As removing an integral part of something could cause it to collapse. Adding an entry is typically completely acceptable as long as you remain on topic by following the rest of the story and other lore entries, meaning you might have to read at least the background and some of the Neoan Kingdom entry.
 
---
-
+  Notes/Things:
 Its completely acceptable if you would like to create kingdoms and other places within the world to fill the world with even more lore again as long as you stick to the main themes.
 
 These instructions or this guide will be rewritten and eventually updated into a final form for now this is the basis for everything.
