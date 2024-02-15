@@ -392,7 +392,7 @@ public class Program
         DisplayLine(ConsoleColor.White,"narrator","you leave the beggar in the streets and don't give him anything");
         Player.AncestralFavor -= 2; Player.DivineFavor -= 3;
 
-        DisplayLine(ConsoleWhite.White,"narrator","continuing to the tavern..");
+        DisplayLine(ConsoleColor.White,"narrator","continuing to the tavern..");
         }
         
         Console.WriteLine();
