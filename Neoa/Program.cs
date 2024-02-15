@@ -392,7 +392,7 @@ public class Program
         DisplayLine(ConsoleColor.White,"narrator","you leave the beggar in the streets and don't give him anything");
         Player.AncestralFavor -= 2; Player.DivineFavor -= 3;
 
-        DisplayLine(ConsoleWhite.White,"narrator","continuing to the tavern..")
+        DisplayLine(ConsoleWhite.White,"narrator","continuing to the tavern..");
         }
         
         Console.WriteLine();
@@ -412,7 +412,7 @@ public class Program
 
         Console.ReadKey();
 
-        DisplayLine(ConsoleColor.Cyan,"Thomas",$"This metal piece is one of the rarest things you'll ever seen in your life {Player.Name}")
+        DisplayLine(ConsoleColor.Cyan,"Thomas",$"This metal piece is one of the rarest things you'll ever seen in your life {Player.Name}");
         DisplayLine(ConsoleColor.Cyan,"Thomas","Kain was supposed to pay me 24 marks for it, do you have them?");
 
         Console.WriteLine();
