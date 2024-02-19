@@ -131,7 +131,7 @@ public class Program
         // Ask player's subspecies.
         if (Player.Species != "Human")
         {
-            DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"And now in more detail... Your subspecies, {Player.Name}.");
+            DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"And in more detail... Your subspecies, {Player.Name}.");
             if (Player.Species == "Undead")
             Console.WriteLine("{Possible answers: Vampire, Revenant.}");
             else if (Player.Species == "Demonic")
@@ -227,8 +227,8 @@ public class Program
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.Yellow,"Neoan King", "So, where was I, ah yes the reason I've freed you..");
-        DisplayLine(ConsoleColor.Yellow,"Neoan King","I honestly don't even know why.");
+        DisplayLine(ConsoleColor.Yellow,"Neoan King", "So, where was I. Ahhh yes the reason I've freed you..");
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","I honestly don't even know why, I didn't think about it.");
 
         Console.WriteLine();
 
@@ -236,12 +236,12 @@ public class Program
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.Yellow,"Neoan King","Yes I don't know, I just heard about you on the news, and decided I would meet you.");
-        DisplayLine(ConsoleColor.Yellow,"Neoan King","I'm quite tired of seeing this dull enviroment, I think it is time we relocated.");
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","Yes I don't know, I heard about your imprisonment through the newspapers, and decided I would meet you.");
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","I'm tired of this dull place, I think it is time we relocate.");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.White,"narrator","You, and the king began their travel to the Aedonian Castle..");
+        DisplayLine(ConsoleColor.White,"narrator","the king tells you to follow him and begin traveling to the Aedonian Castle..");
         if (Player.Ancestor == "Avalon")
         {
         DisplayLine(ConsoleColor.White,"narrator","Arriving at the castle you are taken in by its size and beauty, you recognize statues of Avalon, the first Neoan king");
@@ -251,12 +251,12 @@ public class Program
         if (Player.Ethnicity != "Neoan")
         DisplayLine(ConsoleColor.Yellow,"Neoan King","I see your admiring the statue of the first king I'm suprised you know who he is");
         else
-        DisplayLine(ConsoleColor.Yellow,"Neoan King","That statue has been here since after his death, Avalon is still prominent today. Many of my family have hoped I'd live up to his name");
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","That statue has been here since after his death, Avalon is still prominent today. Many of my family members have hoped I'd live up to his legacy");
         }
 
         else if (Player.Ancestor != "Avalon")
         {
-        DisplayLine(ConsoleColor.White,"narrator","Arriving at the castle you are taken in by its size and beauty. You see unrecognizeable statues of a glorified man, who is that?");
+        DisplayLine(ConsoleColor.White,"narrator","Arriving at the castle you are taken in by its size and beauty. You see unrecognizeable statues of a glorified man... \"who is that?\" you think to yourself");
 
         Console.WriteLine();
 
@@ -271,7 +271,7 @@ public class Program
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.Yellow,"Neoan King","This is where you'll be sleeping not many places are better than this.. especially for you.");
+        DisplayLine(ConsoleColor.Yellow,"Neoan King","This is where you'll be sleeping not many places are  going to be better than this.. especially for you.");
 
         Console.WriteLine();
 
@@ -367,7 +367,6 @@ public class Program
         DisplayLine(ConsoleColor.Cyan,"Beggar","Excuse me, sir, do you have money to spare?");
 
         Console.WriteLine("(Y)es I do, (N)o I don't");
-
         DisplayLine(ConsoleColor.Green,"You","",0);
         string input = Console.ReadLine();
         while(input.ToLower() != "y" && input.ToLower() != "")
@@ -380,7 +379,7 @@ public class Program
         DisplayLine(ConsoleColor.White,"narrator","you give the beggar 1 mark");
         Player.NeoanMark -= 1; Player.AncestralFavor += 2; Player.DivineFavor += 1;
         
-        DisplayLine(ConsoleColor.Cyan,"Beggar","Thank you, sir.");
+        DisplayLine(ConsoleColor.Cyan,"Beggar","Thank you, kind sir..");
 
         Console.ReadKey();
         Player.Sanity += 3;
@@ -389,17 +388,17 @@ public class Program
         }
         else if(input.ToLower() == "n")
         {
-        DisplayLine(ConsoleColor.White,"narrator","you leave the beggar in the streets and don't give him anything");
+        DisplayLine(ConsoleColor.White,"narrator","you leave the beggar in the streets and don't give him any marks....");
         Player.AncestralFavor -= 2; Player.DivineFavor -= 3;
 
-        DisplayLine(ConsoleColor.White,"narrator","continuing to the tavern..");
+        DisplayLine(ConsoleColor.White,"narrator","not caring about the poor man.. you continue towards the tavern..");
         }
         
         Console.WriteLine();
         
-        DisplayLine(ConsoleColor.White,"narrator","you reach the front of the tavern and hesitantly enter.. upon walking in the tavern keeper looks at you");
-        DisplayLine(ConsoleColor.Cyan,"Tavern Keeper",$"Its been a while since I've seen someone new here.. You must be {Player.Name} that guard told me you were coming");
-        DisplayLine(ConsoleColor.Cyan,"Tavern Keeper","My name is Thomas, and I've owned this tavern here for about 10 years.");
+        DisplayLine(ConsoleColor.White,"narrator","reaching the doorway.. you hesitantly enter.. upon walking in the tavern keeper looks at you");
+        DisplayLine(ConsoleColor.Cyan,"Tavern Keeper",$"Its been a while since I've seen someone new here.. You must be {Player.Name} the guards told me you were coming");
+        DisplayLine(ConsoleColor.Cyan,"Tavern Keeper","My name is Thomas.");
         
         Console.WriteLine();
 
@@ -413,14 +412,14 @@ public class Program
         Console.ReadKey();
 
         DisplayLine(ConsoleColor.Cyan,"Thomas",$"This metal piece is one of the rarest things you'll ever seen in your life {Player.Name}");
-        DisplayLine(ConsoleColor.Cyan,"Thomas","Kain was supposed to pay me 24 marks for it, do you have them?");
+        DisplayLine(ConsoleColor.Cyan,"Thomas","Kain was supposed to pay me 24 marks for it, do you have them?.");
 
         Console.WriteLine();
         Console.ReadKey();
     //Choice could be added here??
         if (Player.NeoanMark == 24)
         {
-        DisplayLine(ConsoleColor.Green,"You","Yes I do. Here ");
+        DisplayLine(ConsoleColor.Green,"You","Yes I do. Here");
         Player.NeoanMark -= 24;
         Console.WriteLine();
         DisplayLine(ConsoleColor.Cyan,"Thomas","Thank you.");
@@ -429,7 +428,7 @@ public class Program
         {
         DisplayLine(ConsoleColor.Green,"You","I have 23, is that good enough?");
         Console.WriteLine();
-        DisplayLine(ConsoleColor.Cyan,"Thomas","Your lucky today I didn't have to deal with one of my other clients, otherwise we'd be in trouble.");
+        DisplayLine(ConsoleColor.Cyan,"Thomas","Your lucky today I didn't have to deal with one of my other clients, otherwise we'd be in a lot of trouble.");
         Player.NeoanMark -= 23;
         }
         DisplayLine(ConsoleColor.Cyan,"Thomas","So, now that we've got that out of the way, a small reward for helping me, 2 Marks.");
@@ -441,8 +440,7 @@ public class Program
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.Cyan,"Thomas","Now, I think its time you head to the next place, the guard told me you're supposed to head to the mail office.");
-          
+
 
     }
 
@@ -457,7 +455,7 @@ public class Program
         Console.WriteLine();
 
         DisplayLine(ConsoleColor.DarkRed,"Death",$"...{Player.Name}... Did you expect this? Could you have?..");
-        DisplayLine(ConsoleColor.DarkRed, "Death","use your last few moments alive to reflect on your life.");
+        DisplayLine(ConsoleColor.DarkRed, "Death",$"use your last few moments alive to reflect on your life. {Player.Name}");
 
         Console.WriteLine();
 

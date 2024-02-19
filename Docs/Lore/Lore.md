@@ -39,15 +39,14 @@ Neoa has some of the most well established legal structures, economic, political
 #### Aedon
 Aedon is the very first city founded in the kingdom, founded by the original Neoan king Avalon, to this day it remains the largest and richest city within Neoa aswell as the home of the Royal Neoans Families that have ruled over Neoa. Due to it being the capital city Aedons law is much more strict than most cities or regions within Neoa. Many of the guilds and organizations are based within this city within Neoa are located here.
 
-#### 
+#### Flame of Aedon[Temp name]
+The Flame of Aedon is a radical order of humans made up of Anaxians and many other people from the many kingdoms of Ethran with their sole goals being the eradication of all non human races from the realm, and to bring back the sun. The Order is split up into several sects that are attempting to obtain these goals through different means. <!--Entry not done, the 2 most important sects will be added after given a name, and more lore is needed -->
 
 ---------------------------------------------------------------
 
 ### Anaxia
 <!--I don't know what to write for anaxia and I think it'd be better if someone else writes something for it due to my inability to think of any ideas-->
 Anaxia is the kingdom located directly next to Neoa being the third most prominent kingdom within Ethran, having one of the longest and most violent rivalry with Neoa for several years. 
-
-
 
 
 
