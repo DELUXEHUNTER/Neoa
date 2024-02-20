@@ -1,82 +1,78 @@
-/* This CS File is used for encounters, and minigames, like card games, chess ect... 
-Anything relating to those that you will find inside the game.
- currently combat encounters are disabled because I don't know how to do them 
+// This is a draft of a future .cs file that will be used for various encounters, mini-games (like card games, chess, etc.), not currently used.
 
-namespace Neoa
- public class Enc
-    {
-        public static void PrisonFirstEncounter()
-        {
-            Program.DisplayLine("After walking a short distance from your cell a prisoner comes up to you..");
-            Program.DisplayLine("..\"Anaxians are all the same I'm tired of you all\"");
-            Program.DisplayLine("The deranged man begins to attempt to attack you using a rusty sword");
-            Program.DisplayLine("Right before the man can attack you the guard quickly tosses you his sword");
-            Console.ReadKey();
-            Combat(false, "deranged prisoner", 1, 2, 0);
-            Program.DisplayLine("The guard takes back his sword and tells you to continue on");
-        }
+//namespace Neoa
+// public class Enc
+//    {
+//        public static void PrisonFirstEncounter()
+//        {
+//            Program.DisplayLine("After walking a short distance from your cell a prisoner comes up to you..");
+//            Program.DisplayLine("..\"Anaxians are all the same I'm tired of you all\"");
+//            Program.DisplayLine("The deranged man begins to attempt to attack you using a rusty sword");
+//            Program.DisplayLine("Right before the man can attack you the guard quickly tosses you his sword");
+//            Console.ReadKey();
+//            Combat(false, "deranged prisoner", 1, 2, 0);
+//            Program.DisplayLine("The guard takes back his sword and tells you to continue on");
+//        }
 
-        public static void FirstEncounter()
-        {
-            Console.ReadKey();
+//        public static void FirstEncounter()
+//        {
+//            Console.ReadKey();
 
-            Combat(false, "Escaped Prisoner ", 1, 2, 1);
-        }
+//            Combat(false, "Escaped Prisoner ", 1, 2, 1);
+//        }
 
-        public static void Combat(bool random, string enemyName, int enemyPower, int enemyHealth, int enemyMana)
-        {
-            while (enemyHealth > 0)
-            {
-                Console.Clear();
-                Program.DisplayLine(enemyName);
-                Program.DisplayLine($"Health: {enemyHealth}");
-                Program.DisplayLine($"Strength: {enemyPower}");
-                Program.DisplayLine($"Mana: {enemyMana}");
-                Console.WriteLine("╔══════════════════════╗");
-                Console.WriteLine("║  (A)ttack (M)agic    ║");
-                Console.WriteLine("║    (D)efend (F)lee   ║");
-                Console.WriteLine("╚══════════════════════╝");
-                Program.DisplayLine($"{Program.Player.Name}");
-                Program.DisplayLine($"Health: {Program.Player.Health}");
-                Program.DisplayLine($"Mana: {Program.Player.Mana}");
+//        public static void Combat(bool random, string enemyName, int enemyPower, int enemyHealth, int enemyMana)
+//        {
+//            while (enemyHealth > 0)
+//            {
+//                Console.Clear();
+//                Program.DisplayLine(enemyName);
+//                Program.DisplayLine($"Health: {enemyHealth}");
+//                Program.DisplayLine($"Strength: {enemyPower}");
+//                Program.DisplayLine($"Mana: {enemyMana}");
+//                Console.WriteLine("╔══════════════════════╗");
+//                Console.WriteLine("║  (A)ttack (M)agic    ║");
+//                Console.WriteLine("║    (D)efend (F)lee   ║");
+//                Console.WriteLine("╚══════════════════════╝");
+//                Program.DisplayLine($"{Program.Player.Name}");
+//                Program.DisplayLine($"Health: {Program.Player.Health}");
+//                Program.DisplayLine($"Mana: {Program.Player.Mana}");
 
-                string input = Console.ReadLine();
+//                string input = Console.ReadLine();
 
-                while (string.IsNullOrWhiteSpace(input) && input != "a" && input != "m" && input != "d" && input != "f")
-                {
-                    Console.WriteLine("Attack, magic, defend, or flee.");
-                    input = Console.ReadLine();
-                }
+//                while (string.IsNullOrWhiteSpace(input) && input != "a" && input != "m" && input != "d" && input != "f")
+//                {
+//                    Console.WriteLine("Attack, magic, defend, or flee.");
+//                    input = Console.ReadLine();
+//                }
 
-                if (input.ToLower() == "a" && Program.Player.Class != "mage" && input == "attack")
-                {
-                    Program.DisplayLine("");
-                    Program.DisplayLine("");
-                }
-                else if (input.ToLower() == "m" || input == "magic")
-                {
-                    Program.DisplayLine("Spells");
-                }
-                else if (input.ToLower() == "d" || input == "defend")
-                {
-                    Program.DisplayLine("");
-                    Program.DisplayLine("");
-                }
-                else if (input.ToLower() == "f" || input == "flee")
-                {
-                    Program.DisplayLine("");
-                    Program.DisplayLine("");
-                }
+//                if (input.ToLower() == "a" && Program.Player.Class != "mage" && input == "attack")
+//                {
+//                    Program.DisplayLine("");
+//                    Program.DisplayLine("");
+//                }
+//                else if (input.ToLower() == "m" || input == "magic")
+//                {
+//                    Program.DisplayLine("Spells");
+//                }
+//                else if (input.ToLower() == "d" || input == "defend")
+//                {
+//                    Program.DisplayLine("");
+//                    Program.DisplayLine("");
+//                }
+//                else if (input.ToLower() == "f" || input == "flee")
+//                {
+//                    Program.DisplayLine("");
+//                    Program.DisplayLine("");
+//                }
 
-                if (Program.Player.Health < 0)
-                {
-                    Program.DisplayLine("So you've died? thats not great");
-                    //Program.Death();
-                }
+//                if (Program.Player.Health < 0)
+//                {
+//                    Program.DisplayLine("So you've died? thats not great");
+//                    //Program.Death();
+//                }
 
-            }
-            Console.ReadKey();
-        }
-    }
-
-*/
+//            }
+//            Console.ReadKey();
+//        }
+//    }

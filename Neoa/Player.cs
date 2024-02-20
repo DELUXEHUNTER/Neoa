@@ -44,88 +44,88 @@ public class Player
 
     public static void SetupStats()
     {
-        if (Program.Player.Species == "Human")
+        if (Program.Character.Species == "Human")
         {
-            Program.Player.Health = 105;
-            Program.Player.Mana = 125;
-            Program.Player.Damage = 10;
-            Program.Player.DivineFavor = -5;
-            if (Program.Player.Ancestor == "Avalon" )
-            Program.Player.AncestralFavor = 20;
-            if (Program.Player.Ancestor != "Avalon" )
-            Program.Player.AncestralFavor = 2;
-            Program.Player.Sanity = 250;
-            Program.Player.Reputation = 0;
+            Program.Character.Health = 105;
+            Program.Character.Mana = 125;
+            Program.Character.Damage = 10;
+            Program.Character.DivineFavor = -5;
+            if (Program.Character.Ancestor == "Avalon" )
+            Program.Character.AncestralFavor = 20;
+            if (Program.Character.Ancestor != "Avalon" )
+            Program.Character.AncestralFavor = 2;
+            Program.Character.Sanity = 250;
+            Program.Character.Reputation = 0;
 
         }
-        else if (Program.Player.Species == "Undead")
+        else if (Program.Character.Species == "Undead")
         {
-            if (Program.Player.Subspecies == "Vampire")
+            if (Program.Character.Subspecies == "Vampire")
             {
-                Program.Player.Health = 125;
-                Program.Player.Mana = 100;
-                Program.Player.Damage = 10;
-                if (Program.Player.Ancestor == "Tau-an")
-                    Program.Player.AncestralFavor = 5;
-                else if (Program.Player.Ancestor != "Tau-an")
-                    Program.Player.AncestralFavor = -50;
-                Program.Player.DivineFavor = -25;
-                Program.Player.Sanity = 235;
-                Program.Player.Reputation = 0;
+                Program.Character.Health = 125;
+                Program.Character.Mana = 100;
+                Program.Character.Damage = 10;
+                if (Program.Character.Ancestor == "Tau-an")
+                    Program.Character.AncestralFavor = 5;
+                else if (Program.Character.Ancestor != "Tau-an")
+                    Program.Character.AncestralFavor = -50;
+                Program.Character.DivineFavor = -25;
+                Program.Character.Sanity = 235;
+                Program.Character.Reputation = 0;
 
                 //Vampiric
-                Program.Player.Blooddamage = 2;
-                Program.Player.BloodMana = 100;
-                Program.Player.Bloodthirst = 1;
+                Program.Character.Blooddamage = 2;
+                Program.Character.BloodMana = 100;
+                Program.Character.Bloodthirst = 1;
 
             }
-            else if (Program.Player.Subspecies == "Zombie")
+            else if (Program.Character.Subspecies == "Zombie")
             {
-                Program.Player.Health = 120;
-                Program.Player.Mana = 20;
-                Program.Player.Damage = 12;
-                Program.Player.Armor = 3;
+                Program.Character.Health = 120;
+                Program.Character.Mana = 20;
+                Program.Character.Damage = 12;
+                Program.Character.Armor = 3;
                 //Due to them being resurected even if forced
-                Program.Player.DivineFavor = -30;
-                if (Program.Player.Ancestor == "Tau-An")
-                    Program.Player.AncestralFavor = 2;
-                else if (Program.Player.Ancestor != "Tau-An")
-                    Program.Player.AncestralFavor = -100;
-                Program.Player.Sanity = -250;
-                Program.Player.Reputation = -50;
+                Program.Character.DivineFavor = -30;
+                if (Program.Character.Ancestor == "Tau-An")
+                    Program.Character.AncestralFavor = 2;
+                else if (Program.Character.Ancestor != "Tau-An")
+                    Program.Character.AncestralFavor = -100;
+                Program.Character.Sanity = -250;
+                Program.Character.Reputation = -50;
 
                 //Undead
-                Program.Player.Bloodthirst = 50;
+                Program.Character.Bloodthirst = 50;
             }
-            else if (Program.Player.Subspecies == "Revenant")
+            else if (Program.Character.Subspecies == "Revenant")
             {
-                Program.Player.Health = 65;
-                Program.Player.Mana = 76;
-                Program.Player.Damage = 17;
-                Program.Player.Armor = 5;
-                Program.Player.DivineFavor = -35;
-                Program.Player.AncestralFavor = -50;
-                Program.Player.Sanity = -300;
-                Program.Player.Reputation = -60;
+                Program.Character.Health = 65;
+                Program.Character.Mana = 76;
+                Program.Character.Damage = 17;
+                Program.Character.Armor = 5;
+                Program.Character.DivineFavor = -35;
+                Program.Character.AncestralFavor = -50;
+                Program.Character.Sanity = -300;
+                Program.Character.Reputation = -60;
             }
 
         }
-        else if (Program.Player.Species == "Demonic")
+        else if (Program.Character.Species == "Demonic")
         {
-            if (Program.Player.Subspecies == "Demon")
+            if (Program.Character.Subspecies == "Demon")
             {
-                Program.Player.Health = 175;
-                Program.Player.Mana = 300;
-                Program.Player.Damage = 15;
-                Program.Player.Armor = 2;
-                Program.Player.DivineFavor = -30;
-                Program.Player.AncestralFavor = -200;
-                Program.Player.Sanity = 450;
-                Program.Player.Reputation = -100;
+                Program.Character.Health = 175;
+                Program.Character.Mana = 300;
+                Program.Character.Damage = 15;
+                Program.Character.Armor = 2;
+                Program.Character.DivineFavor = -30;
+                Program.Character.AncestralFavor = -200;
+                Program.Character.Sanity = 450;
+                Program.Character.Reputation = -100;
 
                 //Demonic 
-                Program.Player.Bloodthirst = 5; 
-                Program.Player.BloodMana = 100;
+                Program.Character.Bloodthirst = 5; 
+                Program.Character.BloodMana = 100;
 
             }
         }
