@@ -79,24 +79,6 @@ public class Player
                 Program.Character.Bloodthirst = 1;
 
             }
-            else if (Program.Character.Subspecies == "Zombie")
-            {
-                Program.Character.Health = 120;
-                Program.Character.Mana = 20;
-                Program.Character.Damage = 12;
-                Program.Character.Armor = 3;
-                //Due to them being resurected even if forced
-                Program.Character.DivineFavor = -30;
-                if (Program.Character.Ancestor == "Tau-An")
-                    Program.Character.AncestralFavor = 2;
-                else if (Program.Character.Ancestor != "Tau-An")
-                    Program.Character.AncestralFavor = -100;
-                Program.Character.Sanity = -250;
-                Program.Character.Reputation = -50;
-
-                //Undead
-                Program.Character.Bloodthirst = 50;
-            }
             else if (Program.Character.Subspecies == "Revenant")
             {
                 Program.Character.Health = 65;

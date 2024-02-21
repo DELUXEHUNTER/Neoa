@@ -1,6 +1,7 @@
 # GH Files
 
 *.github/
+
 # User-specific files
 *.rsuser
 *.suo
