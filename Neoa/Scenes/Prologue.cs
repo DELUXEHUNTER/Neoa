@@ -30,7 +30,7 @@ public class Prologue()
 ║000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000║
 ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 ");
-        Console.WriteLine("Press any key to continue to the game.");
+        Console.WriteLine("Press any key to start the game.");
         Console.ReadKey();
         Console.Clear();
     }
@@ -43,16 +43,13 @@ public class Prologue()
         DisplayLine(ConsoleColor.White, "narrator", "There is only eternal darkness before you.");
         DisplayLine(ConsoleColor.White, "narrator", "Suddenly, the silence is broken by a loud, deep, echoing voice.");
         DisplayLine(ConsoleColor.White, "narrator", "It seems that the voice is speaking to you.");
-
         Console.WriteLine();
 
         // Ask player's name.
         DisplayLine(ConsoleColor.Red, "The Mystical Voice", "The land of Neoa awaits, are you prepared for your fate?");
         DisplayLine(ConsoleColor.Red, "The Mystical Voice", "Whoever you are...");
-        DisplayLine(ConsoleColor.Red, "The Mystical Voice", "Tell us your name...");
-
+        DisplayLine(ConsoleColor.Red, "The Mystical Voice", "Tell us your name...\n");
         Console.WriteLine();
-
         DisplayLine(ConsoleColor.Green, "You", "", 0);
         Character.Name = Console.ReadLine();
         while (string.IsNullOrWhiteSpace(Character.Name))
@@ -61,109 +58,101 @@ public class Prologue()
             DisplayLine(ConsoleColor.Green, "You", "", 0);
             Character.Name = Console.ReadLine();
         }
-
         Console.WriteLine();
 
-        // Ask player's gender
+        // Ask player's gender.
         DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"What is your gender, {Character.Name}?:");
-        Console.WriteLine("{Possible answers: Male, Female}");
-
-        Console.WriteLine();
-
+        Console.WriteLine("{Possible answers: Male, Female}\n");
         DisplayLine(ConsoleColor.Green, "You", "", 0);
-        Character.Gender = Console.ReadLine();
-        while (string.IsNullOrWhiteSpace(Character.Gender) || (Character.Gender != "Male" && Character.Gender != "Female"))
+        Character.Gender = Console.ReadLine().ToLower();
+        while (string.IsNullOrWhiteSpace(Character.Gender) || (Character.Gender != "male" && Character.Gender != "female"))
         {
-            DisplayLine(ConsoleColor.Red, "The Mystical Voice", "That isn't a real gender\n");
+            DisplayLine(ConsoleColor.Red, "The Mystical Voice", "That isn't a real gender!\n");
             DisplayLine(ConsoleColor.Green, "You", "", 0);
-            Character.Gender = Console.ReadLine();
+            Character.Gender = Console.ReadLine().ToLower();
         }
         Console.WriteLine();
+
+        // Ask player's age.
+        DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"How long have you been alive {Character.Name}?");
+        Console.WriteLine("{Note: An age cannot be lower than 20, or higher than 45, its recommended you stay within 20-29.}\n");
+        Character.Age = Convert.ToInt32(Console.ReadLine());
+        while (!int.TryParse(Console.ReadLine(), out Character.Age) || Character.Age > 45 || Character.Age < 19)
+        {
+            if (Character.Age > 45)
+            {
+                DisplayLine(ConsoleColor.Red, "The Mystical Voice", "Hm, you don't look that old...\n");
+            }
+            else if (Character.Age < 20)
+            {
+                DisplayLine(ConsoleColor.Red, "The Mystical Voice", "Hm, you don't look that young...\n");
+            }
+            else
+            {
+                DisplayLine(ConsoleColor.Red, "The Mystical Voice", "It is not even an age!\n");
+            }
+        }
 
         // Ask player's ethnicity.
         DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"Where are you from, {Character.Name}?");
-        Console.WriteLine("{Possible answers: Neoan, Anaxian}");
-
-        Console.WriteLine();
-
+        Console.WriteLine("{Possible answers: Neoan, Anaxian}\n");
         DisplayLine(ConsoleColor.Green, "You", "", 0);
-        Character.Ethnicity = Console.ReadLine();
-        while (string.IsNullOrWhiteSpace(Character.Ethnicity) || (Character.Ethnicity != "Neoan" && Character.Ethnicity != "Anaxian"))
+        Character.Ethnicity = Console.ReadLine().ToLower();
+        while (string.IsNullOrWhiteSpace(Character.Ethnicity) || (Character.Ethnicity != "neoan" && Character.Ethnicity != "anaxian"))
         {
             DisplayLine(ConsoleColor.Red, "The Mystical Voice", "That isn't a real place, or ethnicity within this realm!\n");
             DisplayLine(ConsoleColor.Green, "You", "", 0);
-            Character.Ethnicity = Console.ReadLine();
+            Character.Ethnicity = Console.ReadLine().ToLower();
         }
-
         Console.WriteLine();
 
         // Ask player's species.
         DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"What species group are you, {Character.Name}?");
-        Console.WriteLine("{Possible answers: Human, Undead, Demonic}");
-
-        Console.WriteLine();
-
+        Console.WriteLine("{Possible answers: Human, Undead, Demonic}\n");
         DisplayLine(ConsoleColor.Green, "You", "", 0);
-        Character.Species = Console.ReadLine();
-        while (string.IsNullOrWhiteSpace(Character.Species) && Character.Species != "Human" && Character.Species != "Undead" && Character.Species != "Demonic" && Character.Species != "Angelic")
+        Character.Species = Console.ReadLine().ToLower();
+        while (string.IsNullOrWhiteSpace(Character.Species) && Character.Species != "human" && Character.Species != "undead" && Character.Species != "demonic" && Character.Species != "angelic")
         {
-            DisplayLine(ConsoleColor.Green, "You", "", 0);
             DisplayLine(ConsoleColor.Red, "The Mystical Voice", "That's not a real species type within this realm! Are you sure you didn't mean a subspecies type?");
-            Character.Species = Console.ReadLine();
+            DisplayLine(ConsoleColor.Green, "You", "", 0);
+            Character.Species = Console.ReadLine().ToLower();
         }
-
         Console.WriteLine();
 
         // Ask player's subspecies.
-        if (Character.Species != "Human")
+        if (Character.Species != "human")
         {
-            DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"And in more detail... Your subspecies, {Character.Name}.");
-            if (Character.Species == "Undead")
-                Console.WriteLine("{Possible answers: Vampire, Revenant.}");
-            else if (Character.Species == "Demonic")
-                Console.WriteLine("{Possible answers: Demon.}");
+            //Commented, since it doesnt work at the moment...
+            //
+            //DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"And in more detail... Your subspecies, {Character.Name}.");
+            //if (Character.Species == "Undead")
+            //    Console.WriteLine("{Possible answers: Vampire, Revenant.}");
+            //else if (Character.Species == "Demonic")
+            //    Console.WriteLine("{Possible answers: Demon.}");
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            DisplayLine(ConsoleColor.Green, "You", "", 0);
-            Character.Subspecies = Console.ReadLine();
-            while (string.IsNullOrWhiteSpace(Character.Subspecies) && Character.Subspecies != "Human" && Character.Species != "Undead" && Character.Species != "Demonic" && Character.Species != "Angelic")
-            {
-                Console.WriteLine("Thats not a real subspecies type within this realm!");
-                DisplayLine(ConsoleColor.Green, "You", "", 0);
-                Character.Species = Console.ReadLine();
-            }
-
-            Console.WriteLine();
+            //DisplayLine(ConsoleColor.Green, "You", "", 0);
+            //Character.Subspecies = Console.ReadLine();
+            //while (string.IsNullOrWhiteSpace(Character.Subspecies) && Character.Subspecies != "Human" && Character.Species != "Undead" && Character.Species != "Demonic" && Character.Species != "Angelic")
+            //{
+            //    Console.WriteLine("Thats not a real subspecies type within this realm!");
+            //    DisplayLine(ConsoleColor.Green, "You", "", 0);
+            //    Character.Species = Console.ReadLine();
+            //}
+            //Console.WriteLine();
         }
 
         // Ask player's ancestor.
         DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"Who is your ancestor, {Character.Name}?");
-        Console.WriteLine("{Possible answers: Avalon, First King of Neoa. Iedelan, The Anaxian Hero. Tau-an, The Undead Lord.}");
+        Console.WriteLine("{Possible answers: Avalon, First King of Neoa. Iedelan, The Anaxian Hero. Tau-an, The Undead Lord.}\n");
         DisplayLine(ConsoleColor.Green, "You", "", 0);
-        Character.Ancestor = Console.ReadLine();
-        while (string.IsNullOrWhiteSpace(Character.Ancestor) && Character.Ancestor != "Avalon" && Character.Ancestor != "Iedelan" && Character.Ancestor != "Tau-an")
+        Character.Ancestor = Console.ReadLine().ToLower();
+        while (string.IsNullOrWhiteSpace(Character.Ancestor) || Character.Ancestor != "avalon" || Character.Ancestor != "iedelan" || Character.Ancestor != "tau-an")
         {
             DisplayLine(ConsoleColor.Red, "The Mystical Voice", "That is not a real ancestor!");
             DisplayLine(ConsoleColor.Green, "You", "", 0);
-            Character.Ancestor = Console.ReadLine();
-        }
-
-        //Player Age
-        DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"How long have you been alive {Character.Name}?");
-        Console.WriteLine("{Possible Answer: An age cannot be lower than 20, or higher than 45, its recommended you stay within 20-29.}");
-        Character.Age = Convert.ToInt32(Console.ReadLine());
-        while (Character.Age > 45 && Character.Age < 19)
-        {
-            if (Character.Age > 45)
-            {
-                DisplayLine(ConsoleColor.Red, "The Mystical Voice", "Your age is too high it must be below 45");
-            }
-            else if (Character.Age < 20)
-            {
-                DisplayLine(ConsoleColor.Red, "The Mystical Voice", "Your age is too low it must be higher than 19/20");
-            }
-            Character.Age = Convert.ToInt32(Console.ReadLine());
+            Character.Ancestor = Console.ReadLine().ToLower();
         }
     }
 
