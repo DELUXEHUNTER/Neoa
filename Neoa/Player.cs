@@ -10,7 +10,8 @@ public class Player
     public string Ancestor;
     public string Species;
     public string Subspecies;
-    
+    public string Religion; //Religion isn't selected during the start and is something that you can join later on
+
     public string Class;
 
     //ints   
@@ -73,7 +74,7 @@ public class Player
                 Program.Character.Sanity = 235;
                 Program.Character.Reputation = 0;
 
-                //Vampiric
+                //Vampiric stats
                 Program.Character.Blooddamage = 2;
                 Program.Character.BloodMana = 100;
                 Program.Character.Bloodthirst = 1;
@@ -105,10 +106,9 @@ public class Player
                 Program.Character.Sanity = 450;
                 Program.Character.Reputation = -100;
 
-                //Demonic 
+                //Demonic Stats 
                 Program.Character.Bloodthirst = 5; 
                 Program.Character.BloodMana = 100;
-
             }
         }
     }

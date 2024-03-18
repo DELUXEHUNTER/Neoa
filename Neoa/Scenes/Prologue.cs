@@ -30,7 +30,7 @@ public class Prologue()
 ║000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000║
 ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 ");
-        Console.WriteLine("Press any key to start the game.");
+        Console.WriteLine("Press enter to begin your journey into Neoa.");
         Console.ReadKey();
         Console.Clear();
     }
@@ -160,129 +160,131 @@ public class Prologue()
     {
         Console.Clear();
 
-        DisplayLine(ConsoleColor.White, "narrator", "You awaken in a dark cell, with no memory of anything from your past...");
-        DisplayLine(ConsoleColor.White, "narrator", $"The only thing you remember is your name - {Character.Name}.");
-        DisplayLine(ConsoleColor.White, "narrator", $"You hear a muffled voice from outside your door you could only make out a few words \"and... a few days away from... execution\"");
-        DisplayLine(ConsoleColor.White, "narrator", "The knob on the door begins to turn...");
-        DisplayLine(ConsoleColor.White, "narrator", "A guard in steel armor with a sword enters the door, on his armor is the emblem of the Neoa royal family.");
-        DisplayLine(ConsoleColor.White, "narrator", "He pulls you up and tells you to follow him.");
+        DisplayLine(ConsoleColor.White, "narrator", "You awaken inside of a dark decrepit room, no memory of who you are, nor what you are doing here...");
+        DisplayLine(ConsoleColor.White, "narrator", $"The only thing you can remember is your name.. or what you think your name is - {Character.Name}.");
+        DisplayLine(ConsoleColor.White, "narrator", "outside of your door you can hear voices speaking you can't even make out what they are saying.. except for a few words \"Make sure to check all of the rooms\"");
+        DisplayLine(ConsoleColor.White, "narrator", "you look up at the door and the knob begins to turn..");
+        DisplayLine(ConsoleColor.White, "narrator", "Two guards in steel armor enter through the door, one of the guards armor has a strange insignia.");
+ 
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.Red, "The Mystical Voice", "That symbol on his armor.. that is the insignia of the Neoan Royal Family.");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.DarkMagenta, "Royal Guard", "Come on, get up! His Majesty does not like to wait.");
+        DisplayLine(ConsoleColor.White, "narrator", "The guards tell you to follow them..");
+        DisplayLine(ConsoleColor.White, "narrator", "you reluctantly follow them.. as you walk you look around and all you see is decayed stone walls.. with carvings that aren't able to be made out.");
+        DisplayLine(ConsoleColor.White, "narrator", "you all arrive in another dark room, this one larger than the other and filled with other people who looked like they were in the same situation");
+        DisplayLine(ConsoleColor.White, "narrator", "one of the others looks at you and starts whispering");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.White, "narrator", "The guard leads you to the entrance where you see someone who looked like royalty. standing calm, with purpose and proud of himself.");
-        DisplayLine(ConsoleColor.White, "narrator", "You stop in front of him. The guard bent the knee.");
-        DisplayLine(ConsoleColor.White, "narrator", "The guard begins to speak. Loudly and with respect.");
+        DisplayLine(ConsoleColor.Cyan, "Stranger beside you", "do you know why we're here?");
+        DisplayLine(ConsoleColor.Cyan, "Stranger beside you", "well neither do I, we might be getting executed");
+        DisplayLine(ConsoleColor.Cyan, "Stranger beside you", "but I don't know.");
+        DisplayLine(ConsoleColor.Cyan, "Stranger beside you", "I do-");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.DarkMagenta, "Royal Guard", "Your Majesty, this is the person you were talking about.");
+        DisplayLine(ConsoleColor.White, "narrator", "Before he can finish his words one of the guards speaks and tells him to be quiet");
+        DisplayLine(ConsoleColor.White, "narrator", "A door opens and a bright line shines through blinding you and the others.. then the light disappears behind the closed door..");
+        DisplayLine(ConsoleColor.White, "narrator", "A man walks in. Wearing royal clothing and stood with honor, dignity, and confidence he spoke... introducing himself as Lexian");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.White, "narrator", "You look up and it comes to you. The King of Neoa himself stands before you!");
+        DisplayLine(ConsoleColor.Yellow, "Lexian II", "Good evening. Many of you may recognize me, however I doubt it. My name is Lexian, Lexian II. And I'm the King.");
+        DisplayLine(ConsoleColor.Yellow, "Lexian II", "I don't know any of you sadly, but I am here for you all. To give you all second chances at life, to redeem yourselves.");
+        DisplayLine(ConsoleColor.Yellow, "Lexian II", "Recently the kingdoms been going through many.. Changes, yes changes in policy and procedure, and we need more people to do the tough jobs");
+        
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.White, "narrator", "the stranger beside you raises his hand and speaks..");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.Yellow, "Neoan King", $"Ahh I've been waiting for you {Character.Name}. I hope you find your release enjoyable.");
+        DisplayLine(ConsoleColor.Cyan, "Stranger beside you", "What exactly is this program, Sir?");
+        DisplayLine(ConsoleColor.Yellow, "Lexian II", "Well I'm glad you asked, its a program where I will assign each of you a job based on your personal skills.");
+        DisplayLine(ConsoleColor.Yellow, "Lexian II", "Call it a work release program, your sentences will be reduced, or even lifted.");
+        DisplayLine(ConsoleColor.Yellow, "Lexian II", "All of you will be apart of it, and assigned a job right now");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.White, "narrator", "The guard leans in to speak to the king in a quiet tone, you can only make out a few words from the guard while the king speaks clearly.");
+        DisplayLine(ConsoleColor.White, "narrator", "The guards go through giving everyone in the room a peice of paper.. stopping when they reach you");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.DarkMagenta, "Royal Guard", "Are you sure ....trust them?..");
-        DisplayLine(ConsoleColor.Yellow, "Neoan King", "I'm quite sure we can");
+        DisplayLine(ConsoleColor.DarkMagenta, "Royal Guard #1", "Sir, we don't have any more papers, what do we do?");
+        DisplayLine(ConsoleColor.Yellow, "Lexian II", "Just pair those two together.");
+         
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.White, "narrator", "All of the other prisoners are returned to their cells except for you and the stranger beside you...");
+        DisplayLine(ConsoleColor.White, "narrator", "the stranger beside you looks at you and introduces himself");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.White, "narrator", "The king looks back towards you to continue his conversation with you.");
+        DisplayLine(ConsoleColor.Cyan, "Aemon", "I still don't get why we're here, but at least I have someone like me here who can work with me.");
+        DisplayLine(ConsoleColor.Cyan, "Aemon", "says here on the paper we are going to be working in the Royal District of Neoa, strange how we're getting the rich district,");
+        DisplayLine(ConsoleColor.Cyan, "Aemon", "but why won't they tell us what our job is now?");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.Yellow, "Neoan King", "So, where was I. Ahhh yes the reason I've freed you..");
-        DisplayLine(ConsoleColor.Yellow, "Neoan King", "I honestly don't even know why, I didn't think about it.");
+        DisplayLine(ConsoleColor.White, "narrator", "The guards return.. the one wearing the uniquely marked armour and speaks to you and Aemon.");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.Green, "You", "You don't... know?..");
+        DisplayLine(ConsoleColor.DarkMagenta, "Royal Guard Captain", "So you two are going to be coming with us, wasn't what I was expecting.. Now lets see if I've got this straight");
+        DisplayLine(ConsoleColor.DarkMagenta, "Royal Guard Captain", $"This is you? {Character.Name}");
+        
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.White, "narrator", "the royal guard shows you a small piece of paper with your name, age and other information about you..");
+        DisplayLine(ConsoleColor.White, "narrator", "You begin reading to check the information until reaching a strange part of the paper.. Your reason for being Imprisoned");
+        DisplayLine(ConsoleColor.White, "narrator", "For some reason you can't even read it.. all it says is a blur to you..");
+        DisplayLine(ConsoleColor.White, "narrator", "You decide to just nod and tell the guard that its you");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.Yellow, "Neoan King", "Yes I don't know, I heard about your imprisonment through the newspapers, and decided I would meet you.");
-        DisplayLine(ConsoleColor.Yellow, "Neoan King", "I'm tired of this dull place, I think it is time we relocate.");
+        DisplayLine(ConsoleColor.DarkMagenta, "Royal Guard Captain", $"Alright now that thats all out of the way. {Character.Name}, Aemon. Your both going to be working in the Royal District");
+        DisplayLine(ConsoleColor.DarkMagenta, "Royal Guard Captain", "with me. Your going to be working as investigators. We have a surplus of crime in the royal district that needs investigation" );
+        DisplayLine(ConsoleColor.DarkMagenta, "Royal Guard Captain", "and who better than criminals themselves...");
+        DisplayLine(ConsoleColor.DarkMagenta, "Royal Guard Captain", "Now you two need to get some rest we're gonna have a long day tommorow");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.White, "narrator", "the king tells you to follow him and begin traveling to the Aedonian Castle..");
-        if (Character.Ancestor == "Avalon")
-        {
-            DisplayLine(ConsoleColor.White, "narrator", "Arriving at the castle you are taken in by its size and beauty, you recognize statues of Avalon, the first Neoan king");
-
-            Console.WriteLine();
-
-            if (Character.Ethnicity != "Neoan")
-                DisplayLine(ConsoleColor.Yellow, "Neoan King", "I see your admiring the statue of the first king I'm suprised you know who he is");
-            else
-                DisplayLine(ConsoleColor.Yellow, "Neoan King", "That statue has been here since after his death, Avalon is still prominent today. Many of my family members have hoped I'd live up to his legacy");
-        }
-
-        else if (Character.Ancestor != "Avalon")
-        {
-            DisplayLine(ConsoleColor.White, "narrator", "Arriving at the castle you are taken in by its size and beauty. You see unrecognizeable statues of a glorified man... \"who is that?\" you think to yourself");
-
-            Console.WriteLine();
-
-            DisplayLine(ConsoleColor.Yellow, "Neoan King", "Do you know who that is? Thats Avalon the very first Neoan King. He built this very city with his own hands.");
-        }
+        DisplayLine(ConsoleColor.White, "narrator", "The guard directs you back to your cell.. and you fall asleep... passing several hours.");
+        // Your Home Introduction 
+        // YourHomeIntro();
+        DisplayLine(ConsoleColor.White, "narrator", "after waking up again you hear a knock on the door... its the royal guard again. He opens the door");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.White, "narrator", "Entering the castle.. you are greeted by several people wanting to shake your hand");
-        DisplayLine(ConsoleColor.White, "narrator", "..to get to know you, but the king quickly tells you to follow him..");
-        DisplayLine(ConsoleColor.White, "narrator", "you follow him down stairs.. he leads you to a room at the very end of a damp hallway");
+        DisplayLine(ConsoleColor.DarkMagenta, "Royal Guard Captain", $"We have to get going before the trail runs cold {Character.Name}, Aemon is already headed to the capital.");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.Yellow, "Neoan King", "This is where you'll be sleeping not many places are  going to be better than this.. especially for you.");
+        DisplayLine(ConsoleColor.White, "narrator", "You and the captain begin a long journey to the royal district of Newport.. The journey is long and takes several days.");
+        DisplayLine(ConsoleColor.White, "narrator", "The mysterious voice you heard at the begining of your life.. speaks to you");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.White, "narrator", "The king leaves the room.. The room he has left you in seems as horrid as the cell you woke up in");
-        DisplayLine(ConsoleColor.White, "narrator", "it was damp, and dark with only a single candle for light.. The bed was made completely of wood with no cloth or linen on it... water dripped from the ceilling ");
+        DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"{Character.Name}, The beginning of your adventure, your first few years of your new life will be well spent,");
+        DisplayLine(ConsoleColor.Red, "The Mystical Voice", "be ready for what the world will throw at you, you have to be strong for whats to come.");
+        
+        Console.WriteLine();
+
+        DisplayLine(ConsoleColor.White, "narrator", "After the voice's mysterious appearence, you find yourself waking up on the back of a horse.. Outside of a decrepit old building");
+        DisplayLine(ConsoleColor.White, "narrator", "The captain looks backwards...");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.White, "narrator", "looking around the room you inspect it closer noticing a misplaced dresser with its drawer partially open");
-        DisplayLine(ConsoleColor.White, "narrator", "you have multiple options... you could sleep or you could inspect the dresser and fix it?");
-        Console.WriteLine("{Possible Choices: (S)leep, (I)nspect}");
+        DisplayLine(ConsoleColor.DarkMagenta, "The Royal Guard", "So you're finally awake, we just got here.. This place is where we will be running the investigation...");
 
         Console.WriteLine();
+        DisplayLine(ConsoleColor.White, "narrator" "Your adventure begins now.. the ending of the prologue has arrived. Now chapter 1 begins... Are you prepared for it?");
 
-        DisplayLine(ConsoleColor.Green, "You", "", 0);
-        string input = Console.ReadLine();
-        while (input.ToLower() != "s" && input.ToLower() != "i")
-        {
-            DisplayLine(ConsoleColor.White, "narrator", $"{Character.Name} just stands there doing nothing");
-            Console.WriteLine("{Possible Choicees: (S)leep, (I)nspect");
-        }
-        if (input.ToLower() == "i")
-        {
-            //NeoanExchange Papers are used to give a certain amount of Marks when turned in at a bank or some stores that will appear in the future
-            //Int still needs to be added
-            Character.NeoanExchange += 1;
-            DisplayLine(ConsoleColor.White, "narrator", "searching through the drawers you find a piece of paper with a royal signature, for now you decide to put the paper back not knowing what to do with it");
-            DisplayLine(ConsoleColor.White, "narrator", "..you then decide to go to sleep");
-        }
-        else if (input.ToLower() == "s")
-        {
-            DisplayLine(ConsoleColor.White, "narrator", "you decide its best you sleep now and worry about your room later on.. laying in the bed you find it hard to sleep until eventually you find a comfortable spot in your bed");
-        }
+        Console.ReadKey();
 
-        // YourHome.Intro();
+        //Prologue Ending
     }
-}
+} 

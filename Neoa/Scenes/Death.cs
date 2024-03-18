@@ -8,17 +8,18 @@ public class Death()
     public static void DisplayDeathScreen()
     {
         Console.Clear();
-        DisplayLine(ConsoleColor.White, "narrator", "A tall black figure appears before you...");
-        DisplayLine(ConsoleColor.White, "narrator", "The figure looks at you for a few seconds and begins to speak...");
+
+        DisplayLine(ConsoleColor.White, "narrator", "A tall black figure appears before you.. you begin to shake..");
+        DisplayLine(ConsoleColor.White, "narrator", "The figure looks at you... staring into your eyes for a moment. Then it speaks with a calm tone..");
 
         Console.WriteLine();
 
-        DisplayLine(ConsoleColor.DarkRed, "Death", $"...{Character.Name}... Did you expect this? Could you have?..");
-        DisplayLine(ConsoleColor.DarkRed, "Death", $"use your last few moments alive to reflect on your life. {Character.Name}");
+        DisplayLine(ConsoleColor.DarkRed, "Death", $"..{Character.Name}. Did you expect this...? Could you have expected this...");
+        DisplayLine(ConsoleColor.DarkRed, "Death", $"Use your last few moments alive to reflect on the life you have lived. {Character.Name}");
 
         Console.WriteLine();
 
-        Console.WriteLine("Info");
+        Console.WriteLine("Reflection");
         Console.WriteLine($"Name: {Character.Name}");
         Console.WriteLine($"Species: {Character.Species}/{Character.Subspecies}");
         Console.WriteLine($"Ethnicity: {Character.Ethnicity}");
@@ -32,9 +33,20 @@ public class Death()
 
         Console.ReadKey();
 
-        DisplayLine(ConsoleColor.DarkRed, "Death", $"{Character.Name}.. Its time to move on now....");
+        DisplayLine(ConsoleColor.White, "narrator", "Death looks into your eyes again. Noticing you shaking.. it speaks once more.");
+        
+        Console.WriteLine();
 
-        Console.WriteLine("THE END.");
+        DisplayLine(ConsoleColor.DarkRed, "Death", $"{Character.Name}, It is time... time to move on.. don't be afraid... its okay.");
+
+        Console.WriteLine();
+
+        Console.WriteLine("THE END...");
+
+
         Console.ReadKey();
     }
+
+
+ 
 }

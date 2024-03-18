@@ -1,9 +1,9 @@
 ## Changelog/Version History
 ### V.0.0.0<br>Prologue:
-- Title-screen and prologue.
-- Type effect.
-- Useless code removal
-- Player creation.
+- Prologue
+- Character stats & information
+- Scenes, utilities, better file management
+- Chapter 1
 
 
 ### Early Access Prototype, V.0.0.1.<br>Section 1:

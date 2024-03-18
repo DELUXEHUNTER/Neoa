@@ -17,3 +17,4 @@ This guide is used to tell you how you may contribute to the lore of the game, h
  Most entries within these files are going to be included in the game at some point either in books found in the game or through characters, items, objects, ect.... So if you add an entry we will try our best to include it at some point especially now at the very early stages
 
  Something that would be an extremely big help would be if someone would add dates to everything to make the lore easier to write and understand.
+ 

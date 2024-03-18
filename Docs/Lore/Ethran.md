@@ -6,6 +6,7 @@ Ethran is both extremely advanced but simple too having many technologies and ot
 There are many similarities to the realm world there may not be many of them but there are a few. In order to make the time system easier, days, weeks, and months are used while years are replaced with terms. An example is the starting date. Monday, September 1st, Apafi. Apafi is considered year 01, being the first year ever counted. Past years were not counted in any way there were only months and days.
 -->
 
+
 ### Dimensions/Realms
 These are the alternate realms and dimensions of Ethran all connected somehow.
 
@@ -17,14 +18,15 @@ Magic used to travel between realms including versions of astral project are ent
 Aonis is considered the first realm of hell due to many dead souls ending up tortured here wandering forever and to it being the only way to access the other hells.
 
 **Vastille**
-<br><!-- The god does not have a name yet but possible names are, Vastille named after his realm, or Aze.-->
-Vastille is the hellish death realm that every mortal ends up in. Ruled over by a once loving and kind god who became corrupted after a creature entered his realm ruining everything, this creatured entered his mind driving him insane, before his corruption the god of Vastille was once loving and kind and his realm was beautiful and the only place mortals had hoped to end up in. Now it is a hellish landscape with no beauty only pain and mortal terror, it is one of the four realms of hell considered the second realm that you could end up in and is possibly the worst of the four hells. Many of the worst and most powerful demons have made their home inside Vastille being one of the many reasons it is the worst hell to end up. 
+<br>
+Vastille was once a place of beauty and peace, and is one of the seventy heavens. Until the god of the realm Vastille, or Aze was corrupted by a creature who invaded his realm. This corruption turned Vastille into the first, or second and worst hell of the hellish realms. All mortals who have passed away end up in Vastille either permanantly or temporarily, your fate could either be to remain in Vastille or be sent to one of the other hells. 
 
-There are still parts of Vastille that have retained their beauty and some mortal souls can find their way here to be under the protection of its remaining uncorrupted Angelic creatures who ensure that it remains beautiful and peaceful, these creatures hold onto the belief that one day their god will be returned to sanity and the creature influencing his mind, will disappear or die completely.
+Ever since Vastille was corrupted by the creature the entire landscape of Vastille changed and the realm became a place filled with pain and mortal terror, however there are still parts of Vastille that remain uncorrupted in their full beauty a mortal soul that finds their way under the protection of the remaining Angelic creatures inside of these little territories will be safe from the demons and the god Vastille, they remain inside of Vastille with the belief that one day Aze will return to sanity and the creature that influenced his mind will die and fix the realm.
 
 **Astera**
 <br><!--I don't know what to do for this one-->
-Astera is the third hell out of the four hells.
+Astera, is the third hell of the hellish realms, and is considered the home of all demons. Astera is the one place where almost all demons were born.
+
 
 
 **Dream Realm**
@@ -35,10 +37,8 @@ Mortals typically do not know much about the dream realm and its very rare they 
 ---------------------------------------------------------------
 
 ### Events
-
-<!--Unfinished, in need of ideas/a writer-->
 **Anaxian collapse**
-<br>
+<br><!--Unfinished -->
 This event happened December 1st, Thursday, Pre-Apafi one month before the begining of apafi. This event was extremely unexpected and only came about due to the extreme boldness of the criminal warlords who seized control of the entire nation from the king. The Anaxian warlords took the nation in exactly four months, taking advantage of several skirmishes that happened between Anaxian and Neoan army divisions aswell as their own ability to infiltrate and destory, to quickly decimate the Anaxian armies and take control from the royal Authority that ruled over Anaxia at the beginning.
 
 ---------------------------------------------------------------
