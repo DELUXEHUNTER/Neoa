@@ -281,7 +281,7 @@ public class Prologue()
         DisplayLine(ConsoleColor.DarkMagenta, "The Royal Guard", "So you're finally awake, we just got here.. This place is where we will be running the investigation...");
 
         Console.WriteLine();
-        DisplayLine(ConsoleColor.White, "narrator" "Your adventure begins now.. the ending of the prologue has arrived. Now chapter 1 begins... Are you prepared for it?");
+        DisplayLine(ConsoleColor.White, "narrator", "Your adventure begins now.. the ending of the prologue has arrived. Now chapter 1 begins... Are you prepared for it?");
 
         Console.ReadKey();
 
