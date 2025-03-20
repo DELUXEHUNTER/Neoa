@@ -39,7 +39,7 @@ public class Chapter1
         DisplayLine(ConsoleColor.White, "narrator", "You enter the building and immedietely you see blood, covering everything in the room.. ");
         DisplayLine(ConsoleColor.White, "narrator", "The house is decrepit with rats scurrying all over the place gnawing on things.. its tight, there is not enough space to move around.");
         DisplayLine(ConsoleColor.White, "narrator", "..as you walk into the kitchen there is a creak behind you...");
-        /
+        
 
     }
 
