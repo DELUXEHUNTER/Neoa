@@ -21,12 +21,12 @@ public class Chapter1()
         //I want the case file to be written in more detail and stuff but I don't have ideas or know how to describe so this case is just the temporary one
         Console.WriteLine("Title:");
         Console.WriteLine("Desmond Morai - Case File");
-        Console.WriteLine("Text:");
+        Console.WriteLine("CASE INFORMATION");
         Console.WriteLine("Desmond Morai, Age 24,");
         Console.WriteLine($"Assigned to case: Kain Sovin, {Character.Name}");
-        Console.WriteLine("was killed by unknown causes but it is suspected that some kind of magic was involved, causing him to have a heart attack");
-        Console.WriteLine("No one was at the scene of the crime but there were many people who reported hearing cries and screams of terror aswell as a demonic voice");
-        Console.WriteLine("all of the surrounding witnesses also reported their animals would begin to shake and screech.");
+        Console.WriteLine("killed by unknown causes but it is suspected that some kind of magic was involved, causing him to have a heart attack,");
+        Console.WriteLine("the doctors within the institute have found nothing exactly strange about the heart attack, however desmond ");
+        Console.WriteLine("was a healthy young man with no prior medical conditions ");
 
         Console.WriteLine();
 
