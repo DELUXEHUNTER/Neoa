@@ -1,4 +1,5 @@
-﻿using static Neoa.Utilities.TextOutput;
+﻿using static Neoa.Program;
+using static Neoa.Utilities.TextOutput;
 
 namespace Neoa.Scenes;
 
