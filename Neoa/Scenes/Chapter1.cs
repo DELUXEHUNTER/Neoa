@@ -3,7 +3,7 @@ using static Neoa.Utilities.TextOutput;
 
 namespace Neoa.Scenes;
 
-public class Chapter1()
+public class Chapter1
 {
     public static void DisplayPart1()
     {
