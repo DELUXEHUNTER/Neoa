@@ -40,21 +40,22 @@ public class Prologue()
         // Narrator replicas.
         DisplayLine(ConsoleColor.White, "narrator", "You find yourself... nowhere.");
         DisplayLine(ConsoleColor.White, "narrator", "You cannot see, smell, or touch anything...");
-        DisplayLine(ConsoleColor.White, "narrator", "There is only eternal darkness before you.");
+        DisplayLine(ConsoleColor.White, "narrator", "Only a blurred out reflection, next to that");
+        DisplayLine(ConsoleColor.White, "narrator", "There is only a eternal darkness beyond the reflection.");
         DisplayLine(ConsoleColor.White, "narrator", "Suddenly, the silence is broken by a loud, deep, echoing voice.");
         DisplayLine(ConsoleColor.White, "narrator", "It seems that the voice is speaking to you.");
         Console.WriteLine();
 
         // Ask player's name.
-        DisplayLine(ConsoleColor.Red, "The Mystical Voice", "The land of Neoa awaits, are you prepared for your fate?");
-        DisplayLine(ConsoleColor.Red, "The Mystical Voice", "Whoever you are...");
-        DisplayLine(ConsoleColor.Red, "The Mystical Voice", "Tell us your name...\n");
+        DisplayLine(ConsoleColor.Red, "The Mystical Voice", "The realm awaits, are you prepared for the fate before you??");
+        DisplayLine(ConsoleColor.Red, "The Mystical Voice", "Whoever you are.");
+        DisplayLine(ConsoleColor.Red, "The Mystical Voice", "What is your name?...\n");
         Console.WriteLine();
         DisplayLine(ConsoleColor.Green, "You", "", 0);
         Character.Name = Console.ReadLine();
         while (string.IsNullOrWhiteSpace(Character.Name))
         {
-            DisplayLine(ConsoleColor.Red, "The Mystical Voice", "It is not even a name!\n");
+            DisplayLine(ConsoleColor.Red, "The Mystical Voice", "You have no name? Not possible.\n");
             DisplayLine(ConsoleColor.Green, "You", "", 0);
             Character.Name = Console.ReadLine();
         }
@@ -74,7 +75,7 @@ public class Prologue()
         Console.WriteLine();
 
         // Ask player's age.
-        DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"How long have you been alive {Character.Name}?");
+        DisplayLine(ConsoleColor.Red, "The Mystical Voice", $"What is your age? {Character.Name}?");
         Console.WriteLine("{Note: An age cannot be lower than 20, or higher than 45, its recommended you stay within 20-29.}\n");
         Character.Age = Convert.ToInt32(Console.ReadLine());
         while (!int.TryParse(Console.ReadLine(), out Character.Age) || Character.Age > 45 || Character.Age < 19)
@@ -150,7 +151,7 @@ public class Prologue()
         Character.Ancestor = Console.ReadLine().ToLower();
         while (string.IsNullOrWhiteSpace(Character.Ancestor) || Character.Ancestor != "avalon" || Character.Ancestor != "iedelan" || Character.Ancestor != "tau-an")
         {
-            DisplayLine(ConsoleColor.Red, "The Mystical Voice", "That is not a real ancestor!");
+            DisplayLine(ConsoleColor.Red, "The Mystical Voice", "That is no one I know of.");
             DisplayLine(ConsoleColor.Green, "You", "", 0);
             Character.Ancestor = Console.ReadLine().ToLower();
         }
@@ -160,7 +161,11 @@ public class Prologue()
     {
         Console.Clear();
 
-        DisplayLine(ConsoleColor.White, "narrator", "You awaken inside of a dark decrepit room, no memory of who you are, nor what you are doing here...");
+        DisplayLine(ConsoleColor.White, "narrator", "A dark decrepit room, no memory as to what was before this place");
+        DisplayLine(ConsoleColor.White, "narrator", $"The only thing you know is your name.. or what you believe is your name - {Character.Name}.");
+        DisplayLine(ConsoleColor.White, "narrator", " 
+        //Unedited
+                         DisplayLine(ConsoleColor.White, "narrator","You awaken inside of a dark decrepit room, no memory of who you are, nor what you are doing here...");
         DisplayLine(ConsoleColor.White, "narrator", $"The only thing you can remember is your name.. or what you think your name is - {Character.Name}.");
         DisplayLine(ConsoleColor.White, "narrator", "outside of your door you can hear voices speaking you can't even make out what they are saying.. except for a few words \"Make sure to check all of the rooms\"");
         DisplayLine(ConsoleColor.White, "narrator", "you look up at the door and the knob begins to turn..");
