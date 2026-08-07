@@ -1,3 +1,7 @@
+<!--
+-->
+RETCONNED
+<BR>
 Ethran is a world filled with many legendary creatures, mythologies, mysteries and legends, massive kingdoms with cities, towns, and unique people. After the sun disappeared from the sky the world was set into an eternal darkness, 
 entirely unknown how the sun disappeared this has caused many people to speculate that the creatures who were born under the grace of the darkness had caused it. Due to these creatures being some of the only to benefit from the suns disappearence, this had also led to the persecution of these creatures despite it not being their inherent nature to be evil most people of Ethran believe this, its just the sad truth that they might never be considered innocent. despite being eternally night the denizens of Ethran have created many new methods to protect themselves from the creatures such as a similar magic to sun magic that does not require the suns energies to function, lanterns and other lights are set up to repel vampires and other creatures who cannot be near sunlight, and there are guards in towns and cities patroling at all times despite these measures they do not always work and deaths do still happen, as these methods are not perfect.
 <br>
@@ -8,15 +12,17 @@ There are many similarities to the realm world there may not be many of them but
 
 
 ### Dimensions/Realms
-These are the alternate realms and dimensions of Ethran all connected somehow.
+The different realms and locations within Ethran.
 
 **Aonis,<br>Liminal Realm**
 <br>
-Aonis is a realm filled with mysteries and mind bending landscapes almost completely impossible for a normal human undead or alive, to navigate. The main purpose for this realm existing is used as a prison while its secondary purpose is used as a way to travel between locations and several other dimensions of Ethran, including the dream realm. Its extremely dangerous to travel within due to its hostile ecosystem and animals, alongside its extremely unpredictable landscape and pathways. Aonis is used to imprison beings of all races and power levels typically they are beings who have enraged gods or powerful magic beings, not even any of the gods have dominion over this realm. Magic used within Aonis is extremely volatile and almost uncastable and is very difficult for any being not native to the realm. 
-Magic used to travel between realms including versions of astral project are entirely unuseable to exit, enter or travel around Aonis as if it was easily useable just any creature could escape its grasp. There are not many ways to exit or leave Aonis, but the only ways are to be pulled inside by one of the Jailors of the realm. Or through entering the gateway, if you have been pulled within the realm it will be very difficult for you to escape. The other way to exit or enter are through the many gateways located within the realm and outside of it.
+&emsp;Aonis is a realm filled with mysterious and mind bending landscapes almost impossible for the mortal mind to navigate and understand. Originally it was created as a prison for some of the most evil creatures within the realms, and even acts as a hub connecting all of the other realms within Ethran. 
+<br> 
+&nbsp;Aonis is almost impossible to navigate using maps, or magic, magic used within Aonis is extremely volatile and almost useless. It is possible to learn how to cast magic, however, it can take years to learn and master. Due to the high security within the realm, it's impossible to project, teleport, or use anything that could help you leave the realm. The only escape is by using a gateway typically well guarded from intruders. 
+<br> 
+Once you enter Aonis, the jailors within the realm will do anything to kick you out, or imprison you.
 
 Aonis is considered the first realm of hell due to many dead souls ending up tortured here wandering forever and to it being the only way to access the other hells.
-
 **Vastille**
 <br>
 Vastille was once a place of beauty and peace, and is one of the seventy heavens. Until the god of the realm Vastille, or Aze was corrupted by a creature who invaded his realm. This corruption turned Vastille into the first, or second and worst hell of the hellish realms. All mortals who have passed away end up in Vastille either permanantly or temporarily, your fate could either be to remain in Vastille or be sent to one of the other hells. 
