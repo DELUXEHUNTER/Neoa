@@ -21,23 +21,26 @@ The different realms and locations within Ethran.
 <br> 
 &nbsp;Aonis is almost impossible to navigate using maps, or magic, magic used within Aonis is extremely volatile and almost useless. It is possible to learn how to cast magic, however, it can take years to learn and master. Due to the high security within the realm, it's impossible to project, teleport, or use anything that could help you leave the realm. The only escape is by using a gateway typically well guarded from intruders. 
 <br> 
-Once you enter Aonis, the jailors within the realm will do anything to kick you out, or imprison you.
+&nbsp;Once you enter Aonis, the jailors within the realm will do anything to kick you out, or imprison you.
 
-Aonis is considered the first realm of hell due to many dead souls ending up tortured here wandering forever and to it being the only way to access the other hells.
+<!--Aonis is considered the first realm of hell due to many dead souls ending up tortured here wandering forever and to it being the only way to access the other hells.-->
 **Vastille**
 <br>
-Vastille was once a place of beauty and peace, and is one of the seventy heavens. Until the god of the realm Vastille, or Aze was corrupted by a creature who invaded his realm. This corruption turned Vastille into the first, or second and worst hell of the hellish realms. All mortals who have passed away end up in Vastille either permanantly or temporarily, your fate could either be to remain in Vastille or be sent to one of the other hells. 
+&emsp;Vastille was once a place of beauty and peace, and is one of the seventy heavens. Until the god of the realm Vastille, or Aze was corrupted by a creature who invaded his realm. This corruption turned Vastille into the first, or second and worst hell of the hellish realms. All mortals who have passed away end up in Vastille either permanantly or temporarily, your fate could either be to remain in Vastille or be sent to one of the other hells. 
 
 Ever since Vastille was corrupted by the creature the entire landscape of Vastille changed and the realm became a place filled with pain and mortal terror, however there are still parts of Vastille that remain uncorrupted in their full beauty a mortal soul that finds their way under the protection of the remaining Angelic creatures inside of these little territories will be safe from the demons and the god Vastille, they remain inside of Vastille with the belief that one day Aze will return to sanity and the creature that influenced his mind will die and fix the realm.
 
 **Astera**
 <br><!--I don't know what to do for this one-->
-Astera, is the third hell of the hellish realms, and is considered the home of all demons. Astera is the one place where almost all demons were born.
-
+&emsp;Astera is the third hell within the realms, it is considered the home of demons, it is in constant battle with Vastille. An eternal battle that never ends.
 
 
 **Dream Realm**
 <br><!--I don't have many ideas for this -->
+<!--
+&emsp;
+
+-->
 The dream realm is a collection of every dream of almost every being where they reside and form, there are no beings that truly govern over the dream realm, as each dream is considered its own subrealm or division/domain within the realm. While no being truly govern the realm beings with suffecient power like demons, or deities could influence it, or another creatures dream, each dream has its own unique properties depending on the mind of the dreamer or the influence that cause the dream such as magic, environment, ect.. Its very rarely possible to lose control over your own dream, but typically this means you must have control over your dream at first most dreamers are unaware of this possibility. Demons or other entities that enter your dream can possibly influence your dreams and turn them into nightmares, or take entire control of your dream.
 Mortals typically do not know much about the dream realm and its very rare they even know of the existence of the realm outside of their typical dream. Traveling to the dream realm is very easy through the right means, astral projection is typically the most common and safest but it is possible to transport your physical body into a dream. But physically traveling has several consequences having your physical body means that you are capable of truly dying inside of the realm, it also takes a heavy toll on your mind and body if you do travel. Its recommended that if you do travel you are well experienced and strong willed. Otherwise you should not be going into the dream realm. Just as the realm Aonis is unpredictable so is the dream realm in some cases even more than Aonis.
 
